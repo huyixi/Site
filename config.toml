@@ -1,0 +1,4 @@
+baseURL = 'http://example.org/'
+languageCode = 'en'
+title = 'Personal Website For HuYixi'
+theme = 'ananke'
