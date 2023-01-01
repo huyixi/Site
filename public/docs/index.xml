@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>huyixi</title>
-    <link>http://example.org/</link>
-    <description>Recent content on huyixi</description>
+    <title>Docs on huyixi</title>
+    <link>http://example.org/docs/</link>
+    <description>Recent content in Docs on huyixi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Nov 2022 02:51:20 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Nov 2022 02:51:20 +0800</lastBuildDate><atom:link href="http://example.org/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
       <link>http://example.org/docs/my-first-post/</link>
