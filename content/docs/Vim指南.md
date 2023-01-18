@@ -1,5 +1,11 @@
 PS：文中的向后指的是靠近文末，与 Vim 指南相反 
 
+## Vim 键位图
+
+![](https://raw.githubusercontent.com/huyixi/blog_imgs/master/vim-cheat-sheet-en.gif)
+
+![](https://raw.githubusercontent.com/huyixi/blog_imgs/master/vim-cheat-sheet-cn.gif)
+
 ## Vim 的模式
 
 - Normal Mode commnad 正常模式
@@ -372,7 +378,7 @@ ESC     Enter normal mode
 CTRL+[  Enter normal mode
 ```
 
-### 参考链接
+## 参考链接
 
 - [Vim 官方网站主页](https:www.vim.org/)
 - [Vim 中文帮助](https://yianwillis.github.io/vimcdoc/doc/quickref.html)
@@ -381,4 +387,4 @@ CTRL+[  Enter normal mode
 - [Vimium](https://github.com/televator-apps/vimari)
 - [Vimari](https://github.com/televator-apps/vimari)
 - [MIT 的 计算机学生缺失的课程](missing-semester-cn.github.io/2020/editors)
-
+- [史上最全Vim快捷键键位图（入门到进阶）](https://www.runoob.com/w3cnote/all-vim-cheatsheat.html)
