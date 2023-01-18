@@ -278,8 +278,7 @@ action + object
 
 **Vimium支持重复命令模式，即使用`5t`可以打开5个新标签页，输入错误可以用esc或者c键入取消**
 
-## 自定义映射
--------------------
+### 自定义映射
     你可以在自定义按键设置中取消或者重新设定默认快捷键，每一行输入以下设定命令:
 * `map key command`:将命令映射到vimium中，并且覆盖Chrome的默认设置
 * `unmap key`: 取消一个命令，并且重新载入Chrome的默认设置
@@ -294,7 +293,7 @@ action + object
     `unmap <c-d>` 取消 c-d 的设置
 
 
-## Vimium快速使用搜索引擎
+### Vimium快速使用搜索引擎
 **命令：**
 
     按 `o` 进入搜索模式，然后输入`缩写+搜索内容`.
@@ -308,7 +307,8 @@ action + object
 
     当你输入上述语句时，搜索模式会给出对应的补全提示
 
-### 具体设置：   
+**具体设置：**   
+
 打开Vimium的设置选项中，在自定义搜索引擎的搜索格式，具体格式可以自行搜索，以下给出常见的搜索
 引擎格式：
 
@@ -341,7 +341,7 @@ action + object
 
 ## Vimari --- 在 Safari 上使用 Vim
 
-#### 页内导航
+### 页内导航
 
 ```
 f       Toggle links
@@ -357,7 +357,7 @@ G       Go to bottom of page
 g i     Go to first input
 ```
 
-#### 页面/标签导航
+### 页面/标签导航
 
 ```
 H       History back
@@ -370,7 +370,7 @@ t       Open new tab
 Vimari v2.1+
 ```
 
-#### Vimari 模式
+### Vimari 模式
 
 ```
 i       Enter insert mode
