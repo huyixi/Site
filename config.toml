@@ -1,5 +1,9 @@
 baseURL = 'http://example.org/'
 languageCode = 'en'
 title = 'huyixi'
-description = 'Personal'
+description = 'Personal_Website'
 theme = 'hugo-book'
+[params]
+  BookTheme = 'dark'
+  BookToC = 'true'
+  BookSection = 'wiki'
