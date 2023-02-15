@@ -42,3 +42,12 @@
 ### 文件转换
 
 - [covertio.co](https://convertio.co/zh/)
+
+### Blog
+
+- [阮一峰](http://ruanyifeng.com/blog/)
+- [Sam Altman](https://blog.samaltman.com/)
+
+#### Resource
+
+- [Awesome Cloud Security 云安全资源汇总](https://wiki.teamssix.com/cloudsecurityresources/)
