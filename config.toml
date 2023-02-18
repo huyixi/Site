@@ -1,7 +1,7 @@
 baseURL = 'http://huyixi.com/'
 languageCode = 'en'
 title = 'huyixi'
-description = 'huyixi's Personal Wikipedia Website'
+description = 'huyixi Personal Wikipedia Website'
 theme = 'hugo-book'
 [params]
   BookTheme = 'dark'
