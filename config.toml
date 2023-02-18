@@ -7,7 +7,7 @@ theme = 'hugo-book'
   BookTheme = 'dark'
   BookToC = 'true'
   BookSection = 'wiki'
-  icon = "./static/images/favicon.png"
+  BookLogo = './static/favicon.png'
 [outputFormats.RSS]
 mediatype = "application/rss+xml"
 baseName = "index"
