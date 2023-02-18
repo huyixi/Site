@@ -28,7 +28,7 @@
 
 ### 书籍查找
 
-[Anna’s Archive](https://www.ooopn.com/tool/zlibrary/)
+[Anna’s Archive](https://annas-archive.org/)
 
 ### 接码平台
 
