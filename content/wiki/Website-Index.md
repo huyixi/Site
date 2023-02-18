@@ -28,7 +28,7 @@
 
 ### 书籍查找
 
-[Anna’s Archive](https://annas-archive.org/)
+- [Anna’s Archive](https://annas-archive.org/)
 
 ### 接码平台
 
@@ -47,6 +47,8 @@
 
 - [阮一峰](http://ruanyifeng.com/blog/)
 - [Sam Altman](https://blog.samaltman.com/)
+
+### 图片压缩
 
 #### Resource
 

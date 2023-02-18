@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://huyixi.com/'
 languageCode = 'en'
 title = 'huyixi'
 description = 'Personal_Website'
@@ -7,3 +7,8 @@ theme = 'hugo-book'
   BookTheme = 'dark'
   BookToC = 'true'
   BookSection = 'wiki'
+  icon = "/images/rss.png"
+[outputFormats.RSS]
+mediatype = "application/rss+xml"
+baseName = "index"
+isPlainText = false
