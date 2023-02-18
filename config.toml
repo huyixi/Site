@@ -1,13 +1,13 @@
 baseURL = 'http://huyixi.com/'
 languageCode = 'en'
 title = 'huyixi'
-description = 'Personal_Website'
+description = 'huyixi's Personal Wikipedia Website'
 theme = 'hugo-book'
 [params]
   BookTheme = 'dark'
   BookToC = 'true'
   BookSection = 'wiki'
-  icon = "/images/rss.png"
+  icon = "./static/images/favicon.png"
 [outputFormats.RSS]
 mediatype = "application/rss+xml"
 baseName = "index"

@@ -50,6 +50,12 @@
 
 ### 图片压缩
 
+[tinypng](https://tinypng.com/)
+
+#### icon
+
+- [flaticon](https://www.flaticon.com/)
+
 #### Resource
 
 - [Awesome Cloud Security 云安全资源汇总](https://wiki.teamssix.com/cloudsecurityresources/)
