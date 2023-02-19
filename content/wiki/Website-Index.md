@@ -19,6 +19,7 @@
 - [现代 JavaScript 教程](https://javascript.info/)
 
 ### 速查表
+
 - [Quick Reference](https://quickref.me/)
 
 ### MacOS 应用软件下载
@@ -34,6 +35,7 @@
 
 - [OnlineSim](https://onlinesim.io/)
 - [sms-activate](https://sms-activate.org/)
+- pingme - applestore
 
 ### IP 地址查询
 
@@ -59,3 +61,11 @@
 #### Resource
 
 - [Awesome Cloud Security 云安全资源汇总](https://wiki.teamssix.com/cloudsecurityresources/)
+
+
+
+#### Uncategorized
+
+Forum
+
+- [Hacker News](https://news.ycombinator.com/)
