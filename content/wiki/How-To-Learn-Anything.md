@@ -73,7 +73,7 @@ Review
 
 **DIKW pyramid**
 
-<img src="https://raw.githubusercontent.com/huyixi/blog_imgs/master/DIKW_Pyramid.svg.png" alt="DIKW" style="zoom:25%;" />
+![DIKW_Pyramid.svg](C:\Users\huyixi\Dev\huyixi.com\content\wiki\How-To-Learn-Anything.assets\DIKW_Pyramid.svg.png)
 
 
 
