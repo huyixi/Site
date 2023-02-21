@@ -73,9 +73,7 @@ Review
 
 **DIKW pyramid**
 
-![DIKW_Pyramid.svg](C:\Users\huyixi\Dev\huyixi.com\content\wiki\How-To-Learn-Anything.assets\DIKW_Pyramid.svg.png)
-
-
+![DIKW_Pyramid](./How-To-Learn-Anything.assets/DIKW_Pyramid.png)
 
 1. Data
 
