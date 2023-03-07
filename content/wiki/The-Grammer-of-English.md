@@ -350,7 +350,7 @@
 
 - She will go to the store after she finishes her homework.（她完成作业后会去商店。)
 
-- 在这个例子中，副词从句"after she finishes her homework"修饰动词"go to the store"。
+  在这个例子中，副词从句"after she finishes her homework"修饰动词"go to the store"。
 
 - Although it was raining, he still went for a walk.（虽然下雨了，他还是去散步了。）
 

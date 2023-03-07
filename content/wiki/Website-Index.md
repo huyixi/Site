@@ -24,7 +24,7 @@
 
 ### MacOS 应用软件下载
 
--   [马克菠萝](www.macbl.com)
+- [马克菠萝](www.macbl.com)
 - [Mac 帮](www.macbang.net)
 
 ### 书籍查找
@@ -50,10 +50,10 @@
 - [阮一峰](http://ruanyifeng.com/blog/)
 - [Sam Altman](https://blog.samaltman.com/)
 
-### 图片压缩
+### 图片处理
 
-[tinypng](https://tinypng.com/)
-
+- [tinypng:图片压缩](https://tinypng.com/)
+- [ezgif:gif 图片处理](https://ezgif.com/)
 #### icon
 
 - [flaticon](https://www.flaticon.com/)
@@ -61,6 +61,7 @@
 #### Resource
 
 - [Awesome Cloud Security 云安全资源汇总](https://wiki.teamssix.com/cloudsecurityresources/)
+- [Numbeo:Numbeo is the world’s largest cost of living database. ](https://www.numbeo.com/cost-of-living/)
 
 
 
