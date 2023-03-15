@@ -1,4 +1,13 @@
-### 趋势
+### AI
+
+- [ChatGPT](openai.com/chat)
+- [NewBing](https://www.bing.com/)
+- [Poe](https://poe.com/)
+- [YOU](https://you.com/)
+- [Perplexity](https://www.perplexity.ai/)
+- [ChatGPT Shortcut](https://newzone.top/chatgpt/) - 让生产力加倍的 ChatGPT 快捷指令
+
+### Trends
 
 - [StackOverFlow 年度开发者调查](https://insights.stackoverflow.com/survey/)
 - [JavaScript 生态年度开发者调查](https://stateofjs.com/)
@@ -18,14 +27,24 @@
 
 - [现代 JavaScript 教程](https://javascript.info/)
 
+- [Learn Git Branching](https://learngitbranching.js.org/)
+
 ### 速查表
 
 - [Quick Reference](https://quickref.me/)
 
-### MacOS 应用软件下载
+### MacOS Software
 
 - [马克菠萝](www.macbl.com)
-- [Mac 帮](www.macbang.net)
+
+### Health
+
+- [ExRx.net](https://exrx.net/) - Exercise Prescription on Internet
+- [Workrave](https://workrave.org/)- 监控您的键盘和鼠标使用情况，并使用这些信息经常提醒您稍作休息、休息并限制您每天使用计算机。
+
+### Security
+
+- [Privacy Tools](https://www.privacytools.io/) - 隐私工具指南：加密软件和应用程序网站
 
 ### 书籍查找
 
@@ -51,6 +70,8 @@
 - [Sam Altman](https://blog.samaltman.com/)
 
 ### 图片处理
+
+- [imagecompressor](https://imagecompressor.com) - 可选择图片压缩质量的图片压缩网站
 
 - [tinypng:图片压缩](https://tinypng.com/)
 - [ezgif:gif 图片处理](https://ezgif.com/)
