@@ -36,6 +36,7 @@
 ### MacOS Software
 
 - [马克菠萝](www.macbl.com)
+- [XClient](xclient.info/s/c/dev/)
 
 ### Health
 
