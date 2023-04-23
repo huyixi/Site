@@ -1,6 +1,15 @@
+{{/* Define nextFriday function */}}
+{{- define "nextFriday" -}}
+  {{- $now := now -}}
+  {{- $dayOfWeek := $now.Weekday -}}
+  {{- $daysUntilFriday := sub 5 $dayOfWeek -}}
+  {{- $nextFriday := $now.AddDate 0 0 (int $daysUntilFriday) -}}
+  {{- dateFormat "2006-01-02T08:00:00Z08:00" $nextFriday -}}
+{{- end -}}
+
 ---
 title: {{ replace .Name "-" " " | title }}
-date: {{- template "datefuncs.html" .Date | safeHTML -}}
+date: {{- " " -}}{{- template "nextFriday" .Date -}}{{- "\n" -}}
 categories: [weekly]
 tags: [weekly]
 draft: false

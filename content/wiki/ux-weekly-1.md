@@ -17,6 +17,12 @@ draft: false
 
 一张图搞懂 Midjourney 提示词框架
 
+### [Let AI fly an F-16 fighter jet](https://www.theregister.com/2023/02/14/ai_air_force_f16/)
+
+五角大楼的专家们使用人工智能算法控制一辆真实的 F-16 战斗机，并在飞行模拟上击败了一名美国空军教练。
+
+### [文案风格指南：中英混排和标点符号的用法](https://tingtalk.me/style-guide/)
+
 ## 工具
 
 ## 资源
