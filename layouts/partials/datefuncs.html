@@ -1,0 +1,15 @@
+{{/* Define nextFriday function */}}
+{{- define "nextFriday" -}}
+{{- $now := . -}}
+{{- $dayOfWeek := .Weekday -}}
+{{- $daysUntilFriday := sub 5 $dayOfWeek -}}
+{{- $scratch := newScratch -}}
+{{- $scratch.Set "hoursInADay" 24 -}}
+{{- $scratch.Set "minutesInAnHour" 60 -}}
+{{- $scratch.Set "secondsInAMinute" 60 -}}
+{{- $secondsInADay := apply (apply (apply $scratch.Get "hoursInADay" "mul" $scratch.Get "minutesInAnHour") "mul"
+$scratch.Get "secondsInAMinute") "mul" 1 -}}
+{{- $secondsUntilFriday := mul $secondsInADay $daysUntilFriday -}}
+{{- $nextFriday := add $now $secondsUntilFriday -}}
+{{- dateFormat "2023-01-01T08:00:00+08:00" $nextFriday -}}
+{{- end -}}
