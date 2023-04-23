@@ -1,19 +1,26 @@
-### AI
+## AI
 
 - [ChatGPT](openai.com/chat)
 - [NewBing](https://www.bing.com/)
 - [Poe](https://poe.com/)
 - [YOU](https://you.com/)
 - [Perplexity](https://www.perplexity.ai/)
-- [ChatGPT Shortcut](https://newzone.top/chatgpt/) - 让生产力加倍的 ChatGPT 快捷指令
 
-### Trends
+### Prompts
+
+- [ChatGPT Shortcut](https://newzone.top/chatgpt/) - 让生产力加倍的 ChatGPT 快捷指令
+- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
+- [ChatGPT 中文调教指南](https://github.com/plexpt/awesome-chatgpt-prompts-zh)
+
+## Trends
 
 - [StackOverFlow 年度开发者调查](https://insights.stackoverflow.com/survey/)
 - [JavaScript 生态年度开发者调查](https://stateofjs.com/)
 -   [JetBrains 开发者生态系统现状](  https://www.jetbrains.com/zh-cn/lp/devecosystem-2021/)
 
-### 教学资源
+## Guide
+
+- [Quick Reference](https://quickref.me/)
 
 - [MDN](https://developer.mozilla.org/)
 
@@ -29,39 +36,40 @@
 
 - [Learn Git Branching](https://learngitbranching.js.org/)
 
-### 速查表
-
-- [Quick Reference](https://quickref.me/)
-
 ### MacOS Software
 
 - [马克菠萝](www.macbl.com)
 - [XClient](xclient.info/s/c/dev/)
+- [麦克搜](imacso.com)
 
-### Health
+## Health
 
 - [ExRx.net](https://exrx.net/) - Exercise Prescription on Internet
 - [Workrave](https://workrave.org/)- 监控您的键盘和鼠标使用情况，并使用这些信息经常提醒您稍作休息、休息并限制您每天使用计算机。
 
-### Security
+## Security
 
 - [Privacy Tools](https://www.privacytools.io/) - 隐私工具指南：加密软件和应用程序网站
 
-### 书籍查找
+## Book
+
+- [Z-Library](https://singlelogin.me/)
 
 - [Anna’s Archive](https://annas-archive.org/)
 
-### 接码平台
+### SMS Platform
 
 - [OnlineSim](https://onlinesim.io/)
 - [sms-activate](https://sms-activate.org/)
-- pingme - applestore
+- [5sim](5im.net)
+- pingme - iOS app
 
-### IP 地址查询
+### IP Address
 
 - [IP111](http://ip111.cn/)
+- [ip.skk](https://ip.skk.moe/)
 
-### 文件转换
+## Tools
 
 - [covertio.co](https://convertio.co/zh/)
 
@@ -70,7 +78,7 @@
 - [阮一峰](http://ruanyifeng.com/blog/)
 - [Sam Altman](https://blog.samaltman.com/)
 
-### 图片处理
+### Pics
 
 - [imagecompressor](https://imagecompressor.com) - 可选择图片压缩质量的图片压缩网站
 
@@ -84,8 +92,6 @@
 
 - [Awesome Cloud Security 云安全资源汇总](https://wiki.teamssix.com/cloudsecurityresources/)
 - [Numbeo:Numbeo is the world’s largest cost of living database. ](https://www.numbeo.com/cost-of-living/)
-
-
 
 #### Uncategorized
 
