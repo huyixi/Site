@@ -1,5 +1,7 @@
 ## AI
 
+### Production
+
 - [ChatGPT](openai.com/chat)
 - [NewBing](https://www.bing.com/)
 - [Poe](https://poe.com/)
@@ -11,6 +13,17 @@
 - [ChatGPT Shortcut](https://newzone.top/chatgpt/) - 让生产力加倍的 ChatGPT 快捷指令
 - [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 - [ChatGPT 中文调教指南](https://github.com/plexpt/awesome-chatgpt-prompts-zh)
+- [Learn Prompting](https://learnprompting.org/zh-Hans/docs/intro)
+- [Promp Engineering Guide](https://www.promptingguide.ai/)
+- [Learning Prompt](https://learningprompt.wiki/)
+
+### Tools
+
+- [Prompt Perfect - Elevate your prompts to perfection.](https://promptperfect.jina.ai)
+
+### Blog
+
+- [Sam Altman](https://blog.samaltman.com/)
 
 ## Trends
 
@@ -57,17 +70,7 @@
 
 - [Anna’s Archive](https://annas-archive.org/)
 
-### SMS Platform
-
-- [OnlineSim](https://onlinesim.io/)
-- [sms-activate](https://sms-activate.org/)
-- [5sim](5im.net)
-- pingme - iOS app
-
-### IP Address
-
-- [IP111](http://ip111.cn/)
-- [ip.skk](https://ip.skk.moe/)
+- https://ip.skk.moe/)
 
 ## Tools
 
@@ -76,7 +79,6 @@
 ### Blog
 
 - [阮一峰](http://ruanyifeng.com/blog/)
-- [Sam Altman](https://blog.samaltman.com/)
 
 ### Pics
 
@@ -93,8 +95,20 @@
 - [Awesome Cloud Security 云安全资源汇总](https://wiki.teamssix.com/cloudsecurityresources/)
 - [Numbeo:Numbeo is the world’s largest cost of living database. ](https://www.numbeo.com/cost-of-living/)
 
-#### Uncategorized
+## Uncategorized
 
-Forum
+### Forum
 
 - [Hacker News](https://news.ycombinator.com/)
+
+### SMS Platform
+
+- [OnlineSim](https://onlinesim.io/)
+- [sms-activate](https://sms-activate.org/)
+- [5sim](5im.net)
+- pingme - iOS app
+
+### IP Address
+
+- [IP111](http://ip111.cn/)
+- [ip.skk](https://ip.skk.moe)
