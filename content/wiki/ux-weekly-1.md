@@ -5,6 +5,13 @@ categories: [weekly]
 tags: [weekly]
 draft: false
 ---
+
+## 动态
+
+<img src="https://raw.githubusercontent.com/huyixi/blogimg/master/weixin_crash_qr.jpg"/>
+
+使用微信扫码之后就会崩溃
+
 ## 文章
 
 ### [深色模式能带来更好的用户体验吗？](https://mp.weixin.qq.com/s/SICfHDKkpeTS8X5s4AUh5Q)
@@ -24,6 +31,14 @@ draft: false
 ### [文案风格指南：中英混排和标点符号的用法](https://tingtalk.me/style-guide/)
 
 ## 工具
+
+### [MUSCLEWIKI](https://musclewiki.com/)
+
+点击身体部位就出现适合这个部位的最有效锻炼方法。
+
+<img src="https://raw.githubusercontent.com/huyixi/blogimg/master/MuscleWiki.png"/>
+
+
 
 ## 资源
 
