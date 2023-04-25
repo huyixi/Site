@@ -10,7 +10,7 @@ draft: false
 
 <img src="https://raw.githubusercontent.com/huyixi/blogimg/master/weixin_crash_qr.jpg"/>
 
-使用微信扫码之后就会崩溃
+使用微信扫描上面这张二维码之后微信就会崩溃
 
 ## 文章
 
@@ -39,6 +39,24 @@ draft: false
 <img src="https://raw.githubusercontent.com/huyixi/blogimg/master/MuscleWiki.png"/>
 
 
+
+### [WALLACE](https://www.projectwallace.com/analyze-css)
+
+官方宣称最好用的 CSS 分析工具 - THE BEST CSS ANALYZER OUT THERE.
+
+### [KeepChatGPT](https://github.com/xcanwin/KeepChatGPT/)
+
+更高效、更顺畅地使用 ChatGPT，完美解决ChatGPT网络错误，不再频繁地刷新网页，足足省去10个多余的步骤。还可以取消后台监管审计。
+
+解决了这几类报错: 
+
+(1) NetworkError when attempting to fetch resource. 
+
+(2) Something went wrong. If this issue persists please contact us through our help center at help.openai.com. 
+
+(3) This content may violate our content policy. 
+
+(4) Conversation not found.
 
 ## 资源
 
