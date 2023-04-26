@@ -8,7 +8,7 @@ draft: false
 
 ## 动态
 
-<img src="https://raw.githubusercontent.com/huyixi/blogimg/master/weixin_crash_qr.jpg"/>
+<img src="https://raw.githubusercontent.com/huyixi/blog_imgs/master/weixin_crash_qr.jpg"/>
 
 使用微信扫描上面这张二维码之后微信就会崩溃
 
@@ -36,7 +36,7 @@ draft: false
 
 点击身体部位就出现适合这个部位的最有效锻炼方法。
 
-<img src="https://raw.githubusercontent.com/huyixi/blogimg/master/MuscleWiki.png"/>
+<img src="https://raw.githubusercontent.com/huyixi/blog_imgs/master/MuscleWiki.png"/>
 
 
 
