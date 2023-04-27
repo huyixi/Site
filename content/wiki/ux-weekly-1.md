@@ -8,7 +8,7 @@ draft: false
 
 ## 动态
 
-<img src="https://raw.githubusercontent.com/huyixi/blog_imgs/master/weixin_crash_qr.jpg"/>
+![weixin_crash_qr](https://cdn.staticaly.com/gh/huyixi/Pic@main/weixin_crash_qr.60f6egqc8igw.jpg)
 
 使用微信扫描上面这张二维码之后微信就会崩溃
 
@@ -29,6 +29,16 @@ draft: false
 五角大楼的专家们使用人工智能算法控制一辆真实的 F-16 战斗机，并在飞行模拟上击败了一名美国空军教练。
 
 ### [文案风格指南：中英混排和标点符号的用法](https://tingtalk.me/style-guide/)
+
+### [对抗诱惑 如何训练大脑提升专注力 - shuaisoserious](https://www.youtube.com/watch?v=3Dn8mfbHMZU)
+
+视频中提到了三个提升专注力的做法
+
+# ![concentrated ](https://cdn.staticaly.com/gh/huyixi/Pic@main/concentrated .2qdkijvkim68.jpg)
+
+- 工作学习时避免进食等分散注意力的事情
+- 将手机或者其他影响注意力的设备放置在自己无法看到的地方
+- 使用冥想帮助自己度过疲惫期
 
 ## 工具
 
@@ -57,6 +67,14 @@ draft: false
 (3) This content may violate our content policy. 
 
 (4) Conversation not found.
+
+### [PicX](https://github.com/XPoet/picx)
+
+一款基于 GitHub API 开发的图床工具，提供图片上传托管、生成图片链接和常用图片工具箱服务。
+
+###  [Immersive Translate](https://immersive-translate.owenyoung.com)
+
+刚上架 Apple Store 的一款浏览器沉浸式翻译插件
 
 ## 资源
 
