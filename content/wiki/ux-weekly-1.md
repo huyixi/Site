@@ -8,7 +8,7 @@ draft: false
 
 ## 动态
 
-![weixin_crash_qr](https://cdn.staticaly.com/gh/huyixi/Pic@main/weixin_crash_qr.60f6egqc8igw.jpg)
+![weixin_crash_qr](https://github.com/huyixi/Pic/raw/main/weixin_crash_qr.60f6egqc8igw.jpg)
 
 使用微信扫描上面这张二维码之后微信就会崩溃
 
@@ -34,7 +34,7 @@ draft: false
 
 视频中提到了三个提升专注力的做法
 
-# ![concentrated ](https://cdn.staticaly.com/gh/huyixi/Pic@main/concentrated .2qdkijvkim68.jpg)
+# ![concentrated](https://github.com/huyixi/Pic/raw/main/concentrated.3t5lbwphvge8.jpg)
 
 - 工作学习时避免进食等分散注意力的事情
 - 将手机或者其他影响注意力的设备放置在自己无法看到的地方
@@ -46,7 +46,7 @@ draft: false
 
 点击身体部位就出现适合这个部位的最有效锻炼方法。
 
-<img src="https://raw.githubusercontent.com/huyixi/blog_imgs/master/MuscleWiki.png"/>
+![MuscleWiki](https://github.com/huyixi/Pic/raw/main/MuscleWiki.zg0f13wpra8.png)
 
 
 
@@ -75,6 +75,8 @@ draft: false
 ###  [Immersive Translate](https://immersive-translate.owenyoung.com)
 
 刚上架 Apple Store 的一款浏览器沉浸式翻译插件
+
+
 
 ## 资源
 
