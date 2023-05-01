@@ -112,7 +112,7 @@ draft: false
 
 视频中提到了三个提升专注力的做法
 
-# ![concentrated ](https://github.com/huyixi/Pic/raw/main/concentrated .2qdkijvkim68.jpg)
+![concerned](https://cdn.staticaly.com/gh/huyixi/Pic@main/concentrated.6orlta8ppjls.jpg)
 
 - 工作学习时避免进食等分散注意力的事情
 - 将手机或者其他影响注意力的设备放置在自己无法看到的地方
