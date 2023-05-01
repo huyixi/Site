@@ -8,9 +8,13 @@ draft: false
 
 ## 动态
 
-<img src="https://github.com/huyixi/Pic/raw/main/weixin_crash_qr.60f6egqc8igw.jpg" alt="weixin_crash_qr" style="zoom:50%;" />
+![wexin](https://cdn.staticaly.com/gh/huyixi/Pic@main/weixin_crash_qr.60f6egqc8igw.jpg)
 
-使用微信扫描上面这张二维码之后微信就会崩溃
+使用微信扫描上面这张二维码之后，微信APP就会闪退，并报告“三方应用异常分析”。
+
+根据 Github 用户 **[Konano ](https://github.com/Konano)**分析，这一 Bug 出现在了微信的扫码引擎中（微信团队于 2021 年在 OpenCV 开源其[扫码引擎](https://github.com/opencv/opencv)）。
+
+如果攻击者在数据的末尾添加了一段内容为空的数据，程序就会出错。这是因为程序在读取数据时，会读取这段数据的长度（也就是字节数），但是攻击者在末尾添加的这段数据的长度为0，这就导致了程序出错。为了解决这个问题，开发者需要在读取数据的长度后再初始化变量，以确保程序能够正确读取数据。[详细内容](https://github.com/opencv/opencv_contrib/pull/3480)
 
 ## 文章
 
