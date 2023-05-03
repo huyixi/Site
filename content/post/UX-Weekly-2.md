@@ -8,7 +8,7 @@ draft: false
 > 系统的知识来源于对碎片的整理和思考。为了更好地输出系统知识，我在这里记录本周的发现和思考，为构建系统知识做准备。
 ## 动态
 
-### [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
+### 1. [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
 
 吴恩达和OpenAI合作推出了免费的Prompt Engineering（提示工程）课程。课程主要内容为指导开发者如何构建 Prompt 并基于 OpenAI API 构建新的、基于 LLM 的应用。
 
@@ -22,31 +22,39 @@ draft: false
 
 [课程内容文字版](https://github.com/datawhalechina/prompt-engineering-for-developers/tree/main)
 
+### 2.[The amazing AI super tutor for students and teachers](https://www.ted.com/talks/sal_khan_the_amazing_ai_super_tutor_for_students_and_teachers/c)
+
+可汗学院创始人可汗在Ted上的演讲，他分享了可汗学院使用GPT-4辅助学生学习的故事
+
 ## 文章
 
-1. [Prompt engineering](https://help.openai.com/en/collections/3675942-prompt-engineering)
+1. [The Age of AI has begun - By Bill Gates](https://www.gatesnotes.com/The-Age-of-AI-Has-Begun)
+
+   ![AgeofAi](https://github.com/huyixi/Pic/raw/main/AI_article-hero.5esivqienlo0.jpg)
+
+2. [Prompt engineering](https://help.openai.com/en/collections/3675942-prompt-engineering)
 
    OpenAI 官方的关于提示词工程的一些教程
 
-2. [Prompt engineering techniques](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/advanced-prompt-engineering?pivots=programming-language-chat-completions)
+3. [Prompt engineering techniques](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/advanced-prompt-engineering?pivots=programming-language-chat-completions)
 
    微软官方出品的 ChatGPT 提示词技术教程
 
-3. [游戏主机架构 - Rodrigo Copetti 的实用分析](https://www.copetti.org/zh-hans/writings/consoles/)
+4. [游戏主机架构 - Rodrigo Copetti 的实用分析](https://www.copetti.org/zh-hans/writings/consoles/)
 
    一个研究主机架构的网站
 
-4. [Rime Squirrel 鼠须管输入法配置详解](https://ssnhd.com/2022/01/06/rime/)
+5. [Rime Squirrel 鼠须管输入法配置详解](https://ssnhd.com/2022/01/06/rime/)
 
-   <img src="https://github.com/huyixi/Pic/raw/main/RIME.uwk7ilr0dw0.png" alt="rimeconfig" style="zoom: 25%;" />
+   ![<img src="https://github.com/huyixi/Pic/raw/main/RIME.uwk7ilr0dw0.png" alt="rimeconfig";" />](https://github.com/huyixi/Pic/raw/main/RIME.uwk7ilr0dw0.png)
 
    为了尽量减少信息泄露所带来的风险，我目前使用的也是开源的 RIME 输入法。本篇文章中的一张关于配置输入法的思维导图很好地解决了我经常性找不到配置文件的问题。
 
-5. [编程思想：解决问题之方法论 - lencx](https://mp.weixin.qq.com/s/hU8N3Pkj0_ypGDre-RX5EA)
+6. [编程思想：解决问题之方法论 - lencx](https://mp.weixin.qq.com/s/hU8N3Pkj0_ypGDre-RX5EA)
 
-6. [一个表现形式很惊艳的报道](https://www.twreporter.org/a/china-dredging-business-supply-chain)
+7. [一个表现形式很惊艳的报道](https://www.twreporter.org/a/china-dredging-business-supply-chain)
 
-7. [Alex Widua](https://twitter.com/alexwidua) 使用 SwiftUI 中做了一个小沙漏原型 App
+8. [Alex Widua](https://twitter.com/alexwidua) 使用 SwiftUI 中做了一个小沙漏原型 App
 
    链接：https://twitter.com/alexwidua/status/1651262705372733441?s=20
 
@@ -80,11 +88,27 @@ draft: false
 
 3. 一张 SQL 速查表
 
-<img src="https://github.com/huyixi/Pic/raw/main/sql_cheatsheet.51855d1fwvc0.jpg" alt="sql_cheatsheet" style="zoom: 25%;" />
+![sql_cheatsheet](https://github.com/huyixi/Pic/raw/main/sql_cheatsheet.51855d1fwvc0.jpg)
 
 4. [Half as Interesting](https://www.youtube.com/@halfasinteresting/videos)
 
    分享各种有趣的科普知识的油管频道
+
+5. [Awesome Math](https://github.com/rossant/awesome-math/tree/master)
+
+   Github 上一个关于学习数学的一切，书籍、杂志、工具等资源。
+
+6. [Susan Rigetti 的学习指南三部曲](https://www.susanrigetti.com/)
+
+   - [物理学习指南](https://www.susanrigetti.com/physics)
+   - [哲学学习指南](https://www.susanrigetti.com/philosophy)
+   - [数学学习指南](https://www.susanrigetti.com/math)
+
+7. [EarthCam](https://www.earthcam.com/)
+
+   全球在线实况摄像头  汇聚了全球各地的在线实况直播摄像头 可以看到时代广场、世界贸易中心、自由女神像 在家就可以环游世界
+
+
 
 ## 言论
 
