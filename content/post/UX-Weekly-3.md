@@ -13,12 +13,18 @@ draft: false
 
 ## 文章
 
-1. ### [How To Be Successful](https://blog.samaltman.com/how-to-be-successful)
+### 1.[How To Be Successful](https://blog.samaltman.com/how-to-be-successful)
 
-2. ### [如何成为一名黑客](https://translations.readthedocs.io/en/latest/hacker_howto.html#id61)
+### 2.[如何成为一名黑客](https://translations.readthedocs.io/en/latest/hacker_howto.html#id61)
+
+### 3.[「随机播放」用 40 年统治了世界，值得我们反思一下？](https://mp.weixin.qq.com/s/y0AMvxt1zfyKa9FfB_Jo5g)
 
 ## 工具
 
 ## 资源
+
+### 1. [The Pudding](https://pudding.cool/)
+
+一本数字出版物，通过视觉文章解释文化中争论的想法。网站中的许多文章都有一些很有意思的交互效果，可以进行模仿创造。
 
 ## 言论
