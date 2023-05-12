@@ -160,7 +160,6 @@ Otherwise
 
 3. Why
 
-   - Why did a certain party do it this way instead of that way?
    - Why did this factor come into play instead of that factor?
    - Why did the event develop in this direction instead of another direction?
 

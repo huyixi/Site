@@ -22,6 +22,8 @@ draft: false
 
 [课程内容文字版](https://github.com/datawhalechina/prompt-engineering-for-developers/tree/main)
 
+[向阳乔木的分享](https://twitter.com/vista8/status/1654508335436292096?s=20)
+
 ### 2.[The amazing AI super tutor for students and teachers](https://www.ted.com/talks/sal_khan_the_amazing_ai_super_tutor_for_students_and_teachers/c)
 
 可汗学院创始人可汗在Ted上的演讲，他分享了可汗学院使用GPT-4辅助学生学习的故事
