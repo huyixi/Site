@@ -1,5 +1,5 @@
-Welcome To My Website.
-
-This is my personal website where I share everything I know about this world in form of an online wiki build with Hugo on Github.
-
-Contact Me: hi@huyixi.com
+---
+title: "Welcome to huyixi.com!"
+description: "部分内容正在施工中..."
+---
+Welcome to my website! I'm really happy you stopped by.
