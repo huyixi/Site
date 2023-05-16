@@ -17,6 +17,24 @@ draft: false
 
 
 
+# 陈皓（左耳朵耗子）去世
+
+{{< tweet  1657967094502408194 >}}
+
+<!-- “其实真正的送别是没有长亭古道的，没有劝君更尽一杯酒，就是一个平常的一个早晨，而有些人却永远留在昨天”  -- Miableem -->
+
+
+
+
+
+今天信息流被陈皓先生刷屏了，其实我并不是很熟悉这位人物，翻看他的资料的时候，发现他原来是 [酷壳 - CoolShell](https://coolshell.cn/) 个人博客的作者，原来我一直在关注着他的文字，他的[简明 VIM 练级攻略](https://coolshell.cn/articles/5426.html)也给我 Vim 的学习提供了非常大的帮助。
+
+[程序员延寿指南](https://github.com/geekan/HowToLiveLonger)
+
+[HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization)
+
+
+
 ## 动态
 
 1. ### [2023 Stack Overflow Developer Survey](https://stackoverflow.az1.qualtrics.com/jfe/form/SV_czLVsbnGnF4Q04e?utm_source=iterable&utm_medium=email&utm_campaign=dev-survey-2023&utm_content=take-the-survey)
