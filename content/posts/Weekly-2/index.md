@@ -1,5 +1,5 @@
 ---
-title: Weekly 2
+title: 周刊（第 2 期）
 date: 2023-05-05T08:00:00+08:00
 categories: [weekly]
 tags: [weekly]

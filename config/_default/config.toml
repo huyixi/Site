@@ -15,3 +15,6 @@ summaryLength = 0
 
 [features]
   disableLanguageSwitch = true
+
+[build]
+ignoreErrors = ["error-remote-getjson"]
