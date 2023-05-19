@@ -76,7 +76,7 @@ draft: false
 
    推特上一名网友晒出了任天堂的应聘礼物。只要填写日本任天堂招聘网站的报名信息，无论录取与否，都能收到一份来自任天堂的礼物。
 
-   
+   ![nintendo](./index.assets/nintendo.jpg)
 
 8. ### 苹果限制员工使用ChatGPT
 
@@ -84,11 +84,11 @@ draft: false
 
 ## 文章
 
-1. **random(random(random(random())))**
+1. ### **random(random(random(random())))**
 
    链接：https://openprocessing.org/sketch/1575230/
 
-2. Bilibili视频总结软件：从开始到放弃
+2. ### Bilibili视频总结软件：从开始到放弃
 
    作者开发了一个 Bilibili 视频总结软件，介绍了从开发到放弃的全过程
 
