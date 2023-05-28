@@ -1,6 +1,6 @@
 ---
 title: 我的电子书阅读不完全解决方案
-date: 2022-05-12T08:00:00+08:00
+date: 2023-05-12T08:00:00+08:00
 categories: [Post]
 tags: [Kindle, ebook]
 draft: false
