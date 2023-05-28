@@ -6,3 +6,7 @@ tags: [weekly]
 draft: false
 ---
 本期：20230527 - 20230602
+
+## 文章
+
+[DeepL Api 设计中的欺骗战术](https://zu1k.com/posts/thinking/deception-tactics-in-deepl-api-design/)
