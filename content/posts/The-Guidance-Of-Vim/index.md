@@ -1,6 +1,6 @@
 ---
 title: The Guidance Of Vim
-date: 2023-04-24T02:49:00+08:00
+date: 2023-04-01T02:49:00+08:00
 categories: [weekly]
 tags: [weekly]
 draft: false
