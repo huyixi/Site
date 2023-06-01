@@ -135,12 +135,12 @@ draft: false
 根据官方文档进行安装
 
 ```shell
-percollate epub [bookname].epub [section1].html [section2].html
+percollate epub --output output-file-name.epub url-of-the-web-page
 ```
 
-[bookname].epub ：生成的电子书文件名
-
-[section].html：图书的内容
+- `epub` is the command to create an `.epub` file.
+- `--output output-file-name.epub` is the name you want to give to the output `.epub` file.
+- `url-of-the-web-page` is the URL of the web page you want to convert to `.epub`.
 
 ## 传输电子书
 
@@ -181,6 +181,8 @@ https://www.amazon.com/sendtokindle
 使用 Send to Kindle 官方插件或者 Ktool 插件进行传输。
 
 ![image-20230531012005961](./index.assets/image-20230531012005961.png)
+
+插件界面
 
 ![image-20230531011959627](./index.assets/image-20230531011959627.png)
 
