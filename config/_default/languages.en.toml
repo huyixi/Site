@@ -12,7 +12,7 @@ description = "My awesome website"
 dateFormat = "2 January 2006"
 
 [params]
-mainSections = ["posts", "projects"]
+mainSections = ["posts", "projects","read"]
 
 [author]
 name = "huyixi"
