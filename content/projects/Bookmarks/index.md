@@ -4,7 +4,7 @@ date: 2023-04-24T02:49:00+08:00
 categories: [inbox]
 tags: [inbox]
 draft: false
-description:"My Web Bookmarks"
+summary: "我的互联网书签：记录一些我经常使用到的或者有用的工具资源等等"
 ---
 
 ## AI
