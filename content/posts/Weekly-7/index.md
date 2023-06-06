@@ -1,5 +1,5 @@
 ---
-title: 周刊记录内容的改进
+title: 周刊（第 7 期）周刊记录内容的改进
 date: 2023-05-29T08:00:00+08:00
 categories: [weekly]
 tags: [weekly]
