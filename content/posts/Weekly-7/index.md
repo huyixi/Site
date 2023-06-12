@@ -36,11 +36,23 @@ summary: |
 
 ![image-20230607032947388](/Users/huyixi/Library/Application Support/typora-user-images/image-20230607032947388.png)
 
-我的一个账号被 ChatGPT 封了！
+我的一个账号被 ChatGPT 封了！猜测可能是由于之前使用代充的原因。 现在有了Apple Pay支付流程相对于我来说就方便多了。希望不会再被封号了吧， 毕竟还是要面向ChatGPT编程的（笑）。
 
-## Resource
+## 资源
 
-### Blog
+### 积薪：独立博客导航站
+
+积薪是一个[独立博客导航站](https://firewood.news)。与其他导航在不同的是，这个站点使用 AI 进行博客的打标签分类等。内容大部分都是中文播客，十分推荐。
+
+一些相关的链接：
+
+- [独立博客导航站“积薪”正式发布](https://darmau.design/article/firewood-news)
+
+- [积薪的技术架构](https://darmau.design/article/tech-behind-firewood)
+
+- 作者的个人博客：[可可托海没有海](https://darmau.design/about)
+
+### 其他个人博客
 
 [空白生活](https://koobai.com)
 
@@ -57,4 +69,3 @@ summary: |
 [木木的好物页面教程](https://immmmm.com/hugo-goods-page/)
 
 ## 言论
-
