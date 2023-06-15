@@ -84,19 +84,41 @@ summary: |
 
 - 在目前这个社交平台上我们每个人都是条鱼，我们在评论的时候我们也都在创造鱼饵。但是我们所创造的鱼饵却又不属于我们自己，它被资本家无偿占有，这是我们的输出劳动但是劳动成果却不属于我门。当 AI 时代来临内容的创作数量将呈指数型上涨，我们这些鱼儿也将会被抛弃。
 
+### 2.数据仓库与数据湖
+
+- [什么是数据仓库？-- Google](https://cloud.google.com/learn/what-is-a-data-warehouse?hl=zh-cn#section-8)
+- [数据仓库的概念](https://aws.amazon.com/cn/data-warehouse/)
+- [什么是数据仓库？](https://www.oracle.com/cn/database/what-is-a-data-warehouse/)
+
+### 3.阮一峰的网格布局教程
+
+[CSS Grid 网格布局教程](https://www.ruanyifeng.com/blog/2019/03/grid-layout-tutorial.html)
+
+### 4.“我是一名专家” - ChatGPT Prompt
+
+网友分享，据说这么提示 GPT 生成的内容质量更高。
+
 ## 资源
 
-1. Mac 下载文件提示损坏的解决方案
+### 1.Mac 下载文件提示损坏的解决方案
 
-   在 Mac 系统上没有通过官方的 Store 下载应用程序的时候，可能会提示该文件已损坏，请移到垃圾桶。如**`"XXX" is damaged and can't be opened. You should move it to the Trash`**
+在 Mac 系统上没有通过官方的 Store 下载应用程序的时候，可能会提示该文件已损坏，请移到垃圾桶。如**`"XXX" is damaged and can't be opened. You should move it to the Trash`**
 
-   这个时候你只需要导航到你的应用程序文件夹的终端，然后输入下面这行代码之后，再打开该应用程序并可以正常运行了。
+这个时候你只需要导航到你的应用程序文件夹的终端，然后输入下面这行代码之后，再打开该应用程序并可以正常运行了。
 
-   ```
-   sudo xattr -r -d com.apple.quarantine /YOUR_PATH/xxxxx.app
-   ```
+```
+sudo xattr -r -d com.apple.quarantine /YOUR_PATH/xxxxx.app
+```
 
-   YOUR_PATH 是你的应用程序的路径。 在Mac系统上在根路径 /Application。
+YOUR_PATH 是你的应用程序的路径。 在Mac系统上在根路径 /Application。
+
+### 2.Apache EChart
+
+一个基于 JavaScript 的[开源](https://github.com/apache/echarts)[可视化图表库](https://echarts.apache.org/en/index.html)。图表十分精美，正在使用中。
+
+### 3.magic-api
+
+[文档](https://www.ssssssss.org/magic-api/pages/quick/intro/)
 
 ## 说说
 
