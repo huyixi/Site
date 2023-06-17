@@ -38,6 +38,7 @@ summary: |
 
 我的一个账号被 ChatGPT 封了！猜测可能是由于之前使用代充的原因。 现在有了Apple Pay支付流程相对于我来说就方便多了。希望不会再被封号了吧， 毕竟还是要面向ChatGPT编程的（笑）。
 
+<<<<<<< Updated upstream
 ## 资源
 
 ### 积薪：独立博客导航站
@@ -53,6 +54,21 @@ summary: |
 - 作者的个人博客：[可可托海没有海](https://darmau.design/about)
 
 ### 其他个人博客
+=======
+## 文章
+
+### 德克萨斯州一位软件工程师的一天
+
+[Chill & Productive Office Day | Day In The Life of a Software Engineer](https://www.youtube.com/watch?v=vrG7OGT4-q4)
+
+算了一下他的一天的在办公室的时长，只有六个半小时并且包含有早餐，看书等。真是羡慕啊。
+
+## Resource
+
+[孙燕姿的独立博客](https://www.makemusic.sg/)
+
+发现了孙燕姿的独立博客，没想到这么小众的东西孙燕姿居然也在玩。网站的设计挺不错的，但是我找不到她的导航目录。如果你想看他写的最新的文章可以点击这个[链接](https://www.makemusic.sg/new-blog)。博客里面还写了一些她对 AI的见解，比如之前大火的 [《我的 AI》](https://www.makemusic.sg/blog/wodeai) 这篇文章，写了她对网络上出现的 AI 孙燕姿的看法。
+>>>>>>> Stashed changes
 
 [空白生活](https://koobai.com)
 
@@ -69,3 +85,9 @@ summary: |
 [木木的好物页面教程](https://immmmm.com/hugo-goods-page/)
 
 ## 言论
+<<<<<<< Updated upstream
+=======
+
+思维导图就是一个骗局，对于真正需要逻辑思考的人给他一支笔和一张白纸就足够了。
+
+>>>>>>> Stashed changes
