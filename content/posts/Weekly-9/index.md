@@ -90,11 +90,13 @@ summary: |
 
 一直在观望群晖的价格，真的坚挺。然后刷到了这个视频，发现 Mac mini 更强可玩性更多，又被种草了。
 
+### 前端动画灵感
+
+[Landing Love](https://www.landing.love/)
+
 ### 魔方是怎么还原的？ - 魔方还原教程
 
 [rubik's cube solutions guide](https://rubiks.com/en-US/solve-it)
-
-[](https://rubiks.com/en-US/solve-it)
 
 ### 前端开发 JavaScript 教程
 
@@ -105,6 +107,12 @@ summary: |
 [中文版 Apple 官方 Swift 教程《The Swift Programming Language》](https://swiftgg.gitbook.io/swift/)
 
 [英文原版在线版](https://docs.swift.org/swift-book/)
+
+### App Store 上架软件描述灵感
+
+[scrnshts](https://scrnshts.club)
+
+
 
 ## 说说
 
