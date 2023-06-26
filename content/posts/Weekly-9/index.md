@@ -94,6 +94,8 @@ summary: |
 
 [Landing Love](https://www.landing.love/)
 
+[Godly](https://godly.website)
+
 ### 魔方是怎么还原的？ - 魔方还原教程
 
 [rubik's cube solutions guide](https://rubiks.com/en-US/solve-it)
