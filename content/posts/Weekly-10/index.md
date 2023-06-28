@@ -70,3 +70,22 @@ summary: |
 
 
 
+## 资源
+
+### 1.来读点有意思的！
+
+[Read Something Wonderful](https://readsomethingwonderful.com/)
+
+网页设计漂亮，交互优雅，收录了不少优质内容。包括 Altman 的一些博客文章。左侧的文章似乎可以无限滚动查看，右侧则是一些相关的信息，比如作者，出版时间等。
+
+### 2.从阮一峰科技爱好者周刊的 issue 中获取最新的技术趋势
+
+[阮一峰科技爱好者周刊 issue](https://github.com/ruanyf/weekly/issues)
+
+![image-20230628155253906](/Users/huyixi/Library/Application Support/typora-user-images/image-20230628155253906.png)
+
+
+
+### 3.乔布斯档案馆
+
+[The Steve Jobs Archive](https://stevejobsarchive.com/)
