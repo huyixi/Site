@@ -64,4 +64,5 @@ draft: false
 
 ### Mac 软件下载
 
-[麦克搜](imacso.com)
+[麦克搜](www.imacso.com)
+
