@@ -1,23 +1,13 @@
 ---
-title: 周刊#10：
+title: 周刊#10：如何活得更久？
 date: 2023-06-20T15:53:00+08:00
 categories: [weekly]
 tags: [weekly]
 draft: false
 summary: |
- 主题：git commit,智齿<br>
+ 主题：live longer, git commit, 智齿<br>
  时间：20230625 - 20230701
 ---
-
-
-
-
-
-
-
-
-
-
 
 ## 文章
 
@@ -164,6 +154,8 @@ summary: |
 ### 3.乔布斯档案馆
 
 [The Steve Jobs Archive](https://stevejobsarchive.com/)
+
+logo 是一个苹果从苹果树上掉下来。
 
 ### 4.用中文浏览国外社交媒体里的热门讨论
 
