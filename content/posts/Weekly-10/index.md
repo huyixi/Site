@@ -121,19 +121,21 @@ summary: |
 
 只有这样，再收集遇到的问题，分析并持续优化，才是有意义的。
 
-### [ChatGPT将非英语语言排除在AI革命之外](https://clip.owenyoung.com/2023/06/04/chat-gpt-is-cutting-non-english-languages-out-of-the-ai-revolution/#chatgpt将非英语语言排除在ai革命之外--wired)
+### 6. 英语才能发挥 ChatGPT 的能力？
+
+[ChatGPT将非英语语言排除在AI革命之外](https://clip.owenyoung.com/2023/06/04/chat-gpt-is-cutting-non-english-languages-out-of-the-ai-revolution/#chatgpt将非英语语言排除在ai革命之外--wired)
 
 
 
 ## 资源
 
-### 1.来读点有意思的东西！
+### 1. 来读点有意思的东西！
 
 [Read Something Wonderful](https://readsomethingwonderful.com/)
 
 网页设计漂亮，交互优雅，收录了不少优质内容。包括 Altman 的一些博客文章。左侧的文章似乎可以无限滚动查看，右侧则是一些相关的信息，比如作者，出版时间等。
 
-### 2.
+### 2. 神学和网络安全的博客
 
 [Eddy & Emma's Blog](https://eddyemma.com/)
 
@@ -143,7 +145,15 @@ summary: |
 
 [网络安全](https://eddyemma.com/scientific-access/)
 
-### 2.从阮一峰科技爱好者周刊的 issue 中获取最新的技术趋势
+### 3. 长毛象上的开源豆瓣
+
+官网：[NeoDB](https://neodb.social)
+
+Github 仓库[NeoDB - Github](https://github.com/neodb-social/neodb) 
+
+一个类似豆瓣的开源项目。可以收藏你喜欢的东西。footer 里公开的 API ，方便二次开发。账号系统基于 mastodon，也支持从其他平台倒入数据。
+
+### 4. 从阮一峰科技爱好者周刊的 issue 中获取最新的技术趋势
 
 [阮一峰科技爱好者周刊 issue](https://github.com/ruanyf/weekly/issues)
 
@@ -151,14 +161,17 @@ summary: |
 
 
 
-### 3.乔布斯档案馆
+### 5.乔布斯档案馆
 
 [The Steve Jobs Archive](https://stevejobsarchive.com/)
 
 logo 是一个苹果从苹果树上掉下来。
 
-### 4.用中文浏览国外社交媒体里的热门讨论
+内容并不多， 只看到了乔布斯的两篇文章。
+
+### 6.用中文浏览国外社交媒体里的热门讨论
 
 [buzzing](https://www.buzzing.cc)
 
 官方对这个网站的介绍：用中文浏览国外社交媒体里的热门讨论，母语快速导读， 感兴趣再进原文深度阅读
+
