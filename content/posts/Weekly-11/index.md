@@ -70,7 +70,11 @@ summary: |
 
 ## 资源
 
-### 1. 博客 GPT 文本摘要器
+### 1. Best Hacker News
+
+[Lindy Hacker News](https://hn.lindylearn.io) 
+
+### 博客 GPT 文本摘要器
 
 [Post-Abstract-AI](https://github.com/zhheo/Post-Abstract-AI) 
 
