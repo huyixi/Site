@@ -11,6 +11,14 @@ summary: |
 
 ## 动态
 
+### 《我在北京送快递》- 胡安焉
+
+用了一天时间看完这本《我在北京送快递》。作为一个重度网购爱好者，怎么可以不知道一个快递员的日常工作生活！看完这本书后，对快递员一天的工作生活也有了更好的认识，对快递员的工作也有了更好的理解。有时候也会遇到作者所说的那种情况：两个收货地点明明只隔了几百米，但是如果想要让快递员转送到另外一个地址就需要等上一天，其实是因为每个快递员负责的区域不同，对不同的区域，快递员可能了解的并不多，需要将货分配到之后再进行投递。
+
+在文中的一段经历与王小波的《沉默的大多数》最后一篇文章《饮食卫生与尊严》有一些验证。对饭店卫生问题，如果一个人的尊严受到了践踏，那么他也没法尊重别人。所以才有了文中的放在泔水里的碗（呕）。
+
+作者在文中除了做过几个公司的理货员、快递员之外，其实还做了其他的一些相关的工作，其实每份都不好做，不好挣钱。除了快递员的工作之外，我对作者开店的经历也 很有感触，明明是一个老好人，结果在开店的时候由于经营压力不得不被迫抄袭隔壁的店铺，而在自己做好之后却又被其他店铺抄袭。打工人苦啊。
+
 ## 文章
 
 ### 修改 Mac 上所有代码文件的默认打开方式为 VS Code
@@ -53,13 +61,41 @@ Failed to set default program for .html
 3. Open with 修改为 VS Code
 4. Change All
 
+相关文档说明：
+
+- [Launch Service API failure with specific UTI ](https://developer.apple.com/forums/thread/50029)
+
+- [](https://stackoverflow.com/questions/26241689/lssetdefaultrolehandlerforcontenttype-in-yosemite)
+
+#### 应用程序提示`"XXX" is damaged and can't be opened. You should move it to the Trash`
+
+命令行输入
+
+```bash
+sudo xattr -r -d com.apple.quarantine /YOUR_PATH/XXX.app
+```
+
+一般路径是：
+
+```bash
+sudo xattr -r -d com.apple.quarantine /Applications/XXX.app
+```
+
 
 
 ### SVG 路径动画详解
 
 [Not a Number](https://www.nan.fyi/svg-paths)
 
+### 中国的文化输出
 
+[Chinese Tech Terms Explained In English](https://16x.engineer/2022/10/18/chinese-tech-terms.html?continueFlag=7b4df73c1abf965d61014170a9c7633d)
+
+1. 灰度 (Huidu) - 用于将实验性新功能推出给少量用户进行测试。
+2. 轮子 (Lunzi) - 描述被发明或重新发明多次的工具、库或框架。
+3. 沉淀 (Chendian) - 整合过去的经验，并提出一种针对重复问题的系统解决方案。
+4. 大盘 (Dapan) - 用于描述带有各种图表的仪表板，可实时监视关键系统指标或业务指标。
+5. 埋点 (Maidian) - 用于嵌入跟踪代码以监视和分析用户行为。
 
 ## 资源
 
@@ -68,4 +104,12 @@ Failed to set default program for .html
 A Git-based CMS for Static Site Generators
 
 适用于 Hugo，Hexo 等等
+
+## 不知道怎么分类的
+
+### 学习金字塔
+
+![](https://raw.githubusercontent.com/huyixi/Pics/main/learning_pyramid.png)
+
+
 
