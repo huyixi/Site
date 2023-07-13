@@ -146,13 +146,37 @@ A Git-based CMS for Static Site Generators
 
 适用于 Hugo，Hexo 等等
 
+[在线工具网站](https://onlinetools.com/)
+
+很好记的域名：OnlineTools.com Peter Krumin 和团队创建的。
+
+### Web3
+
+Web 工作：
+
+[WEB3 JOBS](https://web3.career)
+
+学习资源
+
+[WTF 学院](https://www.wtf.academy)中文 Web 3 学习平台
+
+[Alchemy University](https://university.alchemy.com/home)
+
+[buildspace](https://buildspace.so)
+
+通过实践学习
+
+
+
 
 
 ## 说说
 
-Learn to sell. Learn to build. If you can do both, you will be unstoppable. - Naval
+- Learn to sell. Learn to build. If you can do both, you will be unstoppable. - Naval
 
 [Learn to Sell, Learn to Build](https://nav.al/build-sell)
+
+- We rule the world. by Robert C. Martin (Uncle Bob) [The Obligation of the Programmer.](https://blog.cleancoder.com/uncle-bob/2014/11/15/WeRuleTheWorld.html)
 
 
 
