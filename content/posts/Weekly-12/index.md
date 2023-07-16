@@ -9,6 +9,8 @@ summary: |
  时间：20230708 - 20230715
 ---
 
+## 动态
+
 美国缅因大学有一个全球气候模型，根据气象站、卫星数据、计算机模拟的数据，得到全球每个地点的实时气温。
 
 [官网链接](https://climatereanalyzer.org/clim/t2_daily/)
@@ -19,7 +21,7 @@ summary: |
 
 ## 阅读
 
-#### 《我在北京送快递》- 胡安焉
+#### 1.《我在北京送快递》- 胡安焉
 
 用了一天时间看完这本《我在北京送快递》。作为一个重度网购爱好者，怎么可以不知道一个快递员的日常工作生活！看完这本书后，对快递员一天的工作生活也有了更好的认识，对快递员的工作也有了更好的理解。有时候也会遇到作者所说的那种情况：两个收货地点明明只隔了几百米，但是如果想要让快递员转送到另外一个地址就需要等上一天，其实是因为每个快递员负责的区域不同，对不同的区域，快递员可能了解的并不多，需要将货分配到之后再进行投递。
 
@@ -31,7 +33,7 @@ summary: |
 
 - 很少人声称自己是完全为谋生而工作的。惯常的说法有：我对我的工作内容感兴趣，我喜欢我的工作伙伴，工作使我感到生活充实，等等。这些说法就算真实，也很片面 —— 不工作我们也同样可以从事自己感兴趣的事情，
 
-#### 《蛙》 - 莫言
+#### 2.《蛙》 - 莫言
 
 上上周看了三章之后搁置了。这周抽空把这本书也看完了。
 
@@ -41,7 +43,7 @@ summary: |
 
 [周报 #43 - In the Mood for Love -  PSEUDOYU](https://www.pseudoyu.com/zh/2023/07/10/weekly_review_20230710/)
 
-### 修改 Mac 上所有代码文件的默认打开方式为 VS Code
+### 3.修改 Mac 上所有代码文件的默认打开方式为 VS Code
 
 Mac 上很多代码文件的打开方式是XCode。Xcode 很重很不方便，修改为常用的代码编辑器 VS Code 能更为合适。当然你也可以修改的下面的代码将它改为你想要打开文件的应用程序。
 
@@ -87,7 +89,7 @@ Failed to set default program for .html
 
 - https://stackoverflow.com/questions/26241689/lssetdefaultrolehandlerforcontenttype-in-yosemite
 
-#### Mac 安装非 App Store 上下载的应用程序提示`"XXX" is damaged and can't be opened. You should move it to the Trash`
+#### 4.Mac 安装非 App Store 上下载的应用程序提示`"XXX" is damaged and can't be opened. You should move it to the Trash`
 
 命令行输入
 
@@ -101,11 +103,11 @@ sudo xattr -r -d com.apple.quarantine /YOUR_PATH/XXX.app
 sudo xattr -r -d com.apple.quarantine /Applications/XXX.app
 ```
 
-### SVG 路径动画详解
+### 5.SVG 路径动画详解
 
 [Not a Number](https://www.nan.fyi/svg-paths)
 
-### 中国的文化输出
+### 6.中国的文化输出
 
 [Chinese Tech Terms Explained In English](https://16x.engineer/2022/10/18/chinese-tech-terms.html?continueFlag=7b4df73c1abf965d61014170a9c7633d)
 
@@ -115,7 +117,7 @@ sudo xattr -r -d com.apple.quarantine /Applications/XXX.app
 4. 大盘 (Dapan) - 用于描述带有各种图表的仪表板，可实时监视关键系统指标或业务指标。
 5. 埋点 (Maidian) - 用于嵌入跟踪代码以监视和分析用户行为。
 
-### 一个五年独立创造者踩过的那些坑
+### 7.一个五年独立创造者踩过的那些坑
 
 [一个独立创造者的五年](https://mp.weixin.qq.com/s/x6PLSIMn_1qcKnXWPT-J-Q)
 
@@ -142,7 +144,7 @@ sudo xattr -r -d com.apple.quarantine /Applications/XXX.app
 
 ## 资源
 
-### 适用于 Hugo、Hexo 的 CMS
+### 1.适用于 Hugo、Hexo 的 CMS
 
 [decap-cms](https://decapcms.org)
 
@@ -150,13 +152,13 @@ sudo xattr -r -d com.apple.quarantine /Applications/XXX.app
 
 适用于 Hugo，Hexo 等等
 
-### 在线工具网站
+### 2.在线工具网站
 
 [OnlineTools.com](https://onlinetools.com/)
 
 域名很好记：OnlineTools.com。Peter Krumin 和团队创建的。
 
-### Web3
+### 3.Web3
 
 Web 找工作：
 
