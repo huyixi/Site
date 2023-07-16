@@ -126,3 +126,4 @@ Failed to set default program for .html
 
 [麦克搜](www.imacso.com)
 
+[FileCR](https://filecr.com)

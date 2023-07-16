@@ -1,13 +1,21 @@
 ---
-title: 周刊#12：
+title: 周刊#12：历史上最热的一天
 date: 2023-07-08T03:36:00+08:00
 categories: [weekly]
 tags: [weekly]
 draft: false
-summary: |
+summary: |高温、《我在北京送快递》、Mac文件的默认打开方式
  主题：<br>
- 时间：20230625 - 20230701
+ 时间：20230708 - 20230715
 ---
+
+美国缅因大学有一个全球气候模型，根据气象站、卫星数据、计算机模拟的数据，得到全球每个地点的实时气温。
+
+[官网链接](https://climatereanalyzer.org/clim/t2_daily/)
+
+2023 年 7 月 6 日是有纪录以来最热的一天，全球平均气温达到 17.23 摄氏度。更糟糕的是，第二名和第三名，分别是今年 7 月 5 日和 7 月 4 日。
+
+——摘自阮一峰的[博客](https://www.ruanyifeng.com/blog/2023/07/weekly-issue-262.html)
 
 ## 阅读
 
@@ -77,9 +85,9 @@ Failed to set default program for .html
 
 - [Launch Service API failure with specific UTI ](https://developer.apple.com/forums/thread/50029)
 
-- [](https://stackoverflow.com/questions/26241689/lssetdefaultrolehandlerforcontenttype-in-yosemite)
+- https://stackoverflow.com/questions/26241689/lssetdefaultrolehandlerforcontenttype-in-yosemite
 
-#### 应用程序提示`"XXX" is damaged and can't be opened. You should move it to the Trash`
+#### Mac 安装非 App Store 上下载的应用程序提示`"XXX" is damaged and can't be opened. You should move it to the Trash`
 
 命令行输入
 
@@ -92,8 +100,6 @@ sudo xattr -r -d com.apple.quarantine /YOUR_PATH/XXX.app
 ```bash
 sudo xattr -r -d com.apple.quarantine /Applications/XXX.app
 ```
-
-
 
 ### SVG 路径动画详解
 
@@ -109,6 +115,8 @@ sudo xattr -r -d com.apple.quarantine /Applications/XXX.app
 4. 大盘 (Dapan) - 用于描述带有各种图表的仪表板，可实时监视关键系统指标或业务指标。
 5. 埋点 (Maidian) - 用于嵌入跟踪代码以监视和分析用户行为。
 
+### 一个五年独立创造者踩过的那些坑
+
 [一个独立创造者的五年](https://mp.weixin.qq.com/s/x6PLSIMn_1qcKnXWPT-J-Q)
 
 独立开发者需要避免的：
@@ -117,7 +125,7 @@ sudo xattr -r -d com.apple.quarantine /Applications/XXX.app
 - 一次性收费
 - 内容产品：需要生产新内容（或者提供平台让人/机器生产）
 
-要做的：
+独立开发者要做的：
 
 - 做数据：让朋友帮忙好评，让已经使用的用户帮忙好评
 - 给潜在的客户 DM(direct Message)
@@ -132,49 +140,45 @@ sudo xattr -r -d com.apple.quarantine /Applications/XXX.app
 
 越来越觉得，在网上发生共鸣的人更多。（这句话也是之前一位博主说的哈哈哈）
 
-
-
 ## 资源
+
+### 适用于 Hugo、Hexo 的 CMS
 
 [decap-cms](https://decapcms.org)
 
-A Git-based CMS for Static Site Generators
+官方简介：A Git-based CMS for Static Site Generators。
 
 适用于 Hugo，Hexo 等等
 
-[在线工具网站](https://onlinetools.com/)
+### 在线工具网站
 
-很好记的域名：OnlineTools.com Peter Krumin 和团队创建的。
+[OnlineTools.com](https://onlinetools.com/)
+
+域名很好记：OnlineTools.com。Peter Krumin 和团队创建的。
 
 ### Web3
 
-Web 工作：
+Web 找工作：
 
-[WEB3 JOBS](https://web3.career)
+- [WEB3 JOBS](https://web3.career)
 
-学习资源
+学习资源：
 
-[WTF 学院](https://www.wtf.academy)中文 Web 3 学习平台
+- [WTF 学院](https://www.wtf.academy)- 中文 Web 3 学习平台
 
-[Alchemy University](https://university.alchemy.com/home)
+- [Alchemy University](https://university.alchemy.com/home)
 
-[buildspace](https://buildspace.so)
-
-通过实践学习
-
-
-
-
+- [buildspace](https://buildspace.so) - 通过实践学习
 
 ## 说说
 
 - Learn to sell. Learn to build. If you can do both, you will be unstoppable. - Naval
 
-[Learn to Sell, Learn to Build](https://nav.al/build-sell)
+  [Learn to Sell, Learn to Build](https://nav.al/build-sell)
 
-- We rule the world. by Robert C. Martin (Uncle Bob) [The Obligation of the Programmer.](https://blog.cleancoder.com/uncle-bob/2014/11/15/WeRuleTheWorld.html)
+- We rule the world. - Robert C. Martin (Uncle Bob)
 
-
+   [The Obligation of the Programmer.](https://blog.cleancoder.com/uncle-bob/2014/11/15/WeRuleTheWorld.html)
 
 ## 不知道怎么分类的
 
