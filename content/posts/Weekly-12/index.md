@@ -162,7 +162,8 @@ Web 找工作：
 
 - [WEB3 JOBS](https://web3.career)
 
-学习资源：
+[Markdown 转 EPUB](https://products.aspose.app/words/conversion/md-to-epub)
+
 
 - [WTF 学院](https://www.wtf.academy)- 中文 Web 3 学习平台
 
