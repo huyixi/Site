@@ -1,12 +1,12 @@
 ---
 title: 周刊#14：英语
-date: 2023-07-08T03:36:00+08:00
+date: 2023-07-24T00:00:00+08:00
 categories: [weekly]
 tags: [weekly]
 draft: false
 summary: |
  主题：英语<br>
- 时间：20230716 - 20230723
+ 时间：20230723 - 20230729
 ---
 
 ## 动态
@@ -152,3 +152,49 @@ summary: |
    注意：需要先有输入，再练口语，不要在没有输入的情况下（听读写作要先进行一段时间）直接练习口语
 
 要坚持大于半年的时间，否则很难提高。
+
+### 提高阅读速度的方法
+
+⚠️：阅读速度提高的代价是理解能力的下降。
+
+少看垃圾文字可能是更好的办法。
+
+- 多阅读
+- 当你更了解一个词，你的速度就会越快
+- 预览材料
+  - 通过标题，首尾句，关键词判断材料内容
+  - 跳过你知道的内容
+- 避免默读
+  - 咀嚼口香糖
+  
+  - 默念其他东西（比如1234，元音 A-E-I-O-U 等等）
+  
+  - 听无歌词的音乐分散注意力
+- 避免回视
+  - 卡片盖住看过的内容
+- 使用手指/笔指引眼睛
+- 意群阅读
+
+参考链接：
+
+[So Much to Read, So Little Time: How Do We Read, and Can Speed Reading Help?](https://journals.sagepub.com/doi/10.1177/1529100615623267)
+
+[How to Read Fast](https://www.wikihow.com/Read-Fast)
+
+[How to Read Faster](https://www.wikihow.com/Read-Faster)
+
+[How to Read a Long Chapter Book in Two or Three Hours](https://www.wikihow.com/Read-a-Long-Chapter-Book-in-Two-or-Three-Hours)
+
+[How to Stop Subvocalization](https://www.wikihow.com/Stop-Subvocalization)
+
+
+
+## 说说
+
+Today, I’m getting married. On this blog, I talk a lot about decision-making, data-driven analysis, and looking at everything through a critically technical lens.
+
+But, this was the easiest decision I’ve ever made, and it came from the heart. See you tomorrow.
+
+翻译：我常在博客中讨论数据分析和如何做决定，用理性和技术的视角看待一切。而今天我结婚了，这是我做过最轻松、最发自内心的决定。
+
+[On Getting Married](https://matt-rickard.com/on-getting-married)
