@@ -11,6 +11,10 @@ summary: |
 
 ## 动态
 
+git config --global alias.lg "log --oneline --all --graph --decorate"
+
+git lg
+
 ## 阅读
 
 ### 《GRE & GMAT阅读难句教程》 - 杨鹏
