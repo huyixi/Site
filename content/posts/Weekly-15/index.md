@@ -11,6 +11,14 @@ summary: |
 
 
 
+
+
+## R.I.P.
+
+### VIM 作者 Bram Moolenaar 逝世
+
+![](https://raw.githubusercontent.com/huyixi/Pics/main/VIM.JPG)
+
 ## 技巧
 
 ### 命令行打开远程仓库
@@ -61,14 +69,30 @@ OP 可以更换为你所想要的其他任何别名
    source ~/.bashrc  # 或 source ~/.zshrc 或 source ~/.bash_profile
    ```
 
+### Prompt
+
+-  Khanmigo: 对于提交的结果，不直接给出答案，而是先判断答案是否正确。如果错误，让学生解释他们的推理过程，纠正概念上的错误。
+
 ## 资源
+
+### CSS 转为 SASS 工具
 
 [CONVERT CSS TO SASS / SCSS](http://css2sass.herokuapp.com)
 
-CSS 转为 SASS
+### 中文导航站
 
 [川流](https://chuanliu.org)
 
 川流是一个博客导航站，发起于“**中文博客圈微信群**”。
 
+### AI 学英语
+
 [PrettyPolly](https://www.prettypolly.app/app)
+
+[MyShell](https://myshell.ai)
+
+## 工具
+
+### 苹果免越狱定位修改器
+
+[LocationSimulator](https://github.com/Schlaubischlump/LocationSimulator)
