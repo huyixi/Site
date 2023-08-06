@@ -5,13 +5,9 @@ categories: [weekly]
 tags: [weekly]
 draft: false
 summary: |
- 主题：<br>
+ 主题：VIM 作者逝世<br>
  时间：20230729 - 20230804
 ---
-
-
-
-
 
 ## R.I.P.
 
