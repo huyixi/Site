@@ -1,12 +1,43 @@
 ---
 title: Mac 使用指南
 date: 2023-06-01T02:53:00+08:00
-categories: [Mac]
-tags: [inbox]
+categories: [Blog]
+tags: [Mac]
 draft: false
 ---
 
 # Mac 使用指南
+
+## 软件
+
+### Mackup
+
+备份 Mac 上的应用设置
+
+- [仓库地址](https://github.com/lra/mackup)
+
+- [文档](https://github.com/lra/mackup/blob/master/doc/README.md)
+
+#### issue:
+
+备份 iTerm2 错误
+
+```bash
+brew install the_silver_searcher
+ag -U -g iterm2.cfg $(brew --prefix)
+```
+
+```
+[application]
+name = iTerm2
+[configuration_files]
+Library/Preferences/com.googlecode.iterm2.plist
+
+[xdg_configuration_files]
+$XDG_CONFIG_HOME/iterm2/AppSupport/DynamicProfiles
+```
+
+## ISSUE
 
 #### 应用程序提示`"XXX" is damaged and can't be opened. You should move it to the Trash`
 
@@ -21,8 +52,6 @@ sudo xattr -r -d com.apple.quarantine /YOUR_PATH/XXX.app
 ```bash
 sudo xattr -r -d com.apple.quarantine /Applications/XXX.app
 ```
-
-
 
 
 
@@ -68,7 +97,7 @@ Failed to set default program for .html
 - [Launch Service API failure with specific UTI ](https://developer.apple.com/forums/thread/50029)
 - https://stackoverflow.com/questions/26241689/lssetdefaultrolehandlerforcontenttype-in-yosemite
 
-#### 如何删除系统自带的输入法？
+#### 删除系统自带输入法
 
 通过系统的输入法设置面板删除输入法最终还会剩下一个 ABC 的英文输入法。因为我使用的是 Rime 输入法，系统配置了额外的一个输入法会导致切换不方便，所以需要删除该输入法。
 
@@ -120,10 +149,8 @@ Failed to set default program for .html
 
 6. 重新进入系统，此时的风险提示就消失了
 
+### 下载站点
 
+- [麦克搜](www.imacso.com)
 
-### Mac 软件下载
-
-[麦克搜](www.imacso.com)
-
-[FileCR](https://filecr.com)
+- [FileCR](https://filecr.com)

@@ -11,9 +11,13 @@ summary: |
 
 ## 动态
 
+### 创建 Git 历史视图
+
+```bash
 git config --global alias.lg "log --oneline --all --graph --decorate"
 
 git lg
+```
 
 ## 阅读
 
