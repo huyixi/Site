@@ -68,7 +68,11 @@ Build websites even faster with components on top of Tailwind CSS
 
 它有很多精美的、现成的UI代码，都是基于 TailwindCSS。这也就意味着，只需要复制过去就能直接使用，非常方面，极大地提升了开发效率。
 
+### TailwindCSS Cheat Sheet
 
+[Tailwind CSS Cheat Sheet](https://flowbite.com/tools/tailwind-cheat-sheet/)
+
+[tailwindcomponents | Cheatsheet](https://tailwindcomponents.com/cheatsheet/)
 
 ## 工具
 
