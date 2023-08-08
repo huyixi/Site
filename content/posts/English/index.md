@@ -55,3 +55,21 @@ summary: |
 [官网](https://www.ielts.org)
 
 [🇨🇳中国考点](https://ielts.neea.cn/showTestCenters)
+
+
+
+## 工具
+
+### AI 口语助手
+
+- [PrettyPolly](https://www.prettypolly.app/app)
+
+- [MyShell](https://myshell.ai/)
+
+## 资源
+
+#### awesome-english-ebooks
+
+[awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks)
+
+经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持epub、mobi、pdf格式, 每周更新

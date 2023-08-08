@@ -39,6 +39,16 @@ $XDG_CONFIG_HOME/iterm2/AppSupport/DynamicProfiles
 
 ## ISSUE
 
+### 中文输入法卡死
+
+#### 解决方案:
+
+- 换成第三方输入法,如 Rime
+
+- ```bash
+  pkill -9 SCIM_Extension
+  ```
+
 #### 应用程序提示`"XXX" is damaged and can't be opened. You should move it to the Trash`
 
 命令行输入
