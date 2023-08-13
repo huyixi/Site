@@ -1,0 +1,14 @@
+<article class="prose mx-4 max-w-full dark:prose-invert">
+  <h1 class="mb-2 text-3xl">
+    Hi, I'm
+    <a
+      href="/about"
+      class="font-extrablod text-4xl underline underline-offset-2 hover:text-blue-500"
+      >huyixi</a
+    >.
+  </h1>
+  <section>{{ .Content | emojify }}</section>
+</article>
+<section>
+  {{ partial "recent-articles.html" . }}
+</section>

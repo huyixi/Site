@@ -1,0 +1,34 @@
+{{/* Determine the correct context and scope */}}
+{{/* This allows for different logic depending on where the partial is called */}}
+{{ $context := . }}
+{{ $scope := default nil }}
+
+{{ if (reflect.IsMap . ) }}
+  {{ $context = .context }}
+  {{ $scope = cond (not .scope) nil .scope }}
+{{ end }}
+
+{{ with $context }}
+  {{ $meta := newScratch }}
+
+  {{ with .Params.categories }}
+    <div class="article-categories">
+      {{ range . }}
+        <a href="{{ "categories" | relLangURL }}/{{ . | urlize }}" class="category-link">{{ . }}</a>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  {{/* Gather partials for this context */}}
+  {{ if .Params.showDate | default (.Site.Params.article.showDate | default true) }}
+    {{ $meta.Add "partials" (slice (partial "meta/date.html" .Date)) }}
+  {{ end }}
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    {{/* Output partials */}}
+    {{ with ($meta.Get "partials") }}
+      {{ delimit . "<span class=\"px-2 text-primary-500\">&middot;</span>" }}
+    {{ end }}
+  </div>
+{{ end }}

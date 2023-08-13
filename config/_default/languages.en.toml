@@ -1,26 +1,26 @@
 languageCode = "en"
 languageName = "English"
-displayName = "EN"
-isoCode = "en"
 weight = 1
-rtl = false
 
 title = "huyixi"
-description = "My awesome website"
 # copyright = "Copy, _right?_ :thinking_face:"
 
-dateFormat = "2 January 2006"
-
 [params]
-mainSections = ["posts", "projects","read"]
+  isoCode = "en"
+  displayName = "EN"
+
+  dateFormat = "2 January 2006"
+
+  mainSections = ["posts"]
+  description = "My awesome website"
 
 [author]
-name = "huyixi"
-image = "img/author.jpg"
-headline = "I'm only human"
-bio = "A little bit about you"
-links = [
-     { email = "mailto:hi@huyixi.com" },
+  name = "huyixi"
+  image = "img/author.png"
+  headline = "I'm only human"
+  bio = "A little bit about you"
+  # links = [
+  #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
@@ -32,7 +32,7 @@ links = [
   #   { facebook = "https://facebook.com/username" },
   #   { flickr = "https://www.flickr.com/photos/username/" },
   #   { foursquare = "https://foursquare.com/username" },
-     { github = "https://github.com/huyixi" },
+  #   { github = "https://github.com/username" },
   #   { gitlab = "https://gitlab.com/username" },
   #   { google = "https://www.google.com/" },
   #   { hashnode = "https://username.hashnode.dev" },
@@ -61,4 +61,4 @@ links = [
   #   { twitter = "https://twitter.com/username" },
   #   { whatsapp = "https://wa.me/phone-number" },
   #   { youtube = "https://youtube.com/username" },
-   ]
+  # ]

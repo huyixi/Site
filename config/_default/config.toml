@@ -1,20 +1,23 @@
 # -- Site Configuration --
-# Refer to the theme docs for more details about each of these parameters.
-# https://jpanther.github.io/congo/docs/getting-started/
-theme = "congo"
 
-baseURL = "https://huyixi.com/"
+baseURL = "http://localhost:1313/"
 defaultContentLanguage = "en"
+theme = "blue"
 
-enableRobotsTXT = false
-paginate = 10
+enableRobotsTXT = true
+paginate = 30
 summaryLength = 0
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
-[features]
-  disableLanguageSwitch = true
+[languages]
+  [languages.en]
+    weight = 1
+    contentDir = "content/en"
+    languageName = "English"
 
-[build]
-ignoreErrors = ["error-remote-getjson"]
+  [languages.zh]
+    weight = 2
+    contentDir = "content/zh"
+    languageName = "中文"

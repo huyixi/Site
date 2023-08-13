@@ -1,0 +1,54 @@
+{{/* {{ $iconName := "" }}
+{{ $isActive := false }}
+
+{{ if isset . "iconName" }}
+  {{ $iconName = .iconName }}
+  {{ $isActive = .isActive }}
+{{ else }}
+  {{ $iconName = . }}
+{{ end }}
+
+{{- $icon := resources.Get (print "icons/" $iconName ".svg") -}}
+
+{{- if $icon -}}
+  <span
+    class="icon {{ if $isActive }}
+      text-blue-500
+    {{ else }}
+      text-gray-500
+    {{ end }}  relative inline-block  transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  >
+    {{- $icon.Content | safeHTML -}}
+  </span>
+{{- end -}}
+
+*/}}
+{{ $iconName := "" }}
+{{ $isActive := false }}
+{{ $customClasses := "" }}
+{{/* 新增的变量 */}}
+
+{{ if isset . "iconName" }}
+  {{ $iconName = .iconName }}
+  {{ $isActive = .isActive }}
+  {{ with .class }}
+    {{/* 获取自定义类 */}}
+    {{ $customClasses = . }}
+  {{ end }}
+{{ else }}
+  {{ $iconName = . }}
+{{ end }}
+
+{{- $icon := resources.Get (print "icons/" $iconName ".svg") -}}
+
+{{- if $icon -}}
+  <span
+    class="icon {{ if $isActive }}
+      text-blue-500
+    {{ else }}
+      text-gray-500
+    {{ end }} {{ $customClasses }} relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  >
+    {{- $icon.Content | safeHTML -}}
+  </span>
+{{- end -}}

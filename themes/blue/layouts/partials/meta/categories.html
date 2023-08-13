@@ -1,0 +1,12 @@
+{{ with .Params.categories }}
+  <div class="categories">
+    <span class="category-label">{{ i18n "categories" | markdownify | emojify }}:</span>
+    {{ range . }}
+      <span class="category-item">
+        <a href="{{ "categories" | relURL }}/{{ . | urlize }}">
+          {{ . | markdownify | emojify }}
+        </a>
+      </span>
+    {{ end }}
+  </div>
+{{ end }}
