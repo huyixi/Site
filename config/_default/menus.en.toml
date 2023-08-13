@@ -2,7 +2,7 @@
   name = "Home"
   pageRef = "/"
   weight = 1
-  [[main.params]]
+  [main.params]
     icon = "house-solid"
     showName = false
 
@@ -10,16 +10,15 @@
   name = "Project"
   pageRef = "projects"
   weight = 10
-  [[main.params]]
+  [main.params]
     icon = "app-store-ios"
     showName = false
-
 
 [[main]]
   name = "Like"
   pageRef = "likes"
   weight = 20
-  [[main.params]]
+  [main.params]
     icon = "heart-solid"
     showName = false
 
