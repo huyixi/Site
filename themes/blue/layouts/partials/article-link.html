@@ -38,17 +38,25 @@
 
 
         <!-- 标题部分 -->
-        <h2
-          class="mb-1 mt-4 text-xl font-semibold text-black group-hover:text-red-600 dark:text-white"
-        >
-          {{ $.Title | emojify }}
-        </h2>
+        {{- with $feature }}
+          <h2
+            class="mb-1 mt-4 text-xl font-semibold text-black group-hover:text-red-600 dark:text-white"
+          >
+            {{ $.Title | emojify }}
+          </h2>
+        {{- else }}
+          <h2
+            class="mb-1 text-xl font-semibold text-black group-hover:text-red-600 dark:text-white"
+          >
+            {{ $.Title | emojify }}
+          </h2>
+        {{- end }}
+
 
         <!-- 摘要部分 -->
         {{ if .Params.showSummary | default (.Site.Params.list.showSummary | default false) }}
           <p class="text-base text-gray-400">{{ .Summary | emojify }}</p>
         {{ end }}
-
       </div>
     </a>
   </header>
