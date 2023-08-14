@@ -85,7 +85,7 @@ body button {
 /* -- Chroma Highlight -- */
 /* Background */
 .chroma {
-  @apply rounded-md bg-neutral-50 py-3 text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200;
+  @apply rounded-md bg-neutral-200 py-3 text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200;
 }
 .chroma pre {
   @apply m-0 p-0;
