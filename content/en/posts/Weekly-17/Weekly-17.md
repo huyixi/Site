@@ -65,11 +65,11 @@ summary:
 
 ## 说说
 
-- ![image-20230820212924889](/Users/huyixi/Library/Application Support/typora-user-images/image-20230820212924889.png)
+- ![image-20230820212924889](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20230820212924889.png)
 - For task management, it is possible to quantify data and see your own growth, so that you will have greater sense of achievement. - Yiming Zhang
 - Avoid producvity pron - Sam Altman
 - Find the methods of Compound interest -  Sam Altman
-- ![image-20230820211800698](/Users/huyixi/Library/Application Support/typora-user-images/image-20230820211800698.png)
-- ![image-20230820211855853](/Users/huyixi/Library/Application Support/typora-user-images/image-20230820211855853.png)
-- ![image-20230820212847856](/Users/huyixi/Library/Application Support/typora-user-images/image-20230820212847856.png)
+- ![image-20230820211800698](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20230820211800698.png)
+- ![image-20230820211855853](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20230820211855853.png)
+- ![image-20230820212847856](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20230820212847856.png)
 
