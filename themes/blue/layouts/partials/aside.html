@@ -108,12 +108,11 @@
       <!-- Current Language Icon -->
       {{ if eq .Site.Language.Lang "en" }}
         <a href="/zh" class="flex items-center" aria-label="Switch to Chinese">
-          {{/* {{ partial "icon.html" "lang-en" }} */}}
           {{ partial "icon.html" (dict "iconName" "lang-en-day" "class" "dark:hidden") }}
           {{ partial "icon.html" (dict "iconName" "lang-en-night" "class" "hidden dark:block") }}
         </a>
       {{ else }}
-        <a href="/en" class="flex  items-center" aria-label="Switch to English">
+        <a href="/" class="flex  items-center" aria-label="Switch to English">
           {{ partial "icon.html" (dict "iconName" "lang-zh-day" "class" "dark:hidden") }}
           {{ partial "icon.html" (dict "iconName" "lang-zh-night" "class" "hidden dark:block") }}
         </a>

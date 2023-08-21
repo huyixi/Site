@@ -1,6 +1,6 @@
 # -- Site Configuration --
 
-baseURL = "http://localhost:1313/"
+baseURL = "https://huyixi.com"
 defaultContentLanguage = "en"
 theme = "blue"
 
