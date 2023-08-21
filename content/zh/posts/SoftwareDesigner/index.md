@@ -19,7 +19,11 @@ summary: 软考中级-软件设计师备考之路
 
 下午 14:00-16:30 : 应用技术
 
-### 考核内容
+### 通过要求
+
+**45 分 +**
+
+![290e04a7ebb8ce6ac20d56ffb5f84f5e](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/290e04a7ebb8ce6ac20d56ffb5f84f5e.png)考核内容
 
 - 计算机相关基础知识；
 - 常用数据结构和常用算法;
@@ -72,6 +76,10 @@ summary: 软考中级-软件设计师备考之路
 >（2）软件设计，考试时间为150分钟，笔试，问答题。
 
 
+
+## 真题
+
+[小任老师 - 51CTO](https://blog.51cto.com/u_8381666)
 
 ## 相关链接
 
