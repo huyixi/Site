@@ -164,21 +164,18 @@ Failed to set default program for .html
 1. **Create a global `.gitignore` file** (if it doesn't already exist):
 
    ```bash
-   bashCopy code
    touch ~/.gitignore_global
    ```
-
+   
 2. **Edit this file** and add `.DS_Store`:
 
    ```bash
-   bashCopy code
    echo ".DS_Store" >> ~/.gitignore_global
    ```
-
+   
 3. **Configure Git to use this file as the global `.gitignore`**:
 
    ```bash
-   bashCopy code
    git config --global core.excludesfile ~/.gitignore_global
    ```
 
