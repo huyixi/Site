@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>element on 胡一希</title>
+    <link>https://huyixi.com/zh/tags/element/</link>
+    <description>Recent content in element on 胡一希</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Aug 2023 21:21:00 +0800</lastBuildDate><atom:link href="https://huyixi.com/zh/tags/element/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>季度选择器组件（ElementUI）</title>
+      <link>https://huyixi.com/zh/posts/element-ui-quarterpicker/</link>
+      <pubDate>Tue, 01 Aug 2023 21:21:00 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/element-ui-quarterpicker/</guid>
+      <description>主题：季度选择器组件（ElementUI）&lt;br&gt;
+时间：20230729 - 20230804</description>
+    </item>
+    
+  </channel>
+</rss>
