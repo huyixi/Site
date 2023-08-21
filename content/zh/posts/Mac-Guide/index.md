@@ -159,6 +159,38 @@ Failed to set default program for .html
 
 6. 重新进入系统，此时的风险提示就消失了
 
+### 全局移除 .DS_Store 的 git 跟踪
+
+1. **Create a global `.gitignore` file** (if it doesn't already exist):
+
+   ```bash
+   bashCopy code
+   touch ~/.gitignore_global
+   ```
+
+2. **Edit this file** and add `.DS_Store`:
+
+   ```bash
+   bashCopy code
+   echo ".DS_Store" >> ~/.gitignore_global
+   ```
+
+3. **Configure Git to use this file as the global `.gitignore`**:
+
+   ```bash
+   bashCopy code
+   git config --global core.excludesfile ~/.gitignore_global
+   ```
+
+对于已经提交跟踪的仓库:
+
+```bash
+git rm --cached .DS_Store
+git commit -m "Removed .DS_Store from repository
+```
+
+
+
 ### 下载站点
 
 - [麦克搜](www.imacso.com)
