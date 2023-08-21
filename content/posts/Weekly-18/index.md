@@ -63,3 +63,10 @@ http://wufazhuce.com/question/3881
 >我渴望的是在一个稳定的环境默默耕耘，把坏的变成好的，但是前提是我们够团队，你呢？凭你作为一个过来人的经验吗？这些东西经过时间大家都会有的，你还有其他的吗？你真的有能力把我变成你的三头六臂吗？你真的控制得住我吗？”
 >
 >复述其实没那么精彩了，他支着手目光瞪着总裁的眼睛的时候超级精彩，后面他去了一个对手小公司，相当于这边的市值来了，相差了十倍之多，但是七个月之后再见面已是兵刃交接，他成了六个人团队的小主管，[耀武扬威](https://www.zhihu.com/search?q=耀武扬威&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A1768006207})地围着我们总部办公地盘下了一圈广告。
+
+
+
+## 资源
+
+- [心的道理](https://stephenleng.com/)
+- [This Cute World](https://thiscute.world/)
