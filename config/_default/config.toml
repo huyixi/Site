@@ -1,7 +1,7 @@
 # -- Site Configuration --
 
 baseURL = "https://huyixi.com/"
-defaultContentLanguage = "zh"
+defaultContentLanguage = "zh-CN"
 defaultContentLanguageInSubdir = true
 theme = "blue"
 
@@ -13,7 +13,7 @@ summaryLength = 0
   home = ["HTML", "RSS", "JSON"]
 
 [languages]
-  [languages.zh]
+  [languages.zh-CN]
     weight = 1
     languageName = "简体中文"
 
