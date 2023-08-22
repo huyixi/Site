@@ -1,5 +1,5 @@
 <article
-  class="my-8 rounded-2xl border border-gray-300 transition-shadow-transform duration-300 ease-out hover:shadow-xl hover:shadow-blue-500/50 dark:border-gray-700 "
+  class="my-8 overflow-hidden rounded-2xl border border-gray-300 transition-shadow-transform duration-300 ease-out hover:shadow-xl hover:shadow-blue-500/50 dark:border-gray-700 "
 >
   <!-- 获取图片资源 -->
   {{- $images := $.Resources.ByType "image" }}
@@ -17,11 +17,11 @@
       title="{{ $.Title | emojify }}"
       class="group"
     >
-      <div class="p-4 pb-5 ">
+      <div>
         <!-- 图片部分 -->
         {{- with $feature }}
-          <div class="overflow-hidden rounded-xl">
-            <picture>
+          <div class="overflow-hidden">
+            <picture class="overflow-hidden">
               <source srcset="{{ .RelPermalink }}" type="image/webp" />
               <source srcset="{{ .RelPermalink }}" type="image/jpeg" />
               <img
@@ -30,7 +30,7 @@
                 {{ if $.Site.Params.enableImageLazyLoading | default true }}
                   loading="lazy"
                 {{ end }}
-                class="transform rounded-xl border transition-transform duration-500 group-hover:scale-105 dark:border-gray-600"
+                class="transform  transition-transform duration-500 group-hover:scale-105 dark:border-gray-600"
               />
             </picture>
           </div>
@@ -38,17 +38,18 @@
 
 
         <!-- 标题部分 -->
-        <h2
-          class="mb-1 mt-4 text-xl font-semibold text-black group-hover:text-red-600 dark:text-white"
-        >
-          {{ $.Title | emojify }}
-        </h2>
+        <div class="p-8">
+          <h2
+            class="mb-1 mt-1 text-xl font-semibold text-black group-hover:text-blue-500 dark:text-white"
+          >
+            {{ $.Title | emojify }}
+          </h2>
 
-        <!-- 摘要部分 -->
-        {{ if .Params.showSummary | default (.Site.Params.list.showSummary | default false) }}
-          <p class="text-base text-gray-400">{{ .Summary | emojify }}</p>
-        {{ end }}
-
+          <!-- 摘要部分 -->
+          {{ if .Params.showSummary | default (.Site.Params.list.showSummary | default false) }}
+            <p class="text-base text-gray-400">{{ .Summary | emojify }}</p>
+          {{ end }}
+        </div>
       </div>
     </a>
   </header>
