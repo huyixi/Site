@@ -1,7 +1,7 @@
 ---
 title: "Weekly 18"
 date: 2023-08-21T14:37:13+08:00
-draft: true
+draft: false
 tags: []
 category: [Weekly]
 summary: 
