@@ -1,3 +1,6 @@
+hello:
+  title: "你好，我是"
+  author: "胡一希"
 article:
   anchor_label: "锚点"
   date: "{{ .Date }}"
