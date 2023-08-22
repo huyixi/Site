@@ -1,0 +1,13 @@
+{{ define "contentWrapper" }}
+  <div class="like max-h-screen snap-y snap-mandatory overflow-y-auto sm:ml-16">
+    <div class="read-page h-screen snap-center bg-red-500">
+      <ul>
+        {{ range .Site.Taxonomies.categories.like }}
+          {{ if in .Page.Params.categories "Book" }}
+            {{ partial "book-link.html" . }}
+          {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+{{ end }}
