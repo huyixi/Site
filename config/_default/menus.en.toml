@@ -16,7 +16,7 @@
 
 [[main]]
   name = "Like"
-  pageRef = "likes"
+  pageRef = "like"
   weight = 20
   [main.params]
     icon = "heart-solid"

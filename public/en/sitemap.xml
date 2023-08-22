@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+  
+    
+      <url>
+            <loc>https://huyixi.com/en/about/</loc>
+            <xhtml:link
+              rel="alternate"
+              hreflang="zh"
+              href="https://huyixi.com/zh/about/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://huyixi.com/en/about/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://huyixi.com/en/like/</loc>
+            <xhtml:link
+              rel="alternate"
+              hreflang="zh"
+              href="https://huyixi.com/zh/like/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://huyixi.com/en/like/"
+              />
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://huyixi.com/en/</loc>
+            <xhtml:link
+              rel="alternate"
+              hreflang="zh"
+              href="https://huyixi.com/zh/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://huyixi.com/en/"
+              />
+          </url>
+    
+  
+</urlset>

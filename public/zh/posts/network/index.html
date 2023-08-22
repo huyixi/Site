@@ -1,0 +1,844 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="zh
+  "
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head>
+  <meta charset="utf-8" />
+  
+    <meta http-equiv="content-language" content="en" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="rgb(255,255,255)" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title> &middot; 胡一希</title>
+    <meta name="title" content=" &middot; 胡一希" />
+  
+  <meta
+    name="description"
+    content="
+      
+        OSI 模型 # 层次 中文名 英文名 第7层 应用层 Application Layer 第6层 表示层 Presentation Layer 第5层 会话层 Session Layer 第4层 传输层 Transport Layer 第3层 网络层 Network Layer 第2层 数据链路层 Data Link Layer 第1层 物理层 Physical Layer 各层次的必要性 # 物理层：向下屏蔽物理介质实现的细节，使物理层之上的层次不再操心物理学
+      
+    "
+  />
+  
+  
+  
+  <link rel="canonical" href="https://huyixi.com/zh/posts/network/" />
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.081502663c6a5b7d7372ec91fce9dfac8cc56f6350bd11351be71f332d7cabe6.css"
+    integrity="sha256-CBUCZjxqW31zcuyR/OnfrIzFb2NQvRE1G&#43;cfMy18q&#43;Y="
+  />
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/appearance.min.022d0ebc3b46a335eb1c7ef79b7f2de143d7cd5156d433638592ef1ce5f8554e.js"
+    integrity="sha256-Ai0OvDtGozXrHH73m38t4UPXzVFW1DNjhZLvHOX4VU4="
+  ></script>
+  
+    
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="/js/main.bundle.min.c688db1973a8a9f7b64acb63b365842347e63be0dd7e75c319cd9e87a784ebb5.js"
+      integrity="sha256-xojbGXOoqfe2Sstjs2WEI0fmO&#43;DdfnXDGc2eh6eE67U="
+      data-copy=""
+      data-copied=""
+    ></script>
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="" />
+<meta property="og:description" content="OSI 模型 # 层次 中文名 英文名 第7层 应用层 Application Layer 第6层 表示层 Presentation Layer 第5层 会话层 Session Layer 第4层 传输层 Transport Layer 第3层 网络层 Network Layer 第2层 数据链路层 Data Link Layer 第1层 物理层 Physical Layer 各层次的必要性 # 物理层：向下屏蔽物理介质实现的细节，使物理层之上的层次不再操心物理学" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://huyixi.com/zh/posts/network/" /><meta property="article:section" content="posts" />
+
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="OSI 模型 # 层次 中文名 英文名 第7层 应用层 Application Layer 第6层 表示层 Presentation Layer 第5层 会话层 Session Layer 第4层 传输层 Transport Layer 第3层 网络层 Network Layer 第2层 数据链路层 Data Link Layer 第1层 物理层 Physical Layer 各层次的必要性 # 物理层：向下屏蔽物理介质实现的细节，使物理层之上的层次不再操心物理学"/>
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Blog",
+    "name": "",
+    "headline": "",
+    
+    "abstract": "OSI 模型 # 层次 中文名 英文名 第7层 应用层 Application Layer 第6层 表示层 Presentation Layer 第5层 会话层 Session Layer 第4层 传输层 Transport Layer 第3层 网络层 Network Layer 第2层 数据链路层 Data Link Layer 第1层 物理层 Physical Layer 各层次的必要性 # 物理层：向下屏蔽物理介质实现的细节，使物理层之上的层次不再操心物理学",
+    "inLanguage": "en",
+    "url" : "https:\/\/huyixi.com\/zh\/posts\/network\/",
+    "author" : {
+      "@type": "Person",
+      "name": "huyixi"
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "302"
+  }]
+  </script>
+
+
+  
+  <meta name="author" content="huyixi" />
+  
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+  
+  
+</head>
+<body class="dark:border-1 flex h-screen flex-col text-lg  dark:bg-neutral-950 dark:text-white">
+    
+
+
+<aside
+  class="relative z-50 mx-auto mt-8 w-11/12 rounded-2xl bg-gray-200 p-0 dark:border-2 dark:border-gray-900 dark:bg-neutral-900 sm:fixed sm:left-0 sm:top-0 sm:m-0 sm:h-full sm:w-16 sm:rounded-none sm:py-16"
+>
+  <nav class="flex h-16 flex-row items-center sm:h-48 sm:flex-col">
+    
+    
+      <ul class="flex h-full w-full list-none flex-row justify-evenly sm:w-auto sm:flex-col">
+        
+          
+            
+            <li class="my-2 flex items-center">
+              
+                <a
+                  href="/zh/"
+                  title="Hi, I&#39;m huyixi."
+                  
+                >
+                  
+                    <span>
+                      
+                      
+
+
+
+
+
+  
+  
+  
+<span
+    class="icon 
+      text-gray-500
+      relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="currentColor" d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg></span>
+                    </span></a>
+              
+            </li>
+          
+            
+            <li class="my-2 flex items-center">
+              
+                <a
+                  href="/zh/projects/"
+                  title="Project!"
+                  
+                >
+                  
+                    <span>
+                      
+                      
+
+
+
+
+
+  
+  
+  
+<span
+    class="icon 
+      text-gray-500
+      relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="currentColor" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM127 384.5c-5.5 9.6-17.8 12.8-27.3 7.3-9.6-5.5-12.8-17.8-7.3-27.3l14.3-24.7c16.1-4.9 29.3-1.1 39.6 11.4L127 384.5zm138.9-53.9H84c-11 0-20-9-20-20s9-20 20-20h51l65.4-113.2-20.5-35.4c-5.5-9.6-2.2-21.8 7.3-27.3 9.6-5.5 21.8-2.2 27.3 7.3l8.9 15.4 8.9-15.4c5.5-9.6 17.8-12.8 27.3-7.3 9.6 5.5 12.8 17.8 7.3 27.3l-85.8 148.6h62.1c20.2 0 31.5 23.7 22.7 40zm98.1 0h-29l19.6 33.9c5.5 9.6 2.2 21.8-7.3 27.3-9.6 5.5-21.8 2.2-27.3-7.3-32.9-56.9-57.5-99.7-74-128.1-16.7-29-4.8-58 7.1-67.8 13.1 22.7 32.7 56.7 58.9 102h52c11 0 20 9 20 20 0 11.1-9 20-20 20z"/></svg></span>
+                    </span></a>
+              
+            </li>
+          
+            
+            <li class="my-2 flex items-center">
+              
+                <a
+                  href="/zh/like/"
+                  title="Like!"
+                  
+                >
+                  
+                    <span>
+                      
+                      
+
+
+
+
+
+  
+  
+  
+<span
+    class="icon 
+      text-gray-500
+      relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg></span>
+                    </span></a>
+              
+            </li>
+          
+            
+            <li class="my-2 flex items-center">
+              
+                
+                
+                  <button
+                    id="search-button-1"
+                    title=""
+                  >
+                    
+                      <span class="group-dark:hover:text-primary-400 transition-colors">
+
+
+
+
+
+  
+  
+  
+<span
+    class="icon 
+      text-gray-500
+      relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span></span><span
+                        class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >
+                        
+                      </span>
+                    
+                  </button>
+                
+              
+            </li>
+          
+
+          
+        
+
+      </ul>
+    
+  </nav>
+  <nav
+    class="bottom-8 hidden h-36 flex-grow list-none sm:absolute sm:flex sm:w-full sm:flex-col sm:items-center"
+  >
+    
+    <li class="my-2">
+      
+      
+        <a href="/en" class="flex  items-center" aria-label="Switch to English">
+          
+
+
+
+
+
+  
+  
+  
+    
+    
+  
+<span
+    class="icon 
+      text-gray-500
+     dark:hidden relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" id="translate-language">
+    <path d="M14.022,7h1a1.0013,1.0013,0,0,1,1,1V9a1,1,0,0,0,2,0V8a3.00328,3.00328,0,0,0-3-3h-1a1,1,0,0,0,0,2Zm-4,9h-1a1.0013,1.0013,0,0,1-1-1V14a1,1,0,0,0-2,0v1a3.00328,3.00328,0,0,0,3,3h1a1,1,0,0,0,0-2Z"></path>
+    <path fill="#2563eb"  d="M21.022,15a1,1,0,0,0,0-2h-3v-.5a1,1,0,0,0-2,0V13h-3a1,1,0,0,0,0,2h5.18427a6.72756,6.72756,0,0,1-1.22553,2.52667,6.66828,6.66828,0,0,1-.62915-.98272.99972.99972,0,1,0-1.77929.9121,8.67791,8.67791,0,0,0,.9591,1.468A6.6182,6.6182,0,0,1,13.10645,20.023a1.00008,1.00008,0,0,0,.42675,1.9541,8.63506,8.63506,0,0,0,3.445-1.62164,8.72368,8.72368,0,0,0,3.46857,1.62115,1,1,0,1,0,.43066-1.95312,6.72477,6.72477,0,0,1-2.4461-1.09009A8.73637,8.73637,0,0,0,20.24371,15Z"></path>
+    <path d="M9.05176,11.24268a1.00011,1.00011,0,0,0,1.94043-.48536L9.23486,3.72754a2.28107,2.28107,0,0,0-4.42578,0L3.05176,10.75732a1.00011,1.00011,0,0,0,1.94043.48536L5.5528,9H8.49115ZM6.0528,7l.69671-2.78711a.2913.2913,0,0,1,.54492,0L7.99115,7Z"></path>
+</svg>
+</span>
+          
+
+
+
+
+
+  
+  
+  
+    
+    
+  
+<span
+    class="icon 
+      text-gray-500
+     hidden dark:block relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="translate-language">
+    <path fill="#fff" d="M14.022,7h1a1.0013,1.0013,0,0,1,1,1V9a1,1,0,0,0,2,0V8a3.00328,3.00328,0,0,0-3-3h-1a1,1,0,0,0,0,2Zm-4,9h-1a1.0013,1.0013,0,0,1-1-1V14a1,1,0,0,0-2,0v1a3.00328,3.00328,0,0,0,3,3h1a1,1,0,0,0,0-2Z"></path>
+    <path fill="#2563eb"  d="M21.022,15a1,1,0,0,0,0-2h-3v-.5a1,1,0,0,0-2,0V13h-3a1,1,0,0,0,0,2h5.18427a6.72756,6.72756,0,0,1-1.22553,2.52667,6.66828,6.66828,0,0,1-.62915-.98272.99972.99972,0,1,0-1.77929.9121,8.67791,8.67791,0,0,0,.9591,1.468A6.6182,6.6182,0,0,1,13.10645,20.023a1.00008,1.00008,0,0,0,.42675,1.9541,8.63506,8.63506,0,0,0,3.445-1.62164,8.72368,8.72368,0,0,0,3.46857,1.62115,1,1,0,1,0,.43066-1.95312,6.72477,6.72477,0,0,1-2.4461-1.09009A8.73637,8.73637,0,0,0,20.24371,15Z"></path>
+    <path fill="#fff"  d="M9.05176,11.24268a1.00011,1.00011,0,0,0,1.94043-.48536L9.23486,3.72754a2.28107,2.28107,0,0,0-4.42578,0L3.05176,10.75732a1.00011,1.00011,0,0,0,1.94043.48536L5.5528,9H8.49115ZM6.0528,7l.69671-2.78711a.2913.2913,0,0,1,.54492,0L7.99115,7Z"></path>
+</svg>
+</span>
+        </a>
+      
+    </li>
+
+    
+    <li class="my-2">
+      
+      <button
+        id="appearance-switcher-1"
+        type="button"
+        aria-label="appearance switcher"
+      >
+        <span
+          class="group-dark:hover:text-primary-400 inline transition-colors dark:hidden"
+          title=""
+        >
+          
+
+
+
+
+
+  
+<span
+    class="icon 
+      text-gray-500
+      relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+        </span>
+        <span
+          class="group-dark:hover:text-primary-400 hidden transition-colors dark:inline"
+          title=""
+        >
+          
+
+
+
+
+
+  
+<span
+    class="icon 
+      text-gray-500
+      relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+        </span>
+      </button>
+    </li>
+
+    
+    <li class="my-2">
+      <a href="/about" class="flex items-center">
+        <img src="/avatar600.png" alt="Avatar" class="h-9 w-9 rounded-full" />
+      </a>
+    </li>
+  </nav>
+</aside>
+
+    <div id="site" class="mx-4 mt-16 sm:ml-20">
+      <main id="main-content" class="mx-auto w-11/12 md:w-152">
+        
+  <article>
+    <header class="max-w-prose">
+      <div class="mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+
+  
+  
+    
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="0001-01-01 00:00:00 &#43;0000 UTC"></time>
+    
+  </div>
+
+
+      </div>
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-white">
+        
+      </h1>
+      <h2 class="mt-4"></h2>
+      
+      <hr class="mb-8 mt-6 border border-neutral-200 dark:border-neutral-600" />
+    </header>
+    <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
+      <div class="min-h-0 min-w-0 max-w-prose grow">
+        <h3 id="osi-模型" class="relative group">OSI 模型 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#osi-%e6%a8%a1%e5%9e%8b" aria-label="">#</a></span></h3>
+<table>
+<thead>
+<tr>
+<th>层次</th>
+<th>中文名</th>
+<th>英文名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第7层</td>
+<td>应用层</td>
+<td>Application Layer</td>
+</tr>
+<tr>
+<td>第6层</td>
+<td>表示层</td>
+<td>Presentation Layer</td>
+</tr>
+<tr>
+<td>第5层</td>
+<td>会话层</td>
+<td>Session Layer</td>
+</tr>
+<tr>
+<td>第4层</td>
+<td>传输层</td>
+<td>Transport Layer</td>
+</tr>
+<tr>
+<td>第3层</td>
+<td>网络层</td>
+<td>Network Layer</td>
+</tr>
+<tr>
+<td>第2层</td>
+<td>数据链路层</td>
+<td>Data Link Layer</td>
+</tr>
+<tr>
+<td>第1层</td>
+<td>物理层</td>
+<td>Physical Layer</td>
+</tr>
+</tbody>
+</table>
+<h4 id="各层次的必要性" class="relative group">各层次的必要性 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%90%84%e5%b1%82%e6%ac%a1%e7%9a%84%e5%bf%85%e8%a6%81%e6%80%a7" aria-label="">#</a></span></h4>
+<p><strong>物理层</strong>：向下屏蔽物理介质实现的细节，使物理层之上的层次不再操心物理学</p>
+<p><strong>链路层</strong>：保证数据的可靠传输与错误的检测纠正，使链路层之上的层次不再操心传输过来的数据是否正确。</p>
+<p>数据链路层的存在主要是因为物理媒介的传输是有误差和干扰的，因此需要一个层次来处理和纠正传输过程中出现的错误，保证数据的可靠性。</p>
+<p>数据链路层并不是所有网络通信都必须的。例如，一些无线网络技术（如 Wi-Fi）使用的是带有纠错功能的物理层技术，可以在传输过程中检测和纠正数据的错误，因此不需要数据链路层。</p>
+<p><strong>网络层</strong>：网络层的存在主要是因为当一个分组数据通过多个网络节点（如路由器）进行传输时，需要在不同的节点之间进行寻址、路由选择和拥塞控制等操作，从而实现数据的传输。网络层可以提供一种统一的、标准的数据传输接口，使得不同的物理网络可以在网络层上进行交互。此外，网络层也可以实现数据的分段和重新组合等操作，以适应不同网络中的数据传输需求。</p>
+<p><strong>传输层</strong>：传输层的存在主要是为了解决网络传输过程中可能出现的错误、丢失、重复、拥塞等问题，保证应用程序之间的数据传输的可靠性、稳定性和高效性。</p>
+<p><strong>会话层</strong>：会话层的是为应用程序之间建立会话并提供数据传输服务。这些应用程序可以是不同的计算机上运行的，也可以是同一台计算机上的不同进程。</p>
+<p><strong>应用层</strong>：提供各种应用程序的服务和功能，定义数据格式和交换方式以及实现应用程序的通信。它使得应用程序可以在网络上进行可靠的通信和交互，扩大了应用程序的使用范围。</p>
+<h3 id="http-status-code" class="relative group">HTTP Status Code <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#http-status-code" aria-label="">#</a></span></h3>
+<ul>
+<li>
+<p>1xx Informational Response</p>
+<p>服务器已经接收到客户端的请求, 并正在处理请求. 需要客户端继续等待或者继续发送请求</p>
+<ul>
+<li>
+<p>100 Continue：</p>
+<p>客户端应该继续发送请求。</p>
+<p>通常在发送大型数据时使用：服务器在收到客户端发送的请求后，返回 100 状态码，告诉客户端可以继续发送请求体。</p>
+</li>
+<li>
+<p>101 Switching Protocols：</p>
+<p>服务器已经理解了客户端的请求，并将要切换到不同的协议。服务器返回 101 状态码时，会在响应头包含 “Upgrade” 和 “Connection” 字段，告诉客户端应该切换到哪种协议</p>
+</li>
+<li>
+<p>102 Processing：</p>
+<p>服务器已经接收到客户端的请求，但是还没有完成处理。</p>
+<p>通常用于长时间处理请求：例如上传大型文件，服务器返回 102 状态码时，会在响应头中包含&quot;Processing&quot;字段，告诉客户端请求正在处理中。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>2xx Success</p>
+<p>服务器已成功处理客户端请求，并返回响应内容</p>
+<ul>
+<li>
+<p>200 OK：</p>
+<p>服务器成功处理请求，并返回响应内容</p>
+</li>
+<li>
+<p>201 Created：</p>
+<p>服务器成功处理请求，并创建了新的资源。该资源的 URI 已经随 Location 头信息返回</p>
+</li>
+<li>
+<p>202 Accepted：</p>
+<p>服务器接受请求，但未处理完成</p>
+</li>
+<li>
+<p>203 Non-Authoritative Information：</p>
+<p>服务器成功处理请求，但返回的信息来自另一来源</p>
+</li>
+<li>
+<p>204 No Content：</p>
+<p>服务器成功处理请求，但没有相应内容</p>
+</li>
+<li>
+<p>205 Reset Content：</p>
+<p>服务器成功处理请求，但用户终端需重置当前界面</p>
+</li>
+<li>
+<p>206 Partial Content：</p>
+<p>服务器成功处理了部分 Get 请求。</p>
+<p>下载工具如迅雷使用此类响应实现断点续传</p>
+</li>
+</ul>
+</li>
+<li>
+<p>3xx Redirection</p>
+<p>需要客户端采取进一步的操作才能完成请求</p>
+<ul>
+<li>
+<p>300 Multiple Choices：</p>
+<p>请求的资源包括多个位置，客户端可以自行选择一个位置进行重定向。</p>
+</li>
+<li>
+<p>301 Moved Permanently：</p>
+<p>请求的资源已经永久移动到新位置，将来的所有请求应该直接使用新的URL进行。</p>
+</li>
+<li>
+<p>302 Found：</p>
+<p>请求的资源已经暂时移动到新的位置，将来的请求应该继续使用原始URL。</p>
+</li>
+<li>
+<p>303 See Other：</p>
+<p>请求的资源可在另一个URI下被找到，客户端应当使用 GET 方法进行访问。</p>
+</li>
+<li>
+<p>304 Not Modified：</p>
+<p>客户端发出了一个带条件的请求，例如 If-Match 或 If-Modified-Since，但服务器判断该请求不满足条件。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>4xx Client Error</p>
+<p>客户端发生错误</p>
+<ul>
+<li>400 Bad Request：请求格式有误，服务器无法理解。</li>
+<li>401 Unauthorized：客户端未提供认证信息或者认证失败。</li>
+<li>402 Payment Required：预留给未来的 HTTP 扩展。</li>
+<li>403 Forbidden：服务器拒绝请求，通常因为客户端没有访问该资源的权限。</li>
+<li>404 Not Found：请求的资源不存在。</li>
+<li>405 Method Not Allowed：请求方法不允许，例如客户端使用了错误的请求方法。</li>
+<li>406 Not Acceptable：请求资源的内容特性无法满足客户端要求。</li>
+<li>407 Proxy Authentication Required：客户端必须先通过代理服务器进行身份验证，类似于 401。</li>
+<li>408 Request Timeout：客户端请求超时。</li>
+<li>409 Conflict：请求冲突，通常是因为资源状态已经发生变化。</li>
+<li>410 Gone：请求的资源已经不存在，该状态码表示资源已经被永久删除。</li>
+<li>411 Length Required：客户端请求缺少 Content-Length 头信息。</li>
+<li>412 Precondition Failed：请求头中的条件不满足。</li>
+<li>413 Payload Too Large：请求的实体过大，服务器无法处理。</li>
+<li>414 URI Too Long：请求的URI过长，服务器无法处理。</li>
+<li>415 Unsupported Media Type：请求的格式不受支持。</li>
+<li>416 Range Not Satisfiable：客户端请求的范围无效。</li>
+<li>417 Expectation Failed：服务器无法满足 Expect 头信息。</li>
+<li>418 I&rsquo;m a teapot：预留给愚人节使用，表示服务器是一台茶壶。</li>
+<li>421 Misdirected Request：请求被发送到错误的服务器。</li>
+<li>422 Unprocessable Entity：请求格式正确，但是由于语义错误无法处理。</li>
+<li>423 Locked：请求的资源已经被锁定。</li>
+<li>424 Failed Dependency：请求失败，依赖的资源也无法满足请求。</li>
+<li>426 Upgrade Required：客户端需要升级以便能够继续请求。</li>
+<li>428 Precondition Required：客户端必须满足条件，例如携带特定的请求头信息。</li>
+<li>429 Too Many Requests：客户端在规定时间内发送的请求过多。</li>
+<li>431 Request Header Fields Too Large：请求头信息过长。</li>
+<li>451 Unavailable For Legal Reasons：请求因为法律原因无法处理。</li>
+</ul>
+</li>
+<li>
+<p>5xx Server Error</p>
+<p>服务器发生错误</p>
+<ul>
+<li>
+<p>500 Internal Server Error：通用错误信息，服务器遇到了意料之外的错误。</p>
+</li>
+<li>
+<p>501 Not Implemented：客户端请求的功能还未被实现。</p>
+</li>
+<li>
+<p>502 Bad Gateway：充当网关或代理服务器的服务器，从远端服务器接收到了无效的响应。</p>
+</li>
+<li>
+<p>503 Service Unavailable：服务器暂时无法处理请求，通常是因为服务器过载或正在进行维护。</p>
+</li>
+<li>
+<p>504 Gateway Timeout：充当网关或代理服务器的服务器，未在规定时间内从远端服务器接收到响应。</p>
+</li>
+<li>
+<p>505 HTTP Version Not Supported：服务器不支持客户端请求的 HTTP 版本。</p>
+</li>
+<li>
+<p>506 Variant Also Negotiates：服务器有一个内部配置错误，导致正在处理的资源被递归请求。</p>
+</li>
+<li>
+<p>507 Insufficient Storage：服务器无法存储请求所需的全部内容。</p>
+</li>
+<li>
+<p>508 Loop Detected：服务器检测到一个无限循环。</p>
+</li>
+<li>
+<p>509 Bandwidth Limit Exceeded：服务器已经超出带宽限制。</p>
+</li>
+<li>
+<p>510 Not Extended：请求需要扩展。</p>
+</li>
+<li>
+<p>511 Network Authentication Required：客户端请求需要身份验证，类似于 401 但表示需要使用代理服务器进行身份验证。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="link" class="relative group">Link <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#link" aria-label="">#</a></span></h2>
+<ul>
+<li><a
+  href="https://www.rfc-editor.org/"
+  
+  target="_blank" rel="noreferrer noopener"
+  class="link text-blue-500"
+>RFC</a>
+</li>
+<li><a
+  href="https://zh.wikipedia.org/wiki/HTTP%E7%8A%B6%E6%80%81%E7%A0%81"
+  
+  target="_blank" rel="noreferrer noopener"
+  class="link text-blue-500"
+>Wikipedia HTTP状态码</a>
+</li>
+<li><a
+  href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Status"
+  
+  target="_blank" rel="noreferrer noopener"
+  class="link text-blue-500"
+>MDN HTTP Response Status</a>
+</li>
+</ul>
+
+      </div>
+    </section>
+    
+    <footer class=" max-w-prose pt-8 print:hidden">
+      
+
+      
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="/zh/posts/personal-growth/">
+              <span class="dark:text-neutral me-2 text-neutral-700 transition-transform">
+                <span class="inline">&larr;</span>
+              </span>
+              <span class="flex flex-col">
+                <span
+                  class="group-hover:decoration-primary-500 mt-[0.1rem] leading-6 group-hover:underline"
+                >
+                  
+                </span>
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC"></time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="/zh/posts/myworkspace/">
+              <span class="flex flex-col">
+                <span
+                  class="group-hover:decoration-primary-500 mt-[0.1rem] leading-6 group-hover:underline"
+                >
+                  
+                </span>
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC"></time>
+                  
+                </span>
+              </span>
+              <span
+                class="dark:text-neutral ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px]"
+              >
+                <span class="inline">&rarr;</span>
+              </span>
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+<footer class="py-10 print:hidden">
+  
+  
+      </ul>
+    </nav>
+  <div class="flex items-center justify-between">
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          Copyright &copy;
+            2023
+            huyixi
+        </p>
+      
+  </div>
+</footer>
+</main>
+    </div>
+    <div
+  id="search-wrapper"
+  class="invisible fixed inset-0 z-50 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="https://huyixi.com/zh/"
+>
+  <div
+    id="search-modal"
+    class="top-20 mx-auto flex min-h-0 w-full max-w-3xl flex-col rounded-md border border-neutral-200 bg-white shadow-lg dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex flex-none items-center justify-between px-2">
+      <form class="flex min-w-0 flex-auto items-center">
+        <div class="flex h-8 w-8 items-center justify-center text-neutral-400">
+          
+
+
+
+
+
+  
+<span
+    class="icon 
+      text-gray-500
+      relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="mx-1 flex h-12 flex-auto appearance-none bg-transparent focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder=""
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400 flex h-8 w-8 items-center justify-center text-neutral-700"
+        title=""
+      >
+        
+
+
+
+
+
+  
+<span
+    class="icon 
+      text-gray-500
+      relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto overflow-auto px-2">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+  </body>
+</html>

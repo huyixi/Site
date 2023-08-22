@@ -17,8 +17,6 @@ title = "huyixi"
 [author]
   name = "huyixi"
   image = "img/author.png"
-  headline = "I'm only human"
-  bio = "A little bit about you"
   # links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },

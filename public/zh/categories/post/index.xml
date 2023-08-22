@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>post on 胡一希</title>
+    <link>https://huyixi.com/zh/categories/post/</link>
+    <description>Recent content in post on 胡一希</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 21 May 2023 08:00:00 +0800</lastBuildDate><atom:link href="https://huyixi.com/zh/categories/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的电子书阅读不完全解决方案</title>
+      <link>https://huyixi.com/zh/projects/ebook-solution/</link>
+      <pubDate>Sun, 21 May 2023 08:00:00 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/projects/ebook-solution/</guid>
+      <description>我的电子书阅读不完全解决方案 # 获取电子书 # 以下不包含从电子书商城购买下载的内容.</description>
+    </item>
+    
+    <item>
+      <title>How-To-Understand-Event</title>
+      <link>https://huyixi.com/zh/posts/how-to-understand-event/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/how-to-understand-event/</guid>
+      <description>要探索一个事情事件的本质和来龙去脉，可以从以下几个普遍通用的问题入手：</description>
+    </item>
+    
+  </channel>
+</rss>

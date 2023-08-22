@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>你好, 我是胡一希。 on huyixi</title>
+    <link>https://huyixi.com/en/</link>
+    <description>Recent content in 你好, 我是胡一希。 on huyixi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://huyixi.com/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Like!</title>
+      <link>https://huyixi.com/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://huyixi.com/en/about/</guid>
+      <description>我喜欢的, 正在搭建中&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

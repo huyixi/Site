@@ -1,0 +1,1705 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="zh
+  "
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head>
+  <meta charset="utf-8" />
+  
+    <meta http-equiv="content-language" content="en" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="rgb(255,255,255)" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>The Guidance Of Vim &middot; 胡一希</title>
+    <meta name="title" content="The Guidance Of Vim &middot; 胡一希" />
+  
+  <meta
+    name="description"
+    content="
+      
+        PS：文中的向后指的是靠近文末，与 Vim 指南相反
+      
+    "
+  />
+  
+  
+  
+  <link rel="canonical" href="https://huyixi.com/zh/posts/the-guidance-of-vim/" />
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.081502663c6a5b7d7372ec91fce9dfac8cc56f6350bd11351be71f332d7cabe6.css"
+    integrity="sha256-CBUCZjxqW31zcuyR/OnfrIzFb2NQvRE1G&#43;cfMy18q&#43;Y="
+  />
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/appearance.min.022d0ebc3b46a335eb1c7ef79b7f2de143d7cd5156d433638592ef1ce5f8554e.js"
+    integrity="sha256-Ai0OvDtGozXrHH73m38t4UPXzVFW1DNjhZLvHOX4VU4="
+  ></script>
+  
+    
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="/js/main.bundle.min.c688db1973a8a9f7b64acb63b365842347e63be0dd7e75c319cd9e87a784ebb5.js"
+      integrity="sha256-xojbGXOoqfe2Sstjs2WEI0fmO&#43;DdfnXDGc2eh6eE67U="
+      data-copy=""
+      data-copied=""
+    ></script>
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="The Guidance Of Vim" />
+<meta property="og:description" content="PS：文中的向后指的是靠近文末，与 Vim 指南相反" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://huyixi.com/zh/posts/the-guidance-of-vim/" /><meta property="og:image" content="https://huyixi.com/zh/posts/the-guidance-of-vim/cover.svg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-04-01T02:49:00+08:00" />
+<meta property="article:modified_time" content="2023-04-01T02:49:00+08:00" />
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://huyixi.com/zh/posts/the-guidance-of-vim/cover.svg"/>
+<meta name="twitter:title" content="The Guidance Of Vim"/>
+<meta name="twitter:description" content="PS：文中的向后指的是靠近文末，与 Vim 指南相反"/>
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Blog",
+    "name": "The Guidance Of Vim",
+    "headline": "The Guidance Of Vim",
+    
+    "abstract": "PS：文中的向后指的是靠近文末，与 Vim 指南相反",
+    "inLanguage": "en",
+    "url" : "https:\/\/huyixi.com\/zh\/posts\/the-guidance-of-vim\/",
+    "author" : {
+      "@type": "Person",
+      "name": "huyixi"
+    },
+    "copyrightYear": "2023",
+    "dateCreated": "2023-04-01T02:49:00\u002b08:00",
+    "datePublished": "2023-04-01T02:49:00\u002b08:00",
+    
+    "dateModified": "2023-04-01T02:49:00\u002b08:00",
+    
+    "keywords": ["weekly"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "1037"
+  }]
+  </script>
+
+
+  
+  <meta name="author" content="huyixi" />
+  
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+  
+  
+</head>
+<body class="dark:border-1 flex h-screen flex-col text-lg  dark:bg-neutral-950 dark:text-white">
+    
+
+
+<aside
+  class="relative z-50 mx-auto mt-8 w-11/12 rounded-2xl bg-gray-200 p-0 dark:border-2 dark:border-gray-900 dark:bg-neutral-900 sm:fixed sm:left-0 sm:top-0 sm:m-0 sm:h-full sm:w-16 sm:rounded-none sm:py-16"
+>
+  <nav class="flex h-16 flex-row items-center sm:h-48 sm:flex-col">
+    
+    
+      <ul class="flex h-full w-full list-none flex-row justify-evenly sm:w-auto sm:flex-col">
+        
+          
+            
+            <li class="my-2 flex items-center">
+              
+                <a
+                  href="/zh/"
+                  title="Hi, I&#39;m huyixi."
+                  
+                >
+                  
+                    <span>
+                      
+                      
+
+
+
+
+
+  
+  
+  
+<span
+    class="icon 
+      text-gray-500
+      relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="currentColor" d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg></span>
+                    </span></a>
+              
+            </li>
+          
+            
+            <li class="my-2 flex items-center">
+              
+                <a
+                  href="/zh/projects/"
+                  title="Project!"
+                  
+                >
+                  
+                    <span>
+                      
+                      
+
+
+
+
+
+  
+  
+  
+<span
+    class="icon 
+      text-gray-500
+      relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="currentColor" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM127 384.5c-5.5 9.6-17.8 12.8-27.3 7.3-9.6-5.5-12.8-17.8-7.3-27.3l14.3-24.7c16.1-4.9 29.3-1.1 39.6 11.4L127 384.5zm138.9-53.9H84c-11 0-20-9-20-20s9-20 20-20h51l65.4-113.2-20.5-35.4c-5.5-9.6-2.2-21.8 7.3-27.3 9.6-5.5 21.8-2.2 27.3 7.3l8.9 15.4 8.9-15.4c5.5-9.6 17.8-12.8 27.3-7.3 9.6 5.5 12.8 17.8 7.3 27.3l-85.8 148.6h62.1c20.2 0 31.5 23.7 22.7 40zm98.1 0h-29l19.6 33.9c5.5 9.6 2.2 21.8-7.3 27.3-9.6 5.5-21.8 2.2-27.3-7.3-32.9-56.9-57.5-99.7-74-128.1-16.7-29-4.8-58 7.1-67.8 13.1 22.7 32.7 56.7 58.9 102h52c11 0 20 9 20 20 0 11.1-9 20-20 20z"/></svg></span>
+                    </span></a>
+              
+            </li>
+          
+            
+            <li class="my-2 flex items-center">
+              
+                <a
+                  href="/zh/like/"
+                  title="Like!"
+                  
+                >
+                  
+                    <span>
+                      
+                      
+
+
+
+
+
+  
+  
+  
+<span
+    class="icon 
+      text-gray-500
+      relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg></span>
+                    </span></a>
+              
+            </li>
+          
+            
+            <li class="my-2 flex items-center">
+              
+                
+                
+                  <button
+                    id="search-button-1"
+                    title=""
+                  >
+                    
+                      <span class="group-dark:hover:text-primary-400 transition-colors">
+
+
+
+
+
+  
+  
+  
+<span
+    class="icon 
+      text-gray-500
+      relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span></span><span
+                        class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >
+                        
+                      </span>
+                    
+                  </button>
+                
+              
+            </li>
+          
+
+          
+        
+
+      </ul>
+    
+  </nav>
+  <nav
+    class="bottom-8 hidden h-36 flex-grow list-none sm:absolute sm:flex sm:w-full sm:flex-col sm:items-center"
+  >
+    
+    <li class="my-2">
+      
+      
+        <a href="/en" class="flex  items-center" aria-label="Switch to English">
+          
+
+
+
+
+
+  
+  
+  
+    
+    
+  
+<span
+    class="icon 
+      text-gray-500
+     dark:hidden relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" id="translate-language">
+    <path d="M14.022,7h1a1.0013,1.0013,0,0,1,1,1V9a1,1,0,0,0,2,0V8a3.00328,3.00328,0,0,0-3-3h-1a1,1,0,0,0,0,2Zm-4,9h-1a1.0013,1.0013,0,0,1-1-1V14a1,1,0,0,0-2,0v1a3.00328,3.00328,0,0,0,3,3h1a1,1,0,0,0,0-2Z"></path>
+    <path fill="#2563eb"  d="M21.022,15a1,1,0,0,0,0-2h-3v-.5a1,1,0,0,0-2,0V13h-3a1,1,0,0,0,0,2h5.18427a6.72756,6.72756,0,0,1-1.22553,2.52667,6.66828,6.66828,0,0,1-.62915-.98272.99972.99972,0,1,0-1.77929.9121,8.67791,8.67791,0,0,0,.9591,1.468A6.6182,6.6182,0,0,1,13.10645,20.023a1.00008,1.00008,0,0,0,.42675,1.9541,8.63506,8.63506,0,0,0,3.445-1.62164,8.72368,8.72368,0,0,0,3.46857,1.62115,1,1,0,1,0,.43066-1.95312,6.72477,6.72477,0,0,1-2.4461-1.09009A8.73637,8.73637,0,0,0,20.24371,15Z"></path>
+    <path d="M9.05176,11.24268a1.00011,1.00011,0,0,0,1.94043-.48536L9.23486,3.72754a2.28107,2.28107,0,0,0-4.42578,0L3.05176,10.75732a1.00011,1.00011,0,0,0,1.94043.48536L5.5528,9H8.49115ZM6.0528,7l.69671-2.78711a.2913.2913,0,0,1,.54492,0L7.99115,7Z"></path>
+</svg>
+</span>
+          
+
+
+
+
+
+  
+  
+  
+    
+    
+  
+<span
+    class="icon 
+      text-gray-500
+     hidden dark:block relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="translate-language">
+    <path fill="#fff" d="M14.022,7h1a1.0013,1.0013,0,0,1,1,1V9a1,1,0,0,0,2,0V8a3.00328,3.00328,0,0,0-3-3h-1a1,1,0,0,0,0,2Zm-4,9h-1a1.0013,1.0013,0,0,1-1-1V14a1,1,0,0,0-2,0v1a3.00328,3.00328,0,0,0,3,3h1a1,1,0,0,0,0-2Z"></path>
+    <path fill="#2563eb"  d="M21.022,15a1,1,0,0,0,0-2h-3v-.5a1,1,0,0,0-2,0V13h-3a1,1,0,0,0,0,2h5.18427a6.72756,6.72756,0,0,1-1.22553,2.52667,6.66828,6.66828,0,0,1-.62915-.98272.99972.99972,0,1,0-1.77929.9121,8.67791,8.67791,0,0,0,.9591,1.468A6.6182,6.6182,0,0,1,13.10645,20.023a1.00008,1.00008,0,0,0,.42675,1.9541,8.63506,8.63506,0,0,0,3.445-1.62164,8.72368,8.72368,0,0,0,3.46857,1.62115,1,1,0,1,0,.43066-1.95312,6.72477,6.72477,0,0,1-2.4461-1.09009A8.73637,8.73637,0,0,0,20.24371,15Z"></path>
+    <path fill="#fff"  d="M9.05176,11.24268a1.00011,1.00011,0,0,0,1.94043-.48536L9.23486,3.72754a2.28107,2.28107,0,0,0-4.42578,0L3.05176,10.75732a1.00011,1.00011,0,0,0,1.94043.48536L5.5528,9H8.49115ZM6.0528,7l.69671-2.78711a.2913.2913,0,0,1,.54492,0L7.99115,7Z"></path>
+</svg>
+</span>
+        </a>
+      
+    </li>
+
+    
+    <li class="my-2">
+      
+      <button
+        id="appearance-switcher-1"
+        type="button"
+        aria-label="appearance switcher"
+      >
+        <span
+          class="group-dark:hover:text-primary-400 inline transition-colors dark:hidden"
+          title=""
+        >
+          
+
+
+
+
+
+  
+<span
+    class="icon 
+      text-gray-500
+      relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+        </span>
+        <span
+          class="group-dark:hover:text-primary-400 hidden transition-colors dark:inline"
+          title=""
+        >
+          
+
+
+
+
+
+  
+<span
+    class="icon 
+      text-gray-500
+      relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+        </span>
+      </button>
+    </li>
+
+    
+    <li class="my-2">
+      <a href="/about" class="flex items-center">
+        <img src="/avatar600.png" alt="Avatar" class="h-9 w-9 rounded-full" />
+      </a>
+    </li>
+  </nav>
+</aside>
+
+    <div id="site" class="mx-4 mt-16 sm:ml-20">
+      <main id="main-content" class="mx-auto w-11/12 md:w-152">
+        
+  <article>
+    <header class="max-w-prose">
+      <div class="mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+    <div class="article-categories">
+      
+        <a href="/zh/categories/weekly" class="category-link">weekly</a>
+      
+    </div>
+  
+
+  
+  
+    
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2023-04-01 02:49:00 &#43;0800 CST"></time>
+    
+  </div>
+
+
+      </div>
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-white">
+        The Guidance Of Vim
+      </h1>
+      <h2 class="mt-4"></h2>
+      
+        <div class="prose">
+          <img
+            class="-mt-4 mb-6 rounded-md"
+            
+              src="/zh/posts/the-guidance-of-vim/cover.svg"
+            
+            alt=""
+            
+              loading="lazy"
+            
+          />
+          
+        </div>
+      
+      <hr class="mb-8 mt-6 border border-neutral-200 dark:border-neutral-600" />
+    </header>
+    <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
+      <div class="min-h-0 min-w-0 max-w-prose grow">
+        <p>PS：文中的向后指的是靠近文末，与 Vim 指南相反</p>
+<h2 id="vim-键位图" class="relative group">Vim 键位图 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#vim-%e9%94%ae%e4%bd%8d%e5%9b%be" aria-label="">#</a></span></h2>
+<p>
+
+
+
+
+  <figure>
+    <img
+      class="mx-auto my-2 rounded-2xl"
+      src="https://raw.githubusercontent.com/huyixi/blog_imgs/master/vim-cheat-sheet-en.gif"
+      alt=""
+      
+        loading="lazy"
+      
+    />
+    
+  </figure>
+
+</p>
+<p>
+
+
+
+
+  <figure>
+    <img
+      class="mx-auto my-2 rounded-2xl"
+      src="https://raw.githubusercontent.com/huyixi/blog_imgs/master/vim-cheat-sheet-cn.gif"
+      alt=""
+      
+        loading="lazy"
+      
+    />
+    
+  </figure>
+
+</p>
+<h2 id="vim-的模式" class="relative group">Vim 的模式 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#vim-%e7%9a%84%e6%a8%a1%e5%bc%8f" aria-label="">#</a></span></h2>
+<ul>
+<li>Normal Mode commnad 正常模式</li>
+<li>Insert Mode Command 插入模式</li>
+<li>Visual Mode Command 可视模式</li>
+<li>Command-line Command 命令行模式</li>
+</ul>
+<p>查看当前所在的模式：<code>:set showmode</code></p>
+<h2 id="vim-的语法" class="relative group">Vim 的语法 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#vim-%e7%9a%84%e8%af%ad%e6%b3%95" aria-label="">#</a></span></h2>
+<pre tabindex="0"><code>action + object
+</code></pre><h2 id="光标移动" class="relative group">光标移动 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%85%89%e6%a0%87%e7%a7%bb%e5%8a%a8" aria-label="">#</a></span></h2>
+<h3 id="左右移动" class="relative group">左右移动 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%b7%a6%e5%8f%b3%e7%a7%bb%e5%8a%a8" aria-label="">#</a></span></h3>
+<table>
+<thead>
+<tr>
+<th>基本命令</th>
+<th>动作</th>
+<th>组合命令</th>
+<th>动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>h</td>
+<td>左</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>l</td>
+<td>右</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0</td>
+<td>行首</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>^</td>
+<td>行首个非空白字符</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>$</td>
+<td>行尾</td>
+<td>g0</td>
+<td>屏幕行首个字符</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>g^</td>
+<td>屏幕行首个非空白字符</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>g$</td>
+<td>至屏幕行末个字符</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>gm</td>
+<td>至屏幕行中点</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>gM</td>
+<td>至本行中点</td>
+</tr>
+</tbody>
+</table>
+<h3 id="上下移动" class="relative group">上下移动 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e4%b8%8a%e4%b8%8b%e7%a7%bb%e5%8a%a8" aria-label="">#</a></span></h3>
+<table>
+<thead>
+<tr>
+<th>基本命令</th>
+<th>动作</th>
+<th>组合命令</th>
+<th>动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>k</td>
+<td>上移</td>
+<td>N k</td>
+<td>上移 N 行</td>
+</tr>
+<tr>
+<td>j</td>
+<td>下移</td>
+<td>N j</td>
+<td>下移 N 行</td>
+</tr>
+<tr>
+<td>gg</td>
+<td>首行</td>
+<td>N gg</td>
+<td>至第 N 行首个非空白字符处</td>
+</tr>
+<tr>
+<td>G</td>
+<td>末行</td>
+<td>N G</td>
+<td>至第 N 行首个非空白字符处</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>N %</td>
+<td>至全文件行数 N% 处</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>N gk</td>
+<td>上移 N 屏幕行</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>N gj</td>
+<td>下移 N 屏幕行</td>
+</tr>
+</tbody>
+</table>
+<h3 id="文本对象移动" class="relative group">文本对象移动 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%96%87%e6%9c%ac%e5%af%b9%e8%b1%a1%e7%a7%bb%e5%8a%a8" aria-label="">#</a></span></h3>
+<table>
+<thead>
+<tr>
+<th>键盘</th>
+<th>动作</th>
+<th>组合命令</th>
+<th>动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>w - word</td>
+<td>向后一个单词</td>
+<td>N w</td>
+<td>向右 N 个单词</td>
+</tr>
+<tr>
+<td>W</td>
+<td></td>
+<td>N W</td>
+<td>向左至第 N 个空白隔开的字串 词尾</td>
+</tr>
+<tr>
+<td>e - End</td>
+<td>向后一个单词词尾</td>
+<td>N e</td>
+<td>向右 N 个单词词尾</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>N ge</td>
+<td>向左 N 个单词词尾</td>
+</tr>
+<tr>
+<td>E</td>
+<td></td>
+<td>N E</td>
+<td>向前至第 N 个空白隔开的字串词尾</td>
+</tr>
+<tr>
+<td>b - Backword</td>
+<td>向前 N 个单词</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>B</td>
+<td>向后至第 N 个空白隔开的字串的词尾</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>)</td>
+<td>向后一个句子</td>
+<td>N )</td>
+<td>向后 N 个句子</td>
+</tr>
+<tr>
+<td>(</td>
+<td>向前一个句子</td>
+<td>N (</td>
+<td>向前 N 个句子</td>
+</tr>
+<tr>
+<td>}</td>
+<td>向后一个段落</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>{</td>
+<td>向前一个段落</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="模式查找" class="relative group">模式查找 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%a8%a1%e5%bc%8f%e6%9f%a5%e6%89%be" aria-label="">#</a></span></h3>
+<table>
+<thead>
+<tr>
+<th>基本命令</th>
+<th>动作</th>
+<th>组合命令</th>
+<th>动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/</td>
+<td>向后查找</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>?</td>
+<td>向前查找</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>n</td>
+<td>重复上一次的查找</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>N</td>
+<td>相反方向重复上一次的查找</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="屏幕操作" class="relative group">屏幕操作 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%b1%8f%e5%b9%95%e6%93%8d%e4%bd%9c" aria-label="">#</a></span></h2>
+<h3 id="屏幕滚动" class="relative group">屏幕滚动 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%b1%8f%e5%b9%95%e6%bb%9a%e5%8a%a8" aria-label="">#</a></span></h3>
+<table>
+<thead>
+<tr>
+<th>键盘命令</th>
+<th>动作</th>
+<th>组合命令</th>
+<th>动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ctrl + D</td>
+<td>窗口下滚 1/2 行</td>
+<td>N Ctrl + D</td>
+<td>窗口下滚 N 行</td>
+</tr>
+<tr>
+<td>Ctrl + U</td>
+<td>窗口上滚 1/2 行</td>
+<td>N Ctrl + U</td>
+<td>窗口上滚 N 行</td>
+</tr>
+<tr>
+<td>Ctrl + F</td>
+<td>窗口下滚 1 页</td>
+<td>N Ctrl + F</td>
+<td>窗口下滚 N 页</td>
+</tr>
+<tr>
+<td>Ctrl + E</td>
+<td>窗口下滚 1 行</td>
+<td>N Ctrl + E</td>
+<td>窗口下滚 N 行</td>
+</tr>
+<tr>
+<td>Ctrl + B</td>
+<td>窗口上滚 1 页</td>
+<td>N Ctrl + B</td>
+<td>窗口上滚 N 页</td>
+</tr>
+<tr>
+<td>Ctrl + Y</td>
+<td>窗口上滚 1 行</td>
+<td>N Ctrl + Y</td>
+<td>窗口上滚 N 行</td>
+</tr>
+<tr>
+<td>z /zt</td>
+<td>当前行置于窗口顶端</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>z. / zz</td>
+<td>当前行置于窗口正中</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>z- / zb</td>
+<td>当前行置于窗口底端</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>以下仅当 <a
+  href="https://yianwillis.github.io/vimcdoc/doc/options.html#%27wrap%27"
+  
+  target="_blank" rel="noreferrer noopener"
+  class="link text-blue-500"
+>&lsquo;wrap&rsquo;</a>
+ 选项关闭时生效:</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>zh</td>
+<td>屏幕右滚 1 个字符</td>
+<td>N zh</td>
+<td>屏幕右滚 N 个字符</td>
+</tr>
+<tr>
+<td>zl</td>
+<td>屏幕左滚 1 个字符</td>
+<td>N zl</td>
+<td>屏幕左滚 N 个字符</td>
+</tr>
+<tr>
+<td>zH</td>
+<td>屏幕右滚 1 个字符</td>
+<td>N zH</td>
+<td>屏幕右滚半个屏宽</td>
+</tr>
+<tr>
+<td>zL</td>
+<td>屏幕左滚 1 个字符</td>
+<td>N zL</td>
+<td>屏幕左滚半个屏宽</td>
+</tr>
+</tbody>
+</table>
+<h3 id="窗口命令" class="relative group">窗口命令 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e7%aa%97%e5%8f%a3%e5%91%bd%e4%bb%a4" aria-label="">#</a></span></h3>
+<table>
+<thead>
+<tr>
+<th>基本命令</th>
+<th>动作</th>
+<th>拓展命令</th>
+<th>动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>:split / Ctrl + W - S</td>
+<td>将窗口分割为两部分</td>
+<td>:split {file}</td>
+<td>分割窗口并在 {file} 中编辑</td>
+</tr>
+<tr>
+<td>:vsplit</td>
+<td>垂直分割窗口</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Ctrl + W - J</td>
+<td>跳转到下方窗口</td>
+<td>Ctrl + W - b</td>
+<td>跳转到低端窗口</td>
+</tr>
+<tr>
+<td>Ctrl + W - W</td>
+<td>跳转到上方窗口</td>
+<td>Ctrl + W - t</td>
+<td>跳转到顶端窗口</td>
+</tr>
+<tr>
+<td>Ctrl + W - p</td>
+<td>跳转到上一次激活的窗口</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Ctrl + W - x</td>
+<td>将当前窗口和后一个窗口对调</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Ctrl + W - =</td>
+<td>使所有窗口等宽等高</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Ctrl + W - - / &lt;</td>
+<td>减少当前窗口高度</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Ctrl + W - + / &gt;</td>
+<td>增加当前窗口高度</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>:vertical {cmd}</td>
+<td>使命令 {cmd} 垂直分割</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>:terminal</td>
+<td>打开终端窗口</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>:new / Ctrl + W - N</td>
+<td>创建新的空白窗口</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>:q</td>
+<td>退出编辑并关闭窗口</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>:on (only) / Ctrl + W - o</td>
+<td>使当前窗口成为唯一窗口</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="文本操作" class="relative group">文本操作 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%96%87%e6%9c%ac%e6%93%8d%e4%bd%9c" aria-label="">#</a></span></h2>
+<h3 id="插入" class="relative group">插入 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%8f%92%e5%85%a5" aria-label="">#</a></span></h3>
+<table>
+<thead>
+<tr>
+<th>基本命令</th>
+<th>动作</th>
+<th>组合命令</th>
+<th>动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a - Append text after the cursor</td>
+<td>在光标后插入文本</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>A</td>
+<td>在行末添加文本</td>
+<td>在可视模式下</td>
+<td>在所有选中行之后插入相同的文本</td>
+</tr>
+<tr>
+<td>i - Enter insert mode</td>
+<td>在光标前插入文本</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>I</td>
+<td>在行首插入文本</td>
+<td>在可视模式下</td>
+<td>在所有选中行之前插入相同的文本</td>
+</tr>
+<tr>
+<td>o - Open a new line after the cursor</td>
+<td>在当前行下方打开新行，添加文本</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Ｏ</td>
+<td>在当前行上方打开新行，添加文本</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="删除" class="relative group">删除 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%88%a0%e9%99%a4" aria-label="">#</a></span></h3>
+<table>
+<thead>
+<tr>
+<th>基本命令</th>
+<th>动作</th>
+<th>扩展命令</th>
+<th>动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x</td>
+<td>删除当前光标的字符</td>
+<td>N x</td>
+<td>删除当前光标之后的 N 个字符</td>
+</tr>
+<tr>
+<td>X</td>
+<td>删除光标前的字符</td>
+<td>N X</td>
+<td>删除光标前的 N 个字符</td>
+</tr>
+<tr>
+<td>d {motion}</td>
+<td>删除 {motion} 跨越的文本</td>
+<td>dd</td>
+<td>删除当前行</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>N dd</td>
+<td>删除 N 行</td>
+</tr>
+</tbody>
+</table>
+<h3 id="替换" class="relative group">替换 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%9b%bf%e6%8d%a2" aria-label="">#</a></span></h3>
+<table>
+<thead>
+<tr>
+<th>基本命令</th>
+<th>动作</th>
+<th>拓展命令</th>
+<th>动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r</td>
+<td>替换字符</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R</td>
+<td>替换模式</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>:s/{pat}/{repl}</td>
+<td>以 {repl} 替换 {pat}</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="撤销" class="relative group">撤销 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%92%a4%e9%94%80" aria-label="">#</a></span></h3>
+<table>
+<thead>
+<tr>
+<th>基本命令</th>
+<th>动作</th>
+<th>组合命令</th>
+<th>动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>u</td>
+<td>撤销上一次的操作</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>U</td>
+<td>撤销在当前行的操作</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Ctrl + R</td>
+<td>取消上一次的撤销</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="其他" class="relative group">其他 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%85%b6%e4%bb%96" aria-label="">#</a></span></h3>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&gt; / &lt;</td>
+<td>将选中的文本缩进</td>
+</tr>
+<tr>
+<td>.(点)</td>
+<td>重复上一次的命令</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="位置标记" class="relative group">位置标记 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e4%bd%8d%e7%bd%ae%e6%a0%87%e8%ae%b0" aria-label="">#</a></span></h2>
+<table>
+<thead>
+<tr>
+<th>键盘命令</th>
+<th>动作</th>
+<th>组合命令</th>
+<th>动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>m{a-zA-Z}</td>
+<td>用标记 <code>{a-zA-Z}</code> 记录当前位置</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>{a-z}</td>
+<td>至当前文件中的标记 <code>{a-z}</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>{A-Z}</td>
+<td>至任何文件中的标记 <code>{A-Z}</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>``</td>
+<td>至上次跳转前的位置</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>`[</td>
+<td>至上次操作文本的开始</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>`]</td>
+<td>至上次操作文本的末尾</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>:marks</td>
+<td>列出活动的标记</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>:ju</td>
+<td>列出跳转表</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="标签标记" class="relative group">标签标记 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%a0%87%e7%ad%be%e6%a0%87%e8%ae%b0" aria-label="">#</a></span></h2>
+<table>
+<thead>
+<tr>
+<th>键盘命令</th>
+<th>动作</th>
+<th>组合命令</th>
+<th>动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>:ta {tag}</td>
+<td>跳转到标签 {tag}</td>
+<td>:N ta</td>
+<td>跳转到标签列表里第 N 个较新的标签</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Ctrl + T</td>
+<td>标签退栈，返回前一个跳转点</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Ctrl + 0</td>
+<td>跳转到前一个位置</td>
+</tr>
+<tr>
+<td>Ctrl + ]</td>
+<td>跳转到光标下的标签</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>:ts [tag]</td>
+<td>列出匹配的标签并选择其中一个跳转</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>:tj [tag]</td>
+<td>跳转到标签 [tag] 当有多个匹配时从列表中选择</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>:lt [tag]</td>
+<td>跳转到标签 [tag] 并把匹配的标签加到位置列表</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>:tags</td>
+<td>显示标签列表</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>:pt {tag}</td>
+<td>打开预览窗口来显示 {tag} 标签</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="文件操作" class="relative group">文件操作 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%96%87%e4%bb%b6%e6%93%8d%e4%bd%9c" aria-label="">#</a></span></h2>
+<h3 id="写入与退出" class="relative group">写入与退出 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%86%99%e5%85%a5%e4%b8%8e%e9%80%80%e5%87%ba" aria-label="">#</a></span></h3>
+<table>
+<thead>
+<tr>
+<th>基本命令</th>
+<th>动作</th>
+<th>组合命令</th>
+<th>动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ZZ</td>
+<td>保存文件并退出/退出当前窗口</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>:w</td>
+<td>将改动写入当前文件</td>
+<td>:w {file}</td>
+<td>写入至文件 {file},若已存在则无法写入</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>:w! {file}</td>
+<td>写入至已存在的文件 {file}</td>
+</tr>
+<tr>
+<td>:q!</td>
+<td>放弃该文件的修改并退出</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="帮助" class="relative group">帮助 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%b8%ae%e5%8a%a9" aria-label="">#</a></span></h2>
+<table>
+<thead>
+<tr>
+<th>基础命令</th>
+<th>动作</th>
+<th>组合命令</th>
+<th>动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>:help</td>
+<td>显示总览的帮助窗口</td>
+<td>:help {object}</td>
+<td>查看 {object} 的帮助</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>:help index</td>
+<td>查看所有命令的帮助索引</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>:help {shortcut}</td>
+<td>获得快捷键在普通模式下的帮助</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>:help {mode}_{shortcut}</td>
+<td>指定模式下快捷键的帮助。例：:help i_CTRL-H -&gt; 查看在插入模式下 CTRL - H 的帮助</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>:help -t</td>
+<td>查看 -t 这个命令行参数的作用</td>
+</tr>
+</tbody>
+</table>
+<h2 id="vimium-----在-chrome-浏览器上使用-vim" class="relative group">Vimium &mdash; 在 Chrome 浏览器上使用 Vim <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#vimium-----%e5%9c%a8-chrome-%e6%b5%8f%e8%a7%88%e5%99%a8%e4%b8%8a%e4%bd%bf%e7%94%a8-vim" aria-label="">#</a></span></h2>
+<h3 id="浏览当前页面" class="relative group">浏览当前页面： <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%b5%8f%e8%a7%88%e5%bd%93%e5%89%8d%e9%a1%b5%e9%9d%a2" aria-label="">#</a></span></h3>
+<pre><code>?       打开帮助教程/列出所有Vimium命令
+h       向左滑动
+j       向下滑动
+k       向上滑动
+l       向右滑动
+gg      快速到达页面顶部
+G       快速到达页面底部
+d       向下翻动半页
+u       向上翻动半页
+f       在当前页面打开一个链接
+F       在新标签页打开一个链接
+r       重新载入页面
+gs      查看当前页面的源代码
+i       进入插入模式 - 按esc退出模式
+yy      复制当前页面链接至剪贴板
+yf      从页面中复制一个链接至剪贴板
+gf      跳转到下一框架 - 无用
+gF      聚焦视觉于该框架 - 无用
+</code></pre>
+<h3 id="打开新的页面" class="relative group">打开新的页面 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%89%93%e5%bc%80%e6%96%b0%e7%9a%84%e9%a1%b5%e9%9d%a2" aria-label="">#</a></span></h3>
+<pre><code>o       搜索网址，书签，或历史记录，在当前页面打开
+O       搜索网址，书签，或历史记录，在新的页面打开
+b       搜索书签，在当前页面打开
+B       搜索书签，在新的页面打开
+</code></pre>
+<h3 id="查找" class="relative group">查找 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%9f%a5%e6%89%be" aria-label="">#</a></span></h3>
+<pre><code>/       进入查找模式，输入关键字查找，ESC退出
+n       切换到下一个匹配
+N       切换到上一个匹配
+</code></pre>
+<p><strong>具体操作参考：https://github.com/philc/vimium/wiki/Find-Mode</strong></p>
+<h3 id="浏览历史" class="relative group">浏览历史 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%b5%8f%e8%a7%88%e5%8e%86%e5%8f%b2" aria-label="">#</a></span></h3>
+<pre><code>H       后退
+L       前进
+</code></pre>
+<h3 id="切换tab" class="relative group">切换tab <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%88%87%e6%8d%a2tab" aria-label="">#</a></span></h3>
+<pre><code>J, gT   切换到左边tab
+K, gt   切换到右边tab
+g0      切换到第一个tab
+g$      切换到最后一个tab
+^       切换到刚才的tab
+t       创建一个新的页面
+yt      复制当前页面
+x       关闭当前页面
+X       恢复刚才关闭的页面
+T       在当前所有的tab页面中搜索
+&lt;a-p&gt;   对当前页面进行标记或者取消标记
+</code></pre>
+<h3 id="标记" class="relative group">标记 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%a0%87%e8%ae%b0" aria-label="">#</a></span></h3>
+<pre><code>ma      当页标记，只能在当前tab页面跳转，m + 一个小写字母
+mA      全局标记，可以再切换到其他tab的跳转过来，m + 一个大写字母
+`a      跳转到当页标记
+`A      跳转到全局标记
+``      跳回之前的位置
+</code></pre>
+<h3 id="进阶命令" class="relative group">进阶命令 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%bf%9b%e9%98%b6%e5%91%bd%e4%bb%a4" aria-label="">#</a></span></h3>
+<pre><code>]], [[  点击下一页或者Next等快速跳转按钮
+&lt;a-f&gt;   打开多链接在新的窗口中
+gi      跳转到当前文本框/搜索框
+gu      跳转到当前网址的上一级网址
+gU      跳转到当前网址的跟网址
+ge      编辑当前的网址，在当前页面打开
+gE      编辑当前网址，在新的页面打开
+zH      滚动到最左边
+zL      滚动到最右边
+v       进入行观察模式，快速粘贴并且回车，用y进行快拉
+V       进入行观察模式
+</code></pre>
+<p><strong>Vimium支持重复命令模式，即使用<code>5t</code>可以打开5个新标签页，输入错误可以用esc或者c键入取消</strong></p>
+<h3 id="自定义映射" class="relative group">自定义映射 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e6%98%a0%e5%b0%84" aria-label="">#</a></span></h3>
+<pre><code>你可以在自定义按键设置中取消或者重新设定默认快捷键，每一行输入以下设定命令:
+</code></pre>
+<ul>
+<li><code>map key command</code>:将命令映射到vimium中，并且覆盖Chrome的默认设置</li>
+<li><code>unmap key</code>: 取消一个命令，并且重新载入Chrome的默认设置</li>
+<li><code>unmapAll</code>: 取消所有命令绑定，当你尝试删除vimium的所有命令并且开始自己的设定</li>
+</ul>
+<p><strong>eg.</strong></p>
+<pre><code>`&lt;map &lt;c-d&gt; scrollPageDown&gt;` 设置`&lt;c-d&gt;`为 ctrl+d 的按键，并且覆盖chrome设定
+
+`map r reload` 设置 `r` 为reload 的快捷键
+
+`unmap &lt;c-d&gt;` 取消 c-d 的设置
+</code></pre>
+<h3 id="vimium快速使用搜索引擎" class="relative group">Vimium快速使用搜索引擎 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#vimium%e5%bf%ab%e9%80%9f%e4%bd%bf%e7%94%a8%e6%90%9c%e7%b4%a2%e5%bc%95%e6%93%8e" aria-label="">#</a></span></h3>
+<p><strong>命令：</strong></p>
+<pre><code>按 `o` 进入搜索模式，然后输入`缩写+搜索内容`.
+</code></pre>
+<p><strong>eg:</strong></p>
+<pre><code>`o`+`g vimium github readme`  //即用google搜索关键词：vimium github readme
+`o`+ `y edsheeran perfect`    //即在youtube中搜索：edsheeran perfect
+</code></pre>
+<p><strong>提示:</strong></p>
+<pre><code>当你输入上述语句时，搜索模式会给出对应的补全提示
+</code></pre>
+<p><strong>具体设置：</strong></p>
+<p>打开Vimium的设置选项中，在自定义搜索引擎的搜索格式，具体格式可以自行搜索，以下给出常见的搜索
+引擎格式：</p>
+<pre><code>//谷歌
+# g: http://www.google.com.hk/search?q=%us 
+//油管视频
+# y: https://www.youtube.com/results?search_query=%s 
+//谷歌地图
+# gm: https://www.google.com/maps?q=%s
+//必应 
+# b: https://www.bing.com/search?q=%s 
+//百度
+# bd: http://www.baidu.com/s?wd=%s
+//B站
+# bl: http://www.bilibili.tv/search?keyword=%s 
+//维基
+# w: https://www.wikipedia.org/w/index.php?title=Special:Search&amp;search=%s 
+//知乎
+# zh:https://www.zhihu.com/search?type=content&amp;q=%s
+//爱词霸
+# icb: http://www.iciba.com/%s
+//有道
+# yd: http://dict.youdao.com/search?q=%us
+//谷歌学术：
+# gs: http://scholar.google.com.hk/scholar?q=%us&amp;hl=zh-CN
+//github:
+# gt: https://github.com/search?q=%s
+</code></pre>
+<p>注：#号表示注释，使用时去掉#</p>
+<h2 id="vimari-----在-safari-上使用-vim" class="relative group">Vimari &mdash; 在 Safari 上使用 Vim <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#vimari-----%e5%9c%a8-safari-%e4%b8%8a%e4%bd%bf%e7%94%a8-vim" aria-label="">#</a></span></h2>
+<h3 id="页内导航" class="relative group">页内导航 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e9%a1%b5%e5%86%85%e5%af%bc%e8%88%aa" aria-label="">#</a></span></h3>
+<pre tabindex="0"><code>f       Toggle links
+F       Toggle links (open link in new tab)
+k       Scroll up
+j       Scroll down
+h       Scroll left
+l       Scroll right
+u       Scroll up half page
+d       Scroll down half page
+g g     Go to top of page
+G       Go to bottom of page
+g i     Go to first input
+</code></pre><h3 id="页面标签导航" class="relative group">页面/标签导航 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e9%a1%b5%e9%9d%a2%e6%a0%87%e7%ad%be%e5%af%bc%e8%88%aa" aria-label="">#</a></span></h3>
+<pre tabindex="0"><code>H       History back
+L       History forward
+r       Reload
+w       Next tab
+q       Previous tab
+x       Close current tab
+t       Open new tab
+Vimari v2.1+
+</code></pre><h3 id="vimari-模式" class="relative group">Vimari 模式 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#vimari-%e6%a8%a1%e5%bc%8f" aria-label="">#</a></span></h3>
+<pre tabindex="0"><code>i       Enter insert mode
+ESC     Enter normal mode
+CTRL+[  Enter normal mode
+</code></pre><h2 id="参考链接" class="relative group">参考链接 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%8f%82%e8%80%83%e9%93%be%e6%8e%a5" aria-label="">#</a></span></h2>
+<ul>
+<li><a
+  href="https:www.vim.org/"
+  
+  target="_blank" rel="noreferrer noopener"
+  class="link text-blue-500"
+>Vim 官方网站主页</a>
+</li>
+<li><a
+  href="https://yianwillis.github.io/vimcdoc/doc/quickref.html"
+  
+  target="_blank" rel="noreferrer noopener"
+  class="link text-blue-500"
+>Vim 中文帮助</a>
+</li>
+<li><a
+  href="https://zhajiman.github.io/post/vim_grammar/"
+  
+  target="_blank" rel="noreferrer noopener"
+  class="link text-blue-500"
+>炸鸡人博客：Vim 的语法</a>
+</li>
+<li><a
+  href="https://coolshell.cn/articles/5426.html"
+  
+  target="_blank" rel="noreferrer noopener"
+  class="link text-blue-500"
+>酷壳CoolShell：简明Vim 练级指南</a>
+</li>
+<li><a
+  href="https://github.com/televator-apps/vimari"
+  
+  target="_blank" rel="noreferrer noopener"
+  class="link text-blue-500"
+>Vimium</a>
+</li>
+<li><a
+  href="https://github.com/televator-apps/vimari"
+  
+  target="_blank" rel="noreferrer noopener"
+  class="link text-blue-500"
+>Vimari</a>
+</li>
+<li><a
+  href="missing-semester-cn.github.io/2020/editors"
+  
+  
+  class="link text-blue-500"
+>MIT 的 计算机学生缺失的课程</a>
+</li>
+<li><a
+  href="https://www.runoob.com/w3cnote/all-vim-cheatsheat.html"
+  
+  target="_blank" rel="noreferrer noopener"
+  class="link text-blue-500"
+>史上最全Vim快捷键键位图（入门到进阶）</a>
+</li>
+</ul>
+
+      </div>
+    </section>
+    
+    <footer class=" max-w-prose pt-8 print:hidden">
+      
+
+      
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="/zh/posts/how-to-learn-english-better/">
+              <span class="dark:text-neutral me-2 text-neutral-700 transition-transform">
+                <span class="inline">&larr;</span>
+              </span>
+              <span class="flex flex-col">
+                <span
+                  class="group-hover:decoration-primary-500 mt-[0.1rem] leading-6 group-hover:underline"
+                >
+                  
+                </span>
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC"></time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="/zh/posts/skincare/">
+              <span class="flex flex-col">
+                <span
+                  class="group-hover:decoration-primary-500 mt-[0.1rem] leading-6 group-hover:underline"
+                >
+                  Skincare
+                </span>
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2023-04-01 02:49:00 &#43;0800 CST"></time>
+                  
+                </span>
+              </span>
+              <span
+                class="dark:text-neutral ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px]"
+              >
+                <span class="inline">&rarr;</span>
+              </span>
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+<footer class="py-10 print:hidden">
+  
+  
+      </ul>
+    </nav>
+  <div class="flex items-center justify-between">
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          Copyright &copy;
+            2023
+            huyixi
+        </p>
+      
+  </div>
+</footer>
+</main>
+    </div>
+    <div
+  id="search-wrapper"
+  class="invisible fixed inset-0 z-50 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="https://huyixi.com/zh/"
+>
+  <div
+    id="search-modal"
+    class="top-20 mx-auto flex min-h-0 w-full max-w-3xl flex-col rounded-md border border-neutral-200 bg-white shadow-lg dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex flex-none items-center justify-between px-2">
+      <form class="flex min-w-0 flex-auto items-center">
+        <div class="flex h-8 w-8 items-center justify-center text-neutral-400">
+          
+
+
+
+
+
+  
+<span
+    class="icon 
+      text-gray-500
+      relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="mx-1 flex h-12 flex-auto appearance-none bg-transparent focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder=""
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400 flex h-8 w-8 items-center justify-center text-neutral-700"
+        title=""
+      >
+        
+
+
+
+
+
+  
+<span
+    class="icon 
+      text-gray-500
+      relative inline-block transform px-1 align-text-bottom duration-200 hover:scale-125 hover:text-blue-500"
+  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto overflow-auto px-2">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+  </body>
+</html>
