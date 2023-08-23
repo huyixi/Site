@@ -48,9 +48,12 @@
 }
 
 .music-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  height: 5rem;
-  width: 5rem;
+  height: 8rem;
+  width: 8rem;
   border-radius: 50%;
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.1);
   transform: scale(1);
@@ -59,25 +62,25 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.music-link img:hover {
-  transform: rotate(360deg);
+.music-link img {
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+.music-link:hover img {
+  animation: spin 5s linear infinite;
 }
 
 .music-link::after {
   content: "";
   position: absolute;
-  top: calc(52% - 0.1rem);
-  left: calc(52% - 0.1rem);
+  top: 50%;
+  left: 50%;
   width: 1rem;
   height: 1rem;
   background-color: #fff;
   border-radius: 50%;
   z-index: 5;
   transform: translate(-50%, -50%);
-}
-
-.music-link img:hover {
-  animation: spin 5s linear infinite;
 }
 
 @keyframes spin {

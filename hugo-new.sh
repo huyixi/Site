@@ -22,8 +22,8 @@ case $content_type in
         archetype_path="archetypes/book.md"
         ;;
     project)
-        content_path="project/$title/index.md"
-        archetype_path="archetypes/$content_type.md" # Assuming there's an archetypes/project.md
+        content_path="projects/$title/index.md"
+        archetype_path="archetypes/$content_type.md"
         ;;
     post)
         content_path="post/$title/index.md"
@@ -40,6 +40,6 @@ echo "Using archetype: $archetype_path"
 echo "Creating content at: $content_path"
 
 # Create content using Hugo and the specified archetype
-hugo new $content_path
+hugo new content --kind $archetype_path $content_path
 
 echo "Content created successfully!"

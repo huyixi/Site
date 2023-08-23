@@ -4,7 +4,7 @@ date: 2023-08-21T23:45:01+08:00
 readtime: 2023-08-19T21:00:00+08:00 - 2023-08-20T12:30:00+08:00
 draft: false
 tags: []
-categories: [Like, Book]
+category: [Book]
 summary: 
 ---
 

@@ -4,6 +4,6 @@ author:
 date: {{ .Date }}
 draft: false
 tags: []
-category: [Like, Music]
+category: [Music]
 summary: 
 ---

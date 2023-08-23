@@ -3,7 +3,7 @@
     <div class="book-section bg-blue-200">
       <h2>Read</h2>
       <ul class="read-page  flex space-x-4">
-        {{ range .Site.Taxonomies.categories.book }}
+        {{ range where .Site.RegularPages "Params.category" "intersect" (slice "Book") }}
           {{ partial "book-link.html" . }}
         {{ end }}
       </ul>
@@ -12,7 +12,7 @@
     <div class="music-section bg-yellow-200">
       <h2>Music</h2>
       <ul class="music-page flex space-x-4">
-        {{ range .Site.Taxonomies.categories.music }}
+        {{ range where .Site.RegularPages "Params.category" "intersect" (slice "Music") }}
           {{ partial "music-link.html" . }}
         {{ end }}
       </ul>
