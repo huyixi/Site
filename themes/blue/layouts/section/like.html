@@ -1,9 +1,19 @@
 {{ define "contentWrapper" }}
-  <div class="like mx-6 max-h-screen snap-y snap-mandatory  sm:ml-16">
-    <div class="read-page snap-center bg-red-100">
-      <ul class="flex space-x-4">
+  <div class="like mx-6 mt-4 bg-red-200 sm:ml-16">
+    <div class="book-section bg-blue-200">
+      <h2>Read</h2>
+      <ul class="read-page  flex space-x-4">
         {{ range .Site.Taxonomies.categories.book }}
           {{ partial "book-link.html" . }}
+        {{ end }}
+      </ul>
+    </div>
+
+    <div class="music-section bg-yellow-200">
+      <h2>Music</h2>
+      <ul class="music-page flex space-x-4">
+        {{ range .Site.Taxonomies.categories.music }}
+          {{ partial "music-link.html" . }}
         {{ end }}
       </ul>
     </div>

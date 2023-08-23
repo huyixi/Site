@@ -1,9 +1,9 @@
-.book-item::after, .book-item::before, .book-item > a > picture > img, .book-item {
+.book::after, .book::before, .book > a > picture > img, .book {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
-.book-item {
+.book {
   cursor: pointer;
   display: block;
   width: 9rem;
@@ -15,25 +15,21 @@
   overflow: hidden;
   transition: box-shadow 0.3s linear;
 }
-.book-item .book-link {
-  width: 9rem;
-  height: 13rem;
-}
-.book-item > a > picture > img {
+.book > a > picture > img {
   width: 9rem;
   height: 13rem;
   transform-origin: 0 50%;
   transform: rotateY(0);
   transition: all 0.45s ease;
 }
-.book-item:hover {
+.book:hover {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 9px 20px 0 rgba(0, 0, 0, 0.45);
 }
-.book-item:hover > a > picture > img {
-  transform: rotateY(-25deg);
+.book:hover > a > picture > img {
+  transform: rotateY(-30deg);
   box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.2);
 }
-.book-item::after, .book-item::before {
+.book::after, .book::before {
   content: "";
   display: block;
   width: inherit;
@@ -44,9 +40,51 @@
   background: white;
   border: 1px solid #d9d9d9;
 }
-.book-item::before {
+.book::before {
   left: -3px;
 }
-.book-item::after {
+.book::after {
   left: -6px;
+}
+
+.music-link {
+  position: relative;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.1);
+  transform: scale(1);
+  transition: all 0.5s ease;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.music-link img:hover {
+  transform: rotate(360deg);
+}
+
+.music-link::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1rem;
+  height: 1rem;
+  background-color: #fff;
+  border-radius: 50%;
+  z-index: 5;
+  transform: translate(-50%, -50%);
+}
+
+.music-link img:hover {
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }/*# sourceMappingURL=custom.css.map */

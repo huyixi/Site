@@ -2,8 +2,8 @@ module.exports = {
   content: [
     "./layouts/**/*.html",
     "./content/**/*.{html,md}",
-    "./themes/congo/layouts/**/*.html",
-    "./themes/congo/content/**/*.{html,md}",
+    "./themes/blue/layouts/**/*.html",
+    "./themes/blue/content/**/*.{html,md}",
   ],
   theme: {
     extend: {

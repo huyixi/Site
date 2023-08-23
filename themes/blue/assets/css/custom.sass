@@ -7,7 +7,7 @@ $book-border: 1px solid $book-color-border
   border-top-right-radius: 5px
   border-bottom-right-radius: 5px
 
-.book-item 
+.book
   @extend %book-rounded-corners
   cursor: pointer
   display: block
@@ -20,9 +20,6 @@ $book-border: 1px solid $book-color-border
   overflow: hidden
   transition: box-shadow .3s linear
   
-  .book-link
-    width: 9rem
-    height: 13rem
 
   & > a > picture > img 
     @extend %book-rounded-corners
@@ -36,7 +33,7 @@ $book-border: 1px solid $book-color-border
     box-shadow: 0 2px 4px 0 rgba(#000, .25), 0 9px 20px 0 rgba(#000, .45)
 
     & > a > picture > img 
-      transform: rotateY(-25deg)
+      transform: rotateY(-30deg)
       box-shadow: 1px 1px 5px 5px rgba(#000, .2)
 
   &::after,
@@ -57,3 +54,39 @@ $book-border: 1px solid $book-color-border
 
   &::after 
     left: -6px
+
+.music-link
+    position: relative
+    height: 5rem
+    width: 5rem
+    border-radius: 50%
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.1)
+    transform: scale(1)
+    transition: all .5s ease
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+
+    img:hover
+      transform:  rotate(360deg)
+
+.music-link::after
+    content: ''
+    position: absolute
+    top: 50%
+    left: 50%
+    width: 1rem
+    height: 1rem
+    background-color: #fff
+    border-radius: 50%
+    z-index: 5
+    transform: translate(-50%, -50%)
+
+.music-link img:hover
+    animation: spin 5s linear infinite
+
+@keyframes spin
+    0%
+        transform: rotate(0deg)
+    100%
+        transform: rotate(360deg)
