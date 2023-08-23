@@ -1,17 +1,25 @@
-{{ with .Site.Author.links }}
-  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
-    {{ range $links := . }}
-      {{ range $name, $url := $links }}
-        <a
-          class="hover:text-primary-700 dark:hover:text-primary-400 px-1 transition-transform hover:scale-125"
-          style="will-change:transform;"
-          href="{{ $url | safeURL }}"
-          target="_blank"
-          aria-label="{{ $name | title }}"
-          rel="me noopener noreferrer"
-          >{{ partial "icon.html" $name }}</a
-        >
-      {{ end }}
-    {{ end }}
-  </div>
-{{ end }}
+<!-- layouts/partials/book-link.html -->
+
+<li class="book-item">
+  <!-- 获取图片资源 -->
+  {{- $images := $.Resources.ByType "image" }}
+  {{- $thumbnail := $images.GetMatch (.Params.thumbnail | default "*thumb*") }}
+  {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $thumbnail }}
+  <a href="{{ .Page.Permalink }}" class="book-link">
+    <!-- 图片部分 -->
+    {{- with $feature }}
+      <picture class="">
+        <source srcset="{{ .RelPermalink }}" type="image/webp" />
+        <source srcset="{{ .RelPermalink }}" type="image/jpeg" />
+        <img
+          src="{{ .RelPermalink }}"
+          alt="{{ $.Params.featureAlt | default $.Params.thumbnailAlt | default "" }}"
+          {{ if $.Site.Params.enableImageLazyLoading | default true }}
+            loading="lazy"
+          {{ end }}
+          class=""
+        />
+      </picture>
+    {{- end }}
+  </a>
+</li>

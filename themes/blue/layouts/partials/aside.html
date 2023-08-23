@@ -77,7 +77,6 @@
                 >
                   {{ with .Params.icon }}
                     <span>
-                      {{/* {{- partial "icon.html" . -}} */}}
                       {{ partial "icon.html" (dict "iconName" . "isActive" $isActive) }}
                     </span>
                   {{- end -}}
