@@ -1,0 +1,15 @@
+{{ $now := now }}
+{{ $targetDate := $now.AddDate -1 0 0 }}
+{{ $allArticles := where .Site.RegularPages "Type" "posts" }}
+
+{{ $closestArticle := index (sort $allArticles "Date" "desc") 0 }}
+
+{{ range $allArticles }}
+  {{ $daysDifference := math.Abs (div (sub .Date.Unix $targetDate.Unix) 86400) }}
+  {{ if lt $daysDifference (math.Abs (div (sub $closestArticle.Date.Unix $targetDate.Unix) 86400)) }}
+    {{ $closestArticle = . }}
+  {{ end }}
+{{ end }}
+
+
+<a href="{{ $closestArticle.RelPermalink }}">{{ $closestArticle.Title }}</a>
