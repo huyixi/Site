@@ -46,11 +46,11 @@ case $content_type in
         archetype_name="project"
         ;;
     post)
-        content_path="post/$title/index.md"
+        content_path="posts/$title/index.md"
         archetype_name="post"
         ;;
     p)
-        content_path="post/$title/index.md"
+        content_path="posts/$title/index.md"
         archetype_name="post"
         ;;
     *)
