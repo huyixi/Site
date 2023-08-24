@@ -1,8 +1,8 @@
 ---
 title: "Weekly 19"
-date: 2023-08-23T16:02:45+08:00
-draft: true
+date: 2023-08-24T08:47:11+08:00
+draft: false
 tags: []
-category: [Blog]
+category: [Weekly]
 summary: 
 ---
