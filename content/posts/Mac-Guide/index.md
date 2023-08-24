@@ -192,4 +192,4 @@ git commit -m "Removed .DS_Store from repository
 
 - [麦克搜](www.imacso.com)
 
-- [FileCR](https://filecr.com)
+- [FileCR](https://www.filecr.com)

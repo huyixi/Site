@@ -9,9 +9,15 @@ summary:
 
 # IELTS - Academic
 
+## Register
+
+[Offical Website](https://www.ielts.org)
+
+[🇨🇳China Test Site](https://ielts.neea.cn/showTestCenters)
+
 ## Test Layout
 
-## Listening
+### Listening
 
 - **Duration**: 30 minutes
 
@@ -39,7 +45,7 @@ summary:
 
 
 
-## Reading
+### Reading
 
 - **Duration**: 1 hour
 - **Structure**: 3 sections, total of 40 questions
@@ -54,7 +60,7 @@ summary:
 
 
 
-## Writing
+### Writing
 
 - **Duration**: 1 hour
 - **Structure**: 2 tasks
@@ -77,7 +83,7 @@ Each criterion weighs 25% and applies to both tasks.
 
 
 
-## Speaking
+### Speaking
 
 - **Duration**: 11 - 14 minutes
 - **Structure**: Introduction + 3 parts
@@ -95,3 +101,19 @@ Each criterion weighs 25% and applies to both tasks.
 - Lexical resources (vocabulary)
 - Grammatical range and accuracy
 - Pronunciation
+
+## Tools
+
+### Dictionary
+
+- [Urban Dictionary](https://www.urbandictionary.com)
+
+### AI Speaking Assintant
+
+- [PrettyPolly](https://www.prettypolly.app/app)
+
+- [MyShell](https://myshell.ai/)
+
+## Resource
+
+- [邵艾伦三合一【9小时口语突飞猛进】和【美音速成】](https://www.bilibili.com/cheese/play/ss1060?csource=private_space_class_null&spm_id_from=333.999.0.0)
