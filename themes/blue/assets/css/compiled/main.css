@@ -1367,6 +1367,10 @@ video {
   scroll-snap-type: y var(--tw-scroll-snap-strictness);
 }
 
+.snap-start {
+  scroll-snap-align: start;
+}
+
 .snap-center {
   scroll-snap-align: center;
 }

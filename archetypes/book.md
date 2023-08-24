@@ -1,6 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 author:
+unread: true
 date: {{ .Date }}
 draft: false
 tags: []
