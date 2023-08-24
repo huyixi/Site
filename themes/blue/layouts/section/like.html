@@ -1,15 +1,15 @@
 {{ define "contentWrapper" }}
-  <div class="like mx-6 mt-4 bg-red-200 sm:ml-16">
-    <div class="book-section bg-blue-200">
+  <div class="like mx-6 mt-4 h-screen snap-y overflow-y-auto bg-red-200 sm:ml-16 sm:mr-0 sm:mt-0">
+    <div class="book-section h-full snap-center snap-always bg-blue-200">
       <h2>Read</h2>
-      <ul class="read-page  flex space-x-4">
+      <ul class="read-page flex space-x-4">
         {{ range where .Site.RegularPages "Params.category" "intersect" (slice "Book") }}
           {{ partial "book-link.html" . }}
         {{ end }}
       </ul>
     </div>
 
-    <div class="music-section bg-yellow-200">
+    <div class="music-section h-full snap-center snap-always bg-yellow-200">
       <h2>Music</h2>
       <ul class="music-page flex space-x-4">
         {{ range where .Site.RegularPages "Params.category" "intersect" (slice "Music") }}

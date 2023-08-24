@@ -1,3 +1,7 @@
+# TODO: Change this line if change device
+# Navigate to the Hugo project directory
+# cd 
+
 # Ask user for content type
 echo "Enter content type (e.g., Weekly, Post, Project, Music, Book):"
 read content_type

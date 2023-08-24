@@ -90,4 +90,12 @@
   100% {
     transform: rotate(360deg);
   }
+}
+.like::-webkit-scrollbar {
+  display: none;
+}
+
+.like {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }/*# sourceMappingURL=custom.css.map */
