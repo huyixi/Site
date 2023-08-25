@@ -1,10 +1,10 @@
 <div class="py-7">
-  <a class="flex" href="{{ .RelPermalink }}">
+  <a class="group flex" href="{{ .RelPermalink }}">
     <!-- 获取图片资源 -->
     {{- $images := $.Resources.ByType "image" }}
     {{- $thumbnail := $images.GetMatch (.Params.thumbnail | default "*thumb*") }}
     {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $thumbnail }}
-    <div class="h-23 w-23 flex-none">
+    <div class="flex-none overflow-hidden">
       {{- with $feature }}
         <picture>
           <source srcset="{{ .RelPermalink }}" type="image/webp" />
@@ -15,21 +15,21 @@
             {{ if $.Site.Params.enableImageLazyLoading | default true }}
               loading="lazy"
             {{ end }}
-            class="h-23 w-23 rounded-xl object-cover"
+            class="h-23 w-23 rounded-xl object-cover duration-500 group-hover:scale-110"
           />
         </picture>
       {{- end }}
     </div>
     <div class="ml-4 flex flex-col">
-      <div class="text-base text-neutral-500 dark:text-neutral-400">
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
         {{ range .Params.category }}
           {{ . }}
         {{ end }}
       </div>
-      <h3 class="group-hover:decoration-primary-500 mt-[0.1rem] leading-6 group-hover:underline">
+      <h3 class="mt-[0.1rem] text-xl font-medium leading-6 group-hover:text-blue-500">
         {{ .Title | emojify }}
       </h3>
-      <div class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+      <div class="mt-[0.1rem] text-base text-neutral-500 dark:text-neutral-400">
         {{ if .Params.showDate | default (.Site.Params.article.showDate | default true) }}
           {{ partial "meta/date.html" .Date }}
         {{ end }}
