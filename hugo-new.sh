@@ -3,7 +3,7 @@
 # cd 
 
 # Ask user for content type
-echo "Enter content type (e.g., Weekly, Post, Project, Music, Book):"
+echo "Enter content type (e.g., Weekly(W), Post(P), Project(Proj), Music(M), Book(B)):"
 read content_type
 
 # Ask user for the title or filename
