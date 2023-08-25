@@ -1,7 +1,7 @@
 ---
 title: 我的 git 自定义配置
 date: 2023-08-14T21:00:00+08:00
-categories: [blog]
+category: [Blog]
 tags: [Git, Config]
 draft: false
 summary: 我的 git 自定义配置

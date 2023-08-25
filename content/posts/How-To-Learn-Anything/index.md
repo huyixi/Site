@@ -1,7 +1,7 @@
 ---
 title: How To Learn Anything
 date: 2023-04-01T02:49:00+08:00
-categories: [inbox]
+category: [Inbox]
 tags: [study]
 draft: false
 ---

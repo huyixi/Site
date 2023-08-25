@@ -3,7 +3,7 @@ title: "SoftwareDesigner"
 date: 2023-08-21T11:38:57+08:00
 draft: false
 tags: []
-categories: [Blog]
+category: [Blog]
 summary: 软考中级-软件设计师备考之路
 ---
 

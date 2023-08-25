@@ -1,7 +1,7 @@
 ---
 title: 周刊（第 1 期）
 date: 2023-04-24T02:49:00+08:00
-categories: [weekly]
+category: [Weekly]
 tags: [weekly]
 draft: false
 ---

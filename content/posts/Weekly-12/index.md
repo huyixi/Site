@@ -1,7 +1,7 @@
 ---
 title: 周刊#12：历史上最热的一天
 date: 2023-07-08T03:36:00+08:00
-categories: [weekly]
+category: [Weekly]
 tags: [weekly]
 draft: false
 summary: |

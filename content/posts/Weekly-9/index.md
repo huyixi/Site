@@ -1,7 +1,7 @@
 ---
 title: 周刊#9：生命短暂，贪得无厌！ - How to Live
 date: 2023-06-20T15:53:00+08:00
-categories: [weekly]
+category: [Weekly]
 tags: [weekly]
 draft: false
 summary: |

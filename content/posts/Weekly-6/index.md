@@ -1,7 +1,7 @@
 ---
 title: 周刊（第 6 期）
 date: 2023-05-29T08:00:00+08:00
-categories: [weekly]
+category: [Weekly]
 tags: [weekly]
 draft: false
 ---

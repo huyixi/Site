@@ -1,7 +1,7 @@
 ---
 title: iWeather
 date: 2023-08-01T00:30:00+08:00
-categories: [Blog]
+category: [Blog]
 tags: [App, React, Flask, ECharts]
 draft: false
 summary: |

@@ -1,7 +1,7 @@
 ---
 title: 周刊#14：英语
 date: 2023-07-24T00:00:00+08:00
-categories: [weekly]
+category: [Weekly]
 tags: [weekly]
 draft: false
 summary: |

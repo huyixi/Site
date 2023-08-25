@@ -1,7 +1,7 @@
 ---
 title: Skincare
 date: 2023-04-01T02:49:00+08:00
-categories: [health]
+category: [Health]
 tags: [inbox]
 draft: false
 ---
