@@ -1,5 +1,5 @@
 ---
-title: "How to Deal With Love Relation"
+title: "How to Deal With Intimate Relationship"
 date: 2023-08-25T00:08:02+08:00
 draft: false
 tags: []
@@ -7,10 +7,11 @@ category: [Blog]
 summary: 
 ---
 以前我总认为，恋爱顺其自然就好。
+我们都默认，事业需要努力。
+但是很少有人知道，亲密关系也需要努力。
 在经历了一段并不完美的初恋之后，我改变了这个看法。
 我应该努力去维持亲密关系，而不是让其“自由落体”。
 我在这篇文章总结我做的不好的地方，以及我应该怎么做。
-
 再遇到下一个人的时候，我能做得更好。
 
 ## 观念
