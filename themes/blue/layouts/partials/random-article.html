@@ -1,5 +1,0 @@
-{{ $shuffledPages := shuffle .Site.RegularPages }}
-{{ $randomPage := index $shuffledPages 0 }}
-
-
-<a href="{{ $randomPage.RelPermalink }}">{{ $randomPage.Title }}</a>
