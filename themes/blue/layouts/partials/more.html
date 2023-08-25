@@ -4,12 +4,14 @@
     {{ $prev := .PrevInSection }}
     <hr />
     <div class="pt-8">
-      <h2 class="text-2xl font-semibold">More articles</h2>
+      <h2 class="text-2xl font-semibold">{{ i18n "article.more.title" }}</h2>
       <div class="pt-3">
+        <p>{{ i18n "article.more.prev" }}</p>
         {{ if $prev }}
           {{ partial "more-link.html" $prev }}
         {{ end }}
         <hr />
+        <p>{{ i18n "article.more.next" }}</p>
         {{ if $next }}
           {{ partial "more-link.html" $next }}
         {{ end }}

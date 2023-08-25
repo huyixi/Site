@@ -15,6 +15,12 @@ article:
   word_count:
     one: "{{ .Count }} word"
     other: "{{ .Count }} words"
+  more:
+    title: "More Articles"
+    prev: "Prev"
+    next: "Next"
+    random: "Random"
+    history: "History"
 
 author:
   byline_title: "Author"
