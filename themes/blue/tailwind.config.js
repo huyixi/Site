@@ -12,10 +12,14 @@ module.exports = {
         "tc-gray": "#798188",
       },
       width: {
+        23: "5.75rem",
         144: "36rem",
         148: "37rem",
         152: "38rem",
         245: "61.25rem",
+      },
+      height: {
+        23: "5.75rem",
       },
       backgroundColor: {
         "bg-gray": "#F8F8F8",

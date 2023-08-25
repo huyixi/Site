@@ -1,0 +1,39 @@
+<div class="py-7">
+  <a class="flex" href="{{ .RelPermalink }}">
+    <!-- 获取图片资源 -->
+    {{- $images := $.Resources.ByType "image" }}
+    {{- $thumbnail := $images.GetMatch (.Params.thumbnail | default "*thumb*") }}
+    {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $thumbnail }}
+    <div class="h-23 w-23 flex-none">
+      {{- with $feature }}
+        <picture>
+          <source srcset="{{ .RelPermalink }}" type="image/webp" />
+          <source srcset="{{ .RelPermalink }}" type="image/jpeg" />
+          <img
+            src="{{ .RelPermalink }}"
+            alt="{{ $.Params.featureAlt | default $.Params.thumbnailAlt | default "" }}"
+            {{ if $.Site.Params.enableImageLazyLoading | default true }}
+              loading="lazy"
+            {{ end }}
+            class="h-23 w-23 rounded-xl object-cover"
+          />
+        </picture>
+      {{- end }}
+    </div>
+    <div class="ml-4 flex flex-col">
+      <div class="text-base text-neutral-500 dark:text-neutral-400">
+        {{ range .Params.categories }}
+          {{ . }}
+        {{ end }}
+      </div>
+      <h3 class="group-hover:decoration-primary-500 mt-[0.1rem] leading-6 group-hover:underline">
+        {{ .Title | emojify }}
+      </h3>
+      <div class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+        {{ if .Params.showDate | default (.Site.Params.article.showDate | default true) }}
+          {{ partial "meta/date.html" .Date }}
+        {{ end }}
+      </div>
+    </div>
+  </a>
+</div>

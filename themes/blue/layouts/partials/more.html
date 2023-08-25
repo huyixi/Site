@@ -1,0 +1,19 @@
+{{ if .Params.showMore | default (.Site.Params.article.showMore | default true) }}
+  {{ if or .NextInSection .PrevInSection }}
+    {{ $next := .NextInSection }}
+    {{ $prev := .PrevInSection }}
+    <hr />
+    <div class="pt-8">
+      <h2 class="text-2xl font-semibold">More articles</h2>
+      <div class="pt-3">
+        {{ if $prev }}
+          {{ partial "more-link.html" $prev }}
+        {{ end }}
+        <hr />
+        {{ if $next }}
+          {{ partial "more-link.html" $next }}
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+{{ end }}
