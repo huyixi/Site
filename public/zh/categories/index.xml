@@ -5,61 +5,6 @@
     <link>https://huyixi.com/zh/categories/</link>
     <description>Recent content in Categories on 胡一希</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 21 Aug 2023 11:38:57 +0800</lastBuildDate><atom:link href="https://huyixi.com/zh/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Blog</title>
-      <link>https://huyixi.com/zh/categories/blog/</link>
-      <pubDate>Mon, 21 Aug 2023 11:38:57 +0800</pubDate>
-      
-      <guid>https://huyixi.com/zh/categories/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>weekly</title>
-      <link>https://huyixi.com/zh/categories/weekly/</link>
-      <pubDate>Sun, 06 Aug 2023 22:36:00 +0800</pubDate>
-      
-      <guid>https://huyixi.com/zh/categories/weekly/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>post</title>
-      <link>https://huyixi.com/zh/categories/post/</link>
-      <pubDate>Sun, 21 May 2023 08:00:00 +0800</pubDate>
-      
-      <guid>https://huyixi.com/zh/categories/post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tutor</title>
-      <link>https://huyixi.com/zh/categories/tutor/</link>
-      <pubDate>Mon, 24 Apr 2023 02:49:00 +0800</pubDate>
-      
-      <guid>https://huyixi.com/zh/categories/tutor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>health</title>
-      <link>https://huyixi.com/zh/categories/health/</link>
-      <pubDate>Sat, 01 Apr 2023 02:49:00 +0800</pubDate>
-      
-      <guid>https://huyixi.com/zh/categories/health/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>inbox</title>
-      <link>https://huyixi.com/zh/categories/inbox/</link>
-      <pubDate>Sat, 01 Apr 2023 02:49:00 +0800</pubDate>
-      
-      <guid>https://huyixi.com/zh/categories/inbox/</guid>
-      <description></description>
-    </item>
-    
+    <language>zh</language><atom:link href="https://huyixi.com/zh/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

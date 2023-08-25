@@ -3,20 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
+      <url>
+            <loc>https://huyixi.com/zh/like/the-reasons-of-the-heart/</loc>
+            <lastmod>2023-08-25T13:54:10+08:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://huyixi.com/zh/posts/how-to-deal-with-love-relation/</loc>
+            <lastmod>2023-08-25T00:08:02+08:00</lastmod>
+          </url>
+    
   
     
       <url>
             <loc>https://huyixi.com/zh/posts/</loc>
-            <lastmod>2023-08-21T11:38:57+08:00</lastmod>
+            <lastmod>2023-08-24T12:09:24+08:00</lastmod>
           </url>
-    
-  
     
   
     
       <url>
             <loc>https://huyixi.com/zh/</loc>
-            <lastmod>2023-08-21T11:38:57+08:00</lastmod>
+            <lastmod>2023-08-24T12:09:24+08:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -27,6 +37,106 @@
               hreflang="zh"
               href="https://huyixi.com/zh/"
               />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://huyixi.com/zh/like/</loc>
+            <lastmod>2023-08-24T12:09:24+08:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://huyixi.com/en/like/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="zh"
+              href="https://huyixi.com/zh/like/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://huyixi.com/zh/projects/</loc>
+            <lastmod>2023-08-24T12:09:24+08:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://huyixi.com/en/projects/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="zh"
+              href="https://huyixi.com/zh/projects/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://huyixi.com/zh/about/</loc>
+            <lastmod>2023-08-24T12:09:24+08:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://huyixi.com/en/about/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="zh"
+              href="https://huyixi.com/zh/about/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://huyixi.com/zh/like/the-cold/</loc>
+            <lastmod>2023-08-24T09:11:43+08:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://huyixi.com/zh/posts/weekly-19/</loc>
+            <lastmod>2023-08-24T08:47:11+08:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://huyixi.com/zh/like/inside-the-cable-temple/</loc>
+            <lastmod>2023-08-23T15:57:50+08:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://huyixi.com/zh/like/omnipotent-youth-society/</loc>
+            <lastmod>2023-08-23T15:31:20+08:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://huyixi.com/zh/like/copywriting-training-manual/</loc>
+            <lastmod>2023-08-22T22:20:36+08:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://huyixi.com/zh/like/secure-life-insurance/</loc>
+            <lastmod>2023-08-21T23:45:01+08:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://huyixi.com/zh/posts/weekly-18/</loc>
+            <lastmod>2023-08-21T14:37:13+08:00</lastmod>
           </url>
     
   
@@ -69,8 +179,6 @@
             <loc>https://huyixi.com/zh/posts/git-config/</loc>
             <lastmod>2023-08-14T21:00:00+08:00</lastmod>
           </url>
-    
-  
     
   
     
@@ -210,15 +318,6 @@
     
   
     
-  
-    
-      <url>
-            <loc>https://huyixi.com/zh/projects/</loc>
-            <lastmod>2023-05-21T08:00:00+08:00</lastmod>
-          </url>
-    
-  
-    
       <url>
             <loc>https://huyixi.com/zh/posts/ebook-solution/</loc>
             <lastmod>2023-05-21T08:00:00+08:00</lastmod>
@@ -270,8 +369,6 @@
     
   
     
-  
-    
       <url>
             <loc>https://huyixi.com/zh/posts/weekly-1/</loc>
             <lastmod>2023-04-24T02:49:00+08:00</lastmod>
@@ -279,14 +376,10 @@
     
   
     
-  
-    
       <url>
             <loc>https://huyixi.com/zh/posts/how-to-learn-anything/</loc>
             <lastmod>2023-04-01T02:49:00+08:00</lastmod>
           </url>
-    
-  
     
   
     
@@ -310,110 +403,92 @@
     
       <url>
             <loc>https://huyixi.com/zh/posts/how-to-learn-english-better/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://huyixi.com/zh/posts/how-to-live-longer/</loc>
+            <lastmod>2023-01-02T00:00:00+08:00</lastmod>
           </url>
     
   
     
       <url>
             <loc>https://huyixi.com/zh/posts/how-to-store-data/</loc>
+            <lastmod>2023-01-02T00:00:00+08:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>https://huyixi.com/zh/posts/my-new-website/</loc>
+            <loc>https://huyixi.com/zh/posts/how-to-live-longer/</loc>
+            <lastmod>2023-01-02T00:00:00+08:00</lastmod>
           </url>
     
   
     
       <url>
             <loc>https://huyixi.com/zh/posts/myworkspace/</loc>
+            <lastmod>2023-01-02T00:00:00+08:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://huyixi.com/zh/posts/my-new-website/</loc>
+            <lastmod>2023-01-02T00:00:00+08:00</lastmod>
           </url>
     
   
     
       <url>
             <loc>https://huyixi.com/zh/posts/network/</loc>
+            <lastmod>2023-01-02T00:00:00+08:00</lastmod>
           </url>
     
   
     
       <url>
             <loc>https://huyixi.com/zh/posts/personal-growth/</loc>
+            <lastmod>2023-01-02T00:00:00+08:00</lastmod>
           </url>
     
   
     
       <url>
             <loc>https://huyixi.com/zh/posts/predictions-for-the-future/</loc>
+            <lastmod>2023-01-02T00:00:00+08:00</lastmod>
           </url>
     
   
     
       <url>
             <loc>https://huyixi.com/zh/posts/rime/</loc>
+            <lastmod>2023-01-02T00:00:00+08:00</lastmod>
           </url>
     
   
     
       <url>
             <loc>https://huyixi.com/zh/posts/shortcut/</loc>
+            <lastmod>2023-01-02T00:00:00+08:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>https://huyixi.com/zh/posts/the-grammer-of-english/</loc>
+            <loc>https://huyixi.com/zh/posts/the-grammar-of-english/</loc>
+            <lastmod>2023-01-02T00:00:00+08:00</lastmod>
           </url>
     
   
     
       <url>
             <loc>https://huyixi.com/zh/posts/the-pronounce-of-english/</loc>
+            <lastmod>2023-01-02T00:00:00+08:00</lastmod>
           </url>
+    
+  
     
   
     
       <url>
             <loc>https://huyixi.com/zh/posts/how-to-understand-event/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://huyixi.com/zh/about/</loc>
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://huyixi.com/en/about/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="zh"
-              href="https://huyixi.com/zh/about/"
-              />
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://huyixi.com/zh/like/</loc>
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://huyixi.com/en/like/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="zh"
-              href="https://huyixi.com/zh/like/"
-              />
           </url>
     
   

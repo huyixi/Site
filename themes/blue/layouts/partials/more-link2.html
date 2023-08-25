@@ -1,0 +1,43 @@
+<div class="py-7">
+  <p class="pb-2 pl-1 text-sm">{{ .label }}</p>
+  <a class="group flex" href="{{ .context.RelPermalink }}">
+    <!-- Image resource retrieval -->
+    {{- $images := .context.Resources.ByType "image" }}
+    {{- $thumbnail := $images.GetMatch (.context.Params.thumbnail | default "*thumb*") }}
+    {{- $feature := $images.GetMatch (.context.Params.feature | default "*feature*") | default $thumbnail }}
+
+
+    <div class="flex-none overflow-hidden rounded-xl">
+      {{ $pageContext := .context }}
+      {{ with $feature }}
+        <picture>
+          <source srcset="{{ .RelPermalink }}" type="image/webp" />
+          <source srcset="{{ .RelPermalink }}" type="image/jpeg" />
+          <img
+            src="{{ .RelPermalink }}"
+            alt="{{ $pageContext.Params.featureAlt | default $pageContext.Params.thumbnailAlt | default "" }}"
+            {{ if $.Site.Params.enableImageLazyLoading | default true }}
+              loading="lazy"
+            {{ end }}
+            class="h-23 w-23 rounded-xl object-cover duration-500 group-hover:scale-110"
+          />
+        </picture>
+      {{ end }}
+    </div>
+    <div class="ml-4 flex flex-col">
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        {{ range .context.Params.category }}
+          {{ . }}
+        {{ end }}
+      </div>
+      <h3 class="mt-[0.1rem] text-xl font-medium leading-6 group-hover:text-blue-500">
+        {{ .context.Title | emojify }}
+      </h3>
+      <div class="mt-[0.1rem] text-base text-neutral-500 dark:text-neutral-400">
+        {{ if .Params.showDate | default (.Site.Params.article.showDate | default true) }}
+          {{ partial "meta/date.html" .context.Date }}
+        {{ end }}
+      </div>
+    </div>
+  </a>
+</div>

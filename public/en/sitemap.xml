@@ -3,10 +3,9 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
-  
-    
       <url>
             <loc>https://huyixi.com/en/about/</loc>
+            <lastmod>2023-08-24T12:09:24+08:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="zh"
@@ -23,6 +22,7 @@
     
       <url>
             <loc>https://huyixi.com/en/like/</loc>
+            <lastmod>2023-08-24T12:09:24+08:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="zh"
@@ -37,10 +37,26 @@
     
   
     
+      <url>
+            <loc>https://huyixi.com/en/projects/</loc>
+            <lastmod>2023-08-24T12:09:24+08:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="zh"
+              href="https://huyixi.com/zh/projects/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://huyixi.com/en/projects/"
+              />
+          </url>
+    
   
     
       <url>
             <loc>https://huyixi.com/en/</loc>
+            <lastmod>2023-08-24T12:09:24+08:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="zh"
@@ -52,6 +68,10 @@
               href="https://huyixi.com/en/"
               />
           </url>
+    
+  
+    
+  
     
   
 </urlset>
