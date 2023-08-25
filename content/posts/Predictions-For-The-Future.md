@@ -1,3 +1,11 @@
+---
+title: Predictions For The Future
+date: 2023-01-02T00:00:00+08:00
+category: [Blog]
+tags: []
+draft: false
+---
+
 ## Programming Language
 
 - 编程语言只是我们利用计算机能力的工具。

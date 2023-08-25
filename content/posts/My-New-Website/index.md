@@ -1,3 +1,11 @@
+---
+title: My-New-Website
+date: 2023-01-02T00:00:00+08:00
+category: [Blog]
+tags: []
+draft: false
+---
+
 后端使用 Strapi ，前端使用 Next.js, tailwindcss 编写界面
 
 ### Strapi 遇到的一些问题

@@ -1,3 +1,11 @@
+---
+title: How to store data
+date: 2023-01-02T00:00:00+08:00
+category: [Blog]
+tags: []
+draft: false
+---
+
 ##### StorageEnvironment
 
 1. 因为里面有磁头，所以外界不要有磁铁

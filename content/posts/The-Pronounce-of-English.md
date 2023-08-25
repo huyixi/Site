@@ -1,3 +1,11 @@
+---
+title: The Pronounce of English
+date: 2023-01-02T00:00:00+08:00
+category: [Blog]
+tags: []
+draft: false
+---
+
 ### 声音的分类
 
 - 浊音( Voiced sound )

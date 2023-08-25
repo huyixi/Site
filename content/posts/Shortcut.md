@@ -1,3 +1,11 @@
+---
+title: Shortcut
+date: 2023-01-02T00:00:00+08:00
+category: [Blog]
+tags: []
+draft: false
+---
+
 ## Windows 快捷键
 
 | 快捷键                | 桌面                       | Chrome 浏览器                                                | 文件资源管理器 |
