@@ -4,7 +4,6 @@ hello:
 article:
   anchor_label: "Anchor"
   date: "{{ .Date }}"
-  dateFormat: "January 2, 2006"
   date_updated: "Updated: {{ .Date }}"
   draft: "Draft"
   edit_title: "Edit content"
