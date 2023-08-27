@@ -32,6 +32,9 @@ fingerprintAlgorithm = "sha256"
   showRecent = false
   recentLimit = 5
 
+[about]
+  showAvatar = true
+
 [article]
   showDate = true
   showDateUpdated = false
