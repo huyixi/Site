@@ -23,10 +23,6 @@ summary:
 
 ## 动态
 
-![image-20230820211337319](/Users/huyixi/Library/Application Support/typora-user-images/image-20230820211337319.png)
-
-
-
 ### The tech stack of Zolplay
 
 ![](https://raw.githubusercontent.com/huyixi/Pics/main/zolplay_stack.png)
