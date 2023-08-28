@@ -62,8 +62,6 @@ draft: false
 
 ![image-20230531003150820](/Users/huyixi/Dev/huyixi.com/content/zh-CN/posts/ebook-Solution/index.assets/image-20230531003150820.png)
 
-
-
 ##### KTool
 
 将链接输入 KTool 中生成并推送到 Kindle 中。但是导入链接一次最多导入 30 个，且生成的电子书只能以 30 个链接为一本，链接增加则会分成几本书。
