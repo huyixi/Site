@@ -1,8 +1,8 @@
 {{ define "contentWrapper" }}
   <div class="like mx-6 mt-4 h-screen snap-y overflow-auto bg-red-200 sm:ml-16 sm:mr-0 sm:mt-0">
-    <div class="book-section h-full snap-start snap-always bg-blue-200">
+    <div class="read-page h-full snap-start snap-always bg-blue-200">
       <h2>Read</h2>
-      <ul class="read-page flex space-x-4">
+      <ul class="book-section flex flex-wrap">
         {{ range where .Site.RegularPages "Params.category" "intersect" (slice "Book") }}
           {{ partial "book-link.html" . }}
         {{ end }}
