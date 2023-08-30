@@ -95,3 +95,10 @@ git config --global alias.lg "log --oneline --all --graph --decorate"
 
 git lg
 ```
+
+### 自动设置上游分支
+
+```bash
+git config --global push.default current
+```
+
