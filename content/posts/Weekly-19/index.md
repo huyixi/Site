@@ -29,3 +29,7 @@ summary:
 [探索互联网上高质量的内容](https://immersivetranslate.com/docs/sites/)
 
 沉浸式翻译的作者还梳理了一份超级不错的「探索互联网上高质量的内容」，包括网站导航、新闻/杂志、深度报道、专人维护的 Reading List、视频、专栏等，质量真心很高，特别适合想了解全世界的一些一手消息的同学。
+
+
+
+[诺贝尔经济奖得主保罗.克鲁格曼Paul Krugman大师课](https://www.bilibili.com/video/BV1oU4y177vk/?vd_source=e7b677bc31fcf107b6c6689167aae9d9)
