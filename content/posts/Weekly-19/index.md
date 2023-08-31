@@ -33,3 +33,13 @@ summary:
 
 
 [诺贝尔经济奖得主保罗.克鲁格曼Paul Krugman大师课](https://www.bilibili.com/video/BV1oU4y177vk/?vd_source=e7b677bc31fcf107b6c6689167aae9d9)
+
+
+
+[「妳真正應該努力的，是找到那個懂得妳的「好」的人，而不是努力去變成，對方會喜歡的樣子。」對的人，就不會讓妳一直覺得，自己是錯的](https://www.vogue.com.tw/lifestyle/article/角子-一個人你也要活得晴空萬里)
+
+[爱那个尽最大努力去理解你的人](https://stephenleng.com/love-the-person-who-tries-his-best-to-understand-you/)
+
+## 说说
+
+寻找风口行业。 - 雷军/狮子
