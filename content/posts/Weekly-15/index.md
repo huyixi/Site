@@ -1,5 +1,5 @@
 ---
-title: 周刊#15：
+title: 周刊#15： VIM 作者逝世
 date: 2023-07-31T22:29:00+08:00
 category: [Weekly]
 tags: [weekly]
