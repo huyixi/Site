@@ -10,11 +10,11 @@
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-white">
         {{ .Title | emojify }}
       </h1>
-      <h2 class="mt-4">{{ .Params.subtitle | emojify }}</h2>
+      <h2 class="my-4">{{ .Params.subtitle | emojify }}</h2>
       {{ with $feature }}
         <div class="prose">
           <img
-            class="-mt-4 mb-6 rounded-md"
+            class="mb-6 mt-4 rounded-md"
             {{ if eq .MediaType.SubType "svg" }}
               src="{{ .RelPermalink }}"
             {{ else }}
@@ -37,7 +37,7 @@
           {{ end }}
         </div>
       {{ end }}
-      <hr class="mb-8 mt-6" />
+      {{/* <hr class="mb-8 mt-6" /> */}}
     </header>
     <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
       <div class="min-h-0 min-w-0 max-w-prose grow">
@@ -51,7 +51,7 @@
         </div>
       </div>
     {{ end }}
-    <footer class=" max-w-prose pt-8 print:hidden">
+    <footer class="max-w-prose pt-8 print:hidden">
       {{ partial "author.html" . }}
       {{ partial "sharing-links.html" . }}
       {{ partial "more.html" . }}
