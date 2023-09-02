@@ -7,48 +7,73 @@ category: [Weekly]
 summary: 
 ---
 
-本期周刊标题借用 Justin 的这篇博客
+封面图：八仙饭店在《乐队的夏天 3》演唱单身旅记的一帧画面，八仙饭店真的是太强了，太好听了！！！
+
+
+
+本期周刊标题借用 Justin 的这篇博客：
 
 [[每个人每天都只有24小时，希望我的选择真的是我的选择](https://justinyan.me/post/5790)](https://justinyan.me/post/5790)
 
 一直在很喜欢 Justin 和 自力 的播客《枫言枫语》，没想到 Justin 的阅读量如此巨大！
 
-封面图：八仙饭店在《乐队的夏天 3》演唱单身旅记的一帧画面，八仙饭店真的是太强了，太好听了！！！
+## 阅读
 
-
+### 2021年我领悟并践行的88件事
 
 [2021年我领悟并践行的88件事](https://stephenleng.com/2021-a-conclusion/)
 
 - **幸福是一种需要练习的技能**。要想通过某种宗教顿悟或哲学顿悟就进入一种幸福状态是不可能的。追求幸福需要一系列的技能，这些技能需要习得并反复使用。
+
 - **不考虑收入因素，婚姻与幸福的关系依然是正向的**。如果你想获得更多幸福，你就应该考虑结婚而不是独身。新近出现了一些“独身更幸福”的日益升高的口吻，但这些自作聪明的说法被最近的主流实证研究反驳了。一些人出于个人原因不愿结婚，但散布一些流言则是在误导别人。
+
 - **在双方都不付出努力或者不知道如何去努力的情况下，婚姻有明显的失败风险**。失败婚姻的风险不仅在于离婚，而且在于不幸福的婚姻。不幸福的婚姻还不如单身。离婚率趋高的原因非常多，但在我看来，如果双方知道去按正确的方式去努力，离婚率会至少下降四分之三。
+
 - **当你在真正了解了一个人并且真正爱这个人的时候，那这个人对你来说就是合适的**。合适与否并不是交给第三者根据双方性格之类的东西（有的人甚至会根据星运来做决策）来进行外在的评判，吸引你的就是合适你的。
+
 - **当你真正地喜欢上一个人时，你可能会经历一个怀疑自身的阶段**。即认为对方是多么的优秀，而自己是多么的不行，自己配不上这个人。自尊水平充分的人会迅速地越过这个阶段；但自尊水平不充分的人可能持续着这种状态，并最终因为这种状态导致关系的损毁。
+
 - **爱一个人就是能在对方那里看到自己并庆贺自己**。双方都是如此。
+
 - **婚恋无意识和沟通障碍是威胁亲密关系的两个最为重大的原因**。
+
 - **婚恋无意识意味着一个人并没有以一种充分的意识水平对待自己的亲密关系**。这个人可能把注意力放在了工作上，放在了孩子身上，他们以为亲密关系可以自在地处理好，没有规划也没有目标。
+
 - **沟通障碍造成双方的无效沟通，即双方都不能很好地接受到对方发出的信息。**这种障碍在男女两性中都普遍存在，但男性要更严重一些。
+
 - **不要在内心深处期待着会有某个人忽然出现，把我们从目前的生活中“拯救”出来。**No one is coming.
+
+### 【睡眠科学】哪有什么熬夜不老？都是大脑透支在负重前行
 
 [【睡眠科学】哪有什么熬夜不老？都是大脑透支在负重前行](https://www.bilibili.com/video/BV1pj41127Rc/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=e7b677bc31fcf107b6c6689167aae9d9)
 
 
 
+### 【2023】一个百大UP主的创业故事（2） - 影视飓风
+
 [【2023】一个百大UP主的创业故事（2） - 影视飓风](https://www.bilibili.com/video/BV17u411E7UK/?spm_id_from=333.337.search-card.all.click&vd_source=e7b677bc31fcf107b6c6689167aae9d9)
+
+
+
+### 沉浸式翻译：探索互联网上高质量的内容
 
 [探索互联网上高质量的内容](https://immersivetranslate.com/docs/sites/)
 
 沉浸式翻译的作者还梳理了一份超级不错的「探索互联网上高质量的内容」，包括网站导航、新闻/杂志、深度报道、专人维护的 Reading List、视频、专栏等，质量真心很高，特别适合想了解全世界的一些一手消息的同学。
 
-
+### 诺贝尔经济奖得主保罗.克鲁格曼Paul Krugman大师课
 
 [诺贝尔经济奖得主保罗.克鲁格曼Paul Krugman大师课](https://www.bilibili.com/video/BV1oU4y177vk/?vd_source=e7b677bc31fcf107b6c6689167aae9d9)
 
-
+### 「妳真正應該努力的，是找到那個懂得妳的「好」的人，而不是努力去變成，對方會喜歡的樣子。」對的人，就不會讓妳一直覺得，自己是錯的
 
 [「妳真正應該努力的，是找到那個懂得妳的「好」的人，而不是努力去變成，對方會喜歡的樣子。」對的人，就不會讓妳一直覺得，自己是錯的](https://www.vogue.com.tw/lifestyle/article/角子-一個人你也要活得晴空萬里)
 
+### 爱那个尽最大努力去理解你的人
+
 [爱那个尽最大努力去理解你的人](https://stephenleng.com/love-the-person-who-tries-his-best-to-understand-you/)
+
+### 遍历——中国科学技术大学的精神
 
 [遍历——中国科学技术大学的精神](https://blog.sina.com.cn/s/blog_5ee4bec80101c20e.html)
 
@@ -146,11 +171,15 @@ summary:
 
 
 
+### Why Rust is the most admired language among developers
+
 [Why Rust is the most admired language among developers](https://github.blog/2023-08-30-why-rust-is-the-most-admired-language-among-developers/)
 
 文章中提到的一些资源：
 
 - [Command line apps in Rust](https://rust-cli.github.io/book/index.html#command-line-apps-in-rust)
+
+### 赵延斌：大厕所、大教室的画
 
 [我和我们](https://www.yixi.tv/h5/speech/1016/)
 
@@ -158,7 +187,29 @@ summary:
 
 大厕所，大教室 还有其他的一些很有意思的画作
 
+### 睡眠科学】哪有什么熬夜不老？都是大脑透支在负重前行
+
 [【睡眠科学】哪有什么熬夜不老？都是大脑透支在负重前行](https://www.bilibili.com/video/BV1pj41127Rc/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=e7b677bc31fcf107b6c6689167aae9d9)
+
+- 睡眠有三大使命，即让大脑排毒、整理大脑信息和让睡眠加深记忆，睡眠质量越高，大脑功能越好。
+
+  - 有助于思维敏捷，完成平时难以完成的工作
+  - 给大脑排毒，避免脑神经系统退行
+  - 整理大脑信息，让记忆加更，给生命存档
+
+- 黄金前 90 分钟法则
+
+  睡眠前 90 分钟十分重要
+
+
+
+## 资源
+
+### Re:Play Cafe
+
+Re:Play 是由三位不专业的音乐爱好者([@Justin](https://twitter.com/MapleShadow), [@Oscar](https://twitter.com/oscarlee_) 和 [@Clu](https://twitter.com/designedbyclu))，发起音乐分享的 Newsletter，每两周我们各自会与大家分享一张唱片。
+
+[网站](https://replay.cafe)
 
 ## 说说
 
