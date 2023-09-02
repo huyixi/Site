@@ -1,11 +1,21 @@
 ---
-title: "周刊 #19:"
+title: "周刊 #19:每个人每天都只有24小时，希望我的选择真的是我的选择"
 date: 2023-08-24T08:47:11+08:00
 draft: false
 tags: []
 category: [Weekly]
 summary: 
 ---
+
+本期周刊标题借用 Justin 的这篇博客
+
+[[每个人每天都只有24小时，希望我的选择真的是我的选择](https://justinyan.me/post/5790)](https://justinyan.me/post/5790)
+
+一直在很喜欢 Justin 和 自力 的播客《枫言枫语》，没想到 Justin 的阅读量如此巨大！
+
+
+
+
 
 [2021年我领悟并践行的88件事](https://stephenleng.com/2021-a-conclusion/)
 
@@ -133,6 +143,22 @@ summary:
 >郁闷死我了。 
 >
 >有空讲讲为什么当年科大会有这个精神.
+
+
+
+[Why Rust is the most admired language among developers](https://github.blog/2023-08-30-why-rust-is-the-most-admired-language-among-developers/)
+
+文章中提到的一些资源：
+
+- [Command line apps in Rust](https://rust-cli.github.io/book/index.html#command-line-apps-in-rust)
+
+[我和我们](https://www.yixi.tv/h5/speech/1016/)
+
+赵延斌
+
+大厕所，大教室 还有其他的一些很有意思的画作
+
+[【睡眠科学】哪有什么熬夜不老？都是大脑透支在负重前行](https://www.bilibili.com/video/BV1pj41127Rc/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=e7b677bc31fcf107b6c6689167aae9d9)
 
 ## 说说
 

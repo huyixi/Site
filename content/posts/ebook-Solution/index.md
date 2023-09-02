@@ -18,9 +18,13 @@ draft: false
 
 该组织将自己描述为“世界上最大的电子书图书馆”，以及“世界上最大的科学文章商店”.并作为一个由捐赠维持的非营利组织运营。但是 2022 年 11 月，该网站的域名被美国司法部查封..在 Z-Library 的用户群中,中国用户遥遥领先于其他国家(来自 Z-Library 博客 Worldwide Statistics: How Students and Educators Use Z-Library 中的数据).
 
-![image-20230525165638917](/Users/huyixi/Dev/huyixi.com/content/zh-CN/posts/ebook-Solution/index.assets/image-20230525165638917.png)
 
-![image-20230525165722912](./index.assets/image-20230525165722912.png)
+
+![image-20230525165638917](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20230525165638917.png)
+
+
+
+![image-20230525165722912](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20230525165722912.png)
 
 ##### 如何访问 Z-Library 
 
@@ -46,11 +50,9 @@ draft: false
 
 ### 自制电子书
 
-如如果你平时经常查看一些文档，但是这些文档又没有电子书的，都是你可以通过自制电子书来在你的kindle上查看这些文档内容.
+如果你平时经常查看一些文档，但是这些文档又没有电子书的，都是你可以通过自制电子书来在你的kindle上查看这些文档内容.
 
-#### 浏览器插件生成电子书
-
-##### WebToEpub
+#### WebToEpub
 
 [Github 仓库](https://github.com/dteviot/WebToEpub)
 
@@ -60,9 +62,9 @@ draft: false
 
 示例：
 
-![image-20230531003150820](/Users/huyixi/Dev/huyixi.com/content/zh-CN/posts/ebook-Solution/index.assets/image-20230531003150820.png)
+![image-20230531003150820](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20230531003150820.png)
 
-##### KTool
+#### KTool
 
 将链接输入 KTool 中生成并推送到 Kindle 中。但是导入链接一次最多导入 30 个，且生成的电子书只能以 30 个链接为一本，链接增加则会分成几本书。
 
@@ -70,37 +72,23 @@ draft: false
 
 用到的软件：Sigil](https://sigil-ebook.com/sigil/),Github 上 star 最多的电子书软件。或者可以自己下载使用其他软件。
 
-#### 自己编写软件生成电子书
+#### 自己编写软件
 
-在没有发现这一个浏览器插件之前，我写了一个脚本来获取文章的内容。相对于浏览器插件的操作，程序部署，可能相对较为繁琐。但是我所编写的程序采用多线程进行爬取文章，如果你需要获取的文章内容较多的话，可以尝试使用。
+Github 仓库地址：[Web2Book](https://github.com/huyixi/Web2Book)
 
-##### 获取文章链接
-
-我写了个 sh 脚本通过解析 dom 来获取文档链接。[脚本仓库](https://github.com/huyixi/Tools.git)
-
-![image-20230526154024000](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20230526154024000.png)
-
-##### 获取文档内容
-
-通过文章爬虫来所有文章链接中的所有文章内容，并将其写入指定的文件中，以便后续制作成电子书。[Github 仓库](https://github.com/huyixi/articles-spider)
-
-该爬虫可以进行多线程的文章爬取，并输出为一个html文件。如果爬取过程中遇到图片，还会根据你配置信息保存到指定的文件夹。另外如果你遇到不需要的人数，也可以通过css选择器进行移除。
+在没有发现这一个浏览器插件之前，我写了一个 Python 程序来获取文章的内容。相对于浏览器插件，这个程序的操作，程序部署，可能相对较为繁琐。但是我所编写的程序采用多线程进行爬取文章，如果你需要获取的文章内容较多的话，速度更快。可以尝试使用。
 
 该程序可以集成使用代理服务器，但无法自动获取代理服务器，这是未来需要升级的地方。如果你需要获取代理服务器，你可以查看这个仓库 [ProxyPool](https://github.com/Python3WebSpider/ProxyPool)
 
-##### 制作电子书
+#### Sigil
 
-根据以上获取的html文件制作电子书。
-
-###### Sigil
-
-通过生成的html文件来制作电子书
+通过html文件来制作电子书
 
 1.导入 html 文件
 
 导入过程可能遇到错误。
 
-![image-20230527153743849](/Users/huyixi/Dev/huyixi.com/content/zh-CN/posts/ebook-Solution/index.assets/image-20230527153743849.png)
+![image-20230527153743849](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20230527153743849.png)
 
 如果错误较少，可以采用手动更改的方式修改错误。如果错误太多了，可以使用下面的方法 percollate 来自做电子书。
 
@@ -110,7 +98,7 @@ draft: false
 
 ![image-20230526162847714](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20230526162847714.png)
 
-![image-20230526162916570](./index.assets/image-20230526162916570.png)
+![image-20230526162916570](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20230526162916570.png)
 
 3.编辑元数据
 
@@ -206,9 +194,7 @@ https://www.amazon.com/sendtokindle
 
 ![image-20230531010352266](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20230531010352266.png)
 
-之后之后打开软件里的 Setting -> Kindle -> Send Articles Now 便可推送到 Kindle 上![image-20230531010627567](/Users/huyixi/Dev/huyixi.com/content/zh-CN/posts/ebook-Solution/index.assets/image-20230531010627567.png)
-
-
+之后之后打开软件里的 Setting -> Kindle -> Send Articles Now 便可推送到 Kindle 上.
 
 ### 推送 RSS
 
