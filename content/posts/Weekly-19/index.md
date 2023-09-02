@@ -13,7 +13,7 @@ summary:
 
 本期周刊标题借用 Justin 的这篇博客：
 
-[[每个人每天都只有24小时，希望我的选择真的是我的选择](https://justinyan.me/post/5790)](https://justinyan.me/post/5790)
+[每个人每天都只有24小时，希望我的选择真的是我的选择](https://justinyan.me/post/5790)
 
 一直在很喜欢 Justin 和 自力 的播客《枫言枫语》，没想到 Justin 的阅读量如此巨大！
 
