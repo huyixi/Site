@@ -6,6 +6,8 @@ tags: []
 category: [Weekly]
 summary: 
 ---
+封面为柴静纪录片《陌生人：对话圣战分子》
+
 ## 想法
 
 停止在博客上碎碎念!但在周报上可以😜
@@ -25,7 +27,7 @@ summary:
 
 ### The tech stack of Zolplay
 
-![](https://raw.githubusercontent.com/huyixi/Pics/main/zolplay_stack.png)
+![Zolplay-TechStack](https://raw.githubusercontent.com/huyixi/Pics/main/zolplay_stack.png)
 
 ## 文章
 
