@@ -2696,6 +2696,11 @@ body button {
   border-color: rgb(64 64 64 / var(--tw-border-opacity));
 }
 
+:is(.dark .dark\:border-neutral-900) {
+  --tw-border-opacity: 1;
+  border-color: rgb(23 23 23 / var(--tw-border-opacity));
+}
+
 :is(.dark .dark\:bg-neutral-700) {
   --tw-bg-opacity: 1;
   background-color: rgb(64 64 64 / var(--tw-bg-opacity));
