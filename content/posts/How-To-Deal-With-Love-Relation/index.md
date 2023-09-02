@@ -1,5 +1,5 @@
 ---
-title: "How to Deal With Intimate Relationship"
+title: How to Deal With Intimate Relationship
 date: 2023-08-25T00:08:02+08:00
 draft: false
 tags: []
