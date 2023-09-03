@@ -22,7 +22,7 @@ fingerprintAlgorithm = "sha256"
 [homepage]
   layout = "page" 
   showRecent = true
-  recentLimit = 30
+  recentLimit = 10
 
 [article]
   showDate = true
