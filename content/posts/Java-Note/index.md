@@ -1,7 +1,7 @@
 ---
 title: "Java Note"
 date: 2023-08-30T09:21:32+08:00
-draft: false
+draft: true
 tags: [Java]
 category: [Blog]
 summary: 
