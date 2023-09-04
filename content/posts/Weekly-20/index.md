@@ -7,7 +7,15 @@ category: [Weekly]
 summary: 
 ---
 
-柴静在《陌生人——柴静对话圣战分子》第三集《内心之死 》｜Stranger: Talking to Jihadists | Episode 3: Dying Inside | Chai Jing 谈到
+
+
+上个月的 Kindle 阅读记录，不知道为什么中间居然断了一天，强烈怀疑是由于数据同步的原因！绝对跟我没关系！！！
+
+![IMG_2723](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/IMG_2723.jpg)
+
+柴静在《陌生人——柴静对话圣战分子》第三集《内心之死 》｜Str
+
+anger: Talking to Jihadists | Episode 3: Dying Inside | Chai Jing 谈到
 
 **恐怖主义的本质：**
 
