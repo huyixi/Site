@@ -2,7 +2,7 @@
 title: "周刊#20：“时间”是对所有现代人都最公平的东西"
 date: 2023-09-02T21:40:04+08:00
 draft: false
-tags: []
+tags: [婚礼]
 category: [Weekly]
 summary: 
 ---
@@ -42,6 +42,16 @@ summary:
 ![IMG_2723](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/IMG_2723.jpg)
 
 
+
+## 文章
+
+### 婚礼
+
+[婚礼回顾和一些经验分享](https://www.kawabangga.com/posts/4840)
+
+摆正心态，这场婚礼最重要的是谁，是给谁办的，想明白这个问题，然后其他的问题都以这些人会不会高兴为准。
+
+[程序员如何挑选钻戒](https://www.kawabangga.com/posts/4150)
 
 ## 资源
 
