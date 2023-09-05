@@ -37,11 +37,11 @@ summary:
 
 
 
-上个月的 Kindle 阅读记录，不知道为什么中间居然断了一天，强烈怀疑是由于数据同步的原因！绝对跟我没关系！！！
-
 ![IMG_2723](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/IMG_2723.jpg)
 
 
+
+上个月的 Kindle 阅读记录，不知道为什么中间居然断了一天，强烈怀疑是由于数据同步的原因！绝对跟我没关系！！！
 
 ## 文章
 
@@ -60,6 +60,12 @@ summary:
 [useAnimations](https://useanimations.com/index.html#explore)
 
 [文档](https://airbnb.io/lottie/#/web)
+
+### 构建交互式动画
+
+[RIVE](https://rive.app)
+
+Build interactive animations that run anywhere
 
 柴静在《陌生人——柴静对话圣战分子》第三集《内心之死 》｜Str
 
