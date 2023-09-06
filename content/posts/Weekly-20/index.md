@@ -53,6 +53,12 @@ summary:
 
 [程序员如何挑选钻戒](https://www.kawabangga.com/posts/4150)
 
+#### 我患上了阅读焦虑症
+
+[我患上了阅读焦虑症](https://thiscute.world/posts/reading-anxiety/)
+
+我可能也患上了阅读焦虑症
+
 ## 资源
 
 ### 微动效 Icon
