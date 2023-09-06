@@ -165,3 +165,4 @@ Each criterion weighs 25% and applies to both tasks.
 ## Resource
 
 - [邵艾伦三合一【9小时口语突飞猛进】和【美音速成】](https://www.bilibili.com/cheese/play/ss1060?csource=private_space_class_null&spm_id_from=333.999.0.0)
+- [雅思备考指南（资讯） - 考满分](https://ielts.kmf.com/beikao/index)
