@@ -7,6 +7,10 @@ category: [Blog]
 summary: 
 ---
 
+### 图片压缩
+
+- [JPG/PNG简易在线尺寸缩放与压缩工具](https://www.zhangxinxu.com/sp/tinyimg/)
+
 ### File Convert
 
 - [Convertio](https://convertio.co/)
@@ -27,3 +31,4 @@ summary:
 - [MacBL](https://www.macbl.com)
 - [Mac8k](https://www.mac8k.com)
 - [奇迹秀](https://www.qijishow.com)
+
