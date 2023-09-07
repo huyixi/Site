@@ -100,3 +100,13 @@ anger: Talking to Jihadists | Episode 3: Dying Inside | Chai Jing 谈到
 >人类历史上，一旦文明和法律的边界被抹去，许可和禁止被重新定义，大规模的虐杀就会发生，普通人可以做出让人毛骨悚然的行为。 人们无法在这些人脸上辨认出自己曾经爱过的人。
 >
 >因为他们在杀人之前已经杀死了自己身上的全部人性，只剩下同一张狂热而空洞的脸。
+
+
+
+好看的个人博客
+
+[kuldar.](https://kuldar.com/?ref=onepagelove)
+
+
+
+![opl-master-kuldar](/Users/huyixi/Desktop/opl-master-kuldar.jpg)
