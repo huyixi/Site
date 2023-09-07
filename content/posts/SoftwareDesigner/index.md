@@ -9,6 +9,10 @@ summary: 软考中级-软件设计师备考之路
 
 # 软考中级-软件设计师
 
+### 报名
+
+[报名链接](https://bm.ruankao.org.cn/sign/welcome)
+
 ### 考试时间
 
 [2023年度计算机技术与软件专业技术资格（水平）考试工作计划](https://www.ruankao.org.cn/arrange/details?id=100002230207144833542290)

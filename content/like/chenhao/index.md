@@ -97,7 +97,7 @@ MDN 的相关的技术文档，文档很大，你要学习的并不是所有的�
 
 - [Awwwards](http://awwwards.com/) ，这个网站给一些设计得不错网站的评分，在这里你可以看到很多设计不错的网站。
 - [One Page Love](http://onepagelove.com/) ，就是一个单页的网页设计的收集。
-- [Inspired UI](http://inspired-ui.com/) ，移动 App 的设计模式。
+- [Inspired UI](http://inspired-ui.com/) （停止运营），移动 App 的设计模式。
 - [Behance](http://behance.net/)，这个地言有很不错的很有创意的作品。
 - [Dribbble](http://dribbble.com/) ，这应该是设计师都知道也都爱去的网站。除了你可以看到一些很不错的作品外，你还可以在这里看到很多不错的设计师。
-- [UI Movement](https://uimovement.com/) ，也是个设计的收集网站，上面有很多很不错的 UI 设计，大量的动画。虽说会像抖音一样，让你不知不觉就看了好几小时，但是它比抖音让你的收获大多了。
+- [UI Movement](https://uimovement.com/) （停止运营），也是个设计的收集网站，上面有很多很不错的 UI 设计，大量的动画。虽说会像抖音一样，让你不知不觉就看了好几小时，但是它比抖音让你的收获大多了。
