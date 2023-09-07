@@ -57,9 +57,21 @@ summary:
 
 [我患上了阅读焦虑症](https://thiscute.world/posts/reading-anxiety/)
 
-我可能也患上了阅读焦虑症
+我可能也患上了阅读焦虑症，不对，我可能一直有阅读焦虑症
 
 ## 资源
+
+### 叨叨冯聊音乐
+
+音乐赏析 up 主。Justin 推荐的。 
+
+以一种技术的视角，更高的角度来欣赏音乐。
+
+一下子看了最近的几期乐队的夏天3赏析，还有万能青年旅店，以及植物大战僵尸的赏析。
+
+![22a0ecb6780d03f26755548c7544994a4a0705a9.jpg@320w_200h_1c_!web-space-upload-video](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/22a0ecb6780d03f26755548c7544994a4a0705a9.jpg@320w_200h_1c_!web-space-upload-video.webp)![1681a1159fd167e1a47bd75219a2f22356cc79bd.jpg@320w_200h_1c_!web-space-upload-video](/Users/huyixi/Desktop/1681a1159fd167e1a47bd75219a2f22356cc79bd.jpg@320w_200h_1c_!web-space-upload-video.webp)
+
+
 
 ### 微动效 Icon
 
