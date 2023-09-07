@@ -101,12 +101,19 @@ anger: Talking to Jihadists | Episode 3: Dying Inside | Chai Jing 谈到
 >
 >因为他们在杀人之前已经杀死了自己身上的全部人性，只剩下同一张狂热而空洞的脸。
 
+### 好看的个人博客
 
-
-好看的个人博客
-
-[kuldar.](https://kuldar.com/?ref=onepagelove)
+[kuldar.](https://kuldar.com/)
 
 
 
-![opl-master-kuldar](/Users/huyixi/Desktop/opl-master-kuldar.jpg)
+![kuldar](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/kuldar.jpg)
+
+
+
+
+
+科技相关的 FM，跟枫言枫语合作过一期。
+
+![Logo_乱炖](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/Logo_%E4%B9%B1%E7%82%96.jpg)
+
