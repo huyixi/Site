@@ -13,7 +13,7 @@
       </h2>
       <ul class=" my-4 flex snap-x overflow-x-scroll">
         {{ $books := where .Site.RegularPages "Params.category" "intersect" (slice "Book") }}
-        {{ range first 10 $books }}
+        {{ range first 20 $books }}
           {{ partial "book-link.html" . }}
         {{ end }}
       </ul>
@@ -22,7 +22,7 @@
       <h2 class="my-4">{{ i18n "like.music" }}</h2>
       <ul class="flex snap-x space-x-4 overflow-y-hidden overflow-x-scroll">
         {{ $musicLinks := where .Site.RegularPages "Params.category" "intersect" (slice "Music") }}
-        {{ range first 10 $musicLinks }}
+        {{ range first 20 $musicLinks }}
           {{ partial "music-link.html" . }}
         {{ end }}
       </ul>
