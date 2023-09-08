@@ -11,26 +11,12 @@
           "like.book"
         }}
       </h2>
-      {{/* <button
-        class="absolute left-0 top-1/2 z-10 -translate-y-1/2 transform rounded-r bg-gray-500 p-2 text-white"
-        id="slideLeft"
-        >
-        &larr;
-        </button>
-      */}}
-      <ul id="bookList" class="my-4 flex snap-x overflow-x-scroll">
+      <ul class="my-4 flex snap-x overflow-x-scroll">
         {{ $books := where .Site.RegularPages "Params.category" "intersect" (slice "Book") }}
         {{ range first 10 $books }}
           {{ partial "book-link.html" . }}
         {{ end }}
       </ul>
-      {{/* <button
-        class="absolute right-0 top-1/2 z-10 -translate-y-1/2 transform rounded-l bg-gray-500 p-2 text-white"
-        id="slideRight"
-        >
-        &rarr;
-        </button>
-      */}}
     </div>
     <div class="my-8">
       <h2 class="my-4">{{ i18n "like.music" }}</h2>
