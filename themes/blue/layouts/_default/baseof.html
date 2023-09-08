@@ -13,12 +13,14 @@
   {{- partial "head.html" . -}}
   <body class="dark:border-1 flex h-screen flex-col text-lg  dark:bg-neutral-950 dark:text-white">
     {{ partial "partials/aside.html" . }}
-    <div id="site" class="mx-4 mt-10 sm:ml-20">
-      <main id="main-content" class="mx-auto w-11/12 md:w-152">
-        {{ block "main" . }}{{ end }}
-        {{- partial "footer.html" . -}}
-      </main>
-    </div>
+    {{ block "contentWrapper" . }}
+      <div id="site" class="mx-4 mt-10 sm:ml-20">
+        <main id="main-content" class="mx-auto w-11/12 md:w-152">
+          {{ block "main" . }}{{ end }}
+          {{- partial "footer.html" . -}}
+        </main>
+      </div>
+    {{ end }}
     {{ if .Site.Params.enableSearch | default false }}
       {{- partial "search.html" . -}}
     {{ end }}
