@@ -117,3 +117,10 @@ anger: Talking to Jihadists | Episode 3: Dying Inside | Chai Jing 谈到
 
 ![Logo_乱炖](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/Logo_%E4%B9%B1%E7%82%96.jpg)
 
+
+
+虽然"硬件的软件化"是趋势，但是对于老年用户，"软件功能的硬件化"才是正确方式。各种软件设置做成硬件开关，一拨就开，一拧就关，对老年人更友好。
+
+[core-js 作者快被缺钱“拖垮”了：全职做开源维护 9 年，月均收入从 2500 美元锐减到 400 美元](https://www.infoq.cn/article/s8jsfyhxu8vowd1uphkp)
+
+这么厉害的开源项目，没想到作者的生活会这么惨
