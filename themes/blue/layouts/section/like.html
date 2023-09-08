@@ -11,7 +11,7 @@
           "like.book"
         }}
       </h2>
-      <ul class="my-4 flex snap-x overflow-x-scroll">
+      <ul class=" my-4 flex snap-x overflow-x-scroll">
         {{ $books := where .Site.RegularPages "Params.category" "intersect" (slice "Book") }}
         {{ range first 10 $books }}
           {{ partial "book-link.html" . }}

@@ -4,8 +4,8 @@ $book-color-border: lighten(#000, 85%)
 $book-border: 1px solid $book-color-border
 
 %book-rounded-corners 
-  border-top-right-radius: 6px
-  border-bottom-right-radius: 6px
+  border-top-right-radius: 8px
+  border-bottom-right-radius: 8px
 
 .book
   @extend %book-rounded-corners
@@ -95,11 +95,3 @@ $book-border: 1px solid $book-color-border
         transform: rotate(0deg)
     100%
         transform: rotate(360deg)
-
-.like::-webkit-scrollbar 
-    display: none
-
-.like
-    scrollbar-width: none
-    -ms-overflow-style: none
-

@@ -1,6 +1,6 @@
 <!-- layouts/partials/music-link.html -->
 
-<li class="music my-2 snap-start">
+<li class="my-2 snap-start">
   <!-- 获取图片资源 -->
   {{- $images := $.Resources.ByType "image" }}
   {{- $thumbnail := $images.GetMatch (.Params.thumbnail | default "*thumb*") }}

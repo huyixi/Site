@@ -1,6 +1,6 @@
 .book::after, .book::before, .book > a > picture > img, .book {
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .book {
@@ -91,12 +91,4 @@
   100% {
     transform: rotate(360deg);
   }
-}
-.like::-webkit-scrollbar {
-  display: none;
-}
-
-.like {
-  scrollbar-width: none;
-  -ms-overflow-style: none;
 }/*# sourceMappingURL=custom.css.map */
