@@ -72,6 +72,8 @@
     {{ $jsCode := resources.Get "js/code.js" }}
     {{ $assets.Add "js" (slice $jsCode) }}
   {{ end }}
+  {{ $jsLike := resources.Get "js/like.js" }}
+  {{ $assets.Add "js" (slice $jsLike) }}
   {{ if $assets.Get "js" }}
     {{ $bundleJS := $assets.Get "js" | resources.Concat "js/main.bundle.js" | resources.Minify | resources.Fingerprint $algorithm }}
     <script

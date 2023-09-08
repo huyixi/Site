@@ -124,3 +124,11 @@ anger: Talking to Jihadists | Episode 3: Dying Inside | Chai Jing 谈到
 [core-js 作者快被缺钱“拖垮”了：全职做开源维护 9 年，月均收入从 2500 美元锐减到 400 美元](https://www.infoq.cn/article/s8jsfyhxu8vowd1uphkp)
 
 这么厉害的开源项目，没想到作者的生活会这么惨
+
+
+
+[Apple TV app](https://www.apple.com/apple-tv-app/)
+
+![image-20230908151710160](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20230908151710160.png)
+
+模仿电视机的效果，还使用伪元素创造电视的阴影效果。

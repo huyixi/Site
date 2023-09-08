@@ -1,27 +1,42 @@
 {{ define "contentWrapper" }}
-  <div class="like mx-6 mt-4 p-4 sm:ml-16 sm:mr-0 sm:mt-0">
-    <h1 class="text-xl  font-medium">
+  <div class="like mx-4 mt-4 overflow-hidden p-4 sm:ml-16 sm:mr-0 sm:mt-0">
+    <h1 class="text-xl font-medium">
       {{ i18n
         "like.title"
       }}
     </h1>
-    <div class="read-page mt-4 ">
-      <h2 class="my-4 text-lg">
+    <div class="relative mt-4">
+      <h2 class="my-4">
         {{ i18n
           "like.book"
         }}
       </h2>
-      <ul class="flex">
-        {{ range where .Site.RegularPages "Params.category" "intersect" (slice "Book") }}
+      {{/* <button
+        class="absolute left-0 top-1/2 z-10 -translate-y-1/2 transform rounded-r bg-gray-500 p-2 text-white"
+        id="slideLeft"
+        >
+        &larr;
+        </button>
+      */}}
+      <ul id="bookList" class="my-4 flex snap-x overflow-x-scroll">
+        {{ $books := where .Site.RegularPages "Params.category" "intersect" (slice "Book") }}
+        {{ range first 10 $books }}
           {{ partial "book-link.html" . }}
         {{ end }}
       </ul>
+      {{/* <button
+        class="absolute right-0 top-1/2 z-10 -translate-y-1/2 transform rounded-l bg-gray-500 p-2 text-white"
+        id="slideRight"
+        >
+        &rarr;
+        </button>
+      */}}
     </div>
-
-    <div class="music-section my-8">
+    <div class="my-8">
       <h2 class="my-4">{{ i18n "like.music" }}</h2>
-      <ul class="flex space-x-4">
-        {{ range where .Site.RegularPages "Params.category" "intersect" (slice "Music") }}
+      <ul class="flex snap-x space-x-4 overflow-y-hidden overflow-x-scroll">
+        {{ $musicLinks := where .Site.RegularPages "Params.category" "intersect" (slice "Music") }}
+        {{ range first 10 $musicLinks }}
           {{ partial "music-link.html" . }}
         {{ end }}
       </ul>
