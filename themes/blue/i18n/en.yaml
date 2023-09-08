@@ -1,6 +1,12 @@
 hello:
   title: "Hello, I am"
   author: "huyixi"
+
+like:
+  title: "Like"
+  book: "Book"
+  music: "Music"
+
 article:
   anchor_label: "Anchor"
   date: "{{ .Date }}"

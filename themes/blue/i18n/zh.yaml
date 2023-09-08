@@ -2,6 +2,11 @@ hello:
   title: "你好，我是"
   author: "胡一希"
 
+like:
+  title: "我喜欢的"
+  book: "书籍"
+  music: "音乐"
+
 article:
   anchor_label: "锚点"
   date: "{{ .Date }}"

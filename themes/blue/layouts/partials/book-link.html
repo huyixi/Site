@@ -1,6 +1,6 @@
 <!-- layouts/partials/book-link.html -->
 
-<li class="book">
+<li class="book shrink-0">
   <!-- 获取图片资源 -->
   {{- $images := $.Resources.ByType "image" }}
   {{- $thumbnail := $images.GetMatch (.Params.thumbnail | default "*thumb*") }}
