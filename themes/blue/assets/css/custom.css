@@ -8,7 +8,7 @@
   cursor: pointer;
   display: block;
   margin-right: 1rem;
-  max-width: 25vw;
+  width: 25vw;
   position: relative;
   background: white;
   z-index: 1;
