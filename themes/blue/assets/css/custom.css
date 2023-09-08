@@ -1,14 +1,16 @@
 .book::after, .book::before, .book > a > picture > img, .book {
+  border-top-left-radius: 1px;
   border-top-right-radius: 8px;
+  border-bottom-left-radius: 1px;
   border-bottom-right-radius: 8px;
 }
 
 .book {
-  aspect-ratio: 7/10;
+  aspect-ratio: 8/11;
   cursor: pointer;
   display: block;
   margin-right: 1rem;
-  width: 150px;
+  width: 130px;
   position: relative;
   background: white;
   z-index: 1;
