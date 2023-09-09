@@ -117,6 +117,12 @@ anger: Talking to Jihadists | Episode 3: Dying Inside | Chai Jing 谈到
 
 模仿电视机的效果，还使用伪元素创造电视的阴影效果。
 
+### Apple 的 apps
+
+苹果专门做了一个页面来展示他们出品的所有 app。 
+
+[链接](https://t.co/YTduMDF5aI)![F5B12oga8AAh7M9](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/F5B12oga8AAh7M9.jpeg)
+
 ### 科技乱炖
 
 科技相关的 FM，跟枫言枫语合作过一期。
