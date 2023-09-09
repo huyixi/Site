@@ -1,11 +1,13 @@
 ---
-title: 我的 git 自定义配置
+title: Git 速查手册
 date: 2023-08-14T21:00:00+08:00
 category: [Blog]
 tags: [Git, Config]
 draft: false
-summary: 我的 git 自定义配置
+summary: 
 ---
+![git-cheat-sheet](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/git-cheat-sheet.png)
+
 ### 全局 Git 忽略
 
 `.DS_Store` 文件是 macOS 文件系统所特有的，并在每个目录中自动创建。这些文件用于存储目录的自定义属性，例如窗口位置、图标位置或背景颜色。对于大多数开发项目，通常不想将这些文件包含在版本控制中。
