@@ -71,8 +71,6 @@ summary:
 
 ![22a0ecb6780d03f26755548c7544994a4a0705a9.jpg@320w_200h_1c_!web-space-upload-video](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/22a0ecb6780d03f26755548c7544994a4a0705a9.jpg@320w_200h_1c_!web-space-upload-video.webp)![1681a1159fd167e1a47bd75219a2f22356cc79bd.jpg@320w_200h_1c_!web-space-upload-video](/Users/huyixi/Desktop/1681a1159fd167e1a47bd75219a2f22356cc79bd.jpg@320w_200h_1c_!web-space-upload-video.webp)
 
-
-
 ### 微动效 Icon
 
 [useAnimations](https://useanimations.com/index.html#explore)
@@ -83,6 +81,8 @@ summary:
 
 [RIVE](https://rive.app)
 
+### 恐怖主义的本质
+
 Build interactive animations that run anywhere
 
 柴静在《陌生人——柴静对话圣战分子》第三集《内心之死 》｜Str
@@ -90,8 +90,6 @@ Build interactive animations that run anywhere
 anger: Talking to Jihadists | Episode 3: Dying Inside | Chai Jing 谈到
 
 **恐怖主义的本质：**
-
-
 
 >暴徒和精英会被极权主义的威势吸引，而群众，靠宣传获得。
 >
@@ -101,34 +99,52 @@ anger: Talking to Jihadists | Episode 3: Dying Inside | Chai Jing 谈到
 >
 >因为他们在杀人之前已经杀死了自己身上的全部人性，只剩下同一张狂热而空洞的脸。
 
-### 好看的个人博客
+### Kuldar. 的个人网站
 
 [kuldar.](https://kuldar.com/)
+
+很有创意的设计,又想给我的博客改版了. 但是这个博客在手机端上的适配不是很好
 
 
 
 ![kuldar](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/kuldar.jpg)
 
-
-
-
-
-科技相关的 FM，跟枫言枫语合作过一期。
-
-![Logo_乱炖](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/Logo_%E4%B9%B1%E7%82%96.jpg)
-
-
-
-虽然"硬件的软件化"是趋势，但是对于老年用户，"软件功能的硬件化"才是正确方式。各种软件设置做成硬件开关，一拨就开，一拧就关，对老年人更友好。
-
-[core-js 作者快被缺钱“拖垮”了：全职做开源维护 9 年，月均收入从 2500 美元锐减到 400 美元](https://www.infoq.cn/article/s8jsfyhxu8vowd1uphkp)
-
-这么厉害的开源项目，没想到作者的生活会这么惨
-
-
+### Apple 的拟物设计
 
 [Apple TV app](https://www.apple.com/apple-tv-app/)
 
 ![image-20230908151710160](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20230908151710160.png)
 
 模仿电视机的效果，还使用伪元素创造电视的阴影效果。
+
+### 科技乱炖
+
+科技相关的 FM，跟枫言枫语合作过一期。
+
+里面老高的声音感觉很不错,感觉有点权威的感觉.像稻盛和夫的社交论(在推特上看到的,没验证过真伪,在下面的说说查看)
+
+发现很喜欢声音好听的 FM (不过 FM 不就是听声音的吗), 比如枫言枫语的自力. 
+
+![Logo_乱炖](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/Logo_%E4%B9%B1%E7%82%96.jpg)
+
+### 开源不好过啊
+
+[core-js 作者快被缺钱“拖垮”了：全职做开源维护 9 年，月均收入从 2500 美元锐减到 400 美元](https://www.infoq.cn/article/s8jsfyhxu8vowd1uphkp)
+
+这么厉害的开源项目，没想到作者的生活会这么艰难
+
+
+
+## 说说
+
+- 虽然"硬件的软件化"是趋势，但是对于老年用户，"软件功能的硬件化"才是正确方式。各种软件设置做成硬件开关，一拨就开，一拧就关，对老年人更友好。
+- 稻盛和夫 - 社交
+  - 说话只要声音一低，你的声音就会有磁性
+  - 说话只要一慢，你就会有气质
+  - 你敢停顿，就能显示出权威
+  - 任何时候都不要紧张，永远展现出舒适放松的状态
+  - 您永远把任何您想接触的人，当成老朋友，交谈就行了
+  - 行就行，不行就拉倒，这就是社交的魅力。 
+
+
+
