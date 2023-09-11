@@ -6,6 +6,18 @@ tags: []
 draft: false
 ---
 
+| Action                             | Chrome (Windows/Linux) | Chrome (macOS)     | Safari (macOS)     |
+| ---------------------------------- | ---------------------- | ------------------ | ------------------ |
+| Open/Close Developer Tools         | `Ctrl + Shift + I`     | `Cmd + Option + I` | `Cmd + Option + I` |
+| Console Panel                      | `Ctrl + Shift + J`     | `Cmd + Option + J` | `Cmd + Option + C` |
+| Clear Console                      | `Ctrl + L`             | `Cmd + L`          | `Cmd + L`          |
+| Elements Panel                     | `Ctrl + Shift + C`     | `Cmd + Option + C` | N/A                |
+| Refresh & Clear Cache              | `Ctrl + Shift + R`     | `Cmd + Shift + R`  | `Cmd + Option + E` |
+| Toggle Device Toolbar (Responsive) | `Ctrl + Shift + M`     | `Cmd + Option + M` | `Cmd + Option + R` |
+| Toggle Docking Position            | `Ctrl + Shift + D`     | `Cmd + Shift + D`  | N/A                |
+| Next Panel                         | `Ctrl + ]`             | `Cmd + ]`          | N/A                |
+| Previous Panel                     | `Ctrl + [`             | `Cmd + [`          | N/A                |
+
 ## Windows 快捷键
 
 | 快捷键                | 桌面                       | Chrome 浏览器                                                | 文件资源管理器 |
