@@ -16,7 +16,75 @@ summary:
 
 ### Reeder 自动化取消订阅
 
-Apple Script 代码
+在 Reeder 中导入了 国外技术博客汇集工具「engblogs」，发现 feed 过多，有点信息爆炸，就修改了上次的代码，重新取消这些订阅。🤦
+
+执行效果：
+
+
+
+![unsubscribe](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/unsubscribe.gif)
+
+
+
+这次的代码添加了新的特性:
+
+- 可以使用键盘快捷键来打断 Apple Script 的执行，避免误删我需要的订阅。利用到了 Karabiner 这个工具。
+- 并且将部分鼠标的移动改为使用键盘，避免鼠标指针位置出错。
+
+1. 首先打开 unsafe config ，以便可以运行 shell command
+
+   ![SCR-20230913-kzxk](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20230913-kzxk.png)
+
+2. 打开配置文件，修改快捷键
+
+   ![SCR-20230913-laar](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20230913-laar.png)
+
+3. 添加下面的规则到 profiles, rules 
+
+   ```json
+   {
+       "description": "Pause AppleScript Execution with F5",
+       "manipulators": [
+           {
+               "type": "basic",
+               "from": {
+                   "key_code": "f5",
+                   "modifiers": {
+                       "optional": ["any"]
+                   }
+               },
+               "to": [
+                   {
+                       "shell_command": "touch ~/pause_signal.txt"
+                   }
+               ]
+           }
+       ]
+   },
+   {
+       "description": "Resume AppleScript Execution with F6",
+       "manipulators": [
+           {
+               "type": "basic",
+               "from": {
+                   "key_code": "f6",
+                   "modifiers": {
+                       "optional": ["any"]
+                   }
+               },
+               "to": [
+                   {
+                       "shell_command": "rm ~/pause_signal.txt"
+                   }
+               ]
+           }
+       ]
+   }
+   ```
+
+4. 在 Apple Script 中 添加一条监听的代码，如果监测到 指定文件，则暂停执行脚本
+
+**Apple Script 代码**
 
 ```swift
 on run
