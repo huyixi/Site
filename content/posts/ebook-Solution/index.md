@@ -148,7 +148,11 @@ percollate epub --output output-file-name.epub url-of-the-web-page
 
 #### Send to Kindle
 
-使用官方的 [Send to Kindle](https://www.amazon.com/sendtokindle) 软件进行推送，这里不在赘述，官网已经讲的很详细了
+⚠️ 使用这个方法传输 epub 格式的书籍，会经过官方服务器处理成 azw 格式，在这个过程中书籍的目录可能丢失！！！
+
+使用官方的 [Send to Kindle](https://www.amazon.com/sendtokindle) 软件进行推送，这里不在赘述，官网已经讲的很详细了。
+
+
 
 #### 邮件传输
 
