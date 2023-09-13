@@ -121,7 +121,7 @@ on checkForPauseSignal()
 end checkForPauseSignal
 ```
 
-
+删除电脑上的照片只需要点击 Delete，删除记忆不知道需要多久。
 
 ## 文章
 
