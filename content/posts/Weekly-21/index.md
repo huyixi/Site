@@ -14,11 +14,40 @@ summary:
 
 ##### Sep 13
 
+昨晚是苹果的发布会，但是我已经没有像以前那样关注这些电子设备了。
+
+目前手上的设备已经基本满足我的需要，所以并没有很关心这一类东西了。
+
+个人的 stack 上一直有一个我喜欢的设备的分享，计划在放置在 Like 里面。
+
+但是一直拖着没去做。想做的事情确实太多了。
+
+
+
 在美团上叫了一个清洁的家政阿姨，美团上收费 119。打扫完阿姨让我加一下微信，以后有打扫可以从微信上叫。然后她说了一句话：下次过来阿姨收你 40 就好（阿姨说这句话的时候还有点犹豫，可能怕 40 太多，可能平台给她这一单的价格都不到 40 ），你在平台上估计得 5，60 吧。我是跟阿姨一样震惊的，我知道平台抽点很多，但是没想到有这么多（中间可能还经过了一层公司的抽点）。一个劳动者到最后干了最多的活，结果收到的可能是最少的钱。
 
 
 
 本周录取上了 23，24 号的泉州草莓音乐节志愿者。很开心又能去现场玩了，又可以认识好多小伙伴。开心开心开心。
+
+#### Sep 14
+
+又失眠了。
+
+可能是因为晚上搞了杯 Koi 。Koi 还是有点贵的，喝起来感觉跟一点点没啥区别，但是贵了好多。
+
+半夜爬起来给博客加了个滚动条，效果还不错，但是颜色方面感觉还是有点点不合适，以后有合适的颜色再换上。
+
+主要代码如下：
+
+```javascript
+ var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+ var scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
+ var clientHeight = document.documentElement.clientHeight || document.body.clientHeight;
+ var scrolled = (scrollTop / (scrollHeight - clientHeight)) * 100;
+```
+
+
 
 ### 本周在读
 
