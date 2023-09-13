@@ -33,7 +33,7 @@ $book-border: 1px solid $book-color-border
     transition: all .45s ease
 
   &:hover 
-    box-shadow: 0 2px 4px 0 rgba(#000, .25), 0 9px 20px 0 rgba(#000, .45)
+    box-shadow: 0 2px 4px 0 rgb(#000, .25), 0 9px 20px 0 rgb(#000, .45)
 
     & > a > picture > img 
       transform: rotateY(-30deg)
@@ -97,3 +97,13 @@ $book-border: 1px solid $book-color-border
         transform: rotate(0deg)
     100%
         transform: rotate(360deg)
+
+#progress-bar 
+    position: fixed
+    top: 0
+    left: 0
+    height: 4px
+    background-color: #04C7F9 
+    width: 0%
+    z-index: 9999
+

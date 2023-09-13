@@ -93,4 +93,13 @@
   100% {
     transform: rotate(360deg);
   }
+}
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background-color: #04C7F9;
+  width: 0%;
+  z-index: 9999;
 }/*# sourceMappingURL=custom.css.map */
