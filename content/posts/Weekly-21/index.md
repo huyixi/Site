@@ -14,6 +14,44 @@ summary:
 
 - 《秦制两千年》
 
+### Reeder 自动化取消订阅
+
+Apple Script 代码
+
+```swift
+on run
+	my mainTask()
+end run
+
+on mainTask()
+	set dx1 to 30
+	set dy1 to 80
+	set dy2 to 30
+	set counter to 0
+	repeat 20 times
+		repeat 20 times
+			set x to 80
+			set y to 280 + dy2 * counter
+			do shell script "/opt/homebrew/bin/cliclick m:" & x & "," & y & "  c:.  kd:ctrl  c:.  ku:ctrl  kp:arrow-down kp:arrow-down kp:arrow-down"
+			
+			if checkForPauseSignal() then
+				error "Script stopped due to pause signal."
+			end if
+			
+			do shell script "/opt/homebrew/bin/cliclick kp:return kp:return"
+			set counter to counter + 1
+		end repeat
+		set counter to 0
+	end repeat
+end mainTask
+
+on checkForPauseSignal()
+	return (do shell script "test -e ~/pause_signal.txt; echo $?") is "0"
+end checkForPauseSignal
+```
+
+
+
 ## 文章
 
 [个人OKR实践](https://justinyan.me/post/tag/个人OKR实践) - 枫影 Justin Yan
@@ -173,7 +211,7 @@ summary:
 
 ### 国外技术博客汇集工具「engblogs」
 
-将 506 个工程师的博客的 RSS 给订阅起来，将每天有更新的自动同步到网站上
+将 506 个工程师的博客的 RSS 给订阅起来，将每天有更新的自动同步到网站上（ TW93推荐 ）
 
 ### clean-code-javascript
 
