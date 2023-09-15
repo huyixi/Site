@@ -1,4 +1,4 @@
-<article class="prose max-w-full dark:prose-invert">
+<section class="prose max-w-full dark:prose-invert">
   <h1 class="mb-2 text-3xl">
     {{ i18n "hello.title" }}
     <a href="/about" style="font-weight: 800;" class="text-3xl hover:text-blue-500 hover:underline"
@@ -8,8 +8,10 @@
     >。
   </h1>
   <section>{{ .Content | emojify }}</section>
-</article>
-<section>
-  {{ partial "recent-articles.html" . }}
-  {{ partial "pagination.html" . }}
 </section>
+<section>
+  <ul>
+    {{ partial "recent-articles.html" . }}
+  </ul>
+</section>
+{{ partial "pagination.html" . }}
