@@ -356,6 +356,22 @@ end checkForPauseSignal
 
 一份关于如何在 JavaScript 中编写可读性强、可重用性高且易于重构的软件的指南。非常适合前端初学者去全部读和写一遍。（ TW93推荐 ）
 
+#### EarTrainX
+
+[链接](https://www.eartrainx.com/)
+
+
+
+![bg2023091102](/Users/huyixi/Desktop/bg2023091102.webp)
+
+该网站提供音乐初学者的各种听音练习，训练辨识旋律的能力。（[@xzzxy0413](https://github.com/ruanyf/weekly/issues/3467) 投稿，阮一峰周刊）
+
+#### EChart 社区
+
+- [make a pie](https://www.makeapie.cn/)
+
+- [ppchart](http://ppchart.com/#/)
+
 ## 说说
 
 - 我不知道为什么在回复中有很多人在嘲笑老罗的手机事业失败了。做生意当然有赚有赔，而事实上十个生意有九个是失败的，失败有什么值得嘲笑的呢？我在2010年时曾在芝加哥短暂地经营一家舞蹈的公司，确切地说是入股+合作，两年之后也倒闭了，血本无归。可是我并不后悔，我学习到了很多东西，做了很多在我看来非常有意义的事情，那是绝大多数人完全没有勇气去尝试的。我从来没有懊恼过这个失败的经历，我还兴致勃勃地跟很多朋友分享我的这份失败经历，他们中没有任何人觉得我是个失败者（起码没有当面跟我说）。**失败真的没什么，真正令人沮丧的是，一辈子什么都没有尝试过。** - [Nod Young](https://twitter.com/NodYoung)
@@ -372,4 +388,18 @@ end checkForPauseSignal
 
   答者是一位游戏策划，他的做法是让自己的小孩接触高质量游戏，提高刺激國值，从而不再对市面上粗制滥造的圈钱游戏感冒。答者说很多家长自己都不了解游戏却要从专业的游戏开发者手里把孩子抢回来，这基本等于白扯
   
-- 
+- 在一个信息爆炸却多半无用的世界，清晰的见解就成了一种力量。 - 一个
+
+- 不要在疲劳的时候写代码。敬业和专业精神，更多地体现在你的纪律性，而不是体现在投入的时间。
+
+  -- [Robert C. Martin](https://medium.com/@Fcmam5/trying-to-become-a-better-developer-by-learning-more-about-aviation-5241e7092f7e)（鲍勃大叔），《Clean Coder》的作者
+
+- 2022年11月，OpenAI 发布了 ChatGPT，突然之间就引发了人们从未见过的技术爆炸，图灵测试成为历史，搜索引擎成为濒临灭绝的物种，任何大学论文都不再可信，没有工作是安全的，没有什么科学问题是一成不变的。
+
+  -- [《OpenAI 真正想要什么》](https://www.wired.com/story/what-openai-really-wants/)
+
+- 网页设计师的一个巨大错误，就是以为用户会仔细阅读页面。但是实际上，用户不阅读，只是扫描页面。
+
+  因为大多数用户只想完成某件事，而且是快速完成，不想了解任何不必要的内容。
+
+  -- [《10 个最昂贵的设计错误》](https://adplist.substack.com/p/10-most-expensive-design-mistakes)
