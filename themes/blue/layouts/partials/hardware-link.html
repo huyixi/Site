@@ -4,7 +4,7 @@
     {{- $cover := $images.GetMatch (.Params.cover | default "*cover*") }}
     {{- $thumbnail := $images.GetMatch (.Params.thumbnail | default "*thumb*") }}
     {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $cover |default $thumbnail }}
-    <a href="{{ .Page.Permalink }}" class="music-link">
+    <a href="{{ .Page.Permalink }}">
         <!-- 图片部分 -->
         {{- with $feature }}
         <picture>

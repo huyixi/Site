@@ -1,11 +1,10 @@
 ---
-title: "Mac mini"
+title: "枫言枫语"
 author:
-date: 2023-09-16T12:56:41+08:00
+date: 2023-08-25T02:46:41+08:00
 draft: false
 tags: []
 category: [Hardware]
 summary: 
 ---
-
 test
