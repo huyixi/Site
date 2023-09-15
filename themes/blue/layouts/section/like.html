@@ -1,5 +1,5 @@
 {{ define "contentWrapper" }}
-  <div class="like mx-4 mt-4 overflow-hidden p-4 sm:ml-16 sm:mr-0 sm:mt-0">
+  <div class="like mx-4 mt-4 p-4 sm:ml-16 sm:mr-0 sm:mt-0">
     <h1 class="text-xl font-medium">
       {{ i18n
         "like.title"
@@ -20,6 +20,24 @@
     </div>
     <div class="my-8">
       <h2 class="my-4">{{ i18n "like.music" }}</h2>
+      <ul class="flex snap-x space-x-4 overflow-y-hidden overflow-x-scroll">
+        {{ $musicLinks := where .Site.RegularPages "Params.category" "intersect" (slice "Music") }}
+        {{ range first 20 $musicLinks }}
+          {{ partial "music-link.html" . }}
+        {{ end }}
+      </ul>
+    </div>
+    <div class="my-8">
+      <h2 class="my-4">{{ i18n "like.hardware" }}</h2>
+      <ul class="flex snap-x space-x-4 overflow-y-hidden overflow-x-scroll">
+        {{ $musicLinks := where .Site.RegularPages "Params.category" "intersect" (slice "Music") }}
+        {{ range first 20 $musicLinks }}
+          {{ partial "music-link.html" . }}
+        {{ end }}
+      </ul>
+    </div>
+    <div class="my-8">
+      <h2 class="my-4">{{ i18n "like.software" }}</h2>
       <ul class="flex snap-x space-x-4 overflow-y-hidden overflow-x-scroll">
         {{ $musicLinks := where .Site.RegularPages "Params.category" "intersect" (slice "Music") }}
         {{ range first 20 $musicLinks }}

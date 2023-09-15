@@ -3,9 +3,11 @@ hello:
   author: "huyixi"
 
 like:
-  title: "Like"
+  title: "What I Like"
   book: "Book"
   music: "Music"
+  software: "Software"
+  hardware: "Hardware"
 
 article:
   anchor_label: "Anchor"

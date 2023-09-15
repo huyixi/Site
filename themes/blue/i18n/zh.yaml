@@ -6,6 +6,8 @@ like:
   title: "我喜欢的"
   book: "书籍"
   music: "音乐"
+  software: "软件"
+  hardware: "硬件"
 
 article:
   anchor_label: "锚点"
