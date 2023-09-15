@@ -30,7 +30,7 @@
     <div class="my-8">
       <h2 class="my-4">{{ i18n "like.hardware" }}</h2>
       <ul class="flex snap-x space-x-4 overflow-y-hidden overflow-x-scroll">
-        {{ $musicLinks := where .Site.RegularPages "Params.category" "intersect" (slice "Music") }}
+        {{ $musicLinks := where .Site.RegularPages "Params.category" "intersect" (slice "Hardware") }}
         {{ range first 20 $musicLinks }}
           {{ partial "music-link.html" . }}
         {{ end }}
@@ -39,7 +39,7 @@
     <div class="my-8">
       <h2 class="my-4">{{ i18n "like.software" }}</h2>
       <ul class="flex snap-x space-x-4 overflow-y-hidden overflow-x-scroll">
-        {{ $musicLinks := where .Site.RegularPages "Params.category" "intersect" (slice "Music") }}
+        {{ $musicLinks := where .Site.RegularPages "Params.category" "intersect" (slice "Software") }}
         {{ range first 20 $musicLinks }}
           {{ partial "music-link.html" . }}
         {{ end }}
