@@ -1,25 +1,15 @@
-// document.addEventListener("DOMContentLoaded", function() {
-//     setTimeout(function() {
-//         var banner = document.getElementById("tempBanner");
-//         if (banner) {
-//             banner.style.opacity = "0";
-//             setTimeout(function() {
-//                 banner.style.display = "none";
-//             }, 1000); 
-//         }
-//     }, 3000); 
-// });
-
 document.addEventListener("DOMContentLoaded", function() {
-    setTimeout(function() {
-        var banner = document.getElementById("tempBanner");
-        if (banner) {
-            banner.style.transform = "scaleY(0)"; // Shrinks the banner from bottom to top
+    var banner = document.getElementById("tempBanner");
 
-            // After the transition completes, hide the banner
+    if ((window.location.pathname === '/zh/' || window.location.pathname === '/en/') && !localStorage.getItem('bannerDisplayed')) {
+        banner.style.display = "block";
+        localStorage.setItem('bannerDisplayed', 'true');
+
+        setTimeout(function() {
+            banner.style.transform = "scaleY(0)";
             setTimeout(function() {
                 banner.style.display = "none";
-            }, 500); // 500 milliseconds or 0.5 seconds, which matches the transition duration
-        }
-    }, 3000); 
+            }, 500);
+        }, 3000);
+    }
 });
