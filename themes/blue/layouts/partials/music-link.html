@@ -3,22 +3,18 @@
 <li class="my-2 snap-start">
   <!-- 获取图片资源 -->
   {{- $images := $.Resources.ByType "image" }}
+  {{- $cover := $images.GetMatch (.Params.cover | default "*cover*") }}
   {{- $thumbnail := $images.GetMatch (.Params.thumbnail | default "*thumb*") }}
-  {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $thumbnail }}
+  {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $cover |default $thumbnail }}
   <a href="{{ .Page.Permalink }}" class="music-link">
     <!-- 图片部分 -->
     {{- with $feature }}
-      <picture>
-        <source srcset="{{ .RelPermalink }}" type="image/webp" />
-        <source srcset="{{ .RelPermalink }}" type="image/jpeg" />
-        <img
-          src="{{ .RelPermalink }}"
-          alt="{{ $.Params.featureAlt | default $.Params.thumbnailAlt | default "" }}"
-          {{ if $.Site.Params.enableImageLazyLoading | default true }}
-            loading="lazy"
-          {{ end }}
-        />
-      </picture>
+    <picture>
+      <source srcset="{{ .RelPermalink }}" type="image/webp" />
+      <source srcset="{{ .RelPermalink }}" type="image/jpeg" />
+      <img src="{{ .RelPermalink }}" alt="{{ $.Params.featureAlt | default $.Params.thumbnailAlt | default "" }}"
+        {{ if $.Site.Params.enableImageLazyLoading | default true }} loading="lazy" {{ end }} />
+    </picture>
     {{- end }}
   </a>
 </li>
