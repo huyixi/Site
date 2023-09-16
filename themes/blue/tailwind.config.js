@@ -23,7 +23,8 @@ module.exports = {
         23: "5.75rem",
       },
       backgroundColor: {
-        "bg-gray": "#F8F8F8",
+        "bg-apple-gray": "#F8F8F8",
+        "bg-apple-blue": "#0072E3"
       },
       transitionProperty: {
         "shadow-transform": "box-shadow, transform",

@@ -102,4 +102,9 @@
   background-color: #007AFF;
   width: 0%;
   z-index: 9999;
+}
+
+.banner {
+  transition: transform 0.5s;
+  transform-origin: top;
 }/*# sourceMappingURL=custom.css.map */
