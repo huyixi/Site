@@ -1,5 +1,14 @@
 @tailwind base;
 @tailwind components;
+@layer components {
+  .prose :where(blockquote):not(:where([class~="not-prose"] *)) {
+    @apply border-l-blue-500;
+    @apply bg-neutral-100;
+  }
+  blockquote > p {
+    @apply py-3 pr-3;
+  }
+}
 @tailwind utilities;
 
 body a,

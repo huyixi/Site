@@ -1,4 +1,5 @@
 module.exports = {
+  mode: "jit",
   content: [
     "./layouts/**/*.html",
     "./content/**/*.{html,md}",
