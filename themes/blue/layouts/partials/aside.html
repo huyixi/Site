@@ -2,140 +2,113 @@
 
 
 <aside
-  class="relative z-50 mx-auto mt-8 w-11/12 rounded-2xl bg-gray-200 p-0 dark:border-2 dark:border-neutral-900 dark:bg-neutral-900 sm:fixed sm:left-0 sm:top-0 sm:m-0 sm:h-full sm:w-16 sm:rounded-none sm:py-16"
->
+  class="relative z-30 mx-auto mt-8 w-11/12 rounded-2xl bg-gray-200 p-0 dark:border-2 dark:border-neutral-900 dark:bg-neutral-900 sm:fixed sm:left-0 sm:top-0 sm:m-0 sm:h-full sm:w-16 sm:rounded-none sm:py-16">
   <nav class="flex h-16 flex-row items-center sm:h-48 sm:flex-col">
     {{/* Main menu */}}
     {{ if or .Site.Menus.main (.Site.Params.enableSearch | default false) }}
-      <ul class="flex h-full w-full list-none flex-row justify-evenly sm:w-auto sm:flex-col">
-        {{ if .Site.Menus.main }}
-          {{ range .Site.Menus.main }}
-            {{ $isActive := eq $currentURL .URL }}
-            <li class="my-2 flex items-center">
-              {{ if eq .Params.action "search" }}
-                {{ $.Scratch.Add "searchCount" 1 }}
-                {{ if $.Site.Params.enableSearch | default false }}
-                  <button
-                    id="search-button-{{ $.Scratch.Get "searchCount" }}"
-                    title="{{ .Title | default (i18n "search.open_button_title") }}"
-                  >
-                    {{ with .Params.icon | default "search" }}
-                      <span class="group-dark:hover:text-primary-400 transition-colors">
-                        {{- partial "icon.html" (dict "iconName" . "isActive" $isActive) -}}
-                      </span>
-                    {{- end -}}{{- if .Params.showName | default true -}}
-                      <span
-                        class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                      >
-                        {{ .Name | markdownify | emojify }}
-                      </span>
-                    {{ end }}
-                  </button>
-                {{ end }}
-              {{ else if eq .Params.action "appearance" }}
-                {{ $.Scratch.Add "switchCount" 1 }}
-                <button
-                  id="appearance-switcher-{{ $.Scratch.Get "switchCount" }}"
-                  type="button"
-                  aria-label="appearance switcher"
-                >
-                  <span
-                    class="group-dark:hover:text-primary-400 inline transition-colors dark:hidden"
-                    title="{{ i18n "footer.dark_appearance" }}"
-                  >
-                    {{ with .Params.icon | default "moon" }}
-                      {{- partial "icon.html" . -}}
-                    {{- end -}}{{- if .Params.showName | default true -}}
-                      <span
-                        class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                      >
-                        {{ .Name | markdownify | emojify }}
-                      </span>
-                    {{ end }}
-                  </span>
-                  <span
-                    class="group-dark:hover:text-primary-400 hidden transition-colors dark:inline"
-                    title="{{ i18n "footer.light_appearance" }}"
-                  >
-                    {{ with .Params.icon | default "sun" }}
-                      {{ partial "icon.html" . }}
-                    {{ end }}
-                    {{ if .Params.showName | default true }}
-                      <span
-                        class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                      >
-                        {{ .Name | markdownify | emojify }}
-                      </span>
-                    {{ end }}
-                  </span>
-                </button>
-              {{ else }}
-                <a
-                  href="{{ .URL }}"
-                  title="{{ .Title }}"
-                  {{ with .Params.target }}target="{{ . }}"{{ end }}
-                >
-                  {{ with .Params.icon }}
-                    <span>
-                      {{ partial "icon.html" (dict "iconName" . "isActive" $isActive) }}
-                    </span>
-                  {{- end -}}
-                </a>
-              {{ end }}
-            </li>
+    <ul class="flex h-full w-full list-none flex-row justify-evenly sm:w-auto sm:flex-col">
+      {{ if .Site.Menus.main }}
+      {{ range .Site.Menus.main }}
+      {{ $isActive := eq $currentURL .URL }}
+      <li class="my-2 flex items-center">
+        {{ if eq .Params.action "search" }}
+        {{ $.Scratch.Add "searchCount" 1 }}
+        {{ if $.Site.Params.enableSearch | default false }}
+        <button id="search-button-{{ $.Scratch.Get "searchCount" }}"
+          title="{{ .Title | default (i18n "search.open_button_title") }}">
+          {{ with .Params.icon | default "search" }}
+          <span class="group-dark:hover:text-primary-400 transition-colors">
+            {{- partial "icon.html" (dict "iconName" . "isActive" $isActive) -}}
+          </span>
+          {{- end -}}{{- if .Params.showName | default true -}}
+          <span
+            class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">
+            {{ .Name | markdownify | emojify }}
+          </span>
           {{ end }}
-
-          {{ if and ($.Site.Params.enableSearch | default false) (eq ($.Scratch.Get "searchCount") 0) }}
-            <li class="sm:mb-0 sm:me-7 sm:last:me-0">
-              <button id="search-button-m0" title="{{ i18n "search.open_button_title" }}">
-                <span class="hover:text-red">
-                  {{ partial "icon.html"  "search" }}
-                </span>
-              </button>
-            </li>
-          {{ end }}
+        </button>
         {{ end }}
+        {{ else if eq .Params.action "appearance" }}
+        {{ $.Scratch.Add "switchCount" 1 }}
+        <button id="appearance-switcher-{{ $.Scratch.Get "switchCount" }}" type="button"
+          aria-label="appearance switcher">
+          <span class="group-dark:hover:text-primary-400 inline transition-colors dark:hidden"
+            title="{{ i18n "footer.dark_appearance" }}">
+            {{ with .Params.icon | default "moon" }}
+            {{- partial "icon.html" . -}}
+            {{- end -}}{{- if .Params.showName | default true -}}
+            <span
+              class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">
+              {{ .Name | markdownify | emojify }}
+            </span>
+            {{ end }}
+          </span>
+          <span class="group-dark:hover:text-primary-400 hidden transition-colors dark:inline"
+            title="{{ i18n "footer.light_appearance" }}">
+            {{ with .Params.icon | default "sun" }}
+            {{ partial "icon.html" . }}
+            {{ end }}
+            {{ if .Params.showName | default true }}
+            <span
+              class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">
+              {{ .Name | markdownify | emojify }}
+            </span>
+            {{ end }}
+          </span>
+        </button>
+        {{ else }}
+        <a href="{{ .URL }}" title="{{ .Title }}" {{ with .Params.target }}target="{{ . }}" {{ end }}>
+          {{ with .Params.icon }}
+          <span>
+            {{ partial "icon.html" (dict "iconName" . "isActive" $isActive) }}
+          </span>
+          {{- end -}}
+        </a>
+        {{ end }}
+      </li>
+      {{ end }}
 
-      </ul>
+      {{ if and ($.Site.Params.enableSearch | default false) (eq ($.Scratch.Get "searchCount") 0) }}
+      <li class="sm:mb-0 sm:me-7 sm:last:me-0">
+        <button id="search-button-m0" title="{{ i18n "search.open_button_title" }}">
+          <span class="hover:text-red">
+            {{ partial "icon.html"  "search" }}
+          </span>
+        </button>
+      </li>
+      {{ end }}
+      {{ end }}
+
+    </ul>
     {{ end }}
   </nav>
-  <nav
-    class="bottom-8 hidden h-36 flex-grow list-none sm:absolute sm:flex sm:w-full sm:flex-col sm:items-center"
-  >
+  <nav class="bottom-8 hidden h-36 flex-grow list-none sm:absolute sm:flex sm:w-full sm:flex-col sm:items-center">
     <!-- Language Switcher -->
     <li class="my-2">
       <!-- Current Language Icon -->
       {{ if eq .Site.Language.Lang "en" }}
-        <a href="/zh" class="flex items-center" aria-label="Switch to Chinese">
-          {{ partial "icon.html" (dict "iconName" "lang-en-day" "class" "dark:hidden") }}
-          {{ partial "icon.html" (dict "iconName" "lang-en-night" "class" "hidden dark:block") }}
-        </a>
+      <a href="/zh" class="flex items-center" aria-label="Switch to Chinese">
+        {{ partial "icon.html" (dict "iconName" "lang-en-day" "class" "dark:hidden") }}
+        {{ partial "icon.html" (dict "iconName" "lang-en-night" "class" "hidden dark:block") }}
+      </a>
       {{ else }}
-        <a href="/en" class="flex  items-center" aria-label="Switch to English">
-          {{ partial "icon.html" (dict "iconName" "lang-zh-day" "class" "dark:hidden") }}
-          {{ partial "icon.html" (dict "iconName" "lang-zh-night" "class" "hidden dark:block") }}
-        </a>
+      <a href="/en" class="flex  items-center" aria-label="Switch to English">
+        {{ partial "icon.html" (dict "iconName" "lang-zh-day" "class" "dark:hidden") }}
+        {{ partial "icon.html" (dict "iconName" "lang-zh-night" "class" "hidden dark:block") }}
+      </a>
       {{ end }}
     </li>
 
     <!-- 主题切换按钮列表项 -->
     <li class="my-2">
       {{ $.Scratch.Add "switchCount" 1 }}
-      <button
-        id="appearance-switcher-{{ $.Scratch.Get "switchCount" }}"
-        type="button"
-        aria-label="appearance switcher"
-      >
-        <span
-          class="group-dark:hover:text-primary-400 inline transition-colors dark:hidden"
-          title="{{ i18n "footer.dark_appearance" }}"
-        >
+      <button id="appearance-switcher-{{ $.Scratch.Get "switchCount" }}" type="button" aria-label="appearance switcher">
+        <span class="group-dark:hover:text-primary-400 inline transition-colors dark:hidden"
+          title="{{ i18n "footer.dark_appearance" }}">
           {{ partial "icon.html"  "moon" }}
         </span>
-        <span
-          class="group-dark:hover:text-primary-400 hidden transition-colors dark:inline"
-          title="{{ i18n "footer.light_appearance" }}"
-        >
+        <span class="group-dark:hover:text-primary-400 hidden transition-colors dark:inline"
+          title="{{ i18n "footer.light_appearance" }}">
           {{ partial "icon.html"  "sun" }}
         </span>
       </button>

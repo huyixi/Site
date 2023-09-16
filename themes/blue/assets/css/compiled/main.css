@@ -1026,10 +1026,6 @@ blockquote > p {
   position: relative;
 }
 
-.sticky {
-  position: sticky;
-}
-
 .inset-0 {
   inset: 0px;
 }
@@ -1056,6 +1052,10 @@ blockquote > p {
 
 .z-50 {
   z-index: 50;
+}
+
+.z-30 {
+  z-index: 30;
 }
 
 .order-first {
@@ -1243,10 +1243,6 @@ blockquote > p {
 
 .hidden {
   display: none;
-}
-
-.h-10 {
-  height: 2.5rem;
 }
 
 .h-12 {
@@ -1537,6 +1533,11 @@ blockquote > p {
   border-color: rgb(163 163 163 / var(--tw-border-opacity));
 }
 
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
@@ -1568,11 +1569,6 @@ blockquote > p {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -1792,10 +1788,6 @@ blockquote > p {
 
 .italic {
   font-style: italic;
-}
-
-.leading-10 {
-  line-height: 2.5rem;
 }
 
 .leading-3 {

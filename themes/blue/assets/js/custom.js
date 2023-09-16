@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     var banner = document.getElementById("tempBanner");
 
     if ((window.location.pathname === '/zh/' || window.location.pathname === '/en/') && !localStorage.getItem('bannerDisplayed')) {
