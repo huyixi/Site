@@ -28,4 +28,6 @@ Sat Sep 16, 2023
 
 
 
-### 行动
+行动:
+
+[Justin Yan 的个人 OKR 实践](https://justinyan.me/post/tag/个人OKR实践)
