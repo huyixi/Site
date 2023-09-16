@@ -999,6 +999,11 @@ video {
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
 }
 
+:is(.dark .prose :where(blockquote):not(:where([class~="not-prose"] *))) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 38 38 / var(--tw-bg-opacity));
+}
+
 blockquote > p {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
