@@ -1,18 +1,26 @@
-<li class="my-2 snap-start">
+<li class="show-modal my-2 snap-start cursor-pointer w-44 h-56 bg-gray-100 rounded-2xl group">
     <!-- 获取图片资源 -->
     {{- $images := $.Resources.ByType "image" }}
     {{- $cover := $images.GetMatch (.Params.cover | default "*cover*") }}
     {{- $thumbnail := $images.GetMatch (.Params.thumbnail | default "*thumb*") }}
     {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $cover |default $thumbnail }}
-    <a href="{{ .Page.Permalink }}">
-        <!-- 图片部分 -->
-        {{- with $feature }}
-        <picture>
-            <source srcset="{{ .RelPermalink }}" type="image/webp" />
-            <source srcset="{{ .RelPermalink }}" type="image/jpeg" />
-            <img src="{{ .RelPermalink }}" alt="{{ $.Params.featureAlt | default $.Params.thumbnailAlt | default "" }}"
-                {{ if $.Site.Params.enableImageLazyLoading | default true }} loading="lazy" {{ end }} />
-        </picture>
-        {{- end }}
-    </a>
+    <!-- 图片部分 -->
+    {{- with $feature }}
+    <picture>
+        <source srcset="{{ .RelPermalink }}" type="image/webp" />
+        <source srcset="{{ .RelPermalink }}" type="image/jpeg" />
+        <img class="group-hover:scale-110 ease-in-out duration-500" src="{{ .RelPermalink }}"
+            alt="{{ $.Params.featureAlt | default $.Params.thumbnailAlt | default "" }}"
+            {{ if $.Site.Params.enableImageLazyLoading | default true }} loading="lazy" {{ end }} />
+    </picture>
+    {{- end }}
+    <div class="good-content px-4 ">
+        <div class="good-title text-sm">
+            {{ $.Title | emojify }}
+        </div>
+        <div class="good-summary  leading-5 text-xs text-gray-500 ">
+            {{ .Summary | emojify }}
+        </div>
+    </div>
+    <!-- {{- partial "like-modal.html" . -}} -->
 </li>

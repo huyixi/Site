@@ -2,6 +2,10 @@ hello:
   title: "你好，我是"
   author: "胡一希"
 
+website:
+  banner: "本站图片托管于 Github，请确保网络连接正常。"
+
+
 like:
   title: "我喜欢的"
   book: "书籍"

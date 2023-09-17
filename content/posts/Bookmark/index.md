@@ -7,6 +7,10 @@ category: [Blog]
 summary: 
 ---
 
+### AI Tools
+
+- [ChatGPT PROMPTs Splitter](https://chatgpt-prompt-splitter.jjdiaz.dev) Prompt 文本分割
+
 ### 图片压缩
 
 - [JPG/PNG简易在线尺寸缩放与压缩工具](https://www.zhangxinxu.com/sp/tinyimg/)
