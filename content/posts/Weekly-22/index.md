@@ -63,6 +63,24 @@ summary:
 - 我没有明白，一个孩子出生到这个世界上的意义是什么？我们又为什么要繁育下一代？一个孩子的出生，对他的父母，对他自己又意味着什么？
 - 思考本身的过程，要比得到答案更有意义
 
+EChart 的难点在于，多个因素共同导致的图表显示异常。
+
+比如，设置了 Grid，但是由于生成的图表区域太小，此时设置 BarWidthCategoryGap 的值，无法改变图表。
+
+解决方案：
+
+使用 EChart 配置项中的**试一试**
+
+尽量减少变量值的影响
+
+⚠️ 要注意配置项的位置路径，是否嵌套在其他层次
+
+
+
+![image-20230919152007706](/Users/huyixi/Library/Application%20Support/typora-user-images/image-20230919152007706.png)
+
+![image-20230919152101271](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20230919152101271.png)
+
 #### 本周在读
 
 - 《东京八平米》 - 读完
