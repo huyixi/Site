@@ -69,17 +69,17 @@ EChart 的难点在于，多个因素共同导致的图表显示异常。
 
 解决方案：
 
-使用 EChart 配置项中的**试一试**
+使用 EChart 配置项中的**试一试**(每个配置项的右上角)
 
 尽量减少变量值的影响
 
 ⚠️ 要注意配置项的位置路径，是否嵌套在其他层次
 
+![1978shots_so](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/1978shots_so.png)
+
+![161shots_so](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/161shots_so.png)
 
 
-![image-20230919152007706](/Users/huyixi/Library/Application%20Support/typora-user-images/image-20230919152007706.png)
-
-![image-20230919152101271](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20230919152101271.png)
 
 #### 本周在读
 
