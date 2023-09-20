@@ -25,6 +25,10 @@ summary:
 
     [So You Want to Study Philosophy](https://www.susanrigetti.com/philosophy)
 
+### 开发
+
+- [free-for.dev](https://free-for.dev/#/?id=free-fordev)：搜集了程序员需要的各种领域的免费 Sass 服务并且配有简介：类型，永久免费或者试用免费的额度。
+
 ### 网页
 
 - [DEVICES.CSS](https://devicescss.xyz/) 使用 CSS 画苹果设备
