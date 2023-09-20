@@ -87,7 +87,7 @@ EChart 的难点在于，多个因素共同导致的图表显示异常。
 
 今天的工作状态巨差，还是被失恋影响到了。接下来准备多看看相关的书籍，多参加一些活动，多跟人打交道，要尽快走出来。
 
-![551shots_so](/Users/huyixi/.Trash/551shots_so.png)
+![551shots_so](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/551shots_so.png)
 
 ![542shots_so](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/542shots_so.png)
 
