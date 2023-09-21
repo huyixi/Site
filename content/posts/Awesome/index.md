@@ -27,6 +27,10 @@ summary:
 
 ### 开发
 
+#### icon
+
+- [yesicon](https://yesicon.app) 来自全球顶尖设计团队的高品质矢量图标
+
 - [free-for.dev](https://free-for.dev/#/?id=free-fordev)：搜集了程序员需要的各种领域的免费 Sass 服务并且配有简介：类型，永久免费或者试用免费的额度。
 
 ### 网页
@@ -91,4 +95,4 @@ summary:
 #### SMS
 
 - [5sim.net](https://5sim.net/)
-- [sms-activate.org](https://sms-activate.org/)
+  - [sms-activate.org](https://sms-activate.org/)
