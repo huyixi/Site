@@ -88,3 +88,7 @@ summary:
 - [Mac8k](https://www.mac8k.com)
 - [奇迹秀](https://www.qijishow.com)
 
+#### SMS
+
+- [5sim.net](https://5sim.net/)
+- [sms-activate.org](https://sms-activate.org/)
