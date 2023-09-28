@@ -10,7 +10,7 @@
   }
 
   .prose blockquote>p {
-    @apply my-4;
+    @apply my-4 mx-2;
   }
 
   .prose a:not(.not-prose) {
