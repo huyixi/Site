@@ -111,4 +111,3 @@ summary:
 - ChatPDF官方网站: [https://www.chatpdf.com](https://www.chatpdf.com/)
 - PandaGPT官方应用: https://app.pandagpt.io/chat
 - 学术优化工具集: [https://paper.mbmzone.com](https://paper.mbmzone.com/)
-
