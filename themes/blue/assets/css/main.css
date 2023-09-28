@@ -6,15 +6,17 @@
     @apply border-l-blue-500;
     @apply bg-neutral-100;
     @apply dark:bg-neutral-800;
+    @apply font-normal not-italic px-3 py-1;
   }
 
-  blockquote>p {
-    @apply py-3 pr-3;
+  .prose blockquote>p {
+    @apply my-4;
   }
 
   .prose a:not(.not-prose) {
     @apply no-underline;
   }
+
 }
 
 @tailwind utilities;

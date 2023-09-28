@@ -1004,10 +1004,18 @@ video {
   background-color: rgb(38 38 38 / var(--tw-bg-opacity));
 }
 
-blockquote>p {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+.prose blockquote:not(.not-prose) {
+  padding-left: 0.75rem;
   padding-right: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.prose blockquote>p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .prose a:not(.not-prose) {
