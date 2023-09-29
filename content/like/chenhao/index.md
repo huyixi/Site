@@ -93,6 +93,31 @@ MDN 的相关的技术文档，文档很大，你要学习的并不是所有的�
 
 上面这些东西，不是什么高深的东西，但是可以让你从中学到很多。相信你只需要自己 Google 一下就能搞定。
 
+### 理论学科
+
+##### 数据结构与算法
+
+如果能够把这些算法能力都掌握了，那么你就有很大的概率可以很容易地通过这世界上最优的公司的面试，比如：Google、Amazon、Facebook 之类的公司。对你来说，如果能够进入到这些公司里工作，那么你未来的想像空间也会大很多。
+
+###### 理论学习
+
+1. 基础：
+   - 《[算法](https://book.douban.com/subject/10432347/)》
+   - 《[算法图解](https://book.douban.com/subject/26979890/)》
+2. 理论加持：
+   - 《[算法导论](https://book.douban.com/subject/20432061/)》 美国计算机科学本科生的教科书。
+3. 思维改善：
+   - 《[编程珠玑](https://book.douban.com/subject/3227098/)》经典的算法书，其中都是一些非常实际的问题，并以其独有的洞察力和创造力，来引导读者理解并学会解决这些问题的方法，也是一本可以改善你思维方式的书。
+
+###### 训练
+
+- [LeetCode](https://leetcode.com/)
+
+###### 其他
+
+- **[List of Algorithms](https://www.wikiwand.com/en/List_of_algorithms)** 罗列了非常多的算法，可以当成一个算法字典，或是用来开阔眼界。
+- [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) 数据结构动画图的网站 
+
 ### 优秀设计的聚集地
 
 - [Awwwards](http://awwwards.com/) ，这个网站给一些设计得不错网站的评分，在这里你可以看到很多设计不错的网站。
