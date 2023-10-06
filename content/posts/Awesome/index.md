@@ -71,6 +71,12 @@ summary:
 
 [Shots](https://shots.so/): Make awazing Mockups
 
+#### 无版权图库
+
+- [Stocks](https://link.zhihu.com/?target=https%3A//tigdig.com/5817410) 无版权网站集合
+
+- [pixabay](https://pixabay.com/)
+
 ### AI Tools
 
 - [ChatGPT PROMPTs Splitter](https://chatgpt-prompt-splitter.jjdiaz.dev) Prompt 文本分割

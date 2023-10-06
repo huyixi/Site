@@ -17,6 +17,8 @@ module.exports = {
         144: "36rem",
         148: "37rem",
         152: "38rem",
+        160: "40rem",
+        192: "44rem",
         245: "61.25rem",
       },
       height: {
@@ -24,7 +26,7 @@ module.exports = {
       },
       backgroundColor: {
         "bg-apple-gray": "#F8F8F8",
-        "bg-apple-blue": "#0072E3"
+        "bg-apple-blue": "#0072E3",
       },
       transitionProperty: {
         "shadow-transform": "box-shadow, transform",
