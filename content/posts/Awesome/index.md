@@ -64,6 +64,8 @@ summary:
 - [examor](https://github.com/codeacme17/examor): Let LLMs assist you in learning 🎓
 
   复习考试、准备面试的好帮手。 另类文档对话工具：借助AI把你的学习资料、学习笔记生成考试问题，然后你可以基于这些问题进行回复对话，AI对你的回复进行打分和点评。
+  
+- [EmojiGen](https://emoji.fly.dev)：利用 Prompt 生成头像
 
 ### 图片
 
