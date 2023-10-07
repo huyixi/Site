@@ -33,6 +33,8 @@ summary:
 
 - [free-for.dev](https://free-for.dev/#/?id=free-fordev)：搜集了程序员需要的各种领域的免费 Sass 服务并且配有简介：类型，永久免费或者试用免费的额度。
 
+- [useAnimations](Animated icons in Lottie Framework - 微动效)
+
 ### 网页
 
 - [DEVICES.CSS](https://devicescss.xyz/) 使用 CSS 画苹果设备
