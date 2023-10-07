@@ -1,27 +1,31 @@
 {{- partial "partials/functions/warnings.html" .Site -}}
 {{- partial "partials/functions/init.html" . -}}
 <!DOCTYPE html>
-<html lang="{{ with .Site.Params.isoCode | default (.Site.LanguageCode | default "en") }}
+<html
+  lang="{{ with .Site.Params.isoCode | default (.Site.LanguageCode | default "en") }}
     {{- . -}}
   {{ end }}
-  " class="scroll-smooth" data-default-appearance="{{ .Site.Params.defaultAppearance | default "light" }}"
-  data-auto-appearance="{{ .Site.Params.autoSwitchAppearance | default "true" }}">
-{{- partial "head.html" . -}}
+  "
+  class="scroll-smooth"
+  data-default-appearance="{{ .Site.Params.defaultAppearance | default "light" }}"
+  data-auto-appearance="{{ .Site.Params.autoSwitchAppearance | default "true" }}"
+>
+  {{- partial "head.html" . -}}
 
-<body class="dark:border-1 flex h-screen flex-col text-lg  dark:bg-neutral-950 dark:text-white">
-  {{ partial "partials/aside.html" . }}
-  {{ block "contentWrapper" . }}
-  {{- partial "partials/banner.html" -}}
-  <div id="site" class="mx-4 mt-10 sm:ml-20">
-    <main id="main-content" class="mx-auto w-11/12 md:w-152">
-      {{ block "main" . }}{{ end }}
-      {{- partial "footer.html" . -}}
-    </main>
-  </div>
-  {{ end }}
-  {{ if .Site.Params.enableSearch | default false }}
-  {{- partial "search.html" . -}}
-  {{ end }}
-</body>
 
+  <body class="dark:border-1 flex h-screen flex-col text-lg  dark:bg-neutral-950 dark:text-white">
+    {{ partial "partials/aside.html" . }}
+    {{ block "contentWrapper" . }}
+      {{- partial "partials/banner.html" -}}
+      <div id="site" class="mx-4 mt-10 sm:ml-20">
+        <main id="main-content" class="mx-auto w-11/12 md:w-184">
+          {{ block "main" . }}{{ end }}
+          {{- partial "footer.html" . -}}
+        </main>
+      </div>
+    {{ end }}
+    {{ if .Site.Params.enableSearch | default false }}
+      {{- partial "search.html" . -}}
+    {{ end }}
+  </body>
 </html>
