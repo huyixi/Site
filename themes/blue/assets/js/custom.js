@@ -66,25 +66,35 @@ window.onclick = function (event) {
 
 // Table of Contents
 document.addEventListener("DOMContentLoaded", function () {
-  // 获取所有的标题元素
-  const headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+  const article = document.querySelector("article");
+  const headings = article.querySelectorAll("h1, h2, h3, h4, h5, h6");
   const tocDiv = document.querySelector("#toc-bot");
 
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          // 移除标题中的 # 符号
-          let headingText = entry.target.textContent.replace(" #", "");
-          // 设置 #toc-bot div 的内容为当前标题的文本
-          tocDiv.textContent = headingText;
+        if (entry.target === article) {
+          // 检查 article 元素
+          if (entry.isIntersecting) {
+            tocDiv.style.display = "block";
+          } else {
+            tocDiv.style.display = "none";
+          }
+        } else {
+          // 检查标题元素
+          if (entry.isIntersecting) {
+            let headingText = entry.target.textContent.replace(" #", "");
+            tocDiv.textContent = headingText;
+          }
         }
       });
     },
     {
-      threshold: 0.1, // 当目标元素的交叉区域与视口的交叉区域至少为10%时，回调将被触发
+      threshold: 0.1,
     }
   );
 
+  // 观察 article 元素和所有标题
+  observer.observe(article);
   headings.forEach((heading) => observer.observe(heading));
 });

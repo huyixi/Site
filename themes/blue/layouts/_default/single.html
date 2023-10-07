@@ -52,24 +52,24 @@
         </div>
       </div>
     {{ end }}
-    <footer class="max-w-prose pt-8 print:hidden">
-      {{ partial "author.html" . }}
-      {{ partial "sharing-links.html" . }}
-      {{ partial "more.html" . }}
-      {{ if .Params.showComments | default (.Site.Params.article.showComments | default false) }}
-        {{ if templates.Exists "partials/comments.html" }}
-          <div class="pt-3">
-            <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
-            <div class="pt-3">
-              {{ partial "comments.html" . }}
-            </div>
-          </div>
-        {{ else }}
-          {{ warnf "Comments are enabled for %s but no comments partial exists." .File.Path }}
-        {{ end }}
-      {{ end }}
-    </footer>
   </article>
+  <section class="max-w-prose pt-8 print:hidden">
+    {{ partial "author.html" . }}
+    {{ partial "sharing-links.html" . }}
+    {{ partial "more.html" . }}
+    {{ if .Params.showComments | default (.Site.Params.article.showComments | default false) }}
+      {{ if templates.Exists "partials/comments.html" }}
+        <div class="pt-3">
+          <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+          <div class="pt-3">
+            {{ partial "comments.html" . }}
+          </div>
+        </div>
+      {{ else }}
+        {{ warnf "Comments are enabled for %s but no comments partial exists." .File.Path }}
+      {{ end }}
+    {{ end }}
+  </section>
   <!-- Scroll To Top Button -->
   <button
     id="scrollToTop"
@@ -79,15 +79,9 @@
     &#8679;
   </button>
   {{/* Table of Contents */}}
-
-  {{/* <div
-    id="toc-bot"
-    class="toc text-black-600 fixed bottom-5 left-1/2 flex h-10 w-1/2 -translate-x-1/2 transform items-center justify-center rounded-xl bg-gray-100 p-4 opacity-70 hover:opacity-100"
-    ></div>
-  */}}
   <div
     id="toc-bot"
-    class="toc text-black-600 max-w-1/2 fixed bottom-5 left-1/2 flex h-10 -translate-x-1/2 transform items-center justify-center overflow-hidden whitespace-nowrap rounded-xl bg-gray-100 p-4 opacity-70 hover:opacity-100"
+    class="toc text-black-600 max-w-1/2 fixed bottom-5 left-1/2 flex h-10 -translate-x-1/2 transform items-center justify-center overflow-hidden whitespace-nowrap rounded-xl bg-gray-100 p-4 opacity-70 hover:opacity-100 dark:bg-gray-200 dark:text-white "
     style="text-overflow: ellipsis;"
   ></div>
 {{ end }}
