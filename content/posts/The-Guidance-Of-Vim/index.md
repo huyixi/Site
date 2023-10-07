@@ -10,9 +10,11 @@ PS：文中的向后指的是靠近文末，与 Vim 指南相反
 
 ## Vim 键位图
 
-![](https://raw.githubusercontent.com/huyixi/blog_imgs/master/vim-cheat-sheet-en.gif)
+![vim-cheat-jairo](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/vim-cheat-jairo.jpg)
 
-![](https://raw.githubusercontent.com/huyixi/blog_imgs/master/vim-cheat-sheet-cn.gif)
+
+
+![vim-cheat](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/vim-cheat.png)
 
 ## Vim 的模式
 
