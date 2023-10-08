@@ -18,7 +18,7 @@
     {{ block "contentWrapper" . }}
       {{- partial "partials/banner.html" -}}
       <div id="site" class="mx-4 mt-10 sm:ml-20">
-        <main id="main-content" class="mx-auto w-11/12 md:w-184">
+        <main id="main-content" class="md:w-168 mx-auto w-11/12">
           {{ block "main" . }}{{ end }}
           {{- partial "footer.html" . -}}
         </main>
