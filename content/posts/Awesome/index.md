@@ -59,6 +59,10 @@ summary:
 
 - [少数派创作手册 - 风格指南](https://manual.sspai.com/rules/style/#_8)
 
+#### 网盘搜索
+
+- [熊猫搜盘](https://www.sopandas.cn)
+
 ## 工具类
 
 ### AI
