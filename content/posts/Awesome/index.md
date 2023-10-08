@@ -9,6 +9,10 @@ summary:
 
 收集所有 Awesome 的资源
 
+## 信息
+
+[领英大数据报告](https://business.linkedin.com/zh-cn/talent-solutions/recruiting-resources-tips?selectedFilter=all)
+
 ## 资源类
 
 ### 书籍
