@@ -11,9 +11,15 @@ summary:
 
 ## 信息
 
+
+
 [领英大数据报告](https://business.linkedin.com/zh-cn/talent-solutions/recruiting-resources-tips?selectedFilter=all)
 
 ## 资源类
+
+### 导航
+
+- [数字生活指南](https://nav.guidebook.top)
 
 ### 书籍
 
@@ -90,6 +96,7 @@ summary:
 ### AI Tools
 
 - [ChatGPT PROMPTs Splitter](https://chatgpt-prompt-splitter.jjdiaz.dev) Prompt 文本分割
+- 
 
 ### 图片压缩
 
