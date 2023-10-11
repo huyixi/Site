@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
       banner.style.transform = "scaleY(0)";
       setTimeout(function () {
         banner.style.display = "none";
-      }, 500);
-    }, 3000);
+      }, 600);
+    }, 5000);
   }
 });
 
