@@ -13,28 +13,32 @@ summary:
 
 在《左耳听风》推荐的书单
 
-### 学习前
+## 学习前
 
 - [Teach Yourself Programming in Ten Years ](http://norvig.com/21-days.html)
 
 - [程序员的谎谬之言还是至理名言？](https://coolshell.cn/articles/4235.html)
 
-### 编程入门
+## 编程入门
 
-#### Python
+### Python
 
 - [Python 编程快速上手](https://book.douban.com/subject/26836700/)
 - [Python 编程：从入门到实践](https://book.douban.com/subject/26829016/)
 
 这两本书除了编程语法方面的讲述有所不同之外，其他都差不多，主要是通过书中的示例来强化你对编程的学习。第一本偏文本处理，包括处理 Word、Excel 和 PDF，第二本中有一些 Web 项目和代码部署方面的内容。如果可能的话，你可以把两本书中的示例都跑一遍。如果你时间有限的话，我推荐你看第二本。
 
-#### JavaScript
+### JavaScript
 
 - [MDN JavaScript 教程](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)，你可以认为这是最权威的 JavaScript 官方教程了，从初级到中级再到高级。
 - [W3School JavaScript 教程](http://www.w3school.com.cn/js/)，这个教程比较偏 Web 方面的编程。
 - [JavaScript 全栈教程（廖雪峰）](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)，这是廖雪峰的一个比较偏应用的教程，也是偏 Web 方面的编程，同时包括涉及后端的 Node.js 方面的教程。
 
-#### Java
+
+
+## 编程语言
+
+### Java
 
 - 入门：《[Java 核心技术：卷 1 基础知识](https://book.douban.com/subject/26880667/)》
 - 框架：《[Spring 实战](https://book.douban.com/subject/26767354/)》和《[Spring Boot 实战](https://book.douban.com/subject/26857423/)》
@@ -69,7 +73,7 @@ summary:
 
 
 
-#### C/C++ 语言
+### C/C++ 语言
 
 - 入门
   - 《[C 程序设计语言](https://book.douban.com/subject/1139336/)》
@@ -82,7 +86,7 @@ summary:
 - 《[Effective C++](https://book.douban.com/subject/5387403/)》和《[More Effective C++](https://book.douban.com/subject/5908727/)》：这两本书的内容会随着你经历的丰富而变得丰富，这也是对我影响最大的两本书，其中影响最大的不是书中的那些 C++ 的东西，而是作者的思维方式和不断求真的精神，这真是太赞了。
 - 编译器到底干了什么事：《[深度探索 C++ 对象模型](https://book.douban.com/subject/10427315/)》
 
-#### Go
+### Go
 
 - [Go by Example](https://gobyexample.com/)
 
@@ -108,6 +112,49 @@ summary:
   - [Go Talks](https://github.com/golang/go/wiki/GoTalks)
 
 -  Go 资源列表 [Awesome Go](https://github.com/avelino/awesome-go)
+
+## 数据库
+
+### 关系型数据库
+
+#### 闭源：Oracle
+
+- 《[Oracle Database 9i/10g/11g 编程艺术](https://book.douban.com/subject/5402711/)》：必读的书。这本书的作者是 Oracle 公司的技术副总裁托马斯·凯特（Thomas Kyte），世界顶级的 Oracle 专家
+
+#### 开源：MySQL
+
+- [MySQL 官方手册](https://dev.mysql.com/doc/)
+
+- 官方 PPT
+
+  - [How to Analyze and Tune MySQL Queries for Better Performance](https://www.mysql.com/cn/why-mysql/presentations/tune-mysql-queries-performance/)
+
+  - [MySQL Performance Tuning 101](https://www.mysql.com/cn/why-mysql/presentations/mysql-performance-tuning101/)
+  - [MySQL Performance Schema & Sys Schema](https://www.mysql.com/cn/why-mysql/presentations/mysql-performance-sys-schema/)
+  - [MySQL Performance: Demystified Tuning & Best Practices](https://www.mysql.com/cn/why-mysql/presentations/mysql-performance-tuning-best-practices/)
+  - [MySQL Security Best Practices](https://www.mysql.com/cn/why-mysql/presentations/mysql-security-best-practices/)
+  - [MySQL Cluster Deployment Best Practices](https://www.mysql.com/cn/why-mysql/presentations/mysql-cluster-deployment-best-practices/)
+  - [MySQL High Availability with InnoDB Cluster](https://www.mysql.com/cn/why-mysql/presentations/mysql-high-availability-innodb-cluster/)
+
+- 《[高性能 MySQL](https://book.douban.com/subject/23008813/)》： MySQL 领域的经典之作
+
+- 内部原理：
+
+  - 《[MySQL 技术内幕：InnoDB 存储引擎](https://book.douban.com/subject/24708143/)》
+  - [MySQL Internals Manual](https://dev.mysql.com/doc/internals/en/) 
+
+- 数据库的索引设计和优化：《[数据库的索引设计与优化](https://book.douban.com/subject/26419771/)》
+
+- 相关文章
+
+  - [MySQL 索引背后的数据结构及算法原理](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
+  - [Some study on database storage internals](https://medium.com/@kousiknath/data-structures-database-storage-internals-1f5ed3619d43)
+  - [Sharding Pinterest: How we scaled our MySQL fleet](https://medium.com/@Pinterest_Engineering/sharding-pinterest-how-we-scaled-our-mysql-fleet-3f341e96ca6f)
+  - [Guide to MySQL High Availability](https://www.mysql.com/cn/why-mysql/white-papers/mysql-guide-to-high-availability-solutions/)
+  - [Choosing MySQL High Availability Solutions](https://dzone.com/articles/choosing-mysql-high-availability-solutions)
+  - [High availability with MariaDB TX: The definitive guide](https://mariadb.com/sites/default/files/content/Whitepaper_High_availability_with_MariaDB-TX.pdf)
+
+-  [Awesome MySQL](https://shlomi-noach.github.io/awesome-mysql/)
 
 ### 操作系统入门
 
