@@ -8,6 +8,258 @@
     <language>zh</language>
     <lastBuildDate>Thu, 24 Aug 2023 12:09:24 +0800</lastBuildDate><atom:link href="https://huyixi.com/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>BlueBird</title>
+      <link>https://huyixi.com/zh/posts/bluebird/</link>
+      <pubDate>Wed, 11 Oct 2023 22:25:25 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/bluebird/</guid>
+      <description>陈皓叔的程序员练级指南的第一个作业。</description>
+    </item>
+    
+    <item>
+      <title>Rework3</title>
+      <link>https://huyixi.com/zh/like/rework3/</link>
+      <pubDate>Tue, 10 Oct 2023 12:39:23 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/like/rework3/</guid>
+      <description> 拒绝拼命工作。拼命工作的结果并不好：你不可能在工作 14 小时后找到关键性的创意。 40 小时足矣。办公室的时间让人感觉较短，是因为它被人为分隔成十几个零碎的片段。绝大多数人一天没有工作满 8 小时。而是被数不清的各种会议，各种消息所打乱。 保护时间和注意力。 边走边摸索。坚持做短期计划。 解雇员工后应该告诉公司里的每个人，否则办公室里会充满猜忌，怀疑。 不断重复的行为会成为习惯，重复的时间越长，就越积习难改。没有以后，现在就做出改变。 不同平台的用户不会在意软件的一致性。除非是多平台，跨平台用户。 决策 - 解释 - 执行。需要有管理者进行最后的决定，并向每个人解释清楚。 不要相信最佳实践：《关于苹果公司的十条最佳实践》，这个作者可能没有在苹果公司工作过，而只是凭空臆想的。 打破一成不变的单调感受。如果在一个状态里待得太久，就会变的沉闷僵滞。 </description>
+    </item>
+    
+    <item>
+      <title>周刊24：玩</title>
+      <link>https://huyixi.com/zh/posts/weekly-24/</link>
+      <pubDate>Fri, 06 Oct 2023 22:28:43 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/weekly-24/</guid>
+      <description>20231001-202310014</description>
+    </item>
+    
+    <item>
+      <title>Cloud Server</title>
+      <link>https://huyixi.com/zh/posts/cloud-server/</link>
+      <pubDate>Fri, 29 Sep 2023 15:33:16 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/cloud-server/</guid>
+      <description>利用麦肯锡方法与 ChatGPT 帮助我了解云服务行业 # **Q1：**用麦肯锡的快速了解行业方法，通过大量行业高频关键词来建立概念。现在我是一个对云服务行业不了解的小白，请你给我整理出：50个常用关键词，制作成Markdown表格。表头是：关键词（英文）、关键词（中文）、 介绍（限50字）、应用场景。</description>
+    </item>
+    
+    <item>
+      <title>周刊23: 岸上未必安全，真正精彩的都在海里</title>
+      <link>https://huyixi.com/zh/posts/weekly-23/</link>
+      <pubDate>Wed, 27 Sep 2023 13:48:06 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/weekly-23/</guid>
+      <description>动态 # Wed Sep 27 22:43, 2023 # 今天有幸和中科寒武纪科技有限公司，高性能计算库设计专家“月车哥”聊了一会天。“月车哥”同时兼职于一个人工智能云计算创业团队做技术顾问，近几年偶尔活跃于创投圈，包括 AI 推理芯片、云计算、汽车辅助驾驶等细分领域。目前兼职时薪在1.</description>
+    </item>
+    
+    <item>
+      <title>Journeying While Singing</title>
+      <link>https://huyixi.com/zh/like/journeying-while-singing/</link>
+      <pubDate>Fri, 22 Sep 2023 01:20:58 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/like/journeying-while-singing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithms Data Structures</title>
+      <link>https://huyixi.com/zh/posts/algorithms-data-structures/</link>
+      <pubDate>Thu, 21 Sep 2023 15:30:51 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/algorithms-data-structures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>我不知道的</title>
+      <link>https://huyixi.com/zh/posts/unkonwn/</link>
+      <pubDate>Wed, 20 Sep 2023 23:38:02 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/unkonwn/</guid>
+      <description> 经济 人际关系 </description>
+    </item>
+    
+    <item>
+      <title>吴翰清</title>
+      <link>https://huyixi.com/zh/posts/wuhanqing/</link>
+      <pubDate>Wed, 20 Sep 2023 23:18:15 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/wuhanqing/</guid>
+      <description>因为群友的一句话“道哥居然发专栏了”，从完全不知道这个名字到现在粉上了道哥。我现在就是道哥的小迷弟。</description>
+    </item>
+    
+    <item>
+      <title>Career</title>
+      <link>https://huyixi.com/zh/posts/career/</link>
+      <pubDate>Wed, 20 Sep 2023 22:56:02 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/career/</guid>
+      <description>事业 VS 工作 # 下班路上想的：</description>
+    </item>
+    
+    <item>
+      <title>VSI Mathematics</title>
+      <link>https://huyixi.com/zh/like/vsi-mathematics/</link>
+      <pubDate>Tue, 19 Sep 2023 14:32:49 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/like/vsi-mathematics/</guid>
+      <description>Tue Sep 19 13:50, 2023 # 36 %</description>
+    </item>
+    
+    <item>
+      <title>我看计算讲谈社</title>
+      <link>https://huyixi.com/zh/posts/computing-talk-society/</link>
+      <pubDate>Tue, 19 Sep 2023 01:45:41 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/computing-talk-society/</guid>
+      <description>计算讲谈社官方站点 最近特别喜欢道哥（吴翰清）。知识面超级宽，思维能力也超强。</description>
+    </item>
+    
+    <item>
+      <title>Outstanding JavaScript Engineer</title>
+      <link>https://huyixi.com/zh/like/outstanding-javascript-engineer/</link>
+      <pubDate>Tue, 19 Sep 2023 01:42:19 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/like/outstanding-javascript-engineer/</guid>
+      <description>如何提升自己的效率 # 软件 # 硬件 # 学习前端框架的通用方法 # 我们应当关心如何写出高性能的代码，而不是对地性能代码进行优化。</description>
+    </item>
+    
+    <item>
+      <title>Develop Good Habits</title>
+      <link>https://huyixi.com/zh/posts/develop-good-habits/</link>
+      <pubDate>Sat, 16 Sep 2023 14:12:03 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/develop-good-habits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>周刊 22：行歌</title>
+      <link>https://huyixi.com/zh/posts/weekly-22/</link>
+      <pubDate>Sat, 16 Sep 2023 14:01:55 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/weekly-22/</guid>
+      <description>日记 # Sat Sep 16, 2023 # 睡觉前所想的 # 十几年、接近二十年的教育，没有教会我任何东西。</description>
+    </item>
+    
+    <item>
+      <title>The Art of UNIX Programming</title>
+      <link>https://huyixi.com/zh/like/the-art-of-unix-programming/</link>
+      <pubDate>Fri, 15 Sep 2023 14:02:25 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/like/the-art-of-unix-programming/</guid>
+      <description>Fri Sep 15, 2023 开始阅读</description>
+    </item>
+    
+    <item>
+      <title>The Almanack of Naval Ravikant</title>
+      <link>https://huyixi.com/zh/like/the-almanack-of-naval-ravikant/</link>
+      <pubDate>Fri, 15 Sep 2023 14:00:02 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/like/the-almanack-of-naval-ravikant/</guid>
+      <description>阅读进度 # Fri Sep 15 Noon, 2023</description>
+    </item>
+    
+    <item>
+      <title>Element UI Cheat Sheet</title>
+      <link>https://huyixi.com/zh/posts/element-ui-cheat-sheet/</link>
+      <pubDate>Tue, 12 Sep 2023 22:15:03 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/element-ui-cheat-sheet/</guid>
+      <description>记录工作中常常需要修改的一些 element-ui 原生样式</description>
+    </item>
+    
+    <item>
+      <title>Anaconda Cheat Sheet</title>
+      <link>https://huyixi.com/zh/posts/anaconda-cheat-sheet/</link>
+      <pubDate>Sat, 09 Sep 2023 10:39:52 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/anaconda-cheat-sheet/</guid>
+      <description>Using environment # Save env to a yaml file # Export the environment to a &amp;lsquo;yml&amp;rsquo; file</description>
+    </item>
+    
+    <item>
+      <title>周刊 #21:不要成为一个等待喂养的躯壳</title>
+      <link>https://huyixi.com/zh/posts/weekly-21/</link>
+      <pubDate>Sat, 09 Sep 2023 10:32:11 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/weekly-21/</guid>
+      <description>动态 # 生活碎片 # Sep 12 # 看了点 Figma，还想全干。</description>
+    </item>
+    
+    <item>
+      <title>📖待读清单</title>
+      <link>https://huyixi.com/zh/like/unread/</link>
+      <pubDate>Mon, 04 Sep 2023 20:19:52 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/like/unread/</guid>
+      <description>记录一些我感兴趣的书籍，有空的时候会从这里挑一两本书来看。</description>
+    </item>
+    
+    <item>
+      <title>周刊#20：“时间”是对所有现代人都最公平的东西</title>
+      <link>https://huyixi.com/zh/posts/weekly-20/</link>
+      <pubDate>Sat, 02 Sep 2023 21:40:04 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/weekly-20/</guid>
+      <description>上一期推荐的这篇文章只是看过，下面做了一些笔记。</description>
+    </item>
+    
+    <item>
+      <title>After Achieving Success</title>
+      <link>https://huyixi.com/zh/like/after-achieving-success/</link>
+      <pubDate>Sat, 02 Sep 2023 17:18:45 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/like/after-achieving-success/</guid>
+      <description>Justin Yan 在枫影夜读中推荐的.</description>
+    </item>
+    
+    <item>
+      <title>Chenhao</title>
+      <link>https://huyixi.com/zh/like/chenhao/</link>
+      <pubDate>Wed, 30 Aug 2023 14:26:49 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/like/chenhao/</guid>
+      <description>个人网站：https://coolshell.cn 《左耳听风》专栏：https://time.</description>
+    </item>
+    
+    <item>
+      <title>🤩 Awesome</title>
+      <link>https://huyixi.com/zh/posts/awesome/</link>
+      <pubDate>Sat, 26 Aug 2023 03:08:51 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/awesome/</guid>
+      <description>收集所有 Awesome 的资源</description>
+    </item>
+    
+    <item>
+      <title>吞吐（单曲）</title>
+      <link>https://huyixi.com/zh/like/tuntu/</link>
+      <pubDate>Sat, 26 Aug 2023 02:48:03 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/like/tuntu/</guid>
+      <description>听起来很舒服的一首歌。</description>
+    </item>
+    
+    <item>
+      <title>枫言枫语</title>
+      <link>https://huyixi.com/zh/like/brew/</link>
+      <pubDate>Sat, 26 Aug 2023 02:46:41 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/like/brew/</guid>
+      <description>并不是一张专辑或者一首歌，而是一个电台。</description>
+    </item>
+    
+    <item>
+      <title>枫言枫语</title>
+      <link>https://huyixi.com/zh/like/fyfyfm/</link>
+      <pubDate>Sat, 26 Aug 2023 02:46:41 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/like/fyfyfm/</guid>
+      <description>并不是一张专辑或者一首歌，而是一个电台。</description>
+    </item>
+    
+    <item>
       <title>The Reasons of the Heart</title>
       <link>https://huyixi.com/zh/like/the-reasons-of-the-heart/</link>
       <pubDate>Fri, 25 Aug 2023 13:54:10 +0800</pubDate>
@@ -17,21 +269,21 @@
     </item>
     
     <item>
-      <title>How to Deal With Intimate Relationship</title>
-      <link>https://huyixi.com/zh/posts/how-to-deal-with-love-relation/</link>
-      <pubDate>Fri, 25 Aug 2023 00:08:02 +0800</pubDate>
+      <title>Apple TV</title>
+      <link>https://huyixi.com/zh/like/apple-tv/</link>
+      <pubDate>Fri, 25 Aug 2023 02:46:41 +0800</pubDate>
       
-      <guid>https://huyixi.com/zh/posts/how-to-deal-with-love-relation/</guid>
-      <description>以前我总认为，恋爱顺其自然就好。 我们都默认，事业需要努力。 但是很少有人知道，亲密关系也需要努力。 在经历了一段并不完美的初恋之后，我改变了这个看法。 我应该努力去维持亲密关系，而不是让其“自由落体”。 我在这篇文章总结我做的不好的地方，以及我应该怎么做。 再遇到下一个人的时候，我能做得更好。</description>
+      <guid>https://huyixi.com/zh/like/apple-tv/</guid>
+      <description>test</description>
     </item>
     
     <item>
-      <title>关于页面</title>
-      <link>https://huyixi.com/zh/about/</link>
-      <pubDate>Thu, 24 Aug 2023 12:09:24 +0800</pubDate>
+      <title>Mac mini</title>
+      <link>https://huyixi.com/zh/like/mac-mini/</link>
+      <pubDate>Fri, 25 Aug 2023 02:46:41 +0800</pubDate>
       
-      <guid>https://huyixi.com/zh/about/</guid>
-      <description>关于页面, 正在搭建中&amp;hellip;</description>
+      <guid>https://huyixi.com/zh/like/mac-mini/</guid>
+      <description>test</description>
     </item>
     
     <item>
@@ -44,12 +296,21 @@
     </item>
     
     <item>
-      <title>Weekly 19</title>
+      <title>周刊#19: 每个人每天都只有24小时，希望我的选择真的是我的选择</title>
       <link>https://huyixi.com/zh/posts/weekly-19/</link>
       <pubDate>Thu, 24 Aug 2023 08:47:11 +0800</pubDate>
       
       <guid>https://huyixi.com/zh/posts/weekly-19/</guid>
-      <description></description>
+      <description>封面图：八仙饭店在《乐队的夏天 3》演唱单身旅记的一帧画面，八仙饭店真的是太强了，太好听了！！！</description>
+    </item>
+    
+    <item>
+      <title>Wife User Manual</title>
+      <link>https://huyixi.com/zh/like/wife-user-manual/</link>
+      <pubDate>Wed, 23 Aug 2023 16:19:29 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/like/wife-user-manual/</guid>
+      <description>不同的思考方式 # 女性的大脑能够长期保存伴随有情感的记忆，并且很擅长将这些记忆鲜活地取出。 女性为了解决眼前的问题，已经演化成一种可瞬间抽出过去所有相关记忆并灵活找出答案的能力。 建议 # 和女性分享一些日常的琐事和困扰。 如果能让妻子感觉到自己是丈夫生活的一部分，婚姻的满意度会提高。 女性在感受到同理心时，可以有效地舒缓压力。这是给对方大脑的最佳礼物。 如果他跟你抱怨，例如说抱小孩一抱就哭，他尿都忍得痛，正确的回应是同情和理解。 妻子怀孕时，尽量满足她的需求和愿望。 向妻子道歉时，需要真诚，而不只是解释自己为什么那么说。 如果在关系中经历困难，选择两人一起的时光，例如看电视或电视剧，这会帮助放松心情。 通常，人们会被与自己性格相反的人吸引。如果基因类型差异大，男女双方的吸引力会更强。 如果夫妻在食物、电影甚至笑点上都有相似之处，他们很少会让对方感到不安，而且更容易建立稳定的关系。 当意见不同时，要有明确和有力的表达。 无论对错，你的伴侣是唯一会终身陪伴你的，所以你们要站在同一战线上。他/她就是你的另一半。 多给予赞美，感谢老婆为家庭所做的一切。 老婆的牢骚都是为了家庭的和谐。女性有时会把对丈夫的不满积累起来，所以沟通很重要。 女性希望伴侣能够察觉到她们的需求，这种察觉被视为爱的证明。主动地去了解和察觉才真正有意义。 女性进行交谈时，往往是为了寻求理解和同理心，所以在交谈中给予她们肯定是很重要的。 要珍惜各种纪念日，乐趣在于预期和重复。 在纪念日当天，向对方表达你的感激和感谢，回顾两人一起度过的时光。 雌性的哺乳动物，如果自己不处于健康状态，可能会影响繁殖。 要感谢老婆一直以来的付出，告诉她你注意到并感激她所做的一切。 时常给老婆带些小礼物回家，重点在于礼物的心意和味道，而不仅仅是价格。 对女性来说，与伴侣之间的关系是独一无二和有意义的。 行动 # 欣赏你的伴侣，表达你的感激</description>
     </item>
     
     <item>
@@ -89,12 +350,12 @@
     </item>
     
     <item>
-      <title>Weekly 18</title>
+      <title>周刊#18: 与美国亚马逊客服的交手经历</title>
       <link>https://huyixi.com/zh/posts/weekly-18/</link>
       <pubDate>Mon, 21 Aug 2023 14:37:13 +0800</pubDate>
       
       <guid>https://huyixi.com/zh/posts/weekly-18/</guid>
-      <description>说说 # 他听到了一些自己不同意的观点，立即进入了反驳模式，而在反驳模式中，倾听已不复存在。当倾听停止时，思考也就停止了。 - 一个</description>
+      <description>与亚马逊客服交手的经历 # 众所周知，我一直在使用 Kindle PaperWhite 3 进行阅读。但是在亚马逊撤出中国之后，我的帐号登录就遇到了一个问题。</description>
     </item>
     
     <item>
@@ -116,30 +377,21 @@
     </item>
     
     <item>
-      <title>Reflecting on Love</title>
-      <link>https://huyixi.com/zh/posts/reflecting-on-love/reflecting-on-love/</link>
-      <pubDate>Sun, 20 Aug 2023 03:13:51 +0800</pubDate>
-      
-      <guid>https://huyixi.com/zh/posts/reflecting-on-love/reflecting-on-love/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Weekly 17: 停止在博客上碎碎念!但在周报上可以😜</title>
       <link>https://huyixi.com/zh/posts/weekly-17/</link>
       <pubDate>Sun, 20 Aug 2023 03:09:25 +0800</pubDate>
       
       <guid>https://huyixi.com/zh/posts/weekly-17/</guid>
-      <description>想法 # 停止在博客上碎碎念!</description>
+      <description>封面为柴静纪录片《陌生人：对话圣战分子》</description>
     </item>
     
     <item>
-      <title>我的 git 自定义配置</title>
-      <link>https://huyixi.com/zh/posts/git-config/</link>
+      <title>Git 速查手册</title>
+      <link>https://huyixi.com/zh/posts/git-cheat-sheet/</link>
       <pubDate>Mon, 14 Aug 2023 21:00:00 +0800</pubDate>
       
-      <guid>https://huyixi.com/zh/posts/git-config/</guid>
-      <description>我的 git 自定义配置</description>
+      <guid>https://huyixi.com/zh/posts/git-cheat-sheet/</guid>
+      <description>全局 Git 忽略 # .</description>
     </item>
     
     <item>
@@ -172,7 +424,7 @@
     </item>
     
     <item>
-      <title>周刊#15：</title>
+      <title>周刊#15： VIM 作者逝世</title>
       <link>https://huyixi.com/zh/posts/weekly-15/</link>
       <pubDate>Mon, 31 Jul 2023 22:29:00 +0800</pubDate>
       
@@ -376,7 +628,7 @@
       <pubDate>Sat, 01 Apr 2023 02:49:00 +0800</pubDate>
       
       <guid>https://huyixi.com/zh/posts/how-to-learn-anything/</guid>
-      <description>How To Learn Anything # Set Goal # Choose reasonable goal</description>
+      <description>Set Goal # Choose reasonable goal</description>
     </item>
     
     <item>
@@ -484,7 +736,7 @@
       <pubDate>Mon, 02 Jan 2023 00:00:00 +0800</pubDate>
       
       <guid>https://huyixi.com/zh/posts/shortcut/</guid>
-      <description>Windows 快捷键 # 快捷键 桌面 Chrome 浏览器 文件资源管理器 Ctrl + Enter 为网站名称添加 www.</description>
+      <description>Action Chrome (Windows/Linux) Chrome (macOS) Safari (macOS) Open/Close Developer Tools Ctrl + Shift + I Cmd + Option + I Cmd + Option + I Console Panel Ctrl + Shift + J Cmd + Option + J Cmd + Option + C Clear Console Ctrl + L Cmd + L Cmd + L Elements Panel Ctrl + Shift + C Cmd + Option + C N/A Refresh &amp;amp; Clear Cache Ctrl + Shift + R Cmd + Shift + R Cmd + Option + E Toggle Device Toolbar (Responsive) Ctrl + Shift + M Cmd + Option + M Cmd + Option + R Toggle Docking Position Ctrl + Shift + D Cmd + Shift + D N/A Next Panel Ctrl + ] Cmd + ] N/A Previous Panel Ctrl + [ Cmd + [ N/A Windows 快捷键 # 快捷键 桌面 Chrome 浏览器 文件资源管理器 Ctrl + Enter 为网站名称添加 www.</description>
     </item>
     
     <item>
