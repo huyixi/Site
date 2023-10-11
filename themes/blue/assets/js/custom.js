@@ -67,24 +67,53 @@ window.onclick = function (event) {
 // Table of Contents
 document.addEventListener("DOMContentLoaded", function () {
   const article = document.querySelector("article");
-  const headings = article.querySelectorAll("h1, h2, h3, h4, h5, h6");
-  const tocDiv = document.querySelector("#toc-bot");
+  const headings = article.querySelectorAll("h1, h2, h3, h4");
+  const tocBot = document.querySelector("#toc-bot");
+  const tocOverlay = document.querySelector("#toc-overlay");
+  const tocContainer = document.querySelector("#toc-container");
+  const tocList = document.querySelector("#toc-list");
+
+  tocBot.addEventListener("click", function () {
+    if (tocOverlay.style.display === "none") {
+      tocOverlay.style.display = "block";
+      tocBot.style.display = "none";
+
+      // 动态生成目录
+      headings.forEach(function (header) {
+        const li = document.createElement("li");
+        li.innerHTML =
+          '<a href="#' + header.id + '">' + header.textContent.replace(" #", "") + "</a>";
+        tocList.appendChild(li);
+      });
+    }
+    document.getElementById("close-toc-btn").addEventListener("click", function () {
+      document.getElementById("toc-overlay").style.display = "none";
+      tocBot.style.display = "block";
+    });
+  });
+
+  tocOverlay.addEventListener("click", function () {
+    tocOverlay.style.display = "none";
+    tocBot.style.display = "block";
+  });
+
+  tocContainer.addEventListener("click", function (event) {
+    event.stopPropagation();
+  });
 
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (entry.target === article) {
-          // 检查 article 元素
           if (entry.isIntersecting) {
-            tocDiv.style.display = "block";
+            tocBot.style.display = "block";
           } else {
-            tocDiv.style.display = "none";
+            tocBot.style.display = "none";
           }
         } else {
-          // 检查标题元素
           if (entry.isIntersecting) {
             let headingText = entry.target.textContent.replace(" #", "");
-            tocDiv.textContent = headingText;
+            tocBot.textContent = headingText;
           }
         }
       });
@@ -94,7 +123,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   );
 
-  // 观察 article 元素和所有标题
   observer.observe(article);
   headings.forEach((heading) => observer.observe(heading));
 });
