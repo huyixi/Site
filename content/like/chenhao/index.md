@@ -34,6 +34,81 @@ summary:
 - [W3School JavaScript 教程](http://www.w3school.com.cn/js/)，这个教程比较偏 Web 方面的编程。
 - [JavaScript 全栈教程（廖雪峰）](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)，这是廖雪峰的一个比较偏应用的教程，也是偏 Web 方面的编程，同时包括涉及后端的 Node.js 方面的教程。
 
+#### Java
+
+- 入门：《[Java 核心技术：卷 1 基础知识](https://book.douban.com/subject/26880667/)》
+- 框架：《[Spring 实战](https://book.douban.com/subject/26767354/)》和《[Spring Boot 实战](https://book.douban.com/subject/26857423/)》
+- 进阶：
+  - 如何编写高效的代码：《[Effective Java](https://book.douban.com/subject/27047716/)》（第三版）
+  - [Google Guava 库](https://github.com/google/guava)
+  - 编写并发程序：《[Java 并发编程实战](https://book.douban.com/subject/10484692/)》
+  - 优化 Java 的性能：《[Java 性能权威指南](https://book.douban.com/subject/26740520/)》
+  - 底层细节：《[深入理解 Java 虚拟机](https://book.douban.com/subject/24722612/)》
+  - 宏观角度了解 Java：《[Java 编程思想](https://book.douban.com/subject/2130190/)》
+  - 《[精通 Spring 4.x](https://book.douban.com/subject/26952826/)》
+  - 面向对象的设计模式，只有一本经典的书：《[设计模式](https://book.douban.com/subject/1052241/)》
+  - 如果太难：《[Head First 设计模式](https://book.douban.com/subject/2243615/)》
+
+
+
+>不要迷失在那 23 个设计模式中，你一定要明白这两个原则：
+>
+>- **Program to an ‘interface’, not an 'implementation’**
+>  - 使用者不需要知道数据类型、结构、算法的细节。
+>  - 使用者不需要知道实现细节，只需要知道提供的接口。
+>  - 利于抽象、封装，动态绑定，多态。符合面向对象的特质和理念。
+>- **Favor ‘object composition’ over 'class inheritance’**
+>  - 继承需要给子类暴露一些父类的设计和实现细节。
+>  - 父类实现的改变会造成子类也需要改变。
+>  - 我们以为继承主要是为了代码重用，但实际上在子类中需要重新实现很多父类的方法。
+>  - 继承更多的应该是为了多态。
+
+
+
+如果你把上面的这些知识都融汇贯通的话，那么，你已是一个高级的 Java 程序员了，我保证你已经超过了绝大多数程序员了。基本上来说，你在技术方面是可以进入到一线公司的，而且还不是一般的岗位，至少是高级程序员或是初级架构师的级别了。
+
+
+
+#### C/C++ 语言
+
+- 入门
+  - 《[C 程序设计语言](https://book.douban.com/subject/1139336/)》
+  - 《[C 语言程序设计现代方法](https://book.douban.com/subject/2280547/)》
+- 进阶
+  - 《[C 陷阱与缺陷](https://book.douban.com/subject/2778632/)》
+- 转向 C++
+- [C++ 的坑真的多吗？](https://coolshell.cn/articles/7992.html)
+- 《[C++ Primer 中文版](https://book.douban.com/subject/25708312/)》：主要看：面向对象的多态，模板和重载操作符， STL。看看 C++ 是怎么玩泛型和函数式编程的。
+- 《[Effective C++](https://book.douban.com/subject/5387403/)》和《[More Effective C++](https://book.douban.com/subject/5908727/)》：这两本书的内容会随着你经历的丰富而变得丰富，这也是对我影响最大的两本书，其中影响最大的不是书中的那些 C++ 的东西，而是作者的思维方式和不断求真的精神，这真是太赞了。
+- 编译器到底干了什么事：《[深度探索 C++ 对象模型](https://book.douban.com/subject/10427315/)》
+
+#### Go
+
+- [Go by Example](https://gobyexample.com/)
+
+- [Go 101](https://go101.org/article/101.html)
+
+- [The Go Programming Language](https://book.douban.com/subject/26337545/)
+
+- “[GO 语言简介（上）- 语法](https://coolshell.cn/articles/8460.html)” 和 “[GO 语言简介（下）- 特性](https://coolshell.cn/articles/8489.html)”
+
+-  [Effective Go](https://golang.org/doc/effective_go.html)：如何更好地使用 Go 语言，以及 Go 语言中的一些原理。
+
+- 并发编程的模式：
+
+  Unix 老牌黑客罗勃·派克（Rob Pike）在 Google I/O 上的两个分享
+
+  - Go Concurrency Patterns（ [幻灯片](https://talks.golang.org/2012/concurrency.slide)和[演讲视频](https://www.youtube.com/watch?v=f6kdp27TYZs)）。
+  - Advanced Go Concurrency Patterns（[幻灯片](https://talks.golang.org/2013/advconc.slide)、[演讲视频](https://youtu.be/QDDwwePbDtw)）。
+
+- 其他资源
+
+  - [Go 精华文章列表](https://github.com/golang/go/wiki/Articles)。
+  - [Go 相关博客列表](https://github.com/golang/go/wiki/Blogs)。
+  - [Go Talks](https://github.com/golang/go/wiki/GoTalks)
+
+-  Go 资源列表 [Awesome Go](https://github.com/avelino/awesome-go)
+
 ### 操作系统入门
 
 #### Linux
