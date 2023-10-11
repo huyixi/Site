@@ -73,6 +73,18 @@ summary:
 
 - [熊猫搜盘](https://www.sopandas.cn)
 
+#### Mars 3D
+
+示例
+
+- http://www.zhi119.com/
+
+- http://mars3d.cn/example.html
+
+教程
+
+- [Mars3D入门示例 - 当时明月在曾照彩云归](https://www.cnblogs.com/jiujiubashiyi/p/17094233.html)
+
 ## 工具类
 
 ### AI
