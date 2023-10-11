@@ -1315,6 +1315,14 @@ video {
   display: flex;
 }
 
+.table {
+  display: table;
+}
+
+.contents {
+  display: contents;
+}
+
 .hidden {
   display: none;
 }
@@ -1469,6 +1477,10 @@ video {
 
 .flex-none {
   flex: none;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .shrink-0 {
