@@ -4,6 +4,7 @@ baseURL = "https://huyixi.com/"
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = true
 theme = "blue"
+enableGitInfo = true
 
 enableRobotsTXT = true
 paginate = 30

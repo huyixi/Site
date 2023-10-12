@@ -1,14 +1,12 @@
 ---
 title: "BlueBird"
-subtitle: ""
+subtitle: "陈皓叔的程序员练级指南的第一个作业"
 date: 2023-10-11T22:25:25+08:00
 draft: false
 tags: []
 category: [Blog]
 summary: 
 ---
-
-陈皓叔的程序员练级指南的第一个作业。
 
 ## 作业要求：
 

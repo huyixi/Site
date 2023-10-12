@@ -12,7 +12,7 @@
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-white">
         {{ .Title | emojify }}
       </h1>
-      <h2 class="my-4">{{ .Params.subtitle | emojify }}</h2>
+      <p class="my-4">{{ .Params.subtitle | emojify }}</p>
       {{ with $feature }}
         <div class="prose">
           <img
