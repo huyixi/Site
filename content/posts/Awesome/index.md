@@ -49,6 +49,12 @@ summary:
 
 - [DEVICES.CSS](https://devicescss.xyz/) 使用 CSS 画苹果设备
 
+##### 样式
+
+TailwindCSS 组件
+
+- [HyperUI](https://www.hyperui.dev/)
+
 ### 设计
 
 ##### 网页灵感

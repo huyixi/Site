@@ -12,7 +12,7 @@ summary:
 
 
 
->#### 实践项目
+> **实践项目：**
 >
 >无论你用 Python，还是 Node.js，还是 PHP，我希望你能做一个非常简单的 Blog 系统，或是 BBS 系统，需要支持如下功能：
 >
@@ -45,7 +45,7 @@ summary:
 
 ### 1. 技术栈选择：
 
-- **前端**：Vue.js
+- **前端**：Vue.js, TailwindCSS
 - **后端**：Java (可以使用 Spring Boot 框架，因为它集成了很多有用的功能并且适合构建 Web 项目)
 - **数据库**：MySQL
 
