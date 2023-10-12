@@ -3076,6 +3076,14 @@ body button {
     width: 100%;
   }
 
+  .sm\:w-2\/5 {
+    width: 40%;
+  }
+
+  .sm\:w-3\/5 {
+    width: 60%;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
