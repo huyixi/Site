@@ -3155,6 +3155,10 @@ body button {
     width: 40%;
   }
 
+  .md\:w-160 {
+    width: 40rem;
+  }
+
   .md\:p-\[10vh\] {
     padding: 10vh;
   }
