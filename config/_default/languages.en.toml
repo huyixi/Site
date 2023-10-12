@@ -8,11 +8,9 @@ title = "huyixi"
 [params]
   isoCode = "en"
   displayName = "EN"
-
   dateFormat = "2 January 2006"
-
   mainSections = ["posts"]
-  description = "My awesome website"
+  description = ""
 
 [author]
   name = "huyixi"

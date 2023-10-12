@@ -8,9 +8,7 @@ title = "胡一希"
 [params]
   isoCode = "zh"
   displayName = "ZH"
-
   dateFormat = "2006 年 01 月 02 日"
-
   mainSections = ["posts"]
   description = ""
 

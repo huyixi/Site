@@ -16,6 +16,8 @@ article:
   anchor_label: "Anchor"
   date: "{{ .Date }}"
   date_updated: "Updated: {{ .Date }}"
+  last_updated: "Last updated on:"
+  date_format: "Jan 2, 2006"
   draft: "Draft"
   edit_title: "Edit content"
   reading_time:

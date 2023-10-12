@@ -17,6 +17,8 @@ article:
   anchor_label: "锚点"
   date: "{{ .Date }}"
   date_updated: "更新于 {{ .Date }}"
+  last_updated: "更新于:"
+  date_format: "2006 年 1 月 2 日"
   draft: "草稿"
   edit_title: "编辑内容"
   reading_time:

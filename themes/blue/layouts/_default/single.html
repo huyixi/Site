@@ -45,14 +45,7 @@
         {{ .Content | emojify }}
       </div>
     </section>
-    {{ if and (.Params.showTableOfContents | default (.Site.Params.article.showTableOfContents | default false)) (in .TableOfContents "<ul") }}
-      <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
-        <div class="toc pe-5 print:hidden lg:sticky lg:top-10">
-          {{ partial "toc.html" . }}
-        </div>
-      </div>
-    {{ end }}
-
+    {{ partial "last-updated.html" . }}
   </article>
   <div class="article-controls">
     <!-- Scroll To Top Button -->
