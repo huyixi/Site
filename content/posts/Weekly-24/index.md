@@ -107,6 +107,10 @@ summary: 20231001-202310014
 
 但是这封邮件中的网址跟现在的网站有点不一样。 Bookmarks 现在被我改成了 Awesome，并且前面还有 zh/en 来切分不同语言。
 
+### 分享的心情是具有时效性的
+
+![539shots_so](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/539shots_so.png)
+
 ## 小技巧
 
 ### 一行命令打开博客文件夹和 Github Desktop
