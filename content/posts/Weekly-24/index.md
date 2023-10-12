@@ -97,7 +97,7 @@ summary: 20231001-202310014
 
 
 
-![549shots_so](/Users/huyixi/Desktop/549shots_so.png)
+![549shots_so](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/549shots_so.png)
 
 
 
