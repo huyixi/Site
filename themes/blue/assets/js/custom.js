@@ -67,7 +67,7 @@ window.onclick = function (event) {
 // Table of Contents
 document.addEventListener("DOMContentLoaded", function () {
   const article = document.querySelector("article");
-  const headings = article.querySelectorAll("h1, h2, h3, h4");
+  const headings = article.querySelectorAll("h2, h3, h4");
   const tocBot = document.querySelector("#toc-bot");
   const tocOverlay = document.querySelector("#toc-overlay");
   const tocContainer = document.querySelector("#toc-container");
@@ -82,7 +82,11 @@ document.addEventListener("DOMContentLoaded", function () {
       headings.forEach(function (header) {
         const li = document.createElement("li");
         li.innerHTML =
-          '<a href="#' + header.id + '">' + header.textContent.replace(" #", "") + "</a>";
+          '<a href="#' +
+          header.id +
+          '">' +
+          header.textContent.replace(" #", "").replace("：", "").replace(":", "");
+        +"</a>";
         tocList.appendChild(li);
       });
     }
@@ -112,7 +116,10 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         } else {
           if (entry.isIntersecting) {
-            let headingText = entry.target.textContent.replace(" #", "");
+            let headingText = entry.target.textContent
+              .replace(" #", "")
+              .replace("：", "")
+              .replace(":", "");
             tocBot.textContent = headingText;
           }
         }
