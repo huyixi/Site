@@ -3135,6 +3135,18 @@ body button {
     width: 42rem;
   }
 
+  .md\:w-1\/4 {
+    width: 25%;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
+  .md\:w-2\/5 {
+    width: 40%;
+  }
+
   .md\:p-\[10vh\] {
     padding: 10vh;
   }
@@ -3163,6 +3175,10 @@ body button {
 
   .lg\:w-1\/4 {
     width: 25%;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
   .lg\:max-w-xs {
