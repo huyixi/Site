@@ -65,6 +65,85 @@ window.onclick = function (event) {
 };
 
 // Table of Contents
+// document.addEventListener("DOMContentLoaded", function () {
+//   const article = document.querySelector("article");
+//   const headings = article.querySelectorAll("h2, h3, h4");
+//   const tocBot = document.querySelector("#toc-bot");
+//   const tocOverlay = document.querySelector("#toc-overlay");
+//   const tocContainer = document.querySelector("#toc-container");
+//   const tocList = document.querySelector("#toc-list");
+
+//   tocBot.addEventListener("click", function () {
+//     if (tocOverlay.style.display === "none") {
+//       tocOverlay.style.display = "block";
+//       tocBot.style.display = "none";
+
+//       // 动态生成目录
+//       headings.forEach(function (header) {
+//         const li = document.createElement("li");
+//         li.innerHTML =
+//           '<a href="#' +
+//           header.id +
+//           '">' +
+//           header.textContent.replace(" #", "").replace("：", "").replace(":", "");
+//         +"</a>";
+//         tocList.appendChild(li);
+//       });
+//     }
+//     document.getElementById("close-toc-btn").addEventListener("click", function () {
+//       document.getElementById("toc-overlay").style.display = "none";
+//       tocBot.style.display = "block";
+//     });
+//   });
+
+//   tocOverlay.addEventListener("click", function () {
+//     tocOverlay.style.display = "none";
+//     tocBot.style.display = "block";
+//   });
+
+//   tocContainer.addEventListener("click", function (event) {
+//     event.stopPropagation();
+//   });
+
+//   const highlightActiveTocEntry = (activeId) => {
+//     document.querySelectorAll('#toc-list li').forEach((li) => {
+//         if (li.querySelector(`a[href="#${activeId}"]`)) {
+//             li.classList.add('text-blue-500');
+//         } else {
+//             li.classList.remove('text-blue-500');
+//         }
+//     });
+// };
+
+//   const observer = new IntersectionObserver(
+//     (entries) => {
+//       entries.forEach((entry) => {
+//         if (entry.target === article) {
+//           if (entry.isIntersecting) {
+//             tocBot.style.display = "block";
+//           } else {
+//             tocBot.style.display = "none";
+//           }
+//         } else {
+//           if (entry.isIntersecting) {
+//             let headingText = entry.target.textContent
+//               .replace(" #", "")
+//               .replace("：", "")
+//               .replace(":", "");
+//             tocBot.textContent = headingText;
+//           }
+//         }
+//       });
+//     },
+//     {
+//       threshold: 0.1,
+//     }
+//   );
+
+//   observer.observe(article);
+//   headings.forEach((heading) => observer.observe(heading));
+// });
+
 document.addEventListener("DOMContentLoaded", function () {
   const article = document.querySelector("article");
   const headings = article.querySelectorAll("h2, h3, h4");
@@ -73,25 +152,34 @@ document.addEventListener("DOMContentLoaded", function () {
   const tocContainer = document.querySelector("#toc-container");
   const tocList = document.querySelector("#toc-list");
 
+  const checkHeadingsVisibility = () => {
+    headings.forEach((heading) => {
+      const rect = heading.getBoundingClientRect();
+      if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+        highlightActiveTocEntry(heading.id);
+      }
+    });
+  };
+
   tocBot.addEventListener("click", function () {
-    if (tocOverlay.style.display === "none") {
+    if (tocOverlay.style.display !== "block") {
       tocOverlay.style.display = "block";
       tocBot.style.display = "none";
-
-      // 动态生成目录
+      tocList.innerHTML = "";
       headings.forEach(function (header) {
         const li = document.createElement("li");
         li.innerHTML =
           '<a href="#' +
           header.id +
           '">' +
-          header.textContent.replace(" #", "").replace("：", "").replace(":", "");
-        +"</a>";
+          header.textContent.replace(" #", "").replace("：", "").replace(":", "") +
+          "</a>";
         tocList.appendChild(li);
       });
+      checkHeadingsVisibility();
     }
     document.getElementById("close-toc-btn").addEventListener("click", function () {
-      document.getElementById("toc-overlay").style.display = "none";
+      tocOverlay.style.display = "none";
       tocBot.style.display = "block";
     });
   });
@@ -105,6 +193,16 @@ document.addEventListener("DOMContentLoaded", function () {
     event.stopPropagation();
   });
 
+  const highlightActiveTocEntry = (activeId) => {
+    document.querySelectorAll("#toc-list li a").forEach((link) => {
+      if (link.getAttribute("href") === `#${activeId}`) {
+        link.classList.add("text-blue-500"); // 使用 Tailwind 的 text-blue-500 类
+      } else {
+        link.classList.remove("text-blue-500");
+      }
+    });
+  };
+
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
@@ -116,11 +214,12 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         } else {
           if (entry.isIntersecting) {
-            let headingText = entry.target.textContent
+            const headingText = entry.target.textContent
               .replace(" #", "")
               .replace("：", "")
               .replace(":", "");
             tocBot.textContent = headingText;
+            highlightActiveTocEntry(entry.target.id);
           }
         }
       });
