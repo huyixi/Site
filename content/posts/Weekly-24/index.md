@@ -91,6 +91,36 @@ summary: 20231001-202310014
 
 总结：如果仅仅以收入为依据，完全不考虑其他因素的前提下。想要达到更高的收入，大体上应该往上海，北京走。
 
+### Thu Oct 12 8:15, 2023
+
+早上收到了一封邮件。第一次收到有人看了我的博客之后发的邮件。
+
+
+
+![549shots_so](/Users/huyixi/Desktop/549shots_so.png)
+
+
+
+邮件大意是：看到我有使用一些无版权网站的图片，于是推荐了一篇文章给我。这篇文章中推荐了一些无版权图片的网站。看了一下这篇文章，很多网站我都有使用过。不过也有很多我没有使用过的，都收集在 Awesome 这篇文章中了。
+
+这封邮件直接发送到 hi@huyixi.com 这个邮箱的。
+
+但是这封邮件中的网址跟现在的网站有点不一样。 Bookmarks 现在被我改成了 Awesome，并且前面还有 zh/en 来切分不同语言。
+
+## 小技巧
+
+### 一行命令打开博客文件夹和 Github Desktop
+
+平时经常需要打开博客文件夹对博客内容进行编辑，编辑完成后使用 GitHub 上传到仓库中。
+
+使用 sh 一键启动：
+
+```shell
+alias ghu='cd ~/huyixi.com/ && open . && cd /Applications && open -a "Github Desktop"'
+```
+
+把上面的 cd 后面的文件夹路径改成自己的就能用了。
+
 ## 文章
 
 ### [【情绪科学】越焦虑越拖延？念头止不住&行为动不了？这篇攻略能帮你](https://www.bilibili.com/video/BV1xC4y1f7yL/?spm_id_from=444.41.list.card_archive.click&vd_source=e7b677bc31fcf107b6c6689167aae9d9)

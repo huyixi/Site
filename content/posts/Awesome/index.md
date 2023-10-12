@@ -99,11 +99,16 @@ summary:
 
 [Shots](https://shots.so/): Make awazing Mockups
 
-#### 无版权图库
+#### 无版权图片网站
 
-- [Stocks](https://link.zhihu.com/?target=https%3A//tigdig.com/5817410) 无版权网站集合
-
+- [Stocks](https://link.zhihu.com/?target=https%3A//tigdig.com/5817410) 
 - [pixabay](https://pixabay.com/)
+- [Pexels](https://www.pexels.com/)
+- [StockSnap](https://stocksnap.io/)
+- [Burst](https://burst.shopify.com/)
+- [Kaboompics](https://kaboompics.com/)
+- [Freerange Stock](https://freerangestock.com/)
+-  [LIfe Of Pix](https://www.lifeofpix.com/)
 
 ### AI Tools
 
