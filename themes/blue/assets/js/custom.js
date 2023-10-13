@@ -72,6 +72,10 @@ document.addEventListener("DOMContentLoaded", function () {
   const tocOverlay = document.querySelector("#toc-overlay");
   const tocContainer = document.querySelector("#toc-container");
   const tocList = document.querySelector("#toc-list");
+  let isDragging = false;
+  let hasMoved = false;
+  let offsetX, offsetY;
+  let initialPosition = {};
 
   const checkHeadingsVisibility = () => {
     headings.forEach((heading) => {
@@ -83,6 +87,10 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   tocBot.addEventListener("click", function () {
+    if (hasMoved) {
+      hasMoved = false;
+      return;
+    }
     if (tocOverlay.style.display !== "block") {
       tocOverlay.style.display = "block";
       tocBot.style.display = "none";
@@ -122,6 +130,46 @@ document.addEventListener("DOMContentLoaded", function () {
       tocOverlay.style.display = "none";
       tocBot.style.display = "block";
     });
+  });
+
+  tocBot.addEventListener("mousedown", function (e) {
+    console.log(this.style, "tocBot");
+    initialPosition.left = this.style.left;
+    initialPosition.top = this.style.top;
+    this.style.width = `${this.offsetWidth}px`;
+    this.style.height = `${this.offsetHeight}px`;
+    console.log(e, "tocBoteeee");
+    isDragging = true;
+    offsetX = e.clientX - tocBot.getBoundingClientRect().left;
+    offsetY = e.clientY - tocBot.getBoundingClientRect().top;
+  });
+
+  window.addEventListener("mousemove", (e) => {
+    if (!isDragging) return;
+    hasMoved = true;
+    let top = e.clientY - offsetY;
+    let left = e.clientX - offsetX;
+
+    // 限制按钮移动范围
+    const maxX = window.innerWidth - tocBot.offsetWidth;
+    const maxY = window.innerHeight - tocBot.offsetHeight;
+
+    if (left < 0) left = 0;
+    if (left > maxX) left = maxX;
+    if (top < 0) top = 0;
+    if (top > maxY) top = maxY;
+
+    tocBot.style.left = left + "px";
+    tocBot.style.top = top + "px";
+  });
+
+  window.addEventListener("mouseup", () => {
+    if (hasMoved) {
+      tocBot.style.left = initialPosition.left;
+      tocBot.style.top = initialPosition.top;
+    }
+    isDragging = false;
+    tocBot.style.width = "";
   });
 
   tocOverlay.addEventListener("click", function () {
