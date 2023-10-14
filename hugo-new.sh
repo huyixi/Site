@@ -67,3 +67,5 @@ echo "Creating content at: $content_path"
 hugo new content --kind $archetype_name $content_path
 
 echo "Content created successfully!"
+
+open -a "Typora" "content/$content_path"
