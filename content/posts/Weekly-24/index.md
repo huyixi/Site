@@ -34,7 +34,7 @@ summary: 20231001-202310014
 
 
 
-<img src="/Users/huyixi/Desktop/TinySnap-2023-10-15-00.02.18.png" alt="TinySnap-2023-10-15-00.02.18" style="zoom:50%;" />
+![TinySnap-2023-10-15-00.22.22](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/TinySnap-2023-10-15-00.22.22.png)
 
 <img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231015001156707.png" alt="image-20231015001156707"  />
 
