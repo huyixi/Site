@@ -1,16 +1,11 @@
 module.exports = {
-  mode: "jit",
-  purge: {
-    content: [
-      "./layouts/**/*.html",
-      "./content/**/*.{html,md}",
-      "./themes/blue/layouts/**/*.html",
-      "./themes/blue/content/**/*.{html,md}",
-    ],
-    options: {
-      safelist: ["ml-8"],
-    },
-  },
+  content: [
+    "./layouts/**/*.html",
+    "./content/**/*.{html,md}",
+    "./themes/blue/layouts/**/*.html",
+    "./themes/blue/content/**/*.{html,md}",
+  ],
+  safelist: ["ml-8"],
   theme: {
     extend: {
       textColor: {
