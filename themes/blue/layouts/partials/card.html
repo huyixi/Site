@@ -1,17 +1,29 @@
 <div
-  class="card card-shadow gradient-radial m-16 mx-auto max-w-xl overflow-hidden rounded-2xl bg-gray-200"
+  class="relative flex min-h-screen items-center justify-center bg-gradient-to-tl from-red-500 via-purple-500 to-blue-500"
 >
-  <div class="card--front card__face  grid grid-cols-2 grid-rows-2 ">
-    <div class="card__avatar h-16 w-16 overflow-hidden rounded-full border border-black">
-      <img src="/avatar600.png" alt="Avatar" class="h-full w-full border-black" />
-    </div>
-    <div class="card__name col-start-1 row-start-2 pt-8 text-xl text-neutral-500">
-      {{ i18n "hello.author" }}
-    </div>
-    <div class="card__contact col-start-2 row-start-2 justify-self-end pr-16 pt-8">
-      {{ partial "card-icon.html" "mail" }}
-      {{ partial "card-icon.html" "rss" }}
+  <!-- Background circles -->
+  <div
+    class="absolute left-0 top-0 h-full w-full -translate-y-1/4 translate-x-1/4 transform rounded-full bg-gradient-to-r from-red-500 to-purple-500"
+  ></div>
+  <div
+    class="absolute left-0 top-0 h-full w-full -translate-x-1/4 translate-y-1/4 transform rounded-full bg-gradient-to-r from-blue-500 to-pink-500"
+  ></div>
+
+  <div
+    class="card relative z-10 m-16 mx-auto flex w-full max-w-xl transform flex-wrap items-center justify-center rounded-2xl bg-white bg-opacity-25 shadow-2xl transition-transform "
+  >
+    <!-- Card Front -->
+    <div class="grid w-full grid-cols-2 grid-rows-2 p-6">
+      <div class="card__avatar h-16 w-16 overflow-hidden rounded-full border border-black">
+        <img src="/avatar600.png" alt="Avatar" class="h-full w-full border-black" />
+      </div>
+      <div class="card__name text-grey-200 col-start-1 row-start-2 pt-8 text-xl">
+        {{ i18n "hello.author" }}
+      </div>
+      <div class="card__contact col-start-2 row-start-2 justify-self-end pr-16 pt-8">
+        {{ partial "card-icon.html" "mail" }}
+        {{ partial "card-icon.html" "rss" }}
+      </div>
     </div>
   </div>
-  {{/* <div class="card--back card__face"></div> */}}
 </div>

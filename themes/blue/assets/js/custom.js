@@ -1,3 +1,4 @@
+import VanillaTilt from "vanilla-tilt";
 // tempBanner
 document.addEventListener("DOMContentLoaded", function () {
   var banner = document.getElementById("tempBanner");
@@ -219,4 +220,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   observer.observe(article);
   headings.forEach((heading) => observer.observe(heading));
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  VanillaTilt.init(document.querySelectorAll(".card"), {
+    max: 25,
+    speed: 400,
+    glare: true,
+    "max-glare": 0.5,
+  });
 });
