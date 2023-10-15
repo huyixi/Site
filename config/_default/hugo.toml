@@ -10,6 +10,9 @@ enableRobotsTXT = true
 paginate = 30
 summaryLength = 0
 
+[avatar]
+  avatarImage = "img/avatar.jpg"
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 

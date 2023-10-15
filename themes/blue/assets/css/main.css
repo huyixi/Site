@@ -1,25 +1,23 @@
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
 
 @layer components {
   .prose blockquote:not(.not-prose) {
     @apply border-l-blue-500;
     @apply bg-neutral-100;
     @apply dark:bg-neutral-800;
-    @apply font-normal not-italic px-3 py-1;
+    @apply px-3 py-1 font-normal not-italic;
   }
 
-  .prose blockquote>p {
-    @apply my-4 mx-2;
+  .prose blockquote > p {
+    @apply mx-2 my-4;
   }
 
   .prose a:not(.not-prose) {
     @apply no-underline;
   }
-
 }
-
-@tailwind utilities;
 
 body a,
 body button {
@@ -48,13 +46,13 @@ body button {
   @apply rtl:border-l-0 rtl:border-r-4 rtl:pr-4;
 }
 
-.prose ul>li,
-.prose ol>li {
+.prose ul > li,
+.prose ol > li {
   @apply rtl:mr-7 rtl:pl-0 rtl:pr-2;
 }
 
-.prose ol>li:before,
-.prose ul>li:before {
+.prose ol > li:before,
+.prose ul > li:before {
   @apply rtl:left-auto rtl:right-1;
 }
 
@@ -69,7 +67,7 @@ body button {
 }
 
 /* Adjust first child within prose */
-.prose div.min-w-0.max-w-prose>*:first-child {
+.prose div.min-w-0.max-w-prose > *:first-child {
   @apply mt-3;
 }
 
@@ -87,7 +85,7 @@ body button {
   @apply font-normal text-neutral-700 dark:text-neutral-400;
 }
 
-.toc ul>li {
+.toc ul > li {
   @apply rtl:mr-0;
 }
 
@@ -100,7 +98,7 @@ body button {
   @apply relative z-0;
 }
 
-.highlight:hover>.copy-button {
+.highlight:hover > .copy-button {
   @apply visible;
 }
 
@@ -337,4 +335,8 @@ body button {
 /* GenericUnderline */
 .chroma .gl {
   @apply underline;
+}
+
+.card__face {
+  @apply relative grid aspect-7/4 grid-cols-2 grid-rows-2 p-8 shadow-2xl;
 }

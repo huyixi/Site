@@ -1,11 +1,9 @@
-defaultAppearance = "light" # valid options: light or dark
+defaultAppearance = "light"
 autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = true
 enableImageLazyLoading = true
-
-# robots = ""
 fingerprintAlgorithm = "sha256"
 
 [header]
@@ -22,6 +20,9 @@ fingerprintAlgorithm = "sha256"
   layout = "page" 
   showRecent = true
   recentLimit = 10
+
+[author]
+  authorImage = "img/avatar.jpg"
 
 [article]
   showDate = true

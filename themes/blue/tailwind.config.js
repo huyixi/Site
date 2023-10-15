@@ -27,12 +27,22 @@ module.exports = {
       height: {
         23: "5.75rem",
       },
+      aspectRatio: {
+        "7/4": "7 / 4",
+        "8/5": "8 / 5",
+      },
       backgroundColor: {
         "bg-apple-gray": "#F8F8F8",
         "bg-apple-blue": "#0072E3",
       },
       transitionProperty: {
         "shadow-transform": "box-shadow, transform",
+      },
+      boxShadow: {
+        "card-shadow": "-1px 1px 1px 4px rgb(105, 104, 102)",
+      },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(ellipse at center, #D2D2D2 0%, #F3F3F3 100%)",
       },
     },
   },

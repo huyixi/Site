@@ -1,0 +1,17 @@
+<div
+  class="card card-shadow gradient-radial m-16 mx-auto max-w-xl overflow-hidden rounded-2xl bg-gray-200"
+>
+  <div class="card--front card__face  grid grid-cols-2 grid-rows-2 ">
+    <div class="card__avatar h-16 w-16 overflow-hidden rounded-full border border-black">
+      <img src="/avatar600.png" alt="Avatar" class="h-full w-full border-black" />
+    </div>
+    <div class="card__name col-start-1 row-start-2 pt-8 text-xl text-neutral-500">
+      {{ i18n "hello.author" }}
+    </div>
+    <div class="card__contact col-start-2 row-start-2 justify-self-end pr-16 pt-8">
+      {{ partial "card-icon.html" "mail" }}
+      {{ partial "card-icon.html" "rss" }}
+    </div>
+  </div>
+  {{/* <div class="card--back card__face"></div> */}}
+</div>
