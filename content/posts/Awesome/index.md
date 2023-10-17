@@ -150,3 +150,11 @@ TailwindCSS 组件
 
 - [5sim.net](https://5sim.net/)
   - [sms-activate.org](https://sms-activate.org/)
+
+#### 健身
+
+up 主
+
+- gandy
+- 圣凯王
+- 仰望轨迹云
