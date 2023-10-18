@@ -1,3 +1,5 @@
+kill -9 $(lsof -t -i:1313)
+
 # Custom your path
 cd ~/Dev/huyixi.com
 # Define the directory to navigate to
@@ -27,3 +29,5 @@ hugo server &
 
 # Open the current directory in Visual Studio Code
 code .
+
+open -a "Google Chrome" http://localhost:1313/
