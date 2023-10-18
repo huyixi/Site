@@ -103,20 +103,8 @@
     class="bottom-8 hidden h-36 flex-grow list-none sm:absolute sm:flex sm:w-full sm:flex-col sm:items-center"
   >
     <!-- Language Switcher -->
-    <li class="my-2">
-      <!-- Current Language Icon -->
-      {{ if eq .Site.Language.Lang "en" }}
-        <a href="/zh" class="flex items-center" aria-label="Switch to Chinese">
-          {{ partial "icon.html" (dict "iconName" "lang-en-day" "class" "dark:hidden") }}
-          {{ partial "icon.html" (dict "iconName" "lang-en-night" "class" "hidden dark:block") }}
-        </a>
-      {{ else }}
-        <a href="/en" class="flex  items-center" aria-label="Switch to English">
-          {{ partial "icon.html" (dict "iconName" "lang-zh-day" "class" "dark:hidden") }}
-          {{ partial "icon.html" (dict "iconName" "lang-zh-night" "class" "hidden dark:block") }}
-        </a>
-      {{ end }}
-    </li>
+    {{ partial "language-switcher.html" . }}
+
 
     <!-- 主题切换按钮列表项 -->
     {{ partial "theme-switcher.html" . }}

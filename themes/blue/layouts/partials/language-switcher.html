@@ -1,0 +1,14 @@
+<li class="my-2">
+  <!-- Current Language Icon -->
+  {{ $currentLang := .Site.Language.Lang }}
+  {{ $targetLang := cond (eq $currentLang "en") "zh" "en" }}
+  {{ $label := cond (eq $currentLang "en") "Switch to Chinese" "Switch to English" }}
+  {{ $dayIcon := printf "lang-%s-day" $currentLang }}
+  {{ $nightIcon := printf "lang-%s-night" $currentLang }}
+
+
+  <a href="/{{ $targetLang }}" class="flex items-center" aria-label="{{ $label }}">
+    {{ partial "icon.html" (dict "iconName" $dayIcon "class" "dark:hidden") }}
+    {{ partial "icon.html" (dict "iconName" $nightIcon "class" "hidden dark:block") }}
+  </a>
+</li>
