@@ -74,8 +74,6 @@
   {{ end }}
   {{ $jsProgressBar := resources.Get "js/progress-bar.js" }}
   {{ $assets.Add "js" (slice $jsProgressBar) }}
-  {{ $jsVanilla := resources.Get "js/vanilla-tilt.js" }}
-  {{ $assets.Add "js" (slice $jsVanilla) }}
   {{ $jsCustom := resources.Get "js/custom.js" }}
   {{ $assets.Add "js" (slice $jsCustom) }}
   {{ if $assets.Get "js" }}
