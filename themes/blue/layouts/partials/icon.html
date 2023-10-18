@@ -1,13 +1,11 @@
 {{ $iconName := "" }}
 {{ $isActive := false }}
 {{ $customClasses := "" }}
-{{/* 新增的变量 */}}
 
 {{ if isset . "iconName" }}
   {{ $iconName = .iconName }}
   {{ $isActive = .isActive }}
   {{ with .class }}
-    {{/* 获取自定义类 */}}
     {{ $customClasses = . }}
   {{ end }}
 {{ else }}
