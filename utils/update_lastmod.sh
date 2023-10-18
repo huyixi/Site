@@ -10,9 +10,11 @@ for FILE in $CHANGED_FILES; do
     # 检查文件中是否存在 lastmod 参数
     if grep -q "^lastmod:" $FILE; then
         # 更新 lastmod 日期
-        sed -i "/^lastmod:/c\lastmod: $CURRENT_DATE" $FILE
+        sed -i '' -e "/^lastmod:/c\\
+lastmod: $CURRENT_DATE" $FILE
     else
         # 否则，在文件的前置参数部分添加 lastmod 参数
-        sed -i "/^---/a\lastmod: $CURRENT_DATE" $FILE
+        sed -i '' -e "/^---/a\\
+lastmod: $CURRENT_DATE" $FILE
     fi
 done

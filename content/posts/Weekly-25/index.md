@@ -1,4 +1,5 @@
 ---
+lastmod: 2023-10-18
 title: "Weekly 25：复习扼杀创新"
 subtitle: "如果今天的你没有觉得昨天的自己是个傻逼的话，那你这一天可能白活了。"
 date: 2023-10-14T23:06:31+08:00
@@ -7,6 +8,7 @@ tags: []
 category: [Weekly]
 summary: 
 ---
+lastmod: 2023-10-18
 
 ## 日记与思考
 

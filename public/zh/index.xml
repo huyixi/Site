@@ -8,12 +8,48 @@
     <language>zh</language>
     <lastBuildDate>Thu, 24 Aug 2023 12:09:24 +0800</lastBuildDate><atom:link href="https://huyixi.com/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Testlastmod</title>
+      <link>https://huyixi.com/zh/posts/testlastmod/</link>
+      <pubDate>Wed, 18 Oct 2023 09:32:59 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/testlastmod/</guid>
+      <description>lastmod: 2023-10-18</description>
+    </item>
+    
+    <item>
+      <title>硬派健身</title>
+      <link>https://huyixi.com/zh/like/hardcode-fitness/</link>
+      <pubDate>Wed, 18 Oct 2023 00:24:10 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/like/hardcode-fitness/</guid>
+      <description>笔记 # 饮食 # 蛋白 # 碳水化物 # 作用：维持运动时的血糖浓度，保证运动表现</description>
+    </item>
+    
+    <item>
+      <title>Rachel</title>
+      <link>https://huyixi.com/zh/like/rachel/</link>
+      <pubDate>Sun, 15 Oct 2023 02:43:26 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/like/rachel/</guid>
+      <description>Sun Oct 15 2:43, 2023 # 今天很喜欢瑞秋这首歌。慢慢把这个专辑听完喽。</description>
+    </item>
+    
+    <item>
+      <title>Weekly 25：复习扼杀创新</title>
+      <link>https://huyixi.com/zh/posts/weekly-25/</link>
+      <pubDate>Sat, 14 Oct 2023 23:06:31 +0800</pubDate>
+      
+      <guid>https://huyixi.com/zh/posts/weekly-25/</guid>
+      <description>lastmod: 2023-10-18</description>
+    </item>
+    
+    <item>
       <title>BlueBird</title>
       <link>https://huyixi.com/zh/posts/bluebird/</link>
       <pubDate>Wed, 11 Oct 2023 22:25:25 +0800</pubDate>
       
       <guid>https://huyixi.com/zh/posts/bluebird/</guid>
-      <description>陈皓叔的程序员练级指南的第一个作业。</description>
+      <description>作业要求： # 实践项目：</description>
     </item>
     
     <item>
@@ -80,15 +116,6 @@
     </item>
     
     <item>
-      <title>Career</title>
-      <link>https://huyixi.com/zh/posts/career/</link>
-      <pubDate>Wed, 20 Sep 2023 22:56:02 +0800</pubDate>
-      
-      <guid>https://huyixi.com/zh/posts/career/</guid>
-      <description>事业 VS 工作 # 下班路上想的：</description>
-    </item>
-    
-    <item>
       <title>VSI Mathematics</title>
       <link>https://huyixi.com/zh/like/vsi-mathematics/</link>
       <pubDate>Tue, 19 Sep 2023 14:32:49 +0800</pubDate>
@@ -113,15 +140,6 @@
       
       <guid>https://huyixi.com/zh/like/outstanding-javascript-engineer/</guid>
       <description>如何提升自己的效率 # 软件 # 硬件 # 学习前端框架的通用方法 # 我们应当关心如何写出高性能的代码，而不是对地性能代码进行优化。</description>
-    </item>
-    
-    <item>
-      <title>Develop Good Habits</title>
-      <link>https://huyixi.com/zh/posts/develop-good-habits/</link>
-      <pubDate>Sat, 16 Sep 2023 14:12:03 +0800</pubDate>
-      
-      <guid>https://huyixi.com/zh/posts/develop-good-habits/</guid>
-      <description></description>
     </item>
     
     <item>

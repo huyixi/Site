@@ -10,8 +10,9 @@ enableRobotsTXT = true
 paginate = 30
 summaryLength = 0
 
-[avatar]
-  avatarImage = "img/avatar.jpg"
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
