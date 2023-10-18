@@ -9,26 +9,20 @@
       {{ range $index, $menuItem := .Site.Menus.main }}
         <li class="my-2 flex items-center">
           {{ $isActive := false }}
+          {{ $isHomeActive := or (in (slice "/zh/" "/en/") $currentURL) (strings.HasPrefix $currentURL "/zh/posts/") (strings.HasPrefix $currentURL "/en/posts/") }}
+          {{ $isProjectActive := or (strings.HasPrefix $currentURL "/zh/projects/") (strings.HasPrefix $currentURL "/en/projects/") }}
+          {{ $isLikeActive := or (strings.HasPrefix $currentURL "/zh/like/") (strings.HasPrefix $currentURL "/en/like/") }}
 
-          {{/* 对于 “Home” 图标的匹配 */}}
-          {{ if eq $menuItem.Name "Home" }}
-            {{ if or (in (slice "/zh/" "/en/") $currentURL) (strings.HasPrefix $currentURL "/zh/posts/") (strings.HasPrefix $currentURL "/en/posts/") }}
-              {{ $isActive = true }}
-            {{ end }}
+          {{ if and (eq $menuItem.Name "Home") $isHomeActive }}
+            {{ $isActive = true }}
           {{ end }}
 
-          {{/* 对于 “Project” 图标的匹配 */}}
-          {{ if eq $menuItem.Name "Project" }}
-            {{ if or (eq $currentURL "/zh/projects/") (eq $currentURL "/en/projects/") (strings.HasPrefix $currentURL "/zh/projects/") (strings.HasPrefix $currentURL "/en/projects/") }}
-              {{ $isActive = true }}
-            {{ end }}
+          {{ if and (eq $menuItem.Name "Project") $isProjectActive }}
+            {{ $isActive = true }}
           {{ end }}
 
-          {{/* 对于 “Like” 图标的匹配 */}}
-          {{ if eq $menuItem.Name "Like" }}
-            {{ if or (eq $currentURL "/zh/like/") (eq $currentURL "/en/like/") (strings.HasPrefix $currentURL "/zh/like/") (strings.HasPrefix $currentURL "/en/like/") }}
-              {{ $isActive = true }}
-            {{ end }}
+          {{ if and (eq $menuItem.Name "Like") $isLikeActive }}
+            {{ $isActive = true }}
           {{ end }}
 
 
@@ -43,6 +37,8 @@
           </a>
         </li>
       {{ end }}
+
+
       <li class="my-2 flex items-center">
         <button
           id="search-button-{{ $.Scratch.Get "searchCount" }}"
