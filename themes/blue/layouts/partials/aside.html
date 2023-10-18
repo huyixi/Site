@@ -119,28 +119,7 @@
     </li>
 
     <!-- 主题切换按钮列表项 -->
-    <li class="my-2">
-      {{ $.Scratch.Add "switchCount" 1 }}
-      <button
-        id="appearance-switcher-{{ $.Scratch.Get "switchCount" }}"
-        type="button"
-        aria-label="appearance switcher"
-      >
-        <span
-          class="group-dark:hover:text-primary-400 inline transition-colors dark:hidden"
-          title="{{ i18n "footer.dark_appearance" }}"
-        >
-          {{ partial "icon.html"  "moon" }}
-        </span>
-        <span
-          class="group-dark:hover:text-primary-400 hidden transition-colors dark:inline"
-          title="{{ i18n "footer.light_appearance" }}"
-        >
-          {{ partial "icon.html"  "sun" }}
-        </span>
-      </button>
-    </li>
-
+    {{ partial "theme-switcher.html" . }}
     <!-- 头像图片导航列表项 -->
     <li class="my-2">
       <a href="/zh/about" class="flex items-center">
