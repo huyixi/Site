@@ -4,30 +4,47 @@
 <aside
   class="relative z-30 mx-auto mt-8 w-11/12 rounded-2xl bg-gray-200 p-0 dark:border-2 dark:border-neutral-900 dark:bg-neutral-900 sm:fixed sm:left-0 sm:top-0 sm:m-0 sm:h-full sm:w-16 sm:rounded-none sm:py-16"
 >
-  {{/*  <h1>{{ $currentURL }}</h1>  */}}
   <nav class="flex h-16 flex-row items-center sm:h-48 sm:flex-col">
     <ul class="flex h-full w-full list-none flex-row justify-evenly sm:w-auto sm:flex-col">
-      {{ range .Site.Menus.main }}
+      {{ range $index, $menuItem := .Site.Menus.main }}
         <li class="my-2 flex items-center">
-          {{/*  <h1 style="position: absolute;color:chocolate;left:50px;width:500px">{{ $currentURL}}-{{.URL}}</h1>  */}}
-          {{/*  {{ $isActive := eq $currentURL .URL }}  */}}
-          {{$isActive := false}}
-          {{ if eq $currentURL .URL }}
-            {{ $isActive = true }}
+          {{ $isActive := false }}
+
+          {{/* 对于 “Home” 图标的匹配 */}}
+          {{ if eq $menuItem.Name "Home" }}
+            {{ if or (in (slice "/zh/" "/en/") $currentURL) (strings.HasPrefix $currentURL "/zh/posts/") (strings.HasPrefix $currentURL "/en/posts/") }}
+              {{ $isActive = true }}
+            {{ end }}
           {{ end }}
-            <a
-              href="{{ .URL }}"
-              title="{{ .Title }}"
-              {{ with .Params.target }}target="{{ . }}"{{ end }}
-            >
-              {{ with .Params.icon }}
-                  {{ partial "icon.html" (dict "iconName" . "isActive" $isActive) }}
-              {{- end -}}
-            </a>
+
+          {{/* 对于 “Project” 图标的匹配 */}}
+          {{ if eq $menuItem.Name "Project" }}
+            {{ if or (eq $currentURL "/zh/projects/") (eq $currentURL "/en/projects/") (strings.HasPrefix $currentURL "/zh/projects/") (strings.HasPrefix $currentURL "/en/projects/") }}
+              {{ $isActive = true }}
+            {{ end }}
+          {{ end }}
+
+          {{/* 对于 “Like” 图标的匹配 */}}
+          {{ if eq $menuItem.Name "Like" }}
+            {{ if or (eq $currentURL "/zh/like/") (eq $currentURL "/en/like/") (strings.HasPrefix $currentURL "/zh/like/") (strings.HasPrefix $currentURL "/en/like/") }}
+              {{ $isActive = true }}
+            {{ end }}
+          {{ end }}
+
+
+          <a
+            href="{{ $menuItem.URL }}"
+            title="{{ $menuItem.Title }}"
+            {{ with $menuItem.Params.target }}target="{{ . }}"{{ end }}
+          >
+            {{ with $menuItem.Params.icon }}
+              {{ partial "icon.html" (dict "iconName" . "isActive" $isActive) }}
+            {{- end -}}
+          </a>
         </li>
       {{ end }}
-        <li class="my-2 flex items-center">
-          <button
+      <li class="my-2 flex items-center">
+        <button
           id="search-button-{{ $.Scratch.Get "searchCount" }}"
           title="{{ .Title | default (i18n "search.open_button_title") }}"
         >
@@ -37,7 +54,7 @@
             </span>
           {{- end -}}
         </button>
-        </li>
+      </li>
     </ul>
   </nav>
   <nav
