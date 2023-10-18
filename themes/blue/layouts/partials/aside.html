@@ -9,42 +9,35 @@
     <ul class="flex h-full w-full list-none flex-row justify-evenly sm:w-auto sm:flex-col">
       {{ range .Site.Menus.main }}
         <li class="my-2 flex items-center">
-          {{ $isActive := eq $currentURL .URL }}
-          {{ if eq .Params.action "search" }}
-            {{ $.Scratch.Add "searchCount" 1 }}
-            {{ if $.Site.Params.enableSearch | default false }}
-              <button
-                id="search-button-{{ $.Scratch.Get "searchCount" }}"
-                title="{{ .Title | default (i18n "search.open_button_title") }}"
-              >
-                {{ with .Params.icon | default "search" }}
-                  <span class="group-dark:hover:text-primary-400 transition-colors">
-                    {{- partial "icon.html" (dict "iconName" . "isActive" $isActive) -}}
-                  </span>
-                {{- end -}}{{- if .Params.showName | default true -}}
-                  <span
-                    class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                  >
-                    {{ .Name | markdownify | emojify }}
-                  </span>
-                {{ end }}
-              </button>
-            {{ end }}
-          {{ else }}
+          {{/*  <h1 style="position: absolute;color:chocolate;left:50px;width:500px">{{ $currentURL}}-{{.URL}}</h1>  */}}
+          {{/*  {{ $isActive := eq $currentURL .URL }}  */}}
+          {{$isActive := false}}
+          {{ if eq $currentURL .URL }}
+            {{ $isActive = true }}
+          {{ end }}
             <a
               href="{{ .URL }}"
               title="{{ .Title }}"
               {{ with .Params.target }}target="{{ . }}"{{ end }}
             >
               {{ with .Params.icon }}
-                <span>
                   {{ partial "icon.html" (dict "iconName" . "isActive" $isActive) }}
-                </span>
               {{- end -}}
             </a>
-          {{ end }}
         </li>
       {{ end }}
+        <li class="my-2 flex items-center">
+          <button
+          id="search-button-{{ $.Scratch.Get "searchCount" }}"
+          title="{{ .Title | default (i18n "search.open_button_title") }}"
+        >
+          {{ with .Params.icon | default "search" }}
+            <span class="group-dark:hover:text-primary-400 transition-colors">
+              {{- partial "icon.html" (dict "iconName" . "isActive" false) -}}
+            </span>
+          {{- end -}}
+        </button>
+        </li>
     </ul>
   </nav>
   <nav

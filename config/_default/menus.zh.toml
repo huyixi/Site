@@ -21,9 +21,3 @@
   [main.params]
     icon = "heart-solid"
     showName = false
-
-[[main]]
-  identifier = "search"
-  weight = 99
-  [main.params]
-    action = "search"
