@@ -10,9 +10,9 @@ enableRobotsTXT = true
 paginate = 30
 summaryLength = 0
 
-[frontmatter]
-  lastmod = [":fileModTime","lastmod", ":git",":default"]
 
+[frontmatter]
+  lastmod = [ 'lastmod', 'modified',':git', 'date', 'publishdate', 'pubdate', 'published']
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
