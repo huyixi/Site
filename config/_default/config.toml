@@ -11,7 +11,7 @@ paginate = 30
 summaryLength = 0
 
 [frontmatter]
-  lastmod = ["lastmod", ":fileModTime", ":default"]
+  lastmod = [":fileModTime","lastmod", ":git",":default"]
 
 
 [outputs]
