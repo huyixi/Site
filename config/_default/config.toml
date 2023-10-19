@@ -12,7 +12,7 @@ summaryLength = 0
 
 
 [frontmatter]
-  lastmod = [ 'lastmod', 'modified',':git', 'date', 'publishdate', 'pubdate', 'published']
+  lastmod = [ 'lastmod', 'modified',':git', 'date']
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
