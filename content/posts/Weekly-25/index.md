@@ -125,7 +125,7 @@ lastmod: 2023-10-19
 
 
 
-<img src="/Users/huyixi/Desktop/547shots_so.png" alt="547shots_so" style="zoom:25%;" />
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/547shots_so.png" alt="547shots_so" style="zoom:25%;" />
 
 初中的时候，可以在没有经过训练的前提下被老师预定去参加区运会。同校的其他人都练了好几个月。跳远成绩一般成绩 2.8 米，最远跳过 2.9 多（初中体育考试满分 2.5 米）。
 
