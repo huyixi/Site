@@ -1,6 +1,6 @@
 ---
 title: "周刊24：玩"
-lastmod: 2023-10-14
+lastmod: 2023-10-19
 subtitle: ""
 date: 2023-10-06T22:28:43+08:00
 draft: false
@@ -50,6 +50,8 @@ summary: 20231001-202310014
 ![SCR-20231015-bexx](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20231015-bexx.png)
 
 这两天的景德镇还有好多有趣的事情。比如碰上一个超级好的本地人，一直给我们推荐好吃的菜。还有碰上了几个好玩的伙伴。很开心。还有好多事。
+
+![1](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/1.jpeg)
 
 ### Sun Oct 8 12:41, 2023
 
