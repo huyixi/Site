@@ -1,5 +1,6 @@
 ---
 title: "周刊24：玩"
+lastmod: 2023-10-14
 subtitle: ""
 date: 2023-10-06T22:28:43+08:00
 draft: false
