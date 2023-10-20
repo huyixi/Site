@@ -3,7 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 subtitle: ""
 author:
 date: {{ .Date }}
-lastmod: 2023-10-18
+lastmod: {{ .Date }}
 draft: false
 tags: []
 category: [Music]
