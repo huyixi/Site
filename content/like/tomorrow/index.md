@@ -12,6 +12,10 @@ summary:
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/488op3seTGWtLSNYfIRo46?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+<iframe src="//player.bilibili.com/player.html?aid=70894307&bvid=BV1DE411o7ev&cid=122834121&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
 早上起来，脑海里一直出现一句歌词。  
 
 生活不是梦 光阴如烟    
