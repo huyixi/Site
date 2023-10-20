@@ -141,6 +141,8 @@ lastmod: 2023-10-19
 
 
 
+![image-20231020105032417](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231020105032417.png)
+
 ## 文章
 
 ### 日本诺贝尔奖得主：东亚教育浪费了太多生命
