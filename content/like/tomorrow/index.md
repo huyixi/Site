@@ -10,6 +10,8 @@ category: [Music]
 summary: 
 ---
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/488op3seTGWtLSNYfIRo46?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 早上起来，脑海里一直出现一句歌词。  
 
 生活不是梦 光阴如烟    
