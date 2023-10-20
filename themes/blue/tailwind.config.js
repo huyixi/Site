@@ -8,6 +8,15 @@ module.exports = {
   safelist: ["ml-8"],
   theme: {
     extend: {
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            blockquote: {
+              quotes: "none",
+            },
+          },
+        },
+      }),
       textColor: {
         "tc-black": "#161718",
         "tc-gray": "#798188",
