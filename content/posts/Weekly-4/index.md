@@ -1,6 +1,7 @@
 ---
 title: 周刊（第 4 期）：陈皓逝世
 date: 2023-05-13T08:00:00+08:00
+lastmod: 2023-05-13T08:00:00+08:00
 category: [Weekly]
 tags: [weekly]
 draft: false

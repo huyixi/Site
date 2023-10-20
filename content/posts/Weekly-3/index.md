@@ -1,6 +1,7 @@
 ---
 title: 周刊（第 3 期）：最好的时代
 date: 2023-05-12T08:00:00+08:00
+lastmod: 2023-05-12T08:00:00+08:00
 category: [Weekly]
 tags: [weekly]
 draft: false

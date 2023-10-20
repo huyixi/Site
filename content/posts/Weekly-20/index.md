@@ -1,6 +1,7 @@
 ---
 title: "周刊#20：“时间”是对所有现代人都最公平的东西"
 date: 2023-09-02T21:40:04+08:00
+lastmod: 2023-09-02T21:40:04+08:00
 draft: false
 tags: [婚礼]
 category: [Weekly]

@@ -2,6 +2,7 @@
 title: "Anaconda Cheat Sheet"
 subtitle: "Anaconda 速查手册"
 date: 2023-09-09T10:39:52+08:00
+lastmod: 2023-09-09T10:39:52+08:00
 draft: false
 tags: []
 category: [Blog]

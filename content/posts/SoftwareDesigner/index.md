@@ -1,6 +1,7 @@
 ---
 title: "SoftwareDesigner"
 date: 2023-08-21T11:38:57+08:00
+lastmod: 2023-08-21T11:38:57+08:00
 draft: false
 tags: []
 category: [Blog]
