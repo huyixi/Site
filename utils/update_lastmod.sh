@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 获取所有更改的 Markdown 文件
-CHANGED_FILES=$(git diff --cached --name-only --diff-filter=AM | grep '\.md$')
+CHANGED_FILES=$(git diff --cached --name-only --diff-filter=AM content/ | grep '\.md$')
 
 CURRENT_DATE=$(date +"%Y-%m-%d")
 
