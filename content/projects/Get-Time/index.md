@@ -5,7 +5,7 @@ date: 2023-10-22T23:01:03+08:00
 lastmod: 2023-10-22T23:01:03+08:00
 draft: false
 tags: []
-category: [Blog]
+category: [Project]
 summary: 
 ---
 

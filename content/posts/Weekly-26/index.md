@@ -54,13 +54,21 @@ category: [Weekly]
 
 ## 日记
 
-### Sun Oct 22 21:56, 2023
+### Sun Oct 22, 2023
+
+#### Sun Oct 22 21:07, 2023
+
+![SCR-20231022-tydc](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20231022-tydc.png)
+
+从 OWEN 的构想到 [Jasper 沧海拾贝](https://twitter.com/jasper_tide) 开始潮汐青年计划（在看这篇博客的有趣的年轻人们，可以去看看这个有趣的计划）。一直关注着，也一直觉得自己还没准备好，一拖再拖自己的申请。这周五，终于给自己定下了最后期限。也就是这周末两天，必须要完成投递，不管准备的有多不充分。最终在晚上九点投递了我的申请邮件。剩下的就交给大佬审核了，不过还是希望有一个好消息。但是心里的一块石头终于落地了。就像《假如我是潮汐青年...》中说的那样，无论能不能成功，我还会坚定按照我的想法继续走下去。希望能和更多有趣的人遇见在这个有趣的世界。
+
+##### Sun Oct 22 21:56, 2023
 
 很开心，也很幸运，终于收到了道哥亲笔签名的《白帽子讲 Web 安全》
 
 ![daoge](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/IMG_5975.JPG)
 
-### Sun Oct 22 21:56, 2023
+##### Sun Oct 22 21:56, 2023
 
 上周在空闲时间做了一个 Sidebar Project。一个 Raycast 插件，可以获取指定格式的时间。
 
