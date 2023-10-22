@@ -38,6 +38,14 @@ category: [Weekly]
 
 ## 文章
 
+[Open Graph Protocol（开放图谱协议）](https://www.yuanx.me/blog/posts/open-graph-protocol/)
+
+一个链接被分享到社交媒体平台上时，平台是如何展示链接的预览图、标题、副标题等内容（如下图）。
+
+已添加到我的网站下一步的改进 Stack。
+
+[The Open Graph protocol](https://ogp.me)
+
 ## 日记
 
 很开心，也很幸运，终于收到了道哥亲笔签名的《白帽子讲 Web 安全》
