@@ -2,7 +2,7 @@
 title: "Cloud Server"
 subtitle: "尝试探索云服务"
 date: 2023-09-29T15:33:16+08:00
-lastmod: 2023-09-29T15:33:16+08:00
+lastmod: 2023-10-22
 draft: false
 tags: []
 category: [Blog]
