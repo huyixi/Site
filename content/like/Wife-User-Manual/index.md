@@ -1,6 +1,7 @@
 ---
 title: "Wife User Manual"
 date: 2023-08-23T16:19:29+08:00
+lastmod: 2023-08-23T16:19:29+08:00
 draft: false
 tags: []
 category: [Book]

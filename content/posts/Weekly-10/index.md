@@ -1,6 +1,7 @@
 ---
 title: 周刊#10：如何活得更久？
 date: 2023-06-25T20:00:00+08:00
+lastmod: 2023-06-25T20:00:00+08:00
 category: [Weekly]
 tags: [weekly]
 draft: false

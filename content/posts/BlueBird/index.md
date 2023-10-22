@@ -2,6 +2,7 @@
 title: "BlueBird"
 subtitle: "陈皓叔的程序员练级指南的第一个作业"
 date: 2023-10-11T22:25:25+08:00
+lastmod: 2023-10-11T22:25:25+08:00
 draft: false
 tags: []
 category: [Blog]

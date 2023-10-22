@@ -1,6 +1,7 @@
 ---
 title: Predictions For The Future
 date: 2023-01-02T00:00:00+08:00
+lastmod: 2023-01-02T00:00:00+08:00
 category: [Blog]
 tags: []
 draft: false

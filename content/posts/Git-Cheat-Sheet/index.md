@@ -1,6 +1,7 @@
 ---
 title: Git 速查手册
 date: 2023-08-14T21:00:00+08:00
+lastmod: 2023-08-14T21:00:00+08:00
 category: [Blog]
 tags: [Git, Config]
 draft: false

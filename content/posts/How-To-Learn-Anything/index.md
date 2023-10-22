@@ -2,6 +2,7 @@
 title: How To Learn Anything
 subtitle: General Learning
 date: 2023-04-01T02:49:00+08:00
+lastmod: 2023-04-01T02:49:00+08:00
 category: [Inbox]
 tags: [study]
 draft: false

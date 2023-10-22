@@ -2,6 +2,7 @@
 title: "Cloud Server"
 subtitle: ""
 date: 2023-09-29T15:33:16+08:00
+lastmod: 2023-09-29T15:33:16+08:00
 draft: false
 tags: []
 category: [Blog]

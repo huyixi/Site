@@ -4,6 +4,7 @@ subtitle: "你的第一本健身书"
 author: 斌卡
 unread: false
 date: 2023-10-18T00:24:10+08:00
+lastmod: 2023-10-18T00:24:10+08:00
 draft: false
 tags: []
 category: [Book]

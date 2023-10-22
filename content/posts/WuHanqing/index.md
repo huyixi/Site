@@ -2,6 +2,7 @@
 title: "吴翰清"
 subtitle: "我想从道哥身上学到一点什么"
 date: 2023-09-20T23:18:15+08:00
+lastmod: 2023-09-20T23:18:15+08:00
 draft: false
 tags: []
 category: [Blog]

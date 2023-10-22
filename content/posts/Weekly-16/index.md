@@ -1,6 +1,7 @@
 ---
 title: 周刊#16：
 date: 2023-08-06T22:36:00+08:00
+lastmod: 2023-08-06T22:36:00+08:00
 category: [Weekly]
 tags: [weekly]
 draft: false
