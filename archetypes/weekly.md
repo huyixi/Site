@@ -6,5 +6,4 @@ lastmod: {{ .Date }}
 draft: false
 tags: []
 category: [Weekly]
-summary: 
 ---

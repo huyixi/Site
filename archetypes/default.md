@@ -6,5 +6,4 @@ lastmod: {{ .Date }}
 draft: true
 tags: []
 category: [Blog]
-summary: 
 ---
