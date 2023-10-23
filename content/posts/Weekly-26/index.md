@@ -166,6 +166,42 @@ category: [Weekly]
 
 3:50 开始，这个 16 岁的女生的认知，远比我 16 岁的时候要强上很多。
 
+### 一文论重复性工作中如何培养匠心
+
+[一文论重复性工作中如何培养匠心](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247535174&idx=1&sn=477fb11df9b7c1b74bc3a8e0c73c2d5b&chksm=e92a7749de5dfe5f727b4eedfbce27275daffdbe0a301fece1377636ca77e0d4a563c2d46f89#rd)
+
+**并非所有的工作都能培养匠心**。
+
+能培养匠心的工作的空间：
+
+- 结果价值空间高：通常是大流量业务、高盈利业务、主营业务或战略业务。
+- 过程对价值的贡献度高：如大模型技术在对话类业务上带来的极致体验，如双十一高并发能力对GMV的支撑度。
+- 可预测性低，即可能性多：如搜索推荐算法对流量效果的影响，如营销活动对转化率的贡献
+
+自我增加匠心的空间：
+
+- 增加结果价值：比如完成项目之外，写了文档，总结了方法论，沉淀了某个组件，做了一次分享，这些动作都增加了结果的定义，从而扩展了结果价值空间。
+- 增加过程贡献度：如果结果价值包括了写一篇文章，那么文章怎么写，写成什么样，就可以有很多不同的方法，随之产生不同的贡献度。
+- 减少可预测性：创新。自己和别人比，组织会通过标准化、体系化、规范化让大家都掌握成功的确定性路径，在这个过程中，如果我们不主动求新求变，就会泯然众人。2. 自己和自己比，我们通常想要消除失败的概率，但如果我们不能同时扩展成功的多种可能性时，结果的可预测性会坍缩在稳定的“一般性”成功上
+
+
+
+> 为什么今时今日我想要分析重复性工作这个问题和已有的这些解法呢？
+>
+> 是因为：互联网发展至今，现阶段处于低增长周期时，0-1的机会变少了，1-n的重复性工作增加了，追求成长的我们，必须要直面这个行业周期带来的挑战，要勇敢的在老问题、重复性问题上努力挖金矿，磨炼技能更磨炼内心。以此保持自我成长不停滞。
+>
+> 这样，当新一轮高增长周期来临时，才能更好的抓住机会。
+
+### 技术人对抗焦虑的加减法
+
+[技术人对抗焦虑的加减法](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247535406&idx=1&sn=a4e3ea969632e80aa2fa8b0bc0c9ce0a&chksm=e92a7621de5dff37b37508543fc29e286e744108070817f243c9a04b518abacd80c6312db061#rd)
+
+### 5 Why
+
+- [5-Whys Guide & Template](https://repository.uneca.org/bitstream/handle/10855/49332/Chapter%208_5_Whys_Worksheet.pdf?sequence=82)
+- [How do you use the 5 Whys method for root cause analysis?](https://www.linkedin.com/advice/3/how-do-you-use-5-whys-method-root-cause#:~:text=,times%2C%20you%20can%20peel)
+- [What is the five whys method?](https://www.indeed.com/career-advice/career-development/5-whys-example#:~:text=,hand%20knowledge%20of%20the%20situation)
+
 ## 日记
 
 ### Sun Oct 22, 2023
