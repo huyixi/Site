@@ -150,6 +150,8 @@ category: [Weekly]
 
 ## 文章
 
+### Open Graph Protocol（开放图谱协议）
+
 [Open Graph Protocol（开放图谱协议）](https://www.yuanx.me/blog/posts/open-graph-protocol/)
 
 一个链接被分享到社交媒体平台上时，平台是如何展示链接的预览图、标题、副标题等内容（如下图）。
@@ -157,6 +159,12 @@ category: [Weekly]
 已添加到我的网站下一步的改进 Stack。
 
 [The Open Graph protocol](https://ogp.me)
+
+### 突击测试深圳国际学生的英语水平？！【硬核Vlog19】 - 邵艾伦Alan
+
+[突击测试深圳国际学生的英语水平？！【硬核Vlog19】 - 邵艾伦Alan](https://www.bilibili.com/video/BV1AC4y137os/?spm_id_from=333.337.top_right_bar_window_history.content.click)
+
+3:50 开始，这个 16 岁的女生的认知，远比我 16 岁的时候要强上很多。
 
 ## 日记
 
