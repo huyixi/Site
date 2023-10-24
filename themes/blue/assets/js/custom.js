@@ -1,54 +1,27 @@
-// tempBanner
 document.addEventListener("DOMContentLoaded", function () {
-  var banner = document.getElementById("tempBanner");
-
-  if (
-    (window.location.pathname === "/zh/" || window.location.pathname === "/en/") &&
-    !localStorage.getItem("bannerDisplayed")
-  ) {
-    banner.style.display = "block";
-    localStorage.setItem("bannerDisplayed", "true");
-
-    setTimeout(function () {
-      banner.style.transform = "scaleY(0)";
-      setTimeout(function () {
-        banner.style.display = "none";
-      }, 600);
-    }, 5000);
-  }
-});
-
-// // scrollToTop
-window.onscroll = function () {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  var scrollToTopBtn = document.getElementById("scrollToTop");
-  if (scrollToTopBtn) {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-      scrollToTopBtn.style.display = "block";
-    } else {
-      scrollToTopBtn.style.display = "none";
+  // Scroll to Top
+  const scrollToTopBtn = document.getElementById("scrollToTop");
+  window.onscroll = function () {
+    if (scrollToTopBtn) {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        scrollToTopBtn.style.display = "block";
+      } else {
+        scrollToTopBtn.style.display = "none";
+      }
     }
-  }
-}
-
-var scrollToTopBtn = document.getElementById("scrollToTop");
-if (scrollToTopBtn) {
-  scrollToTopBtn.onclick = function () {
-    topFunction();
   };
-}
 
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
-}
+  if (scrollToTopBtn) {
+    scrollToTopBtn.onclick = function () {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    };
+  }
 
-// Table of Contents
-document.addEventListener("DOMContentLoaded", function () {
+  // Table of Contents
   const article = document.querySelector("article");
+  if (!article) return;
+
   const headings = article.querySelectorAll("h2, h3, h4");
   const tocBot = document.querySelector("#toc-bot");
   const tocOverlay = document.querySelector("#toc-overlay");
@@ -64,17 +37,23 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   };
 
-  tocBot.addEventListener("click", function () {
-    if (hasMoved) {
-      hasMoved = false;
-      return;
-    }
-    if (tocOverlay.style.display !== "block") {
+  const highlightActiveTocEntry = (activeId) => {
+    document.querySelectorAll("#toc-list li a").forEach((link) => {
+      if (link.getAttribute("href") === `#${activeId}`) {
+        link.classList.add("text-blue-500");
+      } else {
+        link.classList.remove("text-blue-500");
+      }
+    });
+  };
+
+  if (tocBot) {
+    tocBot.addEventListener("click", function () {
       tocOverlay.style.display = "block";
       tocBot.style.display = "none";
       tocList.innerHTML = "";
 
-      headings.forEach(function (header) {
+      headings.forEach((header) => {
         const li = document.createElement("li");
         let levelClass = "";
 
@@ -102,32 +81,21 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
       checkHeadingsVisibility();
-    }
+    });
+  }
 
-    document.getElementById("close-toc-btn").addEventListener("click", function () {
+  if (tocOverlay) {
+    tocOverlay.addEventListener("click", function () {
       tocOverlay.style.display = "none";
       tocBot.style.display = "block";
     });
-  });
+  }
 
-  tocOverlay.addEventListener("click", function () {
-    tocOverlay.style.display = "none";
-    tocBot.style.display = "block";
-  });
-
-  tocContainer.addEventListener("click", function (event) {
-    event.stopPropagation();
-  });
-
-  const highlightActiveTocEntry = (activeId) => {
-    document.querySelectorAll("#toc-list li a").forEach((link) => {
-      if (link.getAttribute("href") === `#${activeId}`) {
-        link.classList.add("text-blue-500");
-      } else {
-        link.classList.remove("text-blue-500");
-      }
+  if (tocContainer) {
+    tocContainer.addEventListener("click", function (event) {
+      event.stopPropagation();
     });
-  };
+  }
 
   const observer = new IntersectionObserver(
     (entries) => {
@@ -151,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     },
     {
-      threshold: 0.1,
+      threshold: 0.05,
     }
   );
 
