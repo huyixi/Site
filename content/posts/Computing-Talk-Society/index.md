@@ -2,7 +2,7 @@
 title: "我看计算讲谈社"
 subtitle: ""
 date: 2023-09-19T01:45:41+08:00
-lastmod: 2023-09-19T01:45:41+08:00
+lastmod: 2023-10-24
 draft: false
 tags: ['道哥','计算讲谈社','吴翰清']
 category: [Blog]
