@@ -155,6 +155,10 @@ category: [Weekly]
 - 展示自己的作品
 - 记录，以便以后的回忆
 
+#### Wed Oct 25 00:54, 2023
+
+- 学习更应该关注的是 思维上的改变量，而不是知识的数量
+
 ## 文章
 
 ### Open Graph Protocol（开放图谱协议）
@@ -209,6 +213,13 @@ category: [Weekly]
 - [How do you use the 5 Whys method for root cause analysis?](https://www.linkedin.com/advice/3/how-do-you-use-5-whys-method-root-cause#:~:text=,times%2C%20you%20can%20peel)
 - [What is the five whys method?](https://www.indeed.com/career-advice/career-development/5-whys-example#:~:text=,hand%20knowledge%20of%20the%20situation)
 
+#### 挑选眼镜的方法
+
+1. 挑样式：脸部线条较硬 - 镜框应柔和；脸部无线条 - 镜框应硬一点
+2. 挑颜色：白皮 - 银色；黄皮 - 金色
+
+关于黄皮白皮可以搜索小红书上的相关方法测量
+
 ## 有意思的东西
 
 - [画一只 Github 猫](https://tw93.netlify.app)
@@ -246,3 +257,6 @@ category: [Weekly]
 仓库地址：https://github.com/huyixi/get-time.git
 
 ![get-time](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/get-time.png)
+
+
+
