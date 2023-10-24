@@ -18,51 +18,33 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// scrollToTop
+// // scrollToTop
 window.onscroll = function () {
   scrollFunction();
 };
 
 function scrollFunction() {
   var scrollToTopBtn = document.getElementById("scrollToTop");
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    scrollToTopBtn.style.display = "block";
-  } else {
-    scrollToTopBtn.style.display = "none";
+  if (scrollToTopBtn) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      scrollToTopBtn.style.display = "block";
+    } else {
+      scrollToTopBtn.style.display = "none";
+    }
   }
 }
 
-document.getElementById("scrollToTop").onclick = function () {
-  topFunction();
-};
+var scrollToTopBtn = document.getElementById("scrollToTop");
+if (scrollToTopBtn) {
+  scrollToTopBtn.onclick = function () {
+    topFunction();
+  };
+}
 
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
 }
-
-// like hardware
-var modal = document.getElementById("likeModal");
-var span = document.getElementsByClassName("close")[0];
-
-if (span) {
-  span.onclick = function () {
-    modal.style.display = "none";
-  };
-}
-
-var showModals = document.getElementsByClassName("show-modal");
-for (var i = 0; i < showModals.length; i++) {
-  showModals[i].onclick = function () {
-    modal.style.display = modal.style.display === "block" ? "none" : "block";
-  };
-}
-
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-};
 
 // Table of Contents
 document.addEventListener("DOMContentLoaded", function () {
@@ -72,10 +54,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const tocOverlay = document.querySelector("#toc-overlay");
   const tocContainer = document.querySelector("#toc-container");
   const tocList = document.querySelector("#toc-list");
-  let isDragging = false;
-  let hasMoved = false;
-  let offsetX, offsetY;
-  let initialPosition = {};
 
   const checkHeadingsVisibility = () => {
     headings.forEach((heading) => {
@@ -131,46 +109,6 @@ document.addEventListener("DOMContentLoaded", function () {
       tocBot.style.display = "block";
     });
   });
-
-  // tocBot.addEventListener("mousedown", function (e) {
-  //   console.log(this.style, "tocBot");
-  //   initialPosition.left = this.style.left;
-  //   initialPosition.top = this.style.top;
-  //   this.style.width = `${this.offsetWidth}px`;
-  //   this.style.height = `${this.offsetHeight}px`;
-  //   console.log(e, "tocBoteeee");
-  //   isDragging = true;
-  //   offsetX = e.clientX - tocBot.getBoundingClientRect().left;
-  //   offsetY = e.clientY - tocBot.getBoundingClientRect().top;
-  // });
-
-  // window.addEventListener("mousemove", (e) => {
-  //   if (!isDragging) return;
-  //   hasMoved = true;
-  //   let top = e.clientY - offsetY;
-  //   let left = e.clientX - offsetX;
-
-  //   // 限制按钮移动范围
-  //   const maxX = window.innerWidth - tocBot.offsetWidth;
-  //   const maxY = window.innerHeight - tocBot.offsetHeight;
-
-  //   if (left < 0) left = 0;
-  //   if (left > maxX) left = maxX;
-  //   if (top < 0) top = 0;
-  //   if (top > maxY) top = maxY;
-
-  //   tocBot.style.left = left + "px";
-  //   tocBot.style.top = top + "px";
-  // });
-
-  // window.addEventListener("mouseup", () => {
-  //   if (hasMoved) {
-  //     tocBot.style.left = initialPosition.left;
-  //     tocBot.style.top = initialPosition.top;
-  //   }
-  //   isDragging = false;
-  //   tocBot.style.width = "";
-  // });
 
   tocOverlay.addEventListener("click", function () {
     tocOverlay.style.display = "none";

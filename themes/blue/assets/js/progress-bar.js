@@ -4,5 +4,8 @@ document.addEventListener("scroll", function () {
   var clientHeight = document.documentElement.clientHeight || document.body.clientHeight;
   var scrolled = (scrollTop / (scrollHeight - clientHeight)) * 100;
 
-  document.getElementById("progress-bar").style.width = scrolled + "%";
+  var progressBar = document.getElementById("progress-bar");
+  if (progressBar) {
+    progressBar.style.width = scrolled + "%";
+  }
 });
