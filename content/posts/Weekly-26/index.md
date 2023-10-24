@@ -209,6 +209,10 @@ category: [Weekly]
 - [How do you use the 5 Whys method for root cause analysis?](https://www.linkedin.com/advice/3/how-do-you-use-5-whys-method-root-cause#:~:text=,times%2C%20you%20can%20peel)
 - [What is the five whys method?](https://www.indeed.com/career-advice/career-development/5-whys-example#:~:text=,hand%20knowledge%20of%20the%20situation)
 
+## 有意思的东西
+
+- [画一只 Github 猫](https://tw93.netlify.app)
+
 ## 日记
 
 ### Sun Oct 22, 2023
