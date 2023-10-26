@@ -255,6 +255,10 @@ USUB4-4FAD6-UTD9Q-2D8H4-42DZA
 
 下载缺失的 dll 文件后https://www.dll-files.com ，放置到 C:/System/Windows32/
 
+#### Win11下“应用程序无法正确启动(0xc000007b)”解决方法
+
+[链接](https://www.howtogeek.com/874113/how-to-fix-the-0xc000007b-error-on-windows/)
+
 ## Windows系统设置
 
 ### 磁盘分区
