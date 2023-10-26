@@ -272,7 +272,7 @@ category: [Weekly]
 
 下载安装包后打开，跟着里面的 README 来做。但是我碰到了一个问题：执行安装脚本后无法出现预期效果。
 
-解决方案：查看脚本源代码，发现其实就是找到 `vmoption` 这个文件，然后添加代码：
+解决方案：查看脚本源代码，发现其实就是找到 `idea.vmoption` 这个文件（Mac 中存在于：IDEA.app 右键 - show Package Contents - Contents/bin/），然后添加代码：
 
 ``` bash
 -javaagent:/path/to/ja-netfilter.jar=jetbrains
