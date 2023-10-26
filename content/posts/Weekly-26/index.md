@@ -268,7 +268,7 @@ category: [Weekly]
 
 安装破解 JetBrain 折腾了一晚上。最后摸索到了一个网站：https://3.jetbra.in
 
-![image-20231026224927692](/Users/huyixi/Library/Application%20Support/typora-user-images/image-20231026224927692.png)
+![image-20231026224927692](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231026224927692.png)
 
 下载安装包后打开，跟着里面的 README 来做。但是我碰到了一个问题：执行安装脚本后无法出现预期效果。
 
