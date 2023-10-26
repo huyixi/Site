@@ -263,3 +263,37 @@ category: [Weekly]
 #### Thu Oct 26 18:06, 2023
 
 百度就是一坨 💩。今天解决系统重装的一些问题，在局域网搜了半天到处都是引流广告。在互联网上搜索一下解决方案就出来了。唯一的障碍就是语言理解麻烦点。
+
+#### Thu Oct 26 22:43, 2023 - 安装 IDEA
+
+安装破解 JetBrain 折腾了一晚上。最后摸索到了一个网站：https://3.jetbra.in
+
+![image-20231026224927692](/Users/huyixi/Library/Application%20Support/typora-user-images/image-20231026224927692.png)
+
+下载安装包后打开，跟着里面的 README 来做。但是我碰到了一个问题：执行安装脚本后无法出现预期效果。
+
+解决方案：查看脚本源代码，发现其实就是找到 `vmoption` 这个文件，然后添加代码：
+
+``` bash
+-javaagent:/path/to/ja-netfilter.jar=jetbrains
+```
+
+`/path/to` 换成你的这个文件夹的路径，并注意不能删除该文件夹。
+
+如果是 JDK17，再添加上：
+
+```bash
+--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
+--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
+```
+
+最后打开 IDEA，输入激活码即可。网站上的激活码需要移动到图标上才会出现一个 `copy` 的提示。。
+
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20231026-tstc.png" alt="SCR-20231026-tstc" style="zoom:50%;" />
+
+**一些经验：**
+
+- 搜索引擎用 Google、DuckDuckGo。百度的搜索质量已经完全不能看了，全部都是引流文（没有测试过引流文具体能不能用，我讨厌引流文，看到直接关闭）。
+- 善用搜索引擎的过滤条件。如果直接去 Google 上搜索 IDEA Crack 会出现很多官方 JetBrain 的内容，但是官方内容肯定无法得到想要的东西，所以这时候就要借助过滤条件。
+
+- 如果遇到执行脚本的，但是脚本无法执行成功的，可以直接查看脚本源代码，看脚本要实现什么效果，然后手动执行。
