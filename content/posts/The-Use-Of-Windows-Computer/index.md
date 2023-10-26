@@ -251,6 +251,10 @@ USUB4-4FAD6-UTD9Q-2D8H4-42DZA
 
 
 
+#### dll 缺失：
+
+下载缺失的 dll 文件后https://www.dll-files.com ，放置到 C:/System/Windows32/
+
 ## Windows系统设置
 
 ### 磁盘分区
