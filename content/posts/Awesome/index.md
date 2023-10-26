@@ -16,6 +16,8 @@ summary:
 
 [领英大数据报告](https://business.linkedin.com/zh-cn/talent-solutions/recruiting-resources-tips?selectedFilter=all)
 
+- [Apple Store 应用数据](https://www.qimai.cn)
+
 ## 资源类
 
 ### 导航
