@@ -524,9 +524,9 @@ Mac 与 Windows （微软拼音）都有自带的输入法，安卓手机上可�
 
 1. win + R，输入 regedit，打开注册表
 
-2. 找到 计算机\HKEY_CURRENT_USER\Software\Microsoft\InputMethod\Settings\CHS 项
+2. 找到 `计算机\HKEY_CURRENT_USER\Software\Microsoft\InputMethod\Settings\CHS` 项
 
-3. 新建一个名为 UserDefinedDoublePinyinScheme0 的字符串值，值为 小鹤双拼*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt
+3. 新建一个名为 UserDefinedDoublePinyinScheme0 的字符串值，值为 `小鹤双拼*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt`
 
 4. 打开控制面板--微软拼音输入法设置，把 小鹤双拼 设置为双拼的默认选择即可。
 
