@@ -19,6 +19,19 @@ summary:
 
 ### 学习前端框架的通用方法
 
+关注共性：
+
+- 路由
+- 数据传递
+
+Angular、Vue、React
+
+Angular：脏值检测
+
+Vue：Object.defineProperty，双向数据流，数据 <-> 视图
+
+React: 虚拟 DOM，单向数据流，数据 -> 视图，视图 !-> 数据
+
 
 
 我们应当关心如何写出高性能的代码，而不是对地性能代码进行优化。
