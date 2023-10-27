@@ -4,7 +4,7 @@ subtitle: ""
 author:
 unread: true
 date: 2023-09-19T01:42:19+08:00
-lastmod: 2023-09-19T01:42:19+08:00
+lastmod: 2023-10-27
 draft: false
 tags: []
 category: [Book]
