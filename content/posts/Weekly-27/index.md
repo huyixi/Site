@@ -83,3 +83,4 @@ category: [Weekly]
 
 ![SCR-20231029-kfvp](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20231029-kfvp.jpeg)
 
+#### 【改善体态】5分钟全身体态纠正训练 (起床必备) - [帅soserious](https://space.bilibili.com/66391032)
