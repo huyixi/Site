@@ -84,3 +84,13 @@ category: [Weekly]
 ![SCR-20231029-kfvp](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20231029-kfvp.jpeg)
 
 #### 【改善体态】5分钟全身体态纠正训练 (起床必备) - [帅soserious](https://space.bilibili.com/66391032)
+
+### [PARA中「项目」的魔力：用输出对抗信息焦虑](https://sspai.com/post/83271)
+
+在 Google 最神秘的部门Google X，有一个项目叫「登月工厂」，他们有个「Monkey First」的口头禅。意思是，**如果你想让一只猴子在基座上背诵莎士比亚的名言，你应该先去训练猴子，而不是先去建造基座**。
+
+> 想象一下，你正试图教一只猴子在基座上背诵莎士比亚。 在训练猴子和建造基座之间，你应该如何分配时间和金钱?正确的答案，当然是不花ß时间去想怎样建造基座，而是去思考怎样训练猴子说话，那才是真正重要的事。
+
+![0b792035f6e62fd60b63503f2d947a19-2](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/0b792035f6e62fd60b63503f2d947a19-2.png)
+
+但很多人会花大量时间建造一个华丽的基座，并显得很忙碌。因为这样一方面可以逃避真正的「项目」，也可以安慰自己没有浪费青春。
