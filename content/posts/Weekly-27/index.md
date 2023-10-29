@@ -32,6 +32,13 @@ category: [Weekly]
 - 提高认知效率，持续迭代认知方法
 - 谋其上、舍我其谁的自信
 
+#### Sun Oct 29 23:03, 2023
+
+“长时间工作根本没有生产力，如果你工作 8 小时，那就试着工作 5 小时，或者只工作 4 小时。如果你只有这些时间工作，你就没有时间在工作的同时刷推了”
+
+
+![F9mrgGWasAA4yZk](/Users/huyixi/Desktop/F9mrgGWasAA4yZk.jpeg)
+
 
 
 ## 文章
@@ -94,3 +101,6 @@ category: [Weekly]
 ![0b792035f6e62fd60b63503f2d947a19-2](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/0b792035f6e62fd60b63503f2d947a19-2.png)
 
 但很多人会花大量时间建造一个华丽的基座，并显得很忙碌。因为这样一方面可以逃避真正的「项目」，也可以安慰自己没有浪费青春。
+
+
+
