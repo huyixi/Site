@@ -64,7 +64,11 @@ TailwindCSS 组件
 
 - [CodePen](https://codepen.io)
 
-- [CSS Inspiration](https://chokcoco.github.io/CSS-Inspiration/#/./svg/alipay-ar-scan) 国人整理的各种 CSS 效果
+- [CSS Inspiration](https://chokcoco.github.io/CSS-Inspiration/#/./svg/alipay-ar-scan) ：国人整理的各种 CSS 效果
+
+- [APP MOTION](https://appmotion.design/)：Explore the best, hand-picked
+  app motion design
+
 
 ##### 博客
 
