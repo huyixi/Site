@@ -1,7 +1,7 @@
 ---
 title: "软考中级-软件设计师"
 date: 2023-08-21T11:38:57+08:00
-lastmod: 2023-10-29
+lastmod: 2023-10-30
 draft: false
 tags: []
 category: [Blog]
