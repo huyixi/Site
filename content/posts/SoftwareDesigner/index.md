@@ -156,6 +156,8 @@ summary: 我的软件设计师备考之路
 
 ##### 操作系统
 
+- ![image-20231030235430506](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231030235430506.png)
+
 - 前趋图
   - 信号量（Semaphore）
   - P操作:用于**申请资源**
@@ -182,8 +184,9 @@ summary: 我的软件设计师备考之路
 
   💡只考虑输入，看怎么输入可以得到下面的选项
 
-
 ##### 程序设计语言
+
+Mon Oct 30 23:52, 2023 结束
 
 - 编译、解释程序的翻译
 
