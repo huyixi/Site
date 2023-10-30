@@ -37,7 +37,7 @@ category: [Weekly]
 “长时间工作根本没有生产力，如果你工作 8 小时，那就试着工作 5 小时，或者只工作 4 小时。如果你只有这些时间工作，你就没有时间在工作的同时刷推了”
 
 
-![F9mrgGWasAA4yZk](/Users/huyixi/Desktop/F9mrgGWasAA4yZk.jpeg)
+![F9mrgGWasAA4yZk](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/F9mrgGWasAA4yZk.jpeg)
 
 
 
@@ -102,5 +102,37 @@ category: [Weekly]
 
 但很多人会花大量时间建造一个华丽的基座，并显得很忙碌。因为这样一方面可以逃避真正的「项目」，也可以安慰自己没有浪费青春。
 
+### 日记
 
+#### Mon Oct 30 09:34, 2023
+
+输出当前路径下所有文本文件的内容：
+
+**Windows:**
+
+⚠️ 在第二行代码定义要处理的文件扩展名中添加自己需要获取的文件后缀
+
+```bash
+# 获取脚本所在的当前路径
+$folderPath = $PSScriptRoot
+
+# 定义要处理的文件扩展名
+$fileExtensions = @("*.txt", "*.js", "*.vue", "*.html")
+
+# 获取指定目录下的所有指定类型的文件
+$txtFiles = Get-ChildItem -Path $folderPath -Include $fileExtensions -Recurse
+
+foreach ($file in $txtFiles) {
+    # 输出文件路径和文件名
+    Write-Host "$($file.FullName)"
+
+    
+    # 指定文件编码为 UTF-8
+    $content = "$(Get-Content -Path $file.FullName -Raw -Encoding UTF8)"
+    Write-Host $content
+
+    # 添加一个空行作为文件之间的分隔
+    Write-Host
+}
+```
 
