@@ -2,7 +2,7 @@
 title: "Weekly 27:"
 subtitle: "学习的同时应该伴随认知效率的提高"
 date: 2023-10-28T00:35:59+08:00
-lastmod: 2023-10-30
+lastmod: 2023-10-31
 draft: false
 tags: []
 category: [Weekly]
@@ -101,6 +101,14 @@ category: [Weekly]
 ![0b792035f6e62fd60b63503f2d947a19-2](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/0b792035f6e62fd60b63503f2d947a19-2.png)
 
 但很多人会花大量时间建造一个华丽的基座，并显得很忙碌。因为这样一方面可以逃避真正的「项目」，也可以安慰自己没有浪费青春。
+
+### HeoAwards2023：我喜欢的年度博主
+
+[链接](https://blog.zhheo.com/p/a38d711c.html)
+
+发现了很多有意思的博客
+
+- [三钻](https://tridiamond.tech/)：关于前端的博客
 
 ### 日记
 
