@@ -146,7 +146,14 @@ BEM 的全称是 Block（块）, Element（元素）, Modifier（修饰符），
 
 [链接](https://google.github.io/styleguide/htmlcssguide.html#CSS)
 
-### 日记
+
+
+### 为什么技术总是被轻视？国内做技术能不能有较大发展？
+
+为什么技术总是被轻视？国内做技术能不能有较大发展？ - 韦易笑的回答 - 知乎
+https://www.zhihu.com/question/24829997/answer/57587186
+
+## 日记
 
 #### Mon Oct 30 09:34, 2023
 
