@@ -321,6 +321,12 @@ Mon Oct 30 23:52, 2023 结束
 
 
 
+CISC & RISC
+
+- CISC（Complex Instruction Set Computer, 复杂指令集计算机）
+
+- RISC（Reduced Instruction Set Computer, 精简指令集计算机）
+
 ### 下午题
 
 - 5 题，每题 15 分
