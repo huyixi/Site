@@ -2,7 +2,7 @@
 title: "Weekly 27:"
 subtitle: "学习的同时应该伴随认知效率的提高"
 date: 2023-10-28T00:35:59+08:00
-lastmod: 2023-10-31
+lastmod: 2023-11-01
 draft: false
 tags: []
 category: [Weekly]
