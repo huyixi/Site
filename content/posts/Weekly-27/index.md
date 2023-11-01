@@ -1,5 +1,5 @@
 ---
-title: "Weekly 27:"
+title: "Weekly 27: 我能控制我的身体，那么，我自然也能控制我的脑子🧠"
 subtitle: "学习的同时应该伴随认知效率的提高"
 date: 2023-10-28T00:35:59+08:00
 lastmod: 2023-11-02
@@ -7,6 +7,16 @@ draft: false
 tags: []
 category: [Weekly]
 ---
+
+#### Thu Nov 2 01:21, 2023
+
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231102012156476.png" alt="image-20231102012156476" style="zoom:50%;" />
+
+健身 2 周，在没有明显改变体型/变胖的前提下，体重从 135 -> 140，并且肱二头肌三头肌有变大的感觉，算是比较成功了。
+
+我能控制我的身体，那么，我自然也能控制我的脑子🧠。同时也要做好精力管理。
+
+
 
 #### Sat Oct 28 00:36, 2023
 
@@ -194,3 +204,15 @@ foreach ($file in $txtFiles) {
 每天上班时间过长，导致上到下午后期，效率很低，一直在磨洋工。
 
 目前的解决方案是：以 1h 或者 40min 为一个模块，冲刺训练。每个模块一个任务，一天完成指定数量的模块后应该有奖励。并且冲刺完一个模块后应该进行休息，例如冥想，出去走走，换换环境。
+
+#### Thu Nov 2 01:24, 2023
+
+今天尝试了 Forest 应用，番茄钟冲刺任务。
+
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231102012655671.png" alt="image-20231102012655671" style="zoom: 33%;" />
+
+第一天，完成的任务还算多。
+
+需要改进的地方：太急，没有沉下心。
+
+这个 Forest App，东西其实有点杂，看在是效率榜付费第一才买的。Focus Keeper 可能会更好，但是因为没有一次性付费的选项，不是很想买。
