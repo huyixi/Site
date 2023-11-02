@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     },
     {
-      threshold: 0.05,
+      threshold: 0,
     }
   );
 
