@@ -260,6 +260,8 @@ TODO：跳过，需要回看
   - P操作:用于**申请资源**
   - V操作:用于**释放资源**
 
+Fri Nov 3 23:07, 2023: 看不动了，睡觉吧。
+
 #### 数据库
 
 - 关系模式 - 类似 Excel 表格
@@ -280,6 +282,8 @@ TODO：跳过，需要回看
   ![SCR-20231029-tkvn](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20231029-tkvn.png)
 
   💡只考虑输入，看怎么输入可以得到下面的选项
+  
+- 
 
 #### 程序设计语言
 
