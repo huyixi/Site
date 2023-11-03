@@ -1,4 +1,43 @@
 document.addEventListener("DOMContentLoaded", function () {
+  setTimeout(function () {
+    // Select all images on the page
+    var images = document.querySelectorAll("img");
+    var banner = document.getElementById("tempBanner");
+
+    // Function to show the banner
+    var showBanner = function () {
+      if (banner && !localStorage.getItem("bannerDisplayed")) {
+        banner.style.display = "block";
+
+        // Set the bannerDisplayed flag in localStorage
+        localStorage.setItem("bannerDisplayed", "true");
+
+        // After 3 seconds, start the hide animation
+        setTimeout(function () {
+          banner.style.transform = "scaleY(0)"; // Shrink the banner
+
+          // After 500 milliseconds or 0.5 seconds, which matches the transition duration, hide the banner
+          setTimeout(function () {
+            banner.style.display = "none";
+          }, 500);
+        }, 3000);
+      }
+    };
+
+    // Add an error event listener to each image
+    images.forEach(function (img) {
+      img.addEventListener("error", function () {
+        console.log("Failed to load image:", img.src);
+        banner.style.display = "block";
+      });
+    });
+
+    // Additional logic can be placed here (e.g., checking the pathname)
+    if (window.location.pathname === "/zh/" || window.location.pathname === "/en/") {
+      showBanner(); // Show the banner based on pathname condition
+    }
+  }, 500);
+
   // Scroll to Top
   const scrollToTopBtn = document.getElementById("scrollToTop");
   window.onscroll = function () {
