@@ -685,21 +685,66 @@ Sql注入攻击：没有对用户输入数据的合法性进行判断，使应�
 >广播域是指一个网络区域内，一台设备发送的广播消息能被区域内所有设备接收的区域。
 
 ##### 2. 协议簇
-##### 3. TCP和UDP
-##### 4. SMTP和POP3
-##### 5. ARP
-##### 6. DHCP
-##### 7. URL
-##### 8. 浏览器
-##### 9. IP地址和子网划分
-##### 10. IPv6
-##### 11. 无线网络
-##### 12. Windows命令
-##### 13. 路由
-##### 14. HTML
-##### 15. Linux命令
+
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231103124541081.png" alt="image-20231103124541081" style="zoom:50%;" />
 
 
+
+
+
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231103124609902.png" alt="image-20231103124609902" style="zoom:50%;" />
+
+
+
+- FTP 控制端口：21，上传端口：20
+
+- TCP、UDP 在传输层，IP 在网络层、ARP 网络层
+
+- 邮件
+
+  - 发送邮件 - SMTP - 端口号：25
+
+    SMTP只能传输SACII码文本和文字附件，使用MIME邮件扩充协议，添加其他类型的附件。
+
+  - 接收邮件 - POP3 - 端口号：110
+
+    POP3基于C/S模式也就是Client/Server模式（客户端/服务器模式）
+
+    SMTP和POP3都使用**TPC**传输和接收邮件
+
+- ARP 便在局域网上以广播方式发送一个ARP 请求包。如果局域网上地址与某台计算机中的IP 地址相一致，那么该计算机便生成一个 ARP 应答信息，信息中包含对应的物理地址。
+
+- DHCP
+
+  - 通过 DHCP，当设备连接到网络时，它会自动从 DHCP 服务器获取配置信息，这样，网络管理员就不必手动配置每台计算机的网络设置，从而简化了网络管理，并确保了 IP 地址的有效利用和网络配置的一致性。以在设备离开网络后回收和重新分配，DHCP 也能提高 IP 地址的使用率。
+- DHCP客户端可以从DHCP服务器获得本机IP地址、DNS服务器地址、DHCP服务器地址和默认网关的地址等。
+  - Windows无效地址：169.254.X.X      Linux无效地址：0.0.0.0
+
+- DNS域名查询的次序是：本地的hosts 文件一本地 DNS缓存一本地 DNS 服务器一根域名服务器。
+
+##### IP地址和子网划分
+
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231103145055851.png" alt="image-20231103145055851" style="zoom:50%;" />
+
+##### Windows命令
+
+- ipconfig/**release**：**DHCP客户端手工释放IP地址**
+- ipconfig/flushdns：清除本地DNS缓存内容
+- ipconfig/displaydns：显示本地DNS内容
+- ipconfig/registerdns：DNS客户端手工向服务器进行注册
+- ipconfig：显示所有网络适配器的IP地址、子网掩码和缺省网关值
+- ipconfig/all：显示所有网络适配器的完整TCP/IP配置信息，包括**DHCP服务是否已启动**
+- ipconfig/renew：DHCP客户端手工向服务器刷新请求（重新申请IP地址）
+
+##### 路由
+
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231103150554603.png" alt="image-20231103150554603" style="zoom:50%;" />
+
+
+
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231103151128042.png" alt="image-20231103151128042" style="zoom:50%;" />
+
+#### 操作系统
 
 #### 设计模式
 
