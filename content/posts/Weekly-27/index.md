@@ -8,10 +8,6 @@ tags: []
 category: [Weekly]
 ---
 
-
-
-
-
 #### Sat Oct 28 00:36, 2023
 
 与月车哥的再一次交流。
