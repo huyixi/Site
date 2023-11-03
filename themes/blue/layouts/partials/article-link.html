@@ -28,6 +28,7 @@
               alt="{{ $.Params.featureAlt | default $.Params.thumbnailAlt | default "" }}"
               {{ if $.Site.Params.enableImageLazyLoading | default true }}loading="lazy"{{ end }}
               class="h-full w-full transform  object-cover transition-transform duration-500 group-hover:scale-105 dark:border-gray-600"
+              onerror="handleImageError(this)"
             />
           </picture>
         </div>
