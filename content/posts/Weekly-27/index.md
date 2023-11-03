@@ -47,6 +47,10 @@ category: [Weekly]
 
 ## 文章
 
+### 打烂一手好牌：为什么一些美女错过了好的亲密关系
+
+[链接](https://stephenleng.com/beauty-women-and-their-relationship/)
+
 ### 圆肩驼背体态纠正
 
 #### 头前伸像乌龟一样怎么纠正！？
@@ -157,6 +161,48 @@ BEM 的全称是 Block（块）, Element（元素）, Modifier（修饰符），
 为什么技术总是被轻视？国内做技术能不能有较大发展？ - 韦易笑的回答 - 知乎
 https://www.zhihu.com/question/24829997/answer/57587186
 
+### 2023 年每个软件开发者都必须知道的关于 Unicode 的最基本的知识（仍然不准找借口！）
+
+[链接](https://blog.xinshijiededa.men/unicode/)
+
+#### Work for only 3 hours a day, but everyday
+
+[原文链接](http://plumshell.com/2016/03/10/work-for-only-3-hours-a-day-but-everyday/)
+
+[owen 翻译链接](https://clip.owenyoung.com/2023/10/29/work-for-only-3-hours-a-day-but-everyday-plumshell/)
+
+
+
+
+
+
+
+#### 生育率降低，未来的年轻人会更累还是更轻松？
+
+[链接](http://wufazhuce.com/question/3965)
+
+> 生育率降低，未来的年轻人会更累还是更轻松？看待这个问题不能简单化。表面上看，生育率低导致劳动力减少、经济规模停滞，那年轻人就一定会更累。其实没这么简单。
+>
+> 现在年轻人的痛苦和劳累究竟是什么造成的？在盖洛普出具的2022全球工作压力报告中，包括日本韩国的东亚明显超过世界平均水平，可见并不是国家富裕就一定能让年轻人变轻松的。东亚的年轻人痛苦，其实主要还是来自竞争性、压榨性的文化。这种文化不改变，即便中国像欧洲一样富有了，年轻人一样还是痛苦。
+
+
+
+#### 简简单单让Copilot Chat用上GPT-4！
+
+[链接](https://zhile.io/2023/10/31/copilot-chat-gpt4.html)
+
+
+
+
+
+![image-20231103083922459](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231103083922459.png)
+
+
+
+[原文链接](https://anotherdayu.com/2023/5423/)
+
+![image-20231103090917939](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231103090917939.png)
+
 ## 日记
 
 #### Mon Oct 30 09:34, 2023
@@ -225,3 +271,6 @@ foreach ($file in $txtFiles) {
 
 生命的质量 = 时长 * 单位时间的质量
 
+#### Fri Nov 3 08:31, 2023
+
+CloudFlare 挂了，更新推送不上去了
