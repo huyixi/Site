@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
           '" href="#' +
           header.id +
           '">' +
-          header.textContent.replace(" #", "").replace("：", "").replace(":", "") +
+          header.textContent.replace(" #", "").replace(/：$/, "").replace(/:$/, "") +
           "</a>";
         tocList.appendChild(li);
       });
@@ -173,8 +173,9 @@ document.addEventListener("DOMContentLoaded", function () {
           if (entry.isIntersecting) {
             const headingText = entry.target.textContent
               .replace(" #", "")
-              .replace("：", "")
-              .replace(":", "");
+              .replace(/：$/, "")
+              .replace(/:$/, "");
+
             tocBot.textContent = headingText;
             highlightActiveTocEntry(entry.target.id);
           }
