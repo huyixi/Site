@@ -17,8 +17,16 @@ module.exports = {
           },
         },
       }),
+      colors: {
+        "toc-bot-dark": "rgba(66, 66, 69, 0.7)",
+        igrey: "rgba(232, 232, 237, 0.7)",
+        iblack: "rgb(29,29,31)",
+      },
       textColor: {
-        "tc-black": "#161718",
+        iblack: "rgb(29,29,31)",
+
+        iblack: "rgb(29,29,31)",
+        "tc-black": "rgb(29,29,31)",
         "tc-gray": "#798188",
       },
       width: {
@@ -33,6 +41,7 @@ module.exports = {
         184: "46rem",
         245: "61.25rem",
       },
+      maxWidth: { "1/2": "50%" },
       height: {
         23: "5.75rem",
       },
@@ -49,6 +58,7 @@ module.exports = {
       },
       boxShadow: {
         "card-shadow": "-1px 1px 1px 4px rgb(105, 104, 102)",
+        "toc-bot": "0 0 1px",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(ellipse at center, #D2D2D2 0%, #F3F3F3 100%)",
