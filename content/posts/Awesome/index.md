@@ -69,6 +69,10 @@ TailwindCSS 组件
 - [APP MOTION](https://appmotion.design/)：Explore the best, hand-picked
   app motion design
 
+App 设计
+
+- [scrnshts](https://scrnshts.club)  App Store 上架图汇集
+
 
 ##### 博客
 
