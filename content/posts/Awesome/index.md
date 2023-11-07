@@ -1,7 +1,7 @@
 ---
 title: "🤩 Awesome"
 date: 2023-08-26T03:08:51+08:00
-lastmod: 2023-11-03
+lastmod: 2023-11-07
 draft: false
 tags: []
 category: [Blog]
