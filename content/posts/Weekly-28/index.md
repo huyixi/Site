@@ -2,7 +2,7 @@
 title: "Weekly 28"
 subtitle: ""
 date: 2023-11-05T17:19:01+08:00
-lastmod: 2023-11-08
+lastmod: 2023-11-09
 draft: false
 tags: []
 category: [Weekly]
