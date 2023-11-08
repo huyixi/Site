@@ -10,6 +10,10 @@ category: [Weekly]
 
 ## 文章
 
+### [阿里、力扣、政采云的15位专家分享前端面试与招聘视角](https://tridiamond.tech/post/d71e3dea9caf5fdc0a76ab95e2b29804)
+
+### [一篇文章搞懂前端学习方法与构建知识体系](https://tridiamond.tech/post/78111f2bf31f70cf67b6b3119a253d63)
+
 ## 日记
 
 #### Sun Nov 5 17:19, 2023
