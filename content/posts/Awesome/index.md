@@ -10,6 +10,10 @@ summary:
 
 收集所有 Awesome 的资源
 
+## AI
+
+- [ChatGPT 状态](https://status.openai.com)
+
 ## 信息
 
 
