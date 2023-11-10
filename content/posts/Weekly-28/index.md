@@ -14,6 +14,10 @@ category: [Weekly]
 
 #### [一篇文章搞懂前端学习方法与构建知识体系](https://tridiamond.tech/post/78111f2bf31f70cf67b6b3119a253d63)
 
+## 言论
+
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20231111-brue.png" alt="SCR-20231111-brue" style="zoom:50%;" />
+
 ## 日记
 
 #### Sun Nov 5 17:19, 2023
@@ -51,3 +55,17 @@ category: [Weekly]
 #### Fri Nov 10 23:37, 2023
 
 这周一直在忙活公司的项目，都没怎么看书了。周刊也没怎么更新。下下周公司要重新做一个全新的小程序项目了，还挺开心的。可以从零开始一个项目，好好锻炼一下自己。
+
+今天入手了一件 ZOLPLAY 的潮玩礼盒，看起来还不错。
+
+
+
+![SCR-20231111-bhro](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20231111-bhro.png)
+
+
+
+更换了 VSCode 的字体，来自 GithubNext 的 [monaspace](https://monaspace.githubnext.com)
+
+#### Sat Nov 11, 2023
+
+最近在配新的眼镜，问我妈我戴哪个好看，我妈说：我看你戴每一个都很好看。我妈说的对。
