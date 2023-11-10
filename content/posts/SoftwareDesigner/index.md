@@ -28,9 +28,17 @@ summary: 我的软件设计师备考之路
 
 ### 通过要求
 
+新的：
+
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231109112604429.png" alt="image-20231109112604429" style="zoom:25%;" />
+
+
+
 **45 + /  75**
 
-![290e04a7ebb8ce6ac20d56ffb5f84f5e](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/290e04a7ebb8ce6ac20d56ffb5f84f5e.png)考核内容
+![290e04a7ebb8ce6ac20d56ffb5f84f5e](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/290e04a7ebb8ce6ac20d56ffb5f84f5e.png)
+
+考核内容
 
 - 计算机相关基础知识；
 - 常用数据结构和常用算法;
