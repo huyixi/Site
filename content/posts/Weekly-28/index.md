@@ -14,6 +14,14 @@ category: [Weekly]
 
 #### [一篇文章搞懂前端学习方法与构建知识体系](https://tridiamond.tech/post/78111f2bf31f70cf67b6b3119a253d63)
 
+#### CSS Grid 布局
+
+今天在写我的网站 About 页面，需要用到 Grid 布局，马上学一下。
+
+- [只要一行代码，实现五种 CSS 经典布局](https://www.ruanyifeng.com/blog/2020/08/five-css-layouts-in-one-line.html)
+
+`align-items`属性控制垂直位置，`justify-items`属性控制水平位置。这两个属性的值一致时，就可以合并写成一个值。所以，`place-items: center;`等同于`place-items: center center;`。
+
 ## 言论
 
 <img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20231111-brue.png" alt="SCR-20231111-brue" style="zoom:50%;" />
