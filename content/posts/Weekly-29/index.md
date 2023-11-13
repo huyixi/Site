@@ -77,11 +77,13 @@ category: [Weekly]
 
 #### 巨土文化公众号推荐爆款文章标题
 
-
-
 [链接](https://www.kdocs.cn/l/ccVFRlrQ8NN1)
 
+#### Talbica. Interactive chemistry
 
+[链接](https://www.talbica.com)
+
+元素周期表的可视化展示，这个做得好的一点会把元素的照片也展示出来，看看稀有元素长什么样子，化学爱好者应该会很喜欢。
 
 ## 日记
 
