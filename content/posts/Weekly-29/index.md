@@ -85,6 +85,12 @@ category: [Weekly]
 
 元素周期表的可视化展示，这个做得好的一点会把元素的照片也展示出来，看看稀有元素长什么样子，化学爱好者应该会很喜欢。
 
+#### CSS 的空格处理
+
+[链接](http://www.ruanyifeng.com/blog/2018/07/white-space.html)
+
+html 元素的前后空格会被删除
+
 ## 日记
 
 #### Sun Nov 12, 2023
