@@ -138,7 +138,7 @@ Failed to set default program for .html
 
    5. 重启系统即可
 
-2. 重启系统后，打开终端，输入以下命令，打开文件
+2. 重启系统后，打开终端，输入以下命令，打开文件(需要使用 `XCode` 或者 `PlistEdit Pro` 打开)
 
    >```bash
    >sudo open ~/Library/Preferences/com.apple.HIToolbox.plist
