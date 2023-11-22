@@ -10,8 +10,27 @@ category: [Weekly]
 
 
 
-{{< article title="测试" tags="hugo Rime" author="作者名" link="https://www.baidu.com" rate="4" >}}
-笔记测试
+{{< article title="腾讯实战！如何构建科学有效的色彩系统（应用篇）" tags="Design" author="ISUX" link="https://isux.tencent.com/articles/tencentdocs-colors-2.html" rate="4" >}}
+<img src="https://image.uisdc.com/wp-content/uploads/2021/10/uisdc-tx-20211026-8.jpg" alt="腾讯实战！如何构建科学有效的色彩系统（应用篇）" style="zoom: 25%;" />
+
+*腾讯文档调色板命名图表  
+
+腾讯文档的界面中，灰色系列占主导地位，起着至关重要的作用，为产品界面创造结构、表达边界、建立信息层次。在调色板中，我们选择了两种灰色：中性灰色和蓝灰色，来支撑系统的设计。蓝色系列是腾讯文档产品和体验的主要动作颜色。
+
+![Color System Tencent](/Users/huyixi/Desktop/Color%20System%20Tencent.png)
+
+使用了其他颜色以满足一些冲突性任务（警示等）的颜色使用，这些颜色需要谨慎、有目的地使用。  
+
+![Color System Tencent](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/Color%20System%20Tencent%20(1)..png)
+
+生成了一个面向内部、外部的颜色变量表，进行颜色变量的说明和信息的同步，沉淀落到实处的资料文档。
+
+![Color System Tencent (2).](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/Color%20System%20Tencent%20(2)..png)
+
+
+
+
+
 {{< /article >}}
 
 
@@ -19,6 +38,16 @@ category: [Weekly]
 {{< article title="测试2" tags="hugo Rime" author="作者名1" link="https://www.baidu.com" rate="2" >}}
 笔记测试
 {{< /article >}}
+
+
+
+
+
+{{< article title="测试2" tags="hugo Rime" author="作者名1" link="https://www.baidu.com" rate="2" >}}
+笔记测试
+{{< /article >}}
+
+
 
 
 ## 文章
@@ -32,6 +61,14 @@ category: [Weekly]
 ##### [Apple 配色](https://developer.apple.com/design/human-interface-guidelines/color#Resources)
 
 ##### [TDesign 配色](https://tdesign.tencent.com/design/color)
+
+##### [腾讯文档-构建科学有效的色彩系统](https://isux.tencent.com/articles/tencentdocs-colors.html)
+
+##### [腾讯实战！如何构建科学有效的色彩系统（应用篇）](https://www.uisdc.com/tencentdocs-colors-2)
+
+<img src="https://image.uisdc.com/wp-content/uploads/2021/10/uisdc-tx-20211026-8.jpg" alt="腾讯实战！如何构建科学有效的色彩系统（应用篇）" style="zoom:50%;" />
+
+
 
 ## 资源
 

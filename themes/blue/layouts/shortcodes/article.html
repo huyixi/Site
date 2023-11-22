@@ -1,19 +1,25 @@
-<div class="article-card">
-  <h3>
-    <a href="{{ .Get "link" }}" target="_blank" rel="noopener noreferrer">{{ .Get "title" }}</a>
+<div class="article-card group mb-4 rounded-xl p-4 shadow-md">
+  <h3 class="group relative inline-block">
+    <a href="{{ .Get "link" }}" target="_blank" rel="noopener noreferrer" class="block">
+      {{ .Get "title" }}
+      <span
+        class="absolute bottom-0 left-0 h-0.5 w-0 bg-sky-600 transition-all duration-300 group-hover:w-full"
+      ></span>
+    </a>
   </h3>
-  <p class="author">作者:</p>
+
+  <p class="author">{{ .Get "author" }}</p>
   <p class="tags">
     {{ range (split (.Get "tags") " ") }}
       {{ $tagColor := index $.Site.Data.tags . }}
-      <span class="tag" style="background-color: {{ $tagColor }}">{{ . }}</span>
+      <span class="tag " style="background-color: {{ $tagColor }}">{{ . }}</span>
     {{ end }}
   </p>
-  <div class="rating">
+  <p class="rating">
     {{ $rate := .Get "rate" }}
     {{ range seq 5 }}
       <span class="star {{ if le . $rate }}filled{{ end }}"></span>
     {{ end }}
-  </div>
+  </p>
   <div class="note">{{ .Inner | markdownify }}</div>
 </div>

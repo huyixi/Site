@@ -110,19 +110,24 @@
   transform-origin: top;
 }
 
+.article-card h3 {
+  margin: 0;
+}
+.article-card p {
+  margin: 0;
+}
+
 .star {
   display: inline-block;
-  font-size: 20px;
+  font-size: 16px;
   color: transparent;
   position: relative;
 }
 .star::before {
   content: "☆";
-  width: 100%;
-  height: 100%;
   color: gray;
 }
 .star.filled::before {
   content: "★";
-  color: gold;
+  color: black;
 }/*# sourceMappingURL=custom.css.map */
