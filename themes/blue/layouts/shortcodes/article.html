@@ -1,7 +1,9 @@
 <div class="article">
-  <h3>{{ .Get "title" }}</h3>
-  <p class="tag">标签:</p>
+  <h3>
+    <a href="{{ .Get "link" }}" target="_blank" rel="noopener noreferrer">{{ .Get "title" }}</a>
+  </h3>
   <p class="author">作者:</p>
+  <p class="tags"></p>
   <p class="rate">评分:</p>
   <div class="note">{{ .Inner | markdownify }}</div>
 </div>
