@@ -47,8 +47,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.9047d69b1938ed2e36bcbec36dbde9267e25f1ea294343528150b80a600d76c7.css"
-    integrity="sha256-kEfWmxk47S42vL7Dbb3pJn4l8eopQ0NSgVC4CmANdsc="
+    href="/css/main.bundle.min.cf08cb5e5cc1e67f3056dedbf391f7a7e924ed494a4599a68962f3329fb072de.css"
+    integrity="sha256-zwjLXlzB5n8wVt7b85H3p&#43;kk7UlKRZmmiWLzMp&#43;wct4="
   />
   
   
@@ -76,8 +76,8 @@
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.41d812e335b60dcbed6fcb81adc431ba537ed19e6fb5608e62fe82342743018d.js"
-      integrity="sha256-QdgS4zW2Dcvtb8uBrcQxulN&#43;0Z5vtWCOYv6CNCdDAY0="
+      src="/js/main.bundle.min.db5e3f3816601e22829a7cff0ada69d07033a5edf3fb62f8e759e3c8be0218f8.js"
+      integrity="sha256-214/OBZgHiKCmnz/Ctpp0HAzpe3z&#43;2L451njyL4CGPg="
       data-copy="复制"
       data-copied="已复制"
     ></script>
@@ -100,7 +100,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://huyixi.com/zh/posts/element-ui-cheat-sheet/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-09-12T22:15:03+08:00" />
-<meta property="article:modified_time" content="2023-09-12T22:21:08+08:00" />
+<meta property="article:modified_time" content="2023-10-23T00:00:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Element UI Cheat Sheet"/>
@@ -126,12 +126,12 @@
     "dateCreated": "2023-09-12T22:15:03\u002b08:00",
     "datePublished": "2023-09-12T22:15:03\u002b08:00",
     
-    "dateModified": "2023-09-12T22:21:08\u002b08:00",
+    "dateModified": "2023-10-23T00:00:00\u002b00:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "96"
+    "wordCount": "163"
   }]
   </script>
 
@@ -218,7 +218,7 @@
 
           <a
             href="/zh/projects/"
-            title="Project!"
+            title="Project"
             
           >
             
@@ -252,7 +252,7 @@
 
           <a
             href="/zh/like/"
-            title="Like!"
+            title="Like"
             
           >
             
@@ -493,6 +493,36 @@
 </span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">custom-dropdown</span> <span class="p">::</span><span class="nd">-webkit-scrollbar-track-piece</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="k">background-color</span><span class="p">:</span> <span class="mh">#fff</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="el-cascader-绑定多数据" class="relative group">el-cascader 绑定多数据 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#el-cascader-%e7%bb%91%e5%ae%9a%e5%a4%9a%e6%95%b0%e6%8d%ae" aria-label="锚点">#</a></span></h3>
+<p>Cascader 只能绑定一个 value，但是工作中常常遇到几个值绑定在一起，需要同时获取到这几个值的数据。比如一个地区的多重嵌套数据，要获取到地区名，地区编码，地区级别。目前的解决方案是再写一个查询的函数。</p>
+<p>多层嵌套数据 Options 的提取：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">convertToCascaderOptions</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">data</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">item</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">option</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">value</span><span class="o">:</span> <span class="nx">item</span><span class="p">.</span><span class="nx">id</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">label</span><span class="o">:</span> <span class="nx">item</span><span class="p">.</span><span class="nx">name</span>
+</span></span><span class="line"><span class="cl">    <span class="p">};</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nx">item</span><span class="p">.</span><span class="nx">children</span> <span class="o">&amp;&amp;</span> <span class="nx">item</span><span class="p">.</span><span class="nx">children</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">option</span><span class="p">.</span><span class="nx">children</span> <span class="o">=</span> <span class="nx">convertToCascaderOptions</span><span class="p">(</span><span class="nx">item</span><span class="p">.</span><span class="nx">children</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nx">option</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">});</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>查询函数：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">getObjByValue</span><span class="p">(</span><span class="nx">targetKey</span><span class="p">,</span><span class="nx">targetValue</span><span class="p">,</span><span class="nx">children</span><span class="p">,</span><span class="nx">nestedArray</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">  <span class="k">for</span><span class="p">(</span><span class="kd">let</span> <span class="nx">item</span> <span class="k">of</span> <span class="nx">nestedArray</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="nx">item</span><span class="p">[</span><span class="nx">targetKey</span><span class="p">]</span> <span class="o">===</span> <span class="nx">targetValue</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">      <span class="k">return</span> <span class="nx">item</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="nx">item</span><span class="p">[</span><span class="nx">children</span><span class="p">]){</span>
+</span></span><span class="line"><span class="cl">      <span class="kr">const</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">getObjByValue</span><span class="p">(</span><span class="nx">targetKey</span><span class="p">,</span><span class="nx">targetValue</span><span class="p">,</span><span class="nx">children</span><span class="p">,</span><span class="nx">item</span><span class="p">[</span><span class="nx">children</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">      <span class="k">if</span><span class="p">(</span><span class="nx">result</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">      <span class="k">return</span> <span class="nx">result</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="kc">null</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div>
       </div>
     </section>
@@ -500,7 +530,7 @@
 <p class="text-right text-sm text-gray-400">
   
     更新于:
-    2023 年 9 月 12 日
+    2023 年 10 月 23 日
   
 </p>
 
@@ -545,7 +575,8 @@
 
 <div
   id="toc-bot"
-  class="toc text-black-600 max-w-1/2 fixed bottom-6 left-1/2 z-20 flex -translate-x-1/2 transform items-center justify-center overflow-hidden whitespace-nowrap rounded-xl bg-gray-200 px-2 py-1 text-sm opacity-60 transition-all duration-300  ease-in-out hover:opacity-100  dark:bg-zinc-800 dark:text-white  sm:ml-8"
+  class="toc min-w-60 dark:shadow-[0_0_1px_rgb(232 232 237/11%)] dark:bg-[rgb(66 66 69/70%)] min-w-xs fixed bottom-6 left-1/2 z-20 flex max-w-1/2 -translate-x-1/2 transform cursor-pointer  items-center  justify-center overflow-hidden
+  whitespace-nowrap rounded-3xl bg-igrey  px-2.5 py-2 text-sm font-semibold text-iblack transition-all duration-300 ease-in-out dark:bg-toc-bot-dark  dark:text-white sm:ml-8"
   style="text-overflow: ellipsis;"
 ></div>
 
@@ -567,7 +598,7 @@
       <div class="pt-3">
         <div class="py-7">
   <p class="pb-2 pl-1 text-sm">随便看看</p>
-  <a class="group flex" href="/zh/like/brew/">
+  <a class="group flex" href="/zh/like/unread/">
 
     
 
@@ -582,10 +613,10 @@
       
         
           <picture>
-            <source srcset="/zh/like/brew/thumb.jpg" type="image/webp" />
-            <source srcset="/zh/like/brew/thumb.jpg" type="image/jpeg" />
+            <source srcset="/zh/like/unread/thumb.png" type="image/webp" />
+            <source srcset="/zh/like/unread/thumb.png" type="image/jpeg" />
             <img
-              src="/zh/like/brew/thumb.jpg"
+              src="/zh/like/unread/thumb.png"
               alt=""
               
                 loading="lazy"
@@ -599,15 +630,15 @@
     <div class="ml-4 flex flex-col">
       <div class="text-sm text-neutral-500 dark:text-neutral-400">
         
-          Software
+          Book
         
       </div>
       <h3 class="mt-[0.1rem] text-xl font-medium leading-6 group-hover:text-blue-500">
-        枫言枫语
+        📖待读清单
       </h3>
       <div class="mt-[0.1rem] text-base text-neutral-500 dark:text-neutral-400">
         
-          <time datetime="2023-08-26 02:46:41 &#43;0800 CST">2023 年 08 月 26 日</time>
+          <time datetime="2023-09-04 20:19:52 &#43;0800 CST">2023 年 09 月 04 日</time>
         
       </div>
     </div>

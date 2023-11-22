@@ -48,8 +48,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.9047d69b1938ed2e36bcbec36dbde9267e25f1ea294343528150b80a600d76c7.css"
-    integrity="sha256-kEfWmxk47S42vL7Dbb3pJn4l8eopQ0NSgVC4CmANdsc="
+    href="/css/main.bundle.min.cf08cb5e5cc1e67f3056dedbf391f7a7e924ed494a4599a68962f3329fb072de.css"
+    integrity="sha256-zwjLXlzB5n8wVt7b85H3p&#43;kk7UlKRZmmiWLzMp&#43;wct4="
   />
   
   
@@ -77,8 +77,8 @@
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.41d812e335b60dcbed6fcb81adc431ba537ed19e6fb5608e62fe82342743018d.js"
-      integrity="sha256-QdgS4zW2Dcvtb8uBrcQxulN&#43;0Z5vtWCOYv6CNCdDAY0="
+      src="/js/main.bundle.min.db5e3f3816601e22829a7cff0ada69d07033a5edf3fb62f8e759e3c8be0218f8.js"
+      integrity="sha256-214/OBZgHiKCmnz/Ctpp0HAzpe3z&#43;2L451njyL4CGPg="
       data-copy="复制"
       data-copied="已复制"
     ></script>
@@ -188,7 +188,7 @@
 
           <a
             href="/zh/projects/"
-            title="Project!"
+            title="Project"
             
           >
             
@@ -222,7 +222,7 @@
 
           <a
             href="/zh/like/"
-            title="Like!"
+            title="Like"
             
           >
             
@@ -379,60 +379,140 @@
 </aside>
 
     
-  <div class="like mx-6 mt-4 h-screen snap-y overflow-auto bg-white  sm:ml-16 sm:mr-0 sm:mt-0">
-    
-    <div
-  class="relative flex min-h-screen items-center justify-center bg-gradient-to-tl from-red-500 via-purple-500 to-blue-500"
->
-  
-  <div
-    class="absolute left-0 top-0 h-full w-full -translate-y-1/4 translate-x-1/4 transform rounded-full bg-gradient-to-r from-red-500 to-purple-500"
-  ></div>
-  <div
-    class="absolute left-0 top-0 h-full w-full -translate-x-1/4 translate-y-1/4 transform rounded-full bg-gradient-to-r from-blue-500 to-pink-500"
-  ></div>
-
-  <div
-    class="card relative z-10 m-16 mx-auto flex w-full max-w-xl transform flex-wrap items-center justify-center rounded-2xl bg-white bg-opacity-25 shadow-2xl transition-transform "
-  >
-    
-    <div class="grid w-full grid-cols-2 grid-rows-2 p-6">
-      <div class="card__avatar h-16 w-16 overflow-hidden rounded-full border border-black">
-        <img src="/avatar600.png" alt="Avatar" class="h-full w-full border-black" />
-      </div>
-      <div class="card__name text-grey-200 col-start-1 row-start-2 pt-8 text-xl">
-        胡一希
-      </div>
-      <div class="card__contact col-start-2 row-start-2 justify-self-end pr-16 pt-8">
-        
-
-
-
-
-
-  
-<span
-    class="icon 
-      text-gray-500
-      relative inline-block transform px-1 align-text-bottom duration-200"
-  ><svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 512 512"><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l217.6 163.2c11.4 8.5 27 8.5 38.4 0l217.6-163.2c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176v208c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V176L294.4 339.2a63.9 63.9 0 0 1-76.8 0L0 176z"/></svg></span>
-        
-
-
-
-
-
-  
-<span
-    class="icon 
-      text-gray-500
-      relative inline-block transform px-1 align-text-bottom duration-200"
-  ><svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 24 24"><path fill="currentColor" d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m2.5 12A1.5 1.5 0 0 0 6 16.5A1.5 1.5 0 0 0 7.5 18A1.5 1.5 0 0 0 9 16.5A1.5 1.5 0 0 0 7.5 15M6 10v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8m0-4v2a10 10 0 0 1 10 10h2A12 12 0 0 0 6 6Z"/></svg></span>
+  <div class=" mt-4 h-screen max-w-7xl  bg-blue-500 p-4 sm:ml-16 sm:mr-0 sm:mt-0 ">
+    <div class="main-content mx-auto">
+      <div class="avatar"></div>
+      <div class="card-container grid grid-cols-2 gap-6 bg-slate-500">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="800"
+          class="xs:p-4.5 min-h-25 sm:min-h-37 dark:bg-true-gray-900 aos-init aos-animate flex rotate-0 transform flex-col justify-between overflow-hidden rounded-3xl bg-white bg-gradient-to-br from-[#ffa0a8] to-[#fffcdc] p-4 text-white sm:p-6 md:p-8"
+          data-immersive-translate-effect="1"
+          data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+        >
+          <div
+            class="xs:text-lg text-xs font-semibold md:text-xl"
+            data-immersive-translate-effect="1"
+            data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+          >
+            Hey there
+          </div>
+          <div
+            class="xs:text-2xl whitespace-nowrap text-lg font-semibold sm:text-3xl md:text-4xl"
+            data-immersive-translate-effect="1"
+            data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+          >
+            I'm huyixi 👋
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="200"
+          class="xs:p-4.5 min-h-25 sm:min-h-37 dark:bg-true-gray-900 aos-init aos-animate row-span-2 flex rotate-0 transform flex-col justify-between overflow-hidden rounded-3xl bg-white bg-gradient-to-br from-green-400 to-blue-500 p-4 text-white sm:p-6 md:p-8"
+          data-immersive-translate-effect="1"
+          data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+        >
+          <p
+            class="xs:text-lg text-xs font-semibold md:text-xl"
+            data-immersive-translate-effect="1"
+            data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+          >
+            Intersted in
+          </p>
+          <div
+            class="text-center"
+            data-immersive-translate-effect="1"
+            data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+          >
+            <p
+              class="xs:text-xl text-sm font-semibold sm:text-2xl md:text-3xl"
+              data-immersive-translate-effect="1"
+              data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+            >
+              Web &amp; Mobile Development, Machine Learning
+            </p>
+          </div>
+          <p
+            class="text-true-gray-100 text-center text-xs sm:text-sm"
+            data-immersive-translate-effect="1"
+            data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+          >
+            ... and any other interesting or challenging technology
+          </p>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="800"
+          class="xs:p-4.5 min-h-25 sm:min-h-37 dark:bg-true-gray-900 aos-init aos-animate flex rotate-0 transform flex-col justify-between overflow-hidden rounded-3xl bg-white p-4 sm:p-6 md:p-8"
+          data-immersive-translate-effect="1"
+          data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+        >
+          <p
+            class="xs:text-lg text-xs font-semibold md:text-xl"
+            data-immersive-translate-effect="1"
+            data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+          >
+            I'm a
+          </p>
+          <div
+            class="xs:text-xl text-sm font-semibold sm:text-2xl md:text-3xl lg:text-4xl"
+            data-immersive-translate-effect="1"
+            data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+          >
+            <div
+              data-immersive-translate-effect="1"
+              data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+            >
+              <span
+                class="mr-2 inline-block bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent"
+                data-immersive-translate-effect="1"
+                data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+                >Developer</span
+              ><span
+                class="inline-block bg-gradient-to-r from-purple-400 to-indigo-500 bg-clip-text text-transparent"
+                data-immersive-translate-effect="1"
+                data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+                >Designer</span
+              >
+            </div>
+            <div
+              data-immersive-translate-effect="1"
+              data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+            >
+              <span
+                class="mr-2 inline-block bg-gradient-to-r from-red-400 to-yellow-500 bg-clip-text text-transparent"
+                data-immersive-translate-effect="1"
+                data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+                >Gamer</span
+              ><span
+                class="from-true-gray-400 mr-2 inline-block bg-gradient-to-r to-gray-500 bg-clip-text text-transparent"
+                data-immersive-translate-effect="1"
+                data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+                >Writer</span
+              ><span
+                class="xs:text-sm inline-block text-xs text-red-500 line-through "
+                data-immersive-translate-effect="1"
+                data-immersive_translate_walked="33416e36-a6c2-461f-bc5e-90c3e40d3ae0"
+                >Musician</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card interested row-span-1 bg-red-300">3</div>
+        <div class="card skills"></div>
+        <div class="card careers"></div>
+        <div class="card personalities"></div>
+        <div class="card photo"></div>
+        <div class="card maxim"></div>
+        <div class="card buff"></div>
+        <div class="card like-music"></div>
+        <div class="card like-tech"></div>
+        <div class="card location"></div>
+        <div class="card self-info"></div>
+        <div class="card find-me"></div>
       </div>
     </div>
-  </div>
-</div>
-
   </div>
 
     <div id="search-wrapper"
