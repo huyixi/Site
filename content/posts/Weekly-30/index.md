@@ -23,6 +23,6 @@ Crawl a site to generate knowledge files to create your own custom GPT from a UR
 <img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231121224104444.png" alt="image-20231121224104444" style="zoom:25%;" />
 
 
-{{< article title="测试" tag="标签名" author="作者名" link="https://www.baidu.com" rate="4" >}}
+{{< article title="测试" tags="hugo Rime" author="作者名" link="https://www.baidu.com" rate="4" >}}
 笔记测试
 {{< /article >}}
