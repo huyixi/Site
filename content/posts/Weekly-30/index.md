@@ -16,11 +16,22 @@ category: [Weekly]
 
 
 
+{{< article title="测试2" tags="hugo Rime" author="作者名1" link="https://www.baidu.com" rate="2" >}}
+笔记测试
+{{< /article >}}
+
+
 ## 文章
 
 ##### [自由输入法 RIME 简明配置指南](https://sspai.com/post/84373)
 
-[ChatGPT 打字机显示效果的背后：Server-sent Events 介绍](https://einverne.github.io/post/2023/04/behind-chatgpt-server-sent-events.html)
+##### [ChatGPT 打字机显示效果的背后：Server-sent Events 介绍](https://einverne.github.io/post/2023/04/behind-chatgpt-server-sent-events.html)
+
+##### [ISUX 设计效率工具趋势 ｜ 综述篇](https://isux.tencent.com/articles/design-tool.html)
+
+##### [Apple 配色](https://developer.apple.com/design/human-interface-guidelines/color#Resources)
+
+##### [TDesign 配色](https://tdesign.tencent.com/design/color)
 
 ## 资源
 
@@ -44,8 +55,15 @@ Crawl a site to generate knowledge files to create your own custom GPT from a UR
 ##### 云谦
 
 - 🍑 公众号：「云谦和他的朋友们」
-
 - 🌍 知识星球：「[云谦的前端日更星球](https://zsxq.sorrycc.com/)」
+
+
+
+##### Panda｜ 全而美的设计订阅平台
+
+Panda帮助设计师不错过每天的设计灵感和资讯，包括新的设计方法理念、流行潮流、也有一些新产品推出。我们可以把Panda替换Chrome主页，每次打开浏览器页面都可以随时看到最新的设计资讯。一些英文的订阅也可以用chrome浏览器的翻译功能可以粗略查看。
+
+地址：https://app.usepanda.com/# 
 
 ## 言论
 

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .book::after, .book::before, .book > a > picture > img, .book {
   border-top-left-radius: 1px;
   border-top-right-radius: 8px;
@@ -107,4 +108,21 @@
 .banner {
   transition: transform 0.5s;
   transform-origin: top;
+}
+
+.star {
+  display: inline-block;
+  font-size: 20px;
+  color: transparent;
+  position: relative;
+}
+.star::before {
+  content: "☆";
+  width: 100%;
+  height: 100%;
+  color: gray;
+}
+.star.filled::before {
+  content: "★";
+  color: gold;
 }/*# sourceMappingURL=custom.css.map */

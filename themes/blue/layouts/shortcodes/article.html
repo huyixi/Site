@@ -1,4 +1,4 @@
-<div class="article">
+<div class="article-card">
   <h3>
     <a href="{{ .Get "link" }}" target="_blank" rel="noopener noreferrer">{{ .Get "title" }}</a>
   </h3>
@@ -9,6 +9,11 @@
       <span class="tag" style="background-color: {{ $tagColor }}">{{ . }}</span>
     {{ end }}
   </p>
-  <p class="rate">评分:</p>
+  <div class="rating">
+    {{ $rate := .Get "rate" }}
+    {{ range seq 5 }}
+      <span class="star {{ if le . $rate }}filled{{ end }}"></span>
+    {{ end }}
+  </div>
   <div class="note">{{ .Inner | markdownify }}</div>
 </div>
