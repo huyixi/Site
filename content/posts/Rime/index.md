@@ -2,7 +2,7 @@
 title: "Rime"
 subtitle: ""
 date: 2023-11-22T12:02:26+08:00
-lastmod: 2023-11-22T12:02:26+08:00
+lastmod: 2023-11-23
 draft: false
 tags: []
 category: [Blog]
