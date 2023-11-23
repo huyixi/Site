@@ -35,8 +35,20 @@ category: [Weekly]
 
 
 
-{{< article title="测试1" tags="hugo Rime" author="作者名1" link="https://www.baidu.com" rate="2" >}}
-笔记测试
+{{< article title="看这些书，等于看我100个视频" tags="Design Book" author="oooooohmygosh" link="https://www.bilibili.com/video/BV1yQ4y1n7Tp/?vd_source=e7b677bc31fcf107b6c6689167aae9d9" rate="2" >}}
+推荐的几本书：
+
+- 《西文字体设计方法》
+- 《平面设计中的网格系统》
+- 《欧文排版细部法则》
+- 《孔雀计划:重建中文排版的思路》：[在线阅读](https://www.thetype.com/kongque/)
+
+评论区中的一些推荐：
+
+- [TheType 相关书单](https://www.thetype.com/booklist/)
+
+
+
 {{< /article >}}
 
 
