@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
       (window.location.pathname === "/zh/" || window.location.pathname === "/en/") &&
       !localStorage.getItem("bannerDisplayed")
     ) {
-      showBanner(); // Show the banner based on pathname condition
+      showBanner();
     }
   }, 500);
 
@@ -160,16 +160,12 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 window.onload = function () {
-  // if images are not loaded, show banner
-  // Select all images on the page
   var images = document.querySelectorAll("img");
 
-  // Add an error event listener to each image
   images.forEach(function (img) {
     img.addEventListener("error", function () {
       console.log("Failed to load image:", img.src);
       showBanner();
     });
   });
-  console.log("所有资源都已加载完成");
 };

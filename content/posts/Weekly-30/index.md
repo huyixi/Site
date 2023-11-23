@@ -35,7 +35,7 @@ category: [Weekly]
 
 
 
-{{< article title="测试2" tags="hugo Rime" author="作者名1" link="https://www.baidu.com" rate="2" >}}
+{{< article title="测试1" tags="hugo Rime" author="作者名1" link="https://www.baidu.com" rate="2" >}}
 笔记测试
 {{< /article >}}
 
