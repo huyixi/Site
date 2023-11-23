@@ -1,9 +1,7 @@
 {{ $folderName := path.Base (path.Dir .Page.File.Path) }}
-<div
-  id="{{ $folderName }}-{{ .Get "title" | urlize }}"
-  class="article-card group relative my-2   hover:bg-gray-100"
->
-  <h3 class=" relative inline-block">
+{{ $articleId := printf "%s-%s" $folderName (.Get "title" | urlize) }}
+<div id="{{ $articleId }}" class="article-card group relative my-2   hover:bg-gray-100">
+  <h3 class="relative inline-block">
     <a href="{{ .Get "link" }}" target="_blank" rel="noopener noreferrer" class="block">
       {{ .Get "title" }}
       <span
