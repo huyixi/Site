@@ -30,12 +30,12 @@
           </h2>
           <hr class="w-36 border-dotted border-neutral-400" />
           {{ range .Pages }}
-            {{ partial "article-link.html" . }}
+            {{ partial "post-link.html" . }}
           {{ end }}
         {{ end }}
       {{ else }}
         {{ range (.Paginate .Pages).Pages }}
-          {{ partial "article-link.html" . }}
+          {{ partial "post-link.html" . }}
         {{ end }}
       {{ end }}
     </section>
