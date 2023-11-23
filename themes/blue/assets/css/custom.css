@@ -116,18 +116,17 @@
 .article-card p {
   margin: 0;
 }
-
-.star {
+.article-card .star {
   display: inline-block;
   font-size: 16px;
   color: transparent;
   position: relative;
 }
-.star::before {
+.article-card .star::before {
   content: "☆";
   color: gray;
 }
-.star.filled::before {
+.article-card .star.filled::before {
   content: "★";
-  color: black;
+  color: gold;
 }/*# sourceMappingURL=custom.css.map */

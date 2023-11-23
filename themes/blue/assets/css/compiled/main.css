@@ -1450,6 +1450,10 @@ video {
   width: 50%;
 }
 
+.w-5\/6 {
+  width: 83.333333%;
+}
+
 .min-w-0 {
   min-width: 0px;
 }
@@ -1883,6 +1887,10 @@ video {
 
 .p-8 {
   padding: 2rem;
+}
+
+.p-0\.5 {
+  padding: 0.125rem;
 }
 
 .px-0 {

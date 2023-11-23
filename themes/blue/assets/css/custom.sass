@@ -111,7 +111,7 @@ $book-border: 1px solid $book-color-border
     transition: transform 0.5s
     transform-origin: top
 
-// 文章评分星星
+// 博客中文章样式
 
 .article-card
   h3
@@ -119,16 +119,16 @@ $book-border: 1px solid $book-color-border
   p
     margin: 0
 
-.star
-  display: inline-block
-  font-size: 16px
-  color: transparent
-  position: relative
+  .star
+    display: inline-block
+    font-size: 16px
+    color: transparent
+    position: relative
 
-  &::before
-    content: "☆" // 空心星星
-    color: gray
+    &::before
+      content: "☆" // 空心星星
+      color: gray
 
-  &.filled::before
-    content: "★" // 实心星星
-    color: black
+    &.filled::before
+      content: "★" // 实心星星
+      color: gold

@@ -1,5 +1,5 @@
-<div class="article-card group rounded-xl  p-4 hover:bg-gray-100">
-  <h3 class="group relative inline-block">
+<div class="article-card group relative my-2   hover:bg-gray-100">
+  <h3 class=" relative inline-block">
     <a href="{{ .Get "link" }}" target="_blank" rel="noopener noreferrer" class="block">
       {{ .Get "title" }}
       <span
@@ -8,19 +8,26 @@
     </a>
   </h3>
 
+  <div class="note">{{ .Inner | markdownify }}</div>
+
   <p class="author">{{ .Get "author" }}</p>
-  <p class="tags">
-    {{ range (split (.Get "tags") " ") }}
-      {{ $tagColor := index $.Site.Data.tags . }}
-      <span class="tag " style="background-color: {{ $tagColor }}">{{ . }}</span>
-    {{ end }}
-  </p>
+
   <p class="rating">
     {{ $rate := .Get "rate" }}
     {{ range seq 5 }}
       <span class="star {{ if le . $rate }}filled{{ end }}"></span>
     {{ end }}
   </p>
-  <div class="note">{{ .Inner | markdownify }}</div>
-  <div class="short-border h-px w-1/2 bg-black"></div>
+
+  <p class="tags">
+    {{ range (split (.Get "tags") " ") }}
+      {{ $tagColor := index $.Site.Data.tags . }}
+      <span class="tag  rounded p-0.5 text-white" style="background-color: {{ $tagColor }}"
+        >{{ . }}</span
+      >
+    {{ end }}
+  </p>
 </div>
+
+{{/* 分割线 */}}
+<div class="short-border mx-auto h-px w-full bg-gray-100"></div>
