@@ -1286,6 +1286,10 @@ video {
   margin-top: 0.1rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .block {
   display: block;
 }

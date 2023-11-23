@@ -13,16 +13,16 @@
 
   <div class="note">{{ .Inner | markdownify }}</div>
 
-  <p class="author">{{ .Get "author" }}</p>
+  <p class="author text-right">{{ .Get "author" }}</p>
 
-  <p class="rating">
+  <p class="rating text-right">
     {{ $rate := .Get "rate" }}
     {{ range seq 5 }}
       <span class="star {{ if le . $rate }}filled{{ end }}"></span>
     {{ end }}
   </p>
 
-  <p class="tags">
+  <p class="tags text-right">
     {{ range (split (.Get "tags") " ") }}
       {{ $tagColor := index $.Site.Data.tags . }}
       <span
