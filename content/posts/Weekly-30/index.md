@@ -106,7 +106,7 @@ category: [Weekly]
 
 
 
-{{< read title="" kws="" author="槿呈" link="https://justgoidea.com/posts/2023-063/" rate="3" >}}
+{{< read title="2023 年值得持续阅读的内容平台" kws="" author="槿呈" link="https://justgoidea.com/posts/2023-063/" rate="3" >}}
 
 推荐的质量很高，也有很多我正在关注的但是没有很用心去阅读的。以后会稍加留意。
 
