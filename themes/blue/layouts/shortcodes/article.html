@@ -22,14 +22,11 @@
     {{ end }}
   </p>
 
-  <p class="tags text-right">
-    {{ range (split (.Get "tags") " ") }}
-      {{ $tagColor := index $.Site.Data.tags . }}
-      <span
-        class="tag rounded bg-red-500 p-0.5 text-white"
-        style="background-color: {{ $tagColor }}"
-        >{{ . }}</span
-      >
+  {{/* "kw" is an abbreviation for "keyword." */}}
+  <p class="kws text-right">
+    {{ range (split (.Get "kws") " ") }}
+      {{ $kwColor := index $.Site.Data.kws . }}
+      <span class="kw rounded-md bg-blue-300 px-1 py-0.5 text-white">{{ . }}</span>
     {{ end }}
   </p>
   {{ if ne (.Get "link") "" }}

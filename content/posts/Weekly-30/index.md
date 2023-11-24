@@ -10,7 +10,7 @@ category: [Weekly]
 
 
 
-{{< article title="腾讯实战！如何构建科学有效的色彩系统（应用篇）" tags="Design" author="ISUX" link="https://isux.tencent.com/articles/tencentdocs-colors-2.html" rate="4" >}}
+{{< article title="腾讯实战！如何构建科学有效的色彩系统（应用篇）" kws="Design" author="ISUX" link="https://isux.tencent.com/articles/tencentdocs-colors-2.html" rate="4" >}}
 <img src="https://image.uisdc.com/wp-content/uploads/2021/10/uisdc-tx-20211026-8.jpg" alt="腾讯实战！如何构建科学有效的色彩系统（应用篇）" style="zoom: 25%;" />
 
 *腾讯文档调色板命名图表  
@@ -35,7 +35,7 @@ category: [Weekly]
 
 
 
-{{< article title="看这些书，等于看我100个视频" tags="Design Book" author="oooooohmygosh" link="https://www.bilibili.com/video/BV1yQ4y1n7Tp/?vd_source=e7b677bc31fcf107b6c6689167aae9d9" rate="2" >}}
+{{< article title="看这些书，等于看我100个视频" kws="Design Book" author="oooooohmygosh" link="https://www.bilibili.com/video/BV1yQ4y1n7Tp/?vd_source=e7b677bc31fcf107b6c6689167aae9d9" rate="2" >}}
 推荐的几本书：
 
 - 《西文字体设计方法》
@@ -55,7 +55,7 @@ category: [Weekly]
 
 
 
-{{< article title="How to Read a Paper" tags="" author="S. Keshav" link="https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf" rate="3" >}}
+{{< article title="How to Read a Paper" kws="Read" author="S. Keshav" link="https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf" rate="3" >}}
 
 推荐先阅读原文，因为文章较短。
 
