@@ -1,7 +1,7 @@
 {{ $folderName := path.Base (path.Dir .Page.File.Path) }}
 {{ $articleId := printf "%s-%s" $folderName (.Get "title" | urlize) }}
 {{ $titleId := printf "%s" (.Get "title" | urlize) }}
-<div id="{{ $articleId }}" class="article-card group relative my-2   hover:bg-gray-100">
+<div id="{{ $articleId }}" class="article-card group relative my-4 border-b pb-4">
   <h3 id="{{ $titleId }}" class="relative inline-block">
     <a href="{{ .Get "link" }}" target="_blank" rel="noopener noreferrer" class="block">
       {{ .Get "title" }}
@@ -26,7 +26,7 @@
     {{ range (split (.Get "tags") " ") }}
       {{ $tagColor := index $.Site.Data.tags . }}
       <span
-        class="tag  rounded bg-red-500 p-0.5 text-white"
+        class="tag rounded bg-red-500 p-0.5 text-white"
         style="background-color: {{ $tagColor }}"
         >{{ . }}</span
       >
@@ -35,4 +35,4 @@
 </div>
 
 {{/* 分割线 */}}
-<div class="short-border mx-auto h-px w-full bg-gray-100"></div>
+{{/* <div class="short-border my-2 h-px w-full bg-gray-100"></div> */}}
