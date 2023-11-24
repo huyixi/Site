@@ -135,8 +135,6 @@ category: [Weekly]
 
 ##### [腾讯实战！如何构建科学有效的色彩系统（应用篇）](https://www.uisdc.com/tencentdocs-colors-2)
 
-
-
 ## 资源
 
 ##### [gpt-crawler](https://github.com/BuilderIO/gpt-crawler)
@@ -178,6 +176,11 @@ Panda帮助设计师不错过每天的设计灵感和资讯，包括新的设计
 ##### [V2Board](https://v2board.com/)
 
 大部分机场使用的面板，占有率有 80%
+
+##### [Twitter 上关于优衣库平替的讨论](https://x.com/xxm459259/status/1727181576113717427?s=61)
+
+- 袜子：1688 深圳市起创服饰有限公司
+- T裇：1688 宁波叁言服饰有限公司
 
 ## 言论
 
