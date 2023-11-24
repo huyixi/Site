@@ -11,24 +11,25 @@
     </a>
   </h3>
 
-  <div class="note">{{ .Inner | markdownify }}</div>
+  <p class="author ">{{ .Get "author" }}</p>
 
-  <p class="author text-right">{{ .Get "author" }}</p>
+  {{/* "kw" is an abbreviation for "keyword." */}}
+  <p class="kws ">
+    {{ range (split (.Get "kws") " ") }}
+      {{ $kwColor := index $.Site.Data.kws . }}
+      <span class="kw rounded-md bg-blue-300 px-1 py-0.5 text-white">{{ . }}</span>
+    {{ end }}
+  </p>
 
-  <p class="rating text-right">
+  <p class="rating">
     {{ $rate := .Get "rate" }}
     {{ range seq 5 }}
       <span class="star {{ if le . $rate }}filled{{ end }}"></span>
     {{ end }}
   </p>
 
-  {{/* "kw" is an abbreviation for "keyword." */}}
-  <p class="kws text-right">
-    {{ range (split (.Get "kws") " ") }}
-      {{ $kwColor := index $.Site.Data.kws . }}
-      <span class="kw rounded-md bg-blue-300 px-1 py-0.5 text-white">{{ . }}</span>
-    {{ end }}
-  </p>
+  <div class="note">{{ .Inner | markdownify }}</div>
+
   {{ if ne (.Get "link") "" }}
     <div class="btn-container my-4 flex justify-center">
       <a
