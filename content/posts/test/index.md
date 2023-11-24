@@ -13,7 +13,7 @@ summary: Article shortcodes test
 宇宙是广阔无垠的，充满了无穷的奥秘和可能性...
 {{< /article >}}
 
-{{< article title="美食之旅" tags="旅行 美食" author="李四" link="https://example.com/food-travel" rate="5" >}}
+{{< article title="美食之旅" tags="旅行 美食" author="李四" link="" rate="5" >}}
 让我们踏上一场味觉的旅行，探索世界各地的美食...
 {{< /article >}}
 
