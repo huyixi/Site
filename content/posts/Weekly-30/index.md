@@ -55,11 +55,68 @@ category: [Weekly]
 
 
 
-{{< article title="测试2" tags="hugo Rime" author="作者名1" link="https://www.baidu.com" rate="2" >}}
-笔记测试
+{{< article title="How to Read a Paper" tags="" author="S. Keshav" link="https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf" rate="3" >}}
+
+推荐先阅读原文，因为文章较短。
+
+**阅读一篇论文的三个步骤：**
+
+**第一步：**
+
+1. 仔细阅读**标题**、**摘要**、**介绍**
+2. 阅读每个**章节标题**，但忽略其内容
+3. 阅读**结论**
+4. 浏览参考文献，标记已读的文献
+
+**第一步完成后需要做到这些：**
+
+1. 分类：确定文章的**类型**
+2. 背景：了解其他**相关文献**
+3. 正确性：检查**假设/前提**是否正确
+4. 贡献：理解论文的主要**贡献**
+5. 清晰度：评估论文的**写作清晰度**
+
+**第二步（约1小时）：**
+
+更仔细阅读文章内容，忽略证明等。记录关键要点并发表评论。
+
+1. 注意文章中的**数字**、**插图**和**图表**，并验证其准确性，这可以用来评估文章质量。
+2. 标记相关的**参考资料**，以便进一步了解文章背景。
+
+**第三步：**
+
+为了完全理解论文，需要进行**复现**。
+
+这种严谨的方法可以防止陷入细节。
+
+**一些生词：**
+
+- `rarely taught`: 很少有人教过
+- `Incidentally`: 顺便说
+- `Approach`: 方法
+- `the actual paper`: 实际的论文
+
+**文中推荐的一些资源：**
+
+1. S. Peyton Jones, ["Research Skills"](http://research.microsoft.com/simonpj/Papers/givinga-talk/giving-a-talk.htm).
+2. T. Roscoe, ["Writing Reviews for Systems Conferences"](http://people.inf.ethz.ch/troscoe/pubs/reviewwriting.pdf).
+3. H. Schulzrinne, ["Writing Technical Articles"](http://www.cs.columbia.edu/hgs/etc/writingstyle.html).
+4. G.M. Whitesides, ["Whitesides’ Group: Writing a Paper"](http://www.che.iitm.ac.in/misc/dd/writepaper.pdf).
+5. ACM SIGCOMM Computer Communication Review Online, [SIGCOMM CCR](http://www.sigcomm.org/ccr/drupal/).
+
 {{< /article >}}
 
 
+
+1. 主要事项
+   1. 子事项 1
+   2. 子事项 2
+2. 另一个主要事项
+   1. 子事项 A
+   2. 子事项 B
+      1. 孙子事项 1
+      2. 孙子事项 2
+3. 第三个主要事项
 
 
 ## 文章
