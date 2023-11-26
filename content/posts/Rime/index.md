@@ -16,4 +16,4 @@ summary: 关于 Rime 输入法的配置
 
 
 
-[Go to Example Article](/zh/posts/weekly-30/#Weekly-30-%E6%B5%8B%E8%AF%952)
+[雾淞拼音](https://dvel.me/posts/rime-ice/#%e5%9f%ba%e6%9c%ac%e5%a5%97%e8%b7%af)
