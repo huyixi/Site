@@ -17,3 +17,9 @@ summary: 关于 Rime 输入法的配置
 
 
 [雾淞拼音](https://dvel.me/posts/rime-ice/#%e5%9f%ba%e6%9c%ac%e5%a5%97%e8%b7%af)
+
+
+
+#### 删除自造词
+
+先把選字光標（用上、下鍵）移到要刪除的用戶詞組上，再按下 Shift+Delete 或 Control+Delete（蘋果鍵盤用 Shift+Fn+Delete）。
