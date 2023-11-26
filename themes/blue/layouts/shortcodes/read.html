@@ -19,7 +19,7 @@
     <p class="kws ">
       {{ range (split (.Get "kws") " ") }}
         {{ $kwColor := index $.Site.Data.kws . }}
-        <span class="kw rounded-md bg-blue-300 px-1 py-0.5 text-white">{{ . }}</span>
+        <span class="kw rounded-md bg-blue-500 px-1 py-0.5 text-white">{{ . }}</span>
       {{ end }}
     </p>
   {{ end }}
