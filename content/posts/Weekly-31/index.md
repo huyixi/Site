@@ -8,6 +8,6 @@ tags: []
 category: [Weekly]
 ---
 
-{{read title="ChatGPT深度总结" author="郭郭" link="https://blog.warmplace.cn/post/chatgpt#%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93" rate="0"}}
+{{< read  title="ChatGPT深度总结" author="郭郭" link="https://blog.warmplace.cn/post/chatgpt#%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93" rate="0">}}
 
-{{read}}
+{{< /read >}}
