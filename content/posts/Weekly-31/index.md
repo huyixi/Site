@@ -68,6 +68,12 @@ category: [Weekly]
 
 {{< /read >}}
 
+{{< read  title="垄断的困境" author="评论尸" link="https://mp.weixin.qq.com/s/sFUm9M10C-RPj-SlrffvmA" rate="0">}}
+
+大富翁游戏创造的目的原本是为了让人明白垄断
+
+{{< /read >}}
+
 
 
 ## 资源
