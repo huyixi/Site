@@ -8,6 +8,18 @@ tags: []
 category: [Weekly]
 ---
 
+## 问题
+
+### 关于 OneKey
+
+##### OneKey 是什么？
+
+##### onekey 的作用？
+
+##### 硬件钱包有什么用？
+
+##### 是否还有类似的解决方案？
+
 ## 整理最近跟月车哥的一些交流
 
 #### 填鸭式教育带来的一些坏习惯
@@ -74,13 +86,33 @@ category: [Weekly]
 
 {{< /read >}}
 
+{{< read  title="Tabletops | 有闲来坐：Apple Store 座椅大盘点"  link="https://sspai.com/post/84523" rate="0">}}
 
+Apple 的椅子
+
+{{< /read >}}
 
 ## 资源
 
-##### [驭风笔记](https://www.yufengbiji.com)
+#### [驭风笔记](https://www.yufengbiji.com)
 
 模仿苹果风格的一个网站，可以参考
+
+
+
+#### Radius Master —— 在线内外圆角计算器
+
+链接：https://playground.eddydezuraud.com/craft/radius-master
+
+![2023-11-26-17010103075396](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/2023-11-26-17010103075396.png)
+
+
+
+### Pafolios —— 国外设计作品集收集
+
+链接：https://pafolios.com/
+
+专门收集国外设计师、设计公司作品集的网站。交互设计师设计师、产品设计师、品牌设计师、创意设计师等都有，目前约有 500 个案例。![2023-11-26-17010103075345](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/2023-11-26-17010103075345.png)
 
 ## 日记
 
