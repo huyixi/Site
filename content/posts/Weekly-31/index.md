@@ -114,6 +114,12 @@ Apple 的椅子
 
 专门收集国外设计师、设计公司作品集的网站。交互设计师设计师、产品设计师、品牌设计师、创意设计师等都有，目前约有 500 个案例。![2023-11-26-17010103075345](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/2023-11-26-17010103075345.png)
 
+## 说说
+
+![image-20231127170654159](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231127170654159.png)
+
+来自一个
+
 ## 日记
 
 #### Sun Nov 26 20:51, 2023
