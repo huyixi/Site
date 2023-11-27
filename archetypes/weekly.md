@@ -8,7 +8,7 @@ tags: []
 category: [Weekly]
 ---
 ## 文章
-{{< read  title="" author="" link="" rate="0">}}
+{{<read title="" author="" link="" rate="0">}}{{</read>}}
 ## 资源
 
 ## 日记

@@ -114,26 +114,19 @@ category: [Weekly]
 
 
 
+{{< read title="自由输入法 RIME 简明配置指南" author="" link="https://sspai.com/post/84373" rate="0" >}}{{</ read >}}
 
+{{< read title="ChatGPT 打字机显示效果的背后：Server-sent Events 介绍" author="" link="https://einverne.github.io/post/2023/04/behind-chatgpt-server-sent-events.html" rate="0" >}}{{</ read >}}
 
+{{< read title="ISUX 设计效率工具趋势 ｜ 综述篇" author="" link="https://isux.tencent.com/articles/design-tool.html" rate="2" >}}{{</ read >}}
 
+{{< read title="Apple 配色" author="" link="https://developer.apple.com/design/human-interface-guidelines/color#Resources" rate="0" >}}{{</ read >}}
 
+{{< read title="TDesign 配色" author="" link="https://tdesign.tencent.com/design/color" rate="0" >}}{{</ read >}}
 
-## 文章
+{{< read title="腾讯文档-构建科学有效的色彩系统" author="" link="https://isux.tencent.com/articles/tencentdocs-colors.html" rate="2" >}}{{</ read >}}
 
-##### [自由输入法 RIME 简明配置指南](https://sspai.com/post/84373)
-
-##### [ChatGPT 打字机显示效果的背后：Server-sent Events 介绍](https://einverne.github.io/post/2023/04/behind-chatgpt-server-sent-events.html)
-
-##### [ISUX 设计效率工具趋势 ｜ 综述篇](https://isux.tencent.com/articles/design-tool.html)
-
-##### [Apple 配色](https://developer.apple.com/design/human-interface-guidelines/color#Resources)
-
-##### [TDesign 配色](https://tdesign.tencent.com/design/color)
-
-##### [腾讯文档-构建科学有效的色彩系统](https://isux.tencent.com/articles/tencentdocs-colors.html)
-
-##### [腾讯实战！如何构建科学有效的色彩系统（应用篇）](https://www.uisdc.com/tencentdocs-colors-2)
+{{< read title="腾讯实战！如何构建科学有效的色彩系统（应用篇）" author="" link="https://www.uisdc.com/tencentdocs-colors-2" rate="3" >}}{{</ read >}}
 
 ## 资源
 
