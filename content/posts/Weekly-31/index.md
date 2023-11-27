@@ -2,7 +2,7 @@
 title: "Weekly 31"
 subtitle: "2023.11.26-2023.12.3"
 date: 2023-11-26T19:35:38+08:00
-lastmod: 2023-11-26
+lastmod: 2023-11-27
 draft: false
 tags: []
 category: [Weekly]
