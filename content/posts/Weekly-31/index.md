@@ -1,5 +1,5 @@
 ---
-title: "Weekly 31"
+title: "Weekly 31：天哪，这个世界上怎么会有这么多好玩的东西！"
 subtitle: "2023.11.26-2023.12.3"
 date: 2023-11-26T19:35:38+08:00
 lastmod: 2023-11-27
@@ -7,6 +7,8 @@ draft: false
 tags: []
 category: [Weekly]
 ---
+
+天哪，这个世界怎么会有这么多好玩的东西！根本玩不过来啊！
 
 ## 问题
 
@@ -104,13 +106,13 @@ Apple 的椅子
 
 {{< /read >}}
 
-
-
-{{< read  title=""  link="" rate="0">}}
+{{< read  title="一个极简主义博客的要素"  link="https://yayu.net/3762.html" rate="2">}}
 
 {{< /read >}}
 
+{{< read  title="读和菜头《重开博客》有感"  link="https://lhcy.org/archives/194.html" rate="0">}}
 
+{{< /read >}}
 
 ## 资源
 
@@ -133,6 +135,16 @@ Apple 的椅子
 链接：https://pafolios.com/
 
 专门收集国外设计师、设计公司作品集的网站。交互设计师设计师、产品设计师、品牌设计师、创意设计师等都有，目前约有 500 个案例。![2023-11-26-17010103075345](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/2023-11-26-17010103075345.png)
+
+
+
+#### 金马60最佳剧情片《石门》
+
+湖南人女导演。
+
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/F_ymEkVbgAACJxu.jpeg" alt="img" style="zoom:25%;" />
+
+一个现在还能用的下载链接：https://www.aliyundrive.com/s/8NQqtqQ8T82。尽快下载。
 
 ## 说说
 
