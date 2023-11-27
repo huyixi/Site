@@ -1169,6 +1169,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
 .\!mb-0 {
   margin-bottom: 0px !important;
 }
@@ -3385,6 +3390,10 @@ body button {
 
   .md\:w-2\/5 {
     width: 40%;
+  }
+
+  .md\:w-152 {
+    width: 38rem;
   }
 
   .md\:p-8 {
