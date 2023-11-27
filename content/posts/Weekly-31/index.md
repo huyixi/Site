@@ -114,6 +114,12 @@ Apple 的椅子
 
 {{< /read >}}
 
+{{< read  title="关于良渚玉鸟集「疯狂星期四」的二三事"  link="https://imtx.me/blog/birland-crazy-thursday/" rate="2">}}
+
+狠狠羡慕了，我也想这么玩！
+
+{{< /read >}}
+
 ## 资源
 
 #### [驭风笔记](https://www.yufengbiji.com)
@@ -163,3 +169,13 @@ Apple 的椅子
 Apple 空间音频真的是有点东西。经常戴着耳机然后感觉就像没戴一样。声音好像是从周围环境中自然传入耳朵的。听这张专辑有脚步声，老是回头看以为是身后有人在走动。
 
 ![F_7eODPacAA4vRz](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/F_7eODPacAA4vRz.jpeg)
+
+###### 佐玩激情下单
+
+Tue Nov 28 01:06, 2023
+
+上 twitter 发现 Cali 在打折，赶紧又去激情下单一件
+
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231128010747760.png" alt="image-20231128010747760" style="zoom: 33%;" />
+
+s
