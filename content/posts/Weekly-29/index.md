@@ -1,6 +1,6 @@
 ---
 title: "Weekly 29"
-subtitle: ""
+subtitle: "一些关于 B 端产品设计"
 date: 2023-11-12T23:05:57+08:00
 lastmod: 2023-11-14
 draft: false
