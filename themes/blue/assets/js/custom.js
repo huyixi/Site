@@ -187,5 +187,3 @@ window.addEventListener('scroll', () => {
 });
 
 window.addEventListener('resize', showTopNav);
-
-checkWidthAndHideElement(); 
