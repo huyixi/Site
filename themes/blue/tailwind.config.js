@@ -53,6 +53,10 @@ module.exports = {
         "bg-apple-gray": "#F8F8F8",
         "bg-apple-blue": "#0072E3",
       },
+      backdropFilter: {
+        'saturate180': 'saturate(180%)',
+        'blur20': 'blur(20px)'
+      },
       transitionProperty: {
         "shadow-transform": "box-shadow, transform",
       },

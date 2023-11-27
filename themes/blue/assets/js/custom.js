@@ -1,9 +1,4 @@
 // 全局作用域中的 handleImageError 函数
-function handleImageError(imageElement) {
-  console.error("Image failed to load:", imageElement.src);
-  showBanner();
-}
-
 function showBanner() {
   console.log("showBanner");
   var banner = document.getElementById("tempBanner");
@@ -17,6 +12,21 @@ function showBanner() {
       }, 500);
     }, 3000);
   }
+}
+
+const widthThreshold = 640; // 设置宽度阈值，例如 800px
+
+// screen width is less than 640px and scroll down to show topNav
+function showTopNav() {
+  let lastScrollTop = 0;
+  let currentScroll = window.scrollY || document.documentElement.scrollTop;
+  if (window.innerWidth <= widthThreshold && currentScroll > lastScrollTop && window.scrollY > 100) {
+    topNav.classList.remove('hidden');
+  } else {
+    topNav.classList.add('hidden');
+  }
+
+  lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
 }
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -169,3 +179,12 @@ window.onload = function () {
     });
   });
 };
+
+
+window.addEventListener('scroll', () => {
+  showTopNav()
+});
+
+window.addEventListener('resize', showTopNav);
+
+checkWidthAndHideElement(); 
