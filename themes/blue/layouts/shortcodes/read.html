@@ -1,48 +1,50 @@
 {{ $folderName := path.Base (path.Dir .Page.File.Path) }}
 {{ $articleId := printf "%s-%s" $folderName (.Get "title" | urlize) }}
 {{ $titleId := printf "%s" (.Get "title" | urlize) }}
-<div id="{{ $articleId }}" class="article-card group relative my-4 border-b pb-4">
-  <h3 id="{{ $titleId }}" class="relative inline-block">
-    <a href="{{ .Get "link" }}" target="_blank" rel="noopener noreferrer" class="block">
-      {{ .Get "title" }}
-      <span
-        class="absolute bottom-0 left-0 h-0.5 w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"
-      ></span>
-    </a>
-  </h3>
+{{ if ne (.Get "title") "" }}
+  <div id="{{ $articleId }}" class="article-card group relative my-4 border-b pb-4">
+    <h3 id="{{ $titleId }}" class="relative inline-block">
+      <a href="{{ .Get "link" }}" target="_blank" rel="noopener noreferrer" class="block">
+        {{ .Get "title" }}
+        <span
+          class="absolute bottom-0 left-0 h-0.5 w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"
+        ></span>
+      </a>
+    </h3>
 
-  <p class="author ">{{ .Get "author" }}</p>
+    <p class="author ">{{ .Get "author" }}</p>
 
-  {{/* "kw" is an abbreviation for "keyword." */}}
+    {{/* "kw" is an abbreviation for "keyword." */}}
 
-  {{ if ne (.Get "kws") "" }}
-    <p class="kws ">
-      {{ range (split (.Get "kws") " ") }}
-        {{ $kwColor := index $.Site.Data.kws . }}
-        <span class="kw rounded-md bg-blue-500 px-1 py-0.5 text-white">{{ . }}</span>
+    {{ if ne (.Get "kws") "" }}
+      <p class="kws ">
+        {{ range (split (.Get "kws") " ") }}
+          {{ $kwColor := index $.Site.Data.kws . }}
+          <span class="kw rounded-md bg-blue-500 px-1 py-0.5 text-white">{{ . }}</span>
+        {{ end }}
+      </p>
+    {{ end }}
+
+
+    <p class="rating">
+      {{ $rate := .Get "rate" }}
+      {{ range seq 5 }}
+        <span class="star {{ if le . $rate }}filled{{ end }}"></span>
       {{ end }}
     </p>
-  {{ end }}
 
+    <div class="note">{{ .Inner | markdownify }}</div>
 
-  <p class="rating">
-    {{ $rate := .Get "rate" }}
-    {{ range seq 5 }}
-      <span class="star {{ if le . $rate }}filled{{ end }}"></span>
+    {{ if ne (.Get "link") "" }}
+      <div class="btn-container my-4 flex justify-center">
+        <a
+          href="{{ .Get "link" }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-read-original inline-block rounded-full border-2 border-black bg-white px-5  py-2 text-sm text-black transition-all duration-300 hover:bg-black hover:text-white"
+          >阅读原文</a
+        >
+      </div>
     {{ end }}
-  </p>
-
-  <div class="note">{{ .Inner | markdownify }}</div>
-
-  {{ if ne (.Get "link") "" }}
-    <div class="btn-container my-4 flex justify-center">
-      <a
-        href="{{ .Get "link" }}"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="btn-read-original inline-block rounded-full border-2 border-black bg-white px-5  py-2 text-sm text-black transition-all duration-300 hover:bg-black hover:text-white"
-        >阅读原文</a
-      >
-    </div>
-  {{ end }}
-</div>
+  </div>
+{{ end }}
