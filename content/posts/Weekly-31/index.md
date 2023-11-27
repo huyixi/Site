@@ -142,6 +142,8 @@ Apple 的椅子
 
 ## 日记
 
-#### Sun Nov 26 20:51, 2023
+#### Mon Nov 27 17:43, 2023
 
-#### 
+Apple 空间音频真的是有点东西。经常戴着耳机然后感觉就像没戴一样。声音好像是从周围环境中自然传入耳朵的。听这张专辑有脚步声，老是回头看以为是身后有人在走动。
+
+![F_7eODPacAA4vRz](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/F_7eODPacAA4vRz.jpeg)
