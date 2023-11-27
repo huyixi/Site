@@ -25,6 +25,7 @@ function showTopNav() {
   } else {
     topNav.classList.add('hidden');
     topNav.classList.add('flex');
+    topNav.classList.add('item-center');
   }
 
   lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
