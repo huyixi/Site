@@ -22,10 +22,9 @@ function showTopNav() {
   let currentScroll = window.scrollY || document.documentElement.scrollTop;
   if (window.innerWidth <= widthThreshold && currentScroll > lastScrollTop && window.scrollY > 100) {
     topNav.classList.remove('hidden');
+    topNav.classList.add('flex');
   } else {
     topNav.classList.add('hidden');
-    topNav.classList.add('flex');
-    topNav.classList.add('item-center');
   }
 
   lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
