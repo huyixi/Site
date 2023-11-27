@@ -24,6 +24,7 @@ function showTopNav() {
     topNav.classList.remove('hidden');
   } else {
     topNav.classList.add('hidden');
+    topNav.classList.add('flex');
   }
 
   lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
