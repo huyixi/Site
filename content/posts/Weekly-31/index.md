@@ -131,6 +131,22 @@ Apple 的椅子
 
 {{< /read >}}
 
+{{< read  title="从《笔记的方法》中学到的笔记的方法"  link="https://imzm.im/notes-on-how-to-take-effective-notes/">}}
+
+{{< /read >}}
+
+
+
+{{< read  title=""  link="" rate="0">}}
+
+{{< /read >}}
+
+
+
+
+
+
+
 ## 资源
 
 #### [驭风笔记](https://www.yufengbiji.com)

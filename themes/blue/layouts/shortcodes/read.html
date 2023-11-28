@@ -2,7 +2,7 @@
 {{ $articleId := printf "%s-%s" $folderName (.Get "title" | urlize) }}
 {{ $titleId := printf "%s" (.Get "title" | urlize) }}
 {{ if ne (.Get "title") "" }}
-  <div id="{{ $articleId }}" class="article-card group relative my-4 border-b pb-4">
+  <div id="{{ $articleId }}" class="article-card group relative my-4 border-b">
     <h3 id="{{ $titleId }}" class="relative inline-block">
       <a href="{{ .Get "link" }}" target="_blank" rel="noopener noreferrer" class="block">
         {{ .Get "title" }}
@@ -35,7 +35,7 @@
 
     <div class="note">{{ .Inner | markdownify }}</div>
 
-    {{ if ne (.Get "link") "" }}
+    {{/*  {{ if ne (.Get "link") "" }}
       <div class="btn-container my-4 flex justify-center">
         <a
           href="{{ .Get "link" }}"
@@ -43,6 +43,17 @@
           rel="noopener noreferrer"
           class="btn-read-original inline-block rounded-full border-2 border-black bg-white px-5  py-2 text-sm text-black transition-all duration-300 hover:bg-black hover:text-white"
           >阅读原文</a
+        >
+      </div>
+    {{ end }}  */}}
+    {{ if ne (.Get "link") "" }}
+      <div class="btn-container mb-4 mt-2 flex justify-start">
+        <a
+          href="{{ .Get "link" }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-xs font-sans text-blue-500 border-b border-transparent hover:border-blue-500"
+          >阅读原文 &gt;</a
         >
       </div>
     {{ end }}
