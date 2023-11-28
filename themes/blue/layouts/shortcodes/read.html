@@ -6,9 +6,9 @@
     <h3 id="{{ $titleId }}" class="relative inline-block">
       <a href="{{ .Get "link" }}" target="_blank" rel="noopener noreferrer" class="block">
         {{ .Get "title" }}
-        <span
+        {{/*  <span
           class="absolute bottom-0 left-0 h-0.5 w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"
-        ></span>
+        ></span>  */}}
       </a>
     </h3>
 
@@ -17,7 +17,7 @@
     {{/* "kw" is an abbreviation for "keyword." */}}
 
     {{ if ne (.Get "kws") "" }}
-      <p class="kws ">
+      <p class="kws">
         {{ range (split (.Get "kws") " ") }}
           {{ $kwColor := index $.Site.Data.kws . }}
           <span class="kw rounded-md bg-blue-500 px-1 py-0.5 text-white">{{ . }}</span>
@@ -53,7 +53,8 @@
           target="_blank"
           rel="noopener noreferrer"
           class="text-xs font-sans text-blue-500 border-b border-transparent hover:border-blue-500"
-          >阅读原文 &gt;</a
+          >阅读原文 &gt;
+          </a
         >
       </div>
     {{ end }}
