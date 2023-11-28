@@ -118,15 +118,15 @@
 }
 .article-card .star {
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   color: transparent;
   position: relative;
 }
 .article-card .star::before {
   content: "☆";
-  color: gray;
+  color: #81868f;
 }
 .article-card .star.filled::before {
   content: "★";
-  color: gold;
+  color: #81868f;
 }/*# sourceMappingURL=custom.css.map */

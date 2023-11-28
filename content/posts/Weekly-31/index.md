@@ -121,7 +121,7 @@ Apple 的椅子
 
 {{< /read >}}
 
-{{< read  title="读和菜头《重开博客》有感"  link="https://lhcy.org/archives/194.html" rate="0">}}
+{{< read  title="读和菜头《重开博客》有感"  link="https://lhcy.org/archives/194.html" rate="2">}}
 
 每家大公司建立起一个平台，把内容和用户全部集中在自己的App里。
 
