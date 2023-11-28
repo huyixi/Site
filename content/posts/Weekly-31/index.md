@@ -177,5 +177,3 @@ Tue Nov 28 01:06, 2023
 上 twitter 发现 Cali 在打折，赶紧又去激情下单一件
 
 <img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231128010747760.png" alt="image-20231128010747760" style="zoom: 33%;" />
-
-s
