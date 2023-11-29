@@ -14,13 +14,28 @@ category: [Weekly]
 
 ### 关于 OneKey
 
-##### OneKey 是什么？
+#### OneKey 是什么？
 
-##### onekey 的作用？
+虚拟货币钱包。存储你的虚拟货币。
 
-##### 硬件钱包有什么用？
+#### 硬件钱包有什么用？
 
-##### 是否还有类似的解决方案？
+硬件钱包（冷钱包）：更安全。可以不接触网络进行使用
+
+软件钱包（热钱包）：类似 MetaMask，需要接触网络
+
+交易所：OKX，Biance
+
+在交易所购买的虚拟货币存储在交易所中。将大量的虚拟货币存储在交易所中是不安全的，因为交易所随时可能跑路。
+
+如果虚拟货币数量较大，建议存储在钱包中。
+
+#### 是否还有类似的解决方案？
+
+- Trust
+- [LEDGER](https://www.ledger.com)：硬件钱包
+
+
 
 ## 整理最近跟月车哥的一些交流
 
@@ -167,13 +182,23 @@ Apple 的椅子
 
 
 
+{{< read  title="CC BY-NC-SA 4.0 DEED"  link="https://creativecommons.org/licenses/by-nc-sa/4.0/">}}
+
+Anthony Fu 网站下方的分发契约链接。
+
+{{< /read >}}
+
+{{< read  title="antfu 的 vscode 设置"  link="https://github.com/antfu/vscode-settings">}}
+
+{{< /read >}}
+
+{{< read  title="为什么我不使用 Prettier"  link="https://antfu.me/posts/why-not-prettier-zh">}}
+
+[Anthony's ESLint config preset](https://github.com/antfu/eslint-config)
+
+{{< /read >}}
+
 {{< read  title=""  link=" ">}}
-
-{{< /read >}}{{< read  title=""  link=" ">}}
-
-{{< /read >}}{{< read  title=""  link=" ">}}
-
-{{< /read >}}{{< read  title=""  link=" ">}}
 
 {{< /read >}}
 
@@ -183,15 +208,17 @@ Apple 的椅子
 
 ## 资源
 
-#### [驭风笔记](https://www.yufengbiji.com)
+### [Anthony Fu的个人网站](https://antfu.me)
+
+### [驭风笔记](https://www.yufengbiji.com)
 
 模仿苹果风格的一个网站，可以参考
 
-#### [Peter Cammeraat](https://petercammeraat.net/)
+### [Peter Cammeraat](https://petercammeraat.net/)
 
 简单的博客，挺好看的
 
-#### Radius Master —— 在线内外圆角计算器
+### Radius Master —— 在线内外圆角计算器
 
 [链接](https://playground.eddydezuraud.com/craft/radius-master)
 
