@@ -198,7 +198,7 @@ Anthony Fu 网站下方的分发契约链接。
 
 {{< /read >}}
 
-{{< read  title=""  link=" ">}}
+{{< read  title="为什么程序员最应该学习的是运营与销售，而不是技术？"  link="https://yufengbiji.com/posts/why-should-programmers-learn-operations-and-sales-more-than-technology">}}
 
 {{< /read >}}
 
