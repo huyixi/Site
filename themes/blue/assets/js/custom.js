@@ -187,3 +187,24 @@ window.addEventListener('scroll', () => {
 });
 
 window.addEventListener('resize', showTopNav);
+
+let menuButton = document.getElementById('globalnav-menutrigger-button');
+let isMenuOpen = false; // 跟踪菜单是否已打开
+
+menuButton.addEventListener('click', function () {
+  let animTopOpen = document.getElementById('globalnav-anim-menutrigger-bread-top-open');
+  let animBottomOpen = document.getElementById('globalnav-anim-menutrigger-bread-bottom-open');
+  let animTopClose = document.getElementById('globalnav-anim-menutrigger-bread-top-close');
+  let animBottomClose = document.getElementById('globalnav-anim-menutrigger-bread-bottom-close');
+
+  if (isMenuOpen) {
+    animTopClose.beginElement();
+    animBottomClose.beginElement();
+  } else {
+    animTopOpen.beginElement();
+    animBottomOpen.beginElement();
+  }
+
+  // 切换状态
+  isMenuOpen = !isMenuOpen;
+});
