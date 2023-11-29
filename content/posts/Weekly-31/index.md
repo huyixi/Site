@@ -176,7 +176,11 @@ Apple 的椅子
 
 {{< /read >}}
 
+
+
 {{< read  title="我 求 婚 啦 ！！"  link="https://www.bilibili.com/video/BV1Gc411z7mu/?spm_id_from=444.41.list.card_archive.click&vd_source=e7b677bc31fcf107b6c6689167aae9d9" rate="0">}}
+
+刚好关注的 pseudoyu 周报也写了：[周报 #51 - 追星小鹿 Lawrence 与生病](https://www.pseudoyu.com/zh/2023/11/29/weekly_review_20231129/)
 
 {{< /read >}}
 
@@ -202,9 +206,59 @@ Anthony Fu 网站下方的分发契约链接。
 
 {{< /read >}}
 
+
+
+{{< read  title="王自如与69岁巨头女老板董明珠传绯闻？名场面访谈解析，无数细节让我都憋不住了| Eric长安万年"  link="https://www.youtube.com/watch?v=2ooOGyFGi60">}}
+
+[Tw93](https://twitter.com/HiTw93)[Nov 17, 2023](https://twitter.com/HiTw93/status/1725469870702395553): 鄙视自如 理解自如 羡慕自如 自愧不如
+
+从动作上分析王自如和董明珠的采访视频。
+
+个人更倾向于这个视频只是格力的市场营销手段，两个人互相利用。
+
+{{< /read >}}
+
+
+
+{{< read  title="giffgaff避坑指南（吐血整理）"  link="https://zhuanlan.zhihu.com/p/654786856">}}
+
+**giffgaff常用功能**
+
+首次充值激活：[https://www.giffgaff.com/activate](https://link.zhihu.com/?target=https%3A//www.giffgaff.com/activate)
+登录个人账户/重置密码：[https://www.giffgaff.com/auth/login](https://link.zhihu.com/?target=https%3A//www.giffgaff.com/auth/login)
+查询话费余额/SIM号码：[https://www.giffgaff.com/dashboard](https://link.zhihu.com/?target=https%3A//www.giffgaff.com/dashboard)
+续费充值：[https://www.giffgaff.com/top-up](https://link.zhihu.com/?target=https%3A//www.giffgaff.com/top-up)
+话费账单查询：[https://www.giffgaff.com/profile/usage-statement](https://link.zhihu.com/?target=https%3A//www.giffgaff.com/profile/usage-statement)
+个人资料修改：[https://www.giffgaff.com/profile/details](https://link.zhihu.com/?target=https%3A//www.giffgaff.com/profile/details)
+申请换号：[https://www.giffgaff.com/profile/details/getnumber](https://link.zhihu.com/?target=https%3A//www.giffgaff.com/profile/details/getnumber) 
+
+{{< /read >}}
+
 {{< read  title=""  link=" ">}}
 
 {{< /read >}}
+
+{{< read  title=""  link=" ">}}
+
+{{< /read >}}
+
+{{< read  title=""  link=" ">}}
+
+{{< /read >}}
+
+{{< read  title=""  link=" ">}}
+
+{{< /read >}}
+
+
+
+## Anthony Fu
+
+### [Anthony Fu的个人网站](https://antfu.me)
+
+- [字体](https://input.djr.com/)
+
+
 
 ## 资源
 
@@ -219,8 +273,6 @@ We are a team of researchers and engineers at [GitHub](https://github.com/), exp
 An innovative superfamily of fonts for code.
 
 GitHub 推出的新字体
-
-### [Anthony Fu的个人网站](https://antfu.me)
 
 ### [驭风笔记](https://www.yufengbiji.com)
 
@@ -254,6 +306,10 @@ GitHub 推出的新字体
 
 一个现在还能用的下载链接：https://www.aliyundrive.com/s/8NQqtqQ8T82。尽快下载。
 
+### ChatGPT Plus 排队限制
+
+开通 ChatGPT Plus 的排队限制目前可以通过访问 https://chat.openai.com/invite/accepted 绕过（Wed Nov 29 23:28, 2023）。
+
 ## 说说
 
 ![image-20231127170654159](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231127170654159.png)
@@ -278,7 +334,7 @@ Apple 空间音频真的是有点东西。经常戴着耳机然后感觉就像�
 
 ![F_7eODPacAA4vRz](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/F_7eODPacAA4vRz.jpeg)
 
-###### 佐玩激情下单
+### 佐玩激情下单
 
 Tue Nov 28 01:06, 2023
 
