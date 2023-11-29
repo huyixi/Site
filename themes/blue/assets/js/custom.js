@@ -189,7 +189,8 @@ window.addEventListener('scroll', () => {
 window.addEventListener('resize', showTopNav);
 
 let menuButton = document.getElementById('globalnav-menutrigger-button');
-let isMenuOpen = false; // 跟踪菜单是否已打开
+let menu = document.getElementById('extension-menu');
+let isMenuOpen = false;
 
 menuButton.addEventListener('click', function () {
   let animTopOpen = document.getElementById('globalnav-anim-menutrigger-bread-top-open');
@@ -200,9 +201,13 @@ menuButton.addEventListener('click', function () {
   if (isMenuOpen) {
     animTopClose.beginElement();
     animBottomClose.beginElement();
+    menu.classList.add('opacity-0', 'max-h-0');
+    menu.classList.remove('opacity-100', 'max-h-screen');
   } else {
     animTopOpen.beginElement();
     animBottomOpen.beginElement();
+    menu.classList.remove('opacity-0', 'max-h-0');
+    menu.classList.add('opacity-100', 'max-h-screen');
   }
 
   isMenuOpen = !isMenuOpen;

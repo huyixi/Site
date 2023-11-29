@@ -1390,6 +1390,10 @@ video {
   max-height: 10rem;
 }
 
+.max-h-0 {
+  max-height: 0px;
+}
+
 .min-h-0 {
   min-height: 0px;
 }
@@ -2311,6 +2315,14 @@ video {
 
 .duration-500 {
   transition-duration: 500ms;
+}
+
+.duration-700 {
+  transition-duration: 700ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
 }
 
 .ease-in-out {
