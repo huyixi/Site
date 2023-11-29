@@ -15,3 +15,6 @@ summary:
 
 <img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231129142457869.png" alt="image-20231129142457869" style="zoom:25%;" /> 淡化 ScrollToTop 图标
 
+删除更换 top nav
+
+![Kapture 2023-11-29 at 23.35.59](/Users/huyixi/Desktop/Kapture%202023-11-29%20at%2023.35.59.gif)删除![SCR-20231129-uhoy](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20231129-uhoy.png)
