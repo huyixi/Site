@@ -205,6 +205,5 @@ menuButton.addEventListener('click', function () {
     animBottomOpen.beginElement();
   }
 
-  // 切换状态
   isMenuOpen = !isMenuOpen;
 });
