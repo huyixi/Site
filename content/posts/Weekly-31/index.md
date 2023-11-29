@@ -149,17 +149,37 @@ Apple 的椅子
 
 {{< /read >}}
 
+{{< read  title="我们买了一颗国产卫星。"  link="https://www.bilibili.com/video/BV1Ec411z7j2/?spm_id_from=444.41.list.card_archive.click&vd_source=e7b677bc31fcf107b6c6689167aae9d9" rate="2">}}
 
+最终我们都会化为尘土，那么我们为什么还要做好事，做难的事情呢？
 
-{{< read  title=""  link="" rate="0">}}
+如果这个宇宙的结局是注定的。会消亡，最终会归于死寂。
+
+那或许这更说明，只有过程才是最重要的。
+
+这是唯一我们能改变的事情。
+
+{{< /read >}}
+
+{{< read  title="我 求 婚 啦 ！！"  link="https://www.bilibili.com/video/BV1Gc411z7mu/?spm_id_from=444.41.list.card_archive.click&vd_source=e7b677bc31fcf107b6c6689167aae9d9" rate="0">}}
 
 {{< /read >}}
 
 
 
+{{< read  title=""  link=" ">}}
 
+{{< /read >}}{{< read  title=""  link=" ">}}
 
+{{< /read >}}{{< read  title=""  link=" ">}}
 
+{{< /read >}}{{< read  title=""  link=" ">}}
+
+{{< /read >}}
+
+{{< read  title=""  link=" ">}}
+
+{{< /read >}}
 
 ## 资源
 
