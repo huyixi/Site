@@ -190,6 +190,62 @@ Anthony Fu 网站下方的分发契约链接。
 
 {{< read  title="antfu 的 vscode 设置"  link="https://github.com/antfu/vscode-settings">}}
 
+ChatGPT 的解释：
+
+>这个 VS Code 配置包含了多个部分，每一部分对应于不同的设置和自定义选项。我将逐一解释重要的部分：
+>
+>### Visuals（视觉效果）
+>
+>1. **`workbench.colorTheme`**: 设置颜色主题为 "Vitesse Dark"。
+>2. **`workbench.editor.tabCloseButton`**: 将编辑器标签页的关闭按钮放在左侧。
+>3. **`workbench.fontAliasing`**: 设置字体平滑处理为 "antialiased"。
+>4. **`workbench.iconTheme`**: 使用 "file-icons" 图标主题。
+>5. **`workbench.list.smoothScrolling`**: 启用平滑滚动。
+>6. **`workbench.sideBar.location`**: 将侧边栏置于右侧。
+>7. **`workbench.startupEditor`**: 启动时打开一个新的未命名文件。
+>8. **`workbench.tree.expandMode`**: 允许单击展开文件树中的项目。
+>9. **`editor.fontFamily`**: 设置编辑器字体为 "Input Mono, Fira Code, monospace"。
+>
+>### Editor（编辑器）
+>
+>1. **`editor.accessibilitySupport`**: 关闭辅助功能支持。
+>2. **`editor.cursorSmoothCaretAnimation`**: 启用光标平滑动画。
+>3. **`editor.lineNumbers`**: 设置行号显示为间隔模式。
+>4. **`editor.multiCursorModifier`**: 多光标操作使用 "ctrlCmd" 作为修饰键。
+>5. **`editor.renderWhitespace`**: 在代码边界处渲染空白字符。
+>6. **`editor.tabSize`**: 设置制表符大小为 2。
+>7. **`editor.codeActionsOnSave`**: 保存时执行特定代码操作，如 ESLint 自动修复。
+>8. **`window.autoDetectColorScheme`**: 自动检测并应用颜色主题。
+>
+>### Git & Terminal（Git 和终端）
+>
+>1. **`git.autofetch`**: 启用自动获取 Git 仓库更新。
+>2. **`terminal.integrated.cursorBlinking`**: 终端中的光标闪烁。
+>3. **`terminal.integrated.fontWeight`**: 设置终端字体的粗细。
+>
+>### Search & File Management（搜索和文件管理）
+>
+>1. **`search.exclude`**: 定义搜索时排除的文件和目录。
+>2. **`explorer.confirmDelete`**: 删除文件时不再弹出确认对话框。
+>3. **`explorer.fileNesting.enabled`**: 启用文件嵌套功能，可以根据定义的模式组织文件。
+>
+>### Extensions & Linters（扩展和代码检查器）
+>
+>1. **`emmet.showSuggestionsAsSnippets`**: Emmet 建议以代码片段形式展示。
+>2. **`eslint.codeAction.showDocumentation`**: 显示 ESLint 文档的代码操作。
+>3. **`github.copilot.enable`**: 配置 GitHub Copilot 在不同文件类型中的启用情况。
+>
+>### Formatting & Syntax（格式化和语法）
+>
+>1. **`prettier.enable`**: 关闭 Prettier 格式化功能。
+>2. **`cSpell.allowCompoundWords`**: 允许复合单词的拼写检查。
+>
+>### File Nesting（文件嵌套）
+>
+>- 这部分包含大量文件嵌套的模式，用于组织和显示相关联的文件。
+>
+>这个配置反映了用户针对编程和代码管理的特定偏好，包括视觉风格、编辑器行为、Git 交互、文件管理和扩展设置。
+
 {{< /read >}}
 
 {{< read  title="为什么我不使用 Prettier"  link="https://antfu.me/posts/why-not-prettier-zh">}}
@@ -207,6 +263,18 @@ Anthony Fu 网站下方的分发契约链接。
 {{< /read >}}
 
 ## 资源
+
+### [GitHubNext](https://githubnext.com)
+
+GitHub Next investigates the future of software development.
+
+We are a team of researchers and engineers at [GitHub](https://github.com/), exploring things beyond the adjacent possible. We prototype tools and technologies that will change our craft. We identify new approaches to building healthy, productive software engineering teams.
+
+### [monaspace](https://github.com/githubnext/monaspace)
+
+An innovative superfamily of fonts for code.
+
+GitHub 推出的新字体
 
 ### [Anthony Fu的个人网站](https://antfu.me)
 
