@@ -19,3 +19,12 @@ category: [Project]
   减少不必要的颜色的出现
 
 - 舒适
+
+## Reference
+
+网站灵感参考
+
+- [Apple Newsroom](https://www.apple.com.cn/newsroom/)
+- [Stammy](https://paulstamatiou.com/)
+- [Anthony Fu](https://antfu.me/)
+- [可可托海没有海](https://darmau.design/about)

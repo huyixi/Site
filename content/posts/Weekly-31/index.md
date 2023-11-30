@@ -243,8 +243,15 @@ Anthony Fu 网站下方的分发契约链接。
 李大毛：可可托海没有海博客主、积薪创办人
 卷土：卷土笔记 博客主、十年之约计划联合发起人
 
+#### 拾月
+
 - 面向主题写作：更新压力大，频率会变低。博客无法个人化
 - 面向个人经历写作：更个人，更个性。但内容质量变低。
+
+#### 李大毛
+
+- 为了流量，一些博主只发跟自己人设/主题相关的内容。
+- 
 
 {{< /read >}}
 
@@ -329,6 +336,10 @@ GitHub 推出的新字体
 相关文章：
 
 [美国免税州有哪些？2023年最新的美国免税州地址和邮编大全](https://iyideng.net/note/us-tax-free-state-address-and-zip-code.html)
+
+### 汇率追踪工具
+
+Wise：https://wise.com/tools/exchange-rate-alerts/confirmation
 
 ## 说说
 
