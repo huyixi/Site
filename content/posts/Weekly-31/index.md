@@ -234,7 +234,17 @@ Anthony Fu 网站下方的分发契约链接。
 
 {{< /read >}}
 
-{{< read  title=""  link=" ">}}
+{{< read  title="2023年，还有人在写中文博客"  link="https://www.xiaoyuzhoufm.com/episode/65545f5508c985ff0f02a96f">}}
+
+这是一个小宇宙的播客
+
+王健飞：二维吾码主播
+拾月：拾月博客博客主
+李大毛：可可托海没有海博客主、积薪创办人
+卷土：卷土笔记 博客主、十年之约计划联合发起人
+
+- 面向主题写作：更新压力大，频率会变低。博客无法个人化
+- 面向个人经历写作：更个人，更个性。但内容质量变低。
 
 {{< /read >}}
 
@@ -310,6 +320,16 @@ GitHub 推出的新字体
 
 开通 ChatGPT Plus 的排队限制目前可以通过访问 https://chat.openai.com/invite/accepted 绕过（Wed Nov 29 23:28, 2023）。
 
+
+
+### 美国地址生成器
+
+链接：https://www.meiguodizhi.com/
+
+相关文章：
+
+[美国免税州有哪些？2023年最新的美国免税州地址和邮编大全](https://iyideng.net/note/us-tax-free-state-address-and-zip-code.html)
+
 ## 说说
 
 ![image-20231127170654159](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231127170654159.png)
@@ -324,7 +344,11 @@ GitHub 推出的新字体
 
 #### [Apple Response Nav](https://codepen.io/samurai2099/pen/abwVoMQ)
 
+
+
 永远不要浪费一场危机。 每当发生大事，随众起哄的多，静心思考的少；每逢遇到危机，盯着风险的多，看到机会的少。一场危机会让我们真实地感受到一个时代的结束，和另一个时代的开始。 ——丘吉尔
+
+
 
 ## 日记
 
@@ -341,3 +365,12 @@ Tue Nov 28 01:06, 2023
 上 twitter 发现 Cali 在打折，赶紧又去激情下单一件
 
 <img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231128010747760.png" alt="image-20231128010747760" style="zoom: 33%;" />
+
+
+
+### 注册 Google Store Developer
+
+Thu Nov 30 10:13, 2023
+
+
+
