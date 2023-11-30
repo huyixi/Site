@@ -17,4 +17,10 @@ summary:
 
 删除更换 top nav
 
-![Kapture 2023-11-29 at 23.35.59](/Users/huyixi/Desktop/Kapture%202023-11-29%20at%2023.35.59.gif)删除![SCR-20231129-uhoy](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20231129-uhoy.png)
+删除
+
+![SCR-20231129-uhoy](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20231129-uhoy.png)
+
+
+
+![topnavchange](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/sitetopnav.gif)
