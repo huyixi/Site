@@ -265,7 +265,27 @@ Anthony Fu 网站下方的分发契约链接。
 
 {{< /read >}}
 
-{{< read  title=""  link=" ">}}
+{{< read  title="使用 SyncTV 异地远程一起看视频"  link="https://einverne.github.io/post/2023/11/synctv.html">}}
+
+{{< /read >}}
+
+
+
+{{< read  title=""  link="">}}
+
+{{< /read >}}
+
+{{< read  title=""  link="">}}
+
+{{< /read >}}{{< read  title=""  link="">}}
+
+{{< /read >}}{{< read  title=""  link="">}}
+
+{{< /read >}}{{< read  title=""  link="">}}
+
+{{< /read >}}{{< read  title=""  link="">}}
+
+{{< /read >}}{{< read  title=""  link="">}}
 
 {{< /read >}}
 
@@ -342,6 +362,10 @@ GitHub 推出的新字体
 ### 汇率追踪工具
 
 Wise：https://wise.com/tools/exchange-rate-alerts/confirmation
+
+
+
+
 
 ## 说说
 
