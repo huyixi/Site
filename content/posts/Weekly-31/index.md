@@ -255,11 +255,13 @@ Anthony Fu 网站下方的分发契约链接。
 
 {{< /read >}}
 
-{{< read  title=""  link=" ">}}
+{{< read  title=Hypothesis 教程：一款免费好用的网页标注工具"  link="https://www.skyue.com/22012820.html">}}
+
+不错的解决方案，日后尝试。
 
 {{< /read >}}
 
-{{< read  title=""  link=" ">}}
+{{< read  title="[广场周刊（第 13 期）：写个博客](https://immmmm.com/weekly-2023-11-26/)"  link="https://immmmm.com/weekly-2023-11-26/">}}
 
 {{< /read >}}
 
