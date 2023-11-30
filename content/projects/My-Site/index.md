@@ -31,5 +31,7 @@ category: [Project]
 
 - [Apple Newsroom](https://www.apple.com.cn/newsroom/)
 - [Stammy](https://paulstamatiou.com/)
+- [Linear](https://linear.app)
 - [Anthony Fu](https://antfu.me/)
 - [可可托海没有海](https://darmau.design/about)
+- [腾讯文档](https://docs.qq.com)
