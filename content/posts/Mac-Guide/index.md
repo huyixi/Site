@@ -1,7 +1,7 @@
 ---
 title: Mac 使用指南
 date: 2023-06-01T02:53:00+08:00
-lastmod: 2023-11-28
+lastmod: 2023-12-03
 category: [Blog]
 tags: [Mac]
 draft: false
