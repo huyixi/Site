@@ -9,6 +9,10 @@ category: [Blog]
 summary: 关于 Rime 输入法的配置
 ---
 
+## 我的配置
+
+**[rime-config](https://github.com/huyixi/rime-config)**
+
 ##### 使用小鹤双拼
 
 官方配置库：https://github.com/rime/rime-double-pinyin。其中收录了自然码双拼、智能ABC双拼、小鹤双拼、MSPY双拼、拼音加加双拼。
@@ -33,6 +37,10 @@ summary: 关于 Rime 输入法的配置
 打开或新建 squirrel.custom.yaml（鼠须管）或 weasel.custom.yaml（小狼毫）
 
 style/color_scheme: 你想使用的皮肤名
+
+我喜欢的皮肤：https://github.com/NavisLab/rime-pifu
+
+粘贴进去即可
 
 #### 修改候选字为横排显示
 

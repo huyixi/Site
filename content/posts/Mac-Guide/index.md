@@ -187,7 +187,9 @@ git rm --cached .DS_Store
 git commit -m "Removed .DS_Store from repository
 ```
 
+#### **显示隐藏文件**
 
+在 Finder 中，按下 `Command`（⌘）+ `Shift`（⇧）+ `.`（点）。这个快捷键会切换隐藏文件的显示状态。按一次这个快捷键，隐藏文件将会显示；再按一次，隐藏文件将会再次被隐藏。
 
 ### 下载站点
 
