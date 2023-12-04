@@ -1,6 +1,6 @@
 ---
-title: "Weekly 30"
-subtitle: ""
+title: "Weekly 30: 香港, 深圳, 广州草莓音乐节"
+subtitle: "2023.11.19-2023.11.25"
 date: 2023-11-21T15:55:50+08:00
 lastmod: 2023-11-28
 draft: false
@@ -8,7 +8,186 @@ tags: []
 category: [Weekly]
 ---
 
+## 日记
 
+从周三开始调休 + 请假 + 节假日凑了 6 天假期,开启了粤港三天之旅.
+
+### 香港
+
+第一站是香港,出发前还被 通行证搞得差点出行不了.
+
+因为市出入境管理搬到行政服务中心,机器也一并 搬迁调试.从上周三就开始往 原先办事处跑,跑了两趟都没有办下来.第二趟的时候跟我说搬迁到行政服务中心,并且周一才开门.然后只好等周一过去,结果过去了机器又调试不好,没法马上办理(期间工作人员还说我是第一个来办理业务的人,还想拉我拍个合照.如果有打分系统的话肯定得给差评).之后只好把证件交给办事的工作人员,看周二能不能出来.
+
+中午的时候抱着试试看的心情去再碰碰运气,结果另一个比较熟悉业务的工作人员( 刚开始给我办的一个工作人员，什么都不懂，电脑上的操作都要旁边的人来指导)告诉我可以去市里其他机器可以(由于第一次去香港,并不清楚这个通行证的具体流程) 否则要是办理不了的话，出行问题就比较麻烦了.
+
+整个办事的体验非常的糟糕.
+
+之后周三的时候，不过之后周三的时候也顺利前往香港了，这期间也踩到了一个坑，就是手机没有开通短信收发服务上课，马上在地铁上联系客服人员进行办理. 不过还好，这个办理的速度很快基本上10分钟就搞定了
+
+之后一直到下午5:02完成了这趟旅程中最重要的事情就开始随意逛了.
+
+来之前也没有安排行程,现在旅游比较喜欢随处逛逛,感受风土人情,而不是一个点一个点赶着去打开.
+
+![799862DD-FC05-4351-AF76-D10C10D8B0F1_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/799862DD-FC05-4351-AF76-D10C10D8B0F1_1_105_c.jpeg)
+
+
+
+![随手拍](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/2DF14011-2D1F-4D4D-A369-06B795269ABC_1_105_c.jpeg)
+
+这边的人上班上学似乎都要穿制服,随处逛逛发现几家制服店都是排队好长,很好奇就拍下来了.
+
+![C2432D51-CE07-4A6F-A31F-192FCDF57076_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/C2432D51-CE07-4A6F-A31F-192FCDF57076_1_105_c.jpeg)
+
+这边的物价高得离谱,这几个菠萝包加虾饺,还有一个肠粉要一百多.我 下单的时候还怕点这么多，会不会吃不完，没想到就这么一点.
+
+![88183BF9-BE9A-47F5-AAB6-547CD876CDE5_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/88183BF9-BE9A-47F5-AAB6-547CD876CDE5_1_105_c.jpeg)
+
+Apple Store
+
+![36A419EB-DD55-4E9F-8FFB-1E90F8F0A088_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/36A419EB-DD55-4E9F-8FFB-1E90F8F0A088_1_105_c.jpeg)
+
+20块钱的摩天轮
+
+很惬意地看电影
+
+![792E63E5-406A-4376-8DDD-85F88B7DDD79_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/792E63E5-406A-4376-8DDD-85F88B7DDD79_1_105_c.jpeg)
+
+5 块钱的轮渡
+
+![E0E2C3A9-F6C6-4F85-BC23-1031F28D0A36_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/E0E2C3A9-F6C6-4F85-BC23-1031F28D0A36_1_105_c.jpeg)
+
+一个小女孩蹦蹦跳跳地跑过去把钱放到箱子里,很喜欢这张照片
+
+![D87A78E8-159D-406A-BDC4-471CB4E6A457_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/D87A78E8-159D-406A-BDC4-471CB4E6A457_1_105_c.jpeg)
+
+
+
+
+
+#### 香港第二天
+
+早上 7 点的尖沙咀
+
+![1EB6BA90-CC79-4267-8406-B3B8DE9ED251_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/1EB6BA90-CC79-4267-8406-B3B8DE9ED251_1_105_c.jpeg)
+
+![B1D74340-5949-4FAE-9057-BD528B9757EC_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/B1D74340-5949-4FAE-9057-BD528B9757EC_1_105_c.jpeg)
+
+
+
+![78BACE0F-7D4C-4F7B-B7FA-FE9B247F4413_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/78BACE0F-7D4C-4F7B-B7FA-FE9B247F4413_1_105_c.jpeg)
+
+早上 8 点的新大都会广场.不得不感叹一下香港人的素质真的是太高了.到处都会自觉排队, 在大城电梯的时候，我想在内地一样，直接到电梯门口等结果发现后面居然排起了队，于是又不好意思退回去，重新拍起了队.
+
+![6BA31D1C-F889-4AE2-9AF2-C0CC2B2FF06A_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/6BA31D1C-F889-4AE2-9AF2-C0CC2B2FF06A_1_105_c.jpeg)
+
+不过香港的物价真的好高.一瓶水基本上快 10 块钱了(在香港连水都喝不起).
+
+第二天也没安排.临时起意去逛逛香港的大学.第一站是香港中文大学.
+
+![55BB679E-E88F-4FD9-B567-D08EE4D73A37_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/55BB679E-E88F-4FD9-B567-D08EE4D73A37_1_105_c.jpeg)从新都会广场一路坐车过去.为了尽量多看路上的风景,我都尽量选择坐公交.港中大可能比较偏一点,一路都是山山山,上坡实际要比照片看起来的更陡. 这张照片的右边好像是赛马场.
+
+![566CE159-F90D-4363-96FC-C1F902E41E85_1_102_o](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/566CE159-F90D-4363-96FC-C1F902E41E85_1_102_o.jpeg)
+
+看到地铁, 从外面看起来好破旧啊，不过里面其实还是很干净的.
+
+![6EB371B8-0CED-4E79-9773-9F4083FD0599_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/6EB371B8-0CED-4E79-9773-9F4083FD0599_1_105_c.jpeg)
+
+到达港中大
+
+![39C76BC8-8E20-442E-A93E-EC9B274008B6_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/39C76BC8-8E20-442E-A93E-EC9B274008B6_1_105_c.jpeg)
+
+看到一对新人在拍摄婚纱照,祝福.
+
+![48E7C216-4FF8-42BF-BA3A-DE89D3864DF7_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/48E7C216-4FF8-42BF-BA3A-DE89D3864DF7_1_105_c.jpeg)
+
+ 港中大的图书馆,不过可惜不让进
+
+![E5B7EE8A-09FC-41C7-8005-E704E63EFE42_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/E5B7EE8A-09FC-41C7-8005-E704E63EFE42_1_105_c.jpeg)
+
+![8A41E6C7-F1FE-4818-BBF9-9158BF7DD6C6_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/8A41E6C7-F1FE-4818-BBF9-9158BF7DD6C6_1_105_c.jpeg)
+
+学生社团举办的心理周活动(Maybe),他们还很热情地邀请我参与他们中午的活动,不过很可惜,我因为吃饭太慢加对学校路线不熟悉耽误了几分钟,结果到达的时候他们活动已经开始了.这应该是这次来港最大的遗憾了.
+
+![5DB0887D-AA42-40ED-B705-F4FE982D2521_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/5DB0887D-AA42-40ED-B705-F4FE982D2521_1_105_c.jpeg)
+
+在悬崖餐厅吃的学生们推荐的饭,52港币,好贵.
+
+之后就离开港中大了,去香港理工看看.其实香港理工是这几个学校中我最想去看的.但很可惜,不让进去参观. 原本计划发挥我一人的特性，装两个学生带我进去结果都被拒绝了，于是只好讪讪离开.香港理工的这个红砖的建筑风格还是蛮好看的
+
+![5D79193A-7554-478C-AF90-AB4C5ADB8ED3_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/5D79193A-7554-478C-AF90-AB4C5ADB8ED3_1_105_c.jpeg)
+
+![B3D094AE-99D6-4492-9993-FE33604BAA8D_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/B3D094AE-99D6-4492-9993-FE33604BAA8D_1_105_c.jpeg)
+
+![15414CEC-156D-4B6C-824F-D45A98F11420_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/15414CEC-156D-4B6C-824F-D45A98F11420_1_105_c.jpeg)
+
+![7FAF85E5-833B-426D-9D63-DBE26A5CAA4E_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/7FAF85E5-833B-426D-9D63-DBE26A5CAA4E_1_105_c.jpeg)
+
+
+
+![B0FEAD27-62EA-4FD9-B174-2593DC1FD114_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/B0FEAD27-62EA-4FD9-B174-2593DC1FD114_1_105_c.jpeg)叮叮车?听说2块钱做一趟,不过我没去坐,应该跟大巴差不多把.
+
+![35772750-F597-4E3F-B00D-96AAB24FD23E_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/35772750-F597-4E3F-B00D-96AAB24FD23E_1_105_c.jpeg)
+
+在中环瞎逛,香港真的坡很多很陡,建议穿好走的鞋子.
+
+![FD1CE0CC-62DB-46D7-B712-7D4C91F84E83_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/FD1CE0CC-62DB-46D7-B712-7D4C91F84E83_1_105_c.jpeg)
+
+下班后的小酒馆,真的羡慕在香港的人的生活状态.
+
+然后逛着逛着发现,香港大学还没去,于是赶紧冲冲冲.
+
+![326C34C3-C77C-4D11-9461-673553C1F4DA_11_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/326C34C3-C77C-4D11-9461-673553C1F4DA_1_105_c.jpeg)
+
+![3C23BB14-6BFF-4821-9471-EA9B138B3E03_1_105_c](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/3C23BB14-6BFF-4821-9471-EA9B138B3E03_1_105_c.jpeg)
+
+路上随手拍
+
+
+
+#### Fri Nov 24 00:02, 2023
+
+老是觉得时间不够用。
+
+昨晚看了颜色的设计，今天看了排版，OpenAI 相关的东西。都想学，但是时间一直觉得不够。
+
+老生常谈的方法：
+
+- 效率
+
+  在有限的时间做尽可能多的事情，避免被无关紧要的事情打扰。
+
+- 聚焦
+
+  减少关注的领域与事情。聚焦于自己想要成长的部分事情上。避免在无关的事情上浪费时间。减少不必要的信息的干扰，例如小红书、微博、推特，当你专注的时候。但仍然需要从微博推特中一些高质量的人中获取灵感。如果关注的作者发过两条你不赞成的推文的话，这直接拉黑。
+
+#### Fri Nov 24 21:40, 2023
+
+向月车哥请教了一个问题：为什么听了很多道理，却仍然过不好这一生？
+
+在得到月车哥的回答前，先自己尝试做出一些解答。
+
+对我自己来说，这个问题的具体表现就在：比如上文，我得到了关于论文的阅读方法。我在一段时间内，可能是一个月，我会一直坚持这个习惯。但是过一段时间之后，我就会将这个方法抛之脑后。
+
+问题所在：
+
+- 坚持的时间不够久、坚持的次数不够多。导致无法将其转化为自身的条件反射
+- 得到的**信息太多**，新的信息将旧的信息所淹没。过多信息的涌入导致以往的习惯无法跟上新的信息，最终导致成就感下降，开始摆烂。
+- 固有的生活具有**惯性**。想要改变就需要与以往的习惯做对抗，需要意识到旧习惯这时候应该改变为新习惯。需要做出一定的取舍，什么都要往往导致什么都得不到。
+
+解决方案：
+
+- 时刻提醒自己。就像驼背改善，有了实物的提醒，就能不经意间来提醒自己。
+- 信息太多：舍弃，聚焦。
+
+##### 为什么人会泯然众人矣？
+
+我们都在相同的地方，做着相同的事，所以往往你们会更像你们。
+
+摆脱环境的束缚。
+
+## 文章
+
+![Image](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/F_mKRkEW4AABtc2.jpeg)
 
 {{< read title="腾讯实战！如何构建科学有效的色彩系统（应用篇）" kws="Design" author="ISUX" link="https://isux.tencent.com/articles/tencentdocs-colors-2.html" rate="4" >}}
 <img src="https://image.uisdc.com/wp-content/uploads/2021/10/uisdc-tx-20211026-8.jpg" alt="腾讯实战！如何构建科学有效的色彩系统（应用篇）" style="zoom: 25%;" />
@@ -206,49 +385,3 @@ hugo server
 
 
 
-## 日记
-
-![Image](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/F_mKRkEW4AABtc2.jpeg)
-
-
-
-#### Fri Nov 24 00:02, 2023
-
-老是觉得时间不够用。
-
-昨晚看了颜色的设计，今天看了排版，OpenAI 相关的东西。都想学，但是时间一直觉得不够。
-
-老生常谈的方法：
-
-- 效率
-
-  在有限的时间做尽可能多的事情，避免被无关紧要的事情打扰。
-
-- 聚焦
-
-  减少关注的领域与事情。聚焦于自己想要成长的部分事情上。避免在无关的事情上浪费时间。减少不必要的信息的干扰，例如小红书、微博、推特，当你专注的时候。但仍然需要从微博推特中一些高质量的人中获取灵感。如果关注的作者发过两条你不赞成的推文的话，这直接拉黑。
-
-#### Fri Nov 24 21:40, 2023
-
-向月车哥请教了一个问题：为什么听了很多道理，却仍然过不好这一生？
-
-在得到月车哥的回答前，先自己尝试做出一些解答。
-
-对我自己来说，这个问题的具体表现就在：比如上文，我得到了关于论文的阅读方法。我在一段时间内，可能是一个月，我会一直坚持这个习惯。但是过一段时间之后，我就会将这个方法抛之脑后。
-
-问题所在：
-
-- 坚持的时间不够久、坚持的次数不够多。导致无法将其转化为自身的条件反射
-- 得到的**信息太多**，新的信息将旧的信息所淹没。过多信息的涌入导致以往的习惯无法跟上新的信息，最终导致成就感下降，开始摆烂。
-- 固有的生活具有**惯性**。想要改变就需要与以往的习惯做对抗，需要意识到旧习惯这时候应该改变为新习惯。需要做出一定的取舍，什么都要往往导致什么都得不到。
-
-解决方案：
-
-- 时刻提醒自己。就像驼背改善，有了实物的提醒，就能不经意间来提醒自己。
-- 信息太多：舍弃，聚焦。
-
-##### 为什么人会泯然众人矣？
-
-我们都在相同的地方，做着相同的事，所以往往你们会更像你们。
-
-摆脱环境的束缚。
