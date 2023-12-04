@@ -51,6 +51,12 @@ patch：
   style/horizontal： true
 ```
 
+#### 修改默认输入状态
+
+输入方案文件 `*.schema.yaml`  `switches` `reset`
+
+最好重建一个输入方案 `*.custom.yaml`, 然后以打补丁的方式修改.
+
 ### 资源
 
 [仿 Mac 皮肤](https://github.com/NavisLab/rime-pifu)
