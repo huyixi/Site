@@ -93,3 +93,52 @@ summary:
 - 坐巴士到站前一定要按铃 如果没人按司机会跳过
 - 傍晚可以去中环尖沙咀（维多利亚港）看夜景 可以在中环下车到码头坐摩天轮（20一次转三圈）之后坐船到尖沙咀（才四块）
 - 如果有时间也可以到中环坐四十分钟船到长洲岛（二十一次）里面有居民在住 也有很多小吃店 还有海滩挺漂亮的
+
+## 转账汇款
+
+### 收款人信息
+
+#### 【香港上海汇丰银行有限公司】
+
+Bank Name(银行名称):HONGKONG AND
+SHANGHAI BANKING CORPORATION
+LIMITED
+Swift Code: HSBCHKHHHKH
+Bank Code(银行编号，香港转香港才用到):
+004
+收款行名称：THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED
+地址：1 Queen's Road,Central,Hong Kong
+客服电话：
+(852) 2233 3000
+
+#### 【中国银行（香港）】
+
+收款行名称：BANK OF CHINA (HONG
+KONG) LIMITIED, HONG KONG
+Swift Code(国际汇款代码):BKCHHKHH（如要求11位，则为BKCHHKHHXXX)Bank Code(银行编号)：012Bank Addres
+银行地址：Bank of China Tower, 1 Garden
+, Central,Hong客服电话：
+Kong
+(852)3988 2388;400 800 2388
+
+#### 【渣打银行】
+
+Bank Name(银行名称)：Standard
+Chartered Bank (Hong Kong) Limited
+SWIFT Code(国际汇款代码)：SCBLHKHH
+Bank Code(银行编号)：003Bank
+Address(银行地址)：Standard Chartered
+Tower, Floor 15, 388 Kwun Tong Road, Kwun
+Tong
+客服电话：
+优先理财:
+(852) 2886 8866;
+Premium理财:（852)28868877
+
+#### 【恒生银行】
+
+收款行名称：HANG SENG BANK LIMITED Swift Code(国际汇款代码):HASEHKHH如要求11位，则为HASEHKHHXXX)
+Bank Code(银行编号):024
+Bank Addres银行地址：83 Des Voeus Road
+Central, Hong Kong
+客服电话：（852)2822 0228；400 120 2121
