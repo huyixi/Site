@@ -2,7 +2,7 @@
 title: "Weekly 29: 关于 B 端产品设计"
 subtitle: "2023.11.12-2023.11.18"
 date: 2023-11-12T23:05:57+08:00
-lastmod: 2023-11-28
+lastmod: 2023-12-04
 draft: false
 tags: []
 category: [Weekly]
