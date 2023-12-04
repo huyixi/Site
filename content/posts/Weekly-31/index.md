@@ -254,7 +254,7 @@ Anthony Fu 网站下方的分发契约链接。
 
 {{< /read >}}
 
-{{< read  title=Hypothesis 教程：一款免费好用的网页标注工具"  link="https://www.skyue.com/22012820.html">}}
+{{< read  title=Hypothesis：一款免费好用的网页标注工具"  link="https://www.skyue.com/22012820.html">}}
 
 不错的解决方案，日后尝试。
 
