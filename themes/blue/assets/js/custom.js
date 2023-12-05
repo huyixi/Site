@@ -17,8 +17,9 @@ function showBanner() {
 const widthThreshold = 640; // 设置宽度阈值，例如 800px
 
 // screen width is less than 640px and scroll down to show topNav
+
+let lastScrollTop = 0;
 function showTopNav() {
-  let lastScrollTop = 0;
   let currentScroll = window.scrollY || document.documentElement.scrollTop;
 
   if (window.innerWidth <= widthThreshold && currentScroll > lastScrollTop && window.scrollY > 100) {
@@ -31,10 +32,7 @@ function showTopNav() {
   lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
 }
 
-
-window.addEventListener('resize', showTopNav);
-
-function controlScrollToTopButton() {
+function showScrollToTopButton() {
   const scrollToTopBtn = document.getElementById("scrollToTop");
   if (!scrollToTopBtn) return;
 
@@ -49,8 +47,18 @@ function controlScrollToTopButton() {
   }
 }
 
-window.addEventListener('scroll', controlScrollToTopButton);
-window.addEventListener('resize', controlScrollToTopButton);
+function handleScrollEvents() {
+  showTopNav();
+  showScrollToTopButton();
+}
+
+function handleResizeEvents() {
+  showTopNav();
+  showScrollToTopButton();
+}
+
+window.addEventListener('scroll', handleScrollEvents);
+window.addEventListener('resize', handleResizeEvents);
 
 document.addEventListener("DOMContentLoaded", function () {
   // tempBanner
@@ -67,7 +75,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const scrollToTopBtn = document.getElementById("scrollToTop");
   window.onscroll = function () {
     const screenWidth = window.innerWidth;
-    console.log("screenWidth: " + screenWidth);
     if (scrollToTopBtn && screenWidth > 512) {
       if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         scrollToTopBtn.style.display = "block";
@@ -207,12 +214,6 @@ window.onload = function () {
   showTopNav()
   controlScrollToTopButton();
 };
-
-
-window.addEventListener('scroll', () => {
-  showTopNav()
-});
-
 
 
 let menuButton = document.getElementById('globalnav-menutrigger-button');
