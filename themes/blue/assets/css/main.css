@@ -10,7 +10,7 @@
     @apply px-3 py-1 font-normal not-italic;
   }
 
-  .prose blockquote > p {
+  .prose blockquote>p {
     @apply mx-2 my-4;
   }
 
@@ -18,6 +18,13 @@
     @apply no-underline;
   }
 }
+
+@layer utilities {
+  .break-words {
+    @apply overflow-hidden break-words;
+  }
+}
+
 
 body a,
 body button {
@@ -46,13 +53,13 @@ body button {
   @apply rtl:border-l-0 rtl:border-r-4 rtl:pr-4;
 }
 
-.prose ul > li,
-.prose ol > li {
+.prose ul>li,
+.prose ol>li {
   @apply rtl:mr-7 rtl:pl-0 rtl:pr-2;
 }
 
-.prose ol > li:before,
-.prose ul > li:before {
+.prose ol>li:before,
+.prose ul>li:before {
   @apply rtl:left-auto rtl:right-1;
 }
 
@@ -67,7 +74,7 @@ body button {
 }
 
 /* Adjust first child within prose */
-.prose div.min-w-0.max-w-prose > *:first-child {
+.prose div.min-w-0.max-w-prose>*:first-child {
   @apply mt-3;
 }
 
@@ -85,7 +92,7 @@ body button {
   @apply font-normal text-neutral-700 dark:text-neutral-400;
 }
 
-.toc ul > li {
+.toc ul>li {
   @apply rtl:mr-0;
 }
 
@@ -98,7 +105,7 @@ body button {
   @apply relative z-0;
 }
 
-.highlight:hover > .copy-button {
+.highlight:hover>.copy-button {
   @apply visible;
 }
 
