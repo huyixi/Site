@@ -3316,6 +3316,10 @@ body button {
     top: 0px;
   }
 
+  .sm\:bottom-6 {
+    bottom: 1.5rem;
+  }
+
   .sm\:m-0 {
     margin: 0px;
   }
