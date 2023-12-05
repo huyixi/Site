@@ -3435,6 +3435,16 @@ body button {
     line-height: 1.25rem;
   }
 
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
   .sm\:last\:me-0:last-child {
     -webkit-margin-end: 0px;
             margin-inline-end: 0px;
