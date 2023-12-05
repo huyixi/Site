@@ -38,15 +38,13 @@ function showScrollToTopButton() {
   const scrollToTopBtn = document.getElementById("scrollToTop");
   if (!scrollToTopBtn) return;
 
-  if (window.innerWidth <= widthThreshold) {
-    scrollToTopBtn.style.display = "none";
+
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    scrollToTopBtn.style.display = "block";
   } else {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-      scrollToTopBtn.style.display = "block";
-    } else {
-      scrollToTopBtn.style.display = "none";
-    }
+    scrollToTopBtn.style.display = "none";
   }
+
 }
 
 function handleScrollEvents() {
