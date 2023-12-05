@@ -24,3 +24,19 @@ summary:
 
 
 ![topnavchange](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/sitetopnav.gif)
+
+
+
+### 减少小屏幕无关元素干扰
+
+Tue Dec 5 21:05, 2023
+
+首先应保证文字阅读体验,减少无关元素的干扰.
+
+在小屏的时候其实只要显示下方的目录按钮即可,右侧的回到顶部按钮也不需要.并且应当尽量弱化按钮的存在,只在必要的时候hover展示.
+
+顶部的nav应当只在回滚到上方的时候出现,这样在小品的时候只有下方一个目录按钮,阅读体验应当会更好.
+
+After:
+
+![image-20231205211024164](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231205211024164.png)
