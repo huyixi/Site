@@ -542,6 +542,8 @@ video {
 .prose :where(p):not(:where([class~="not-prose"] *)) {
   margin-top: 1.25em;
   margin-bottom: 1.25em;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .prose :where([class~="lead"]):not(:where([class~="not-prose"] *)) {
@@ -557,8 +559,8 @@ video {
   text-decoration: underline;
   font-weight: 500;
   overflow-wrap: break-word;
-  word-wrap: break-word;
   word-break: break-word;
+  word-wrap: break-word;
 }
 
 .prose :where(strong):not(:where([class~="not-prose"] *)) {

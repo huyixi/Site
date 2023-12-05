@@ -24,9 +24,13 @@ module.exports = {
               quotes: "none",
             },
             'a': {
-              'overflow-wrap': 'break-word',
-              'word-wrap': 'break-word',
-              'word-break': 'break-word'
+              overflowWrap: 'break-word',
+              wordBreak: 'break-word',
+              wordWrap: 'break-word',
+            },
+            'p': {
+              overflowWrap: 'break-word',
+              wordBreak: 'break-word'
             }
           },
         },
