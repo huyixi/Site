@@ -36,7 +36,7 @@ function showScrollToTopButton() {
   const scrollToTopBtn = document.getElementById("scrollToTop");
   if (!scrollToTopBtn) return;
 
-  if (window.innerWidth <= 512) {
+  if (window.innerWidth <= widthThreshold) {
     scrollToTopBtn.style.display = "none";
   } else {
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const scrollToTopBtn = document.getElementById("scrollToTop");
   window.onscroll = function () {
     const screenWidth = window.innerWidth;
-    if (scrollToTopBtn && screenWidth > 512) {
+    if (scrollToTopBtn && screenWidth > widthThreshold) {
       if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         scrollToTopBtn.style.display = "block";
       } else {
