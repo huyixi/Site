@@ -20,6 +20,7 @@ const widthThreshold = 640; // 设置宽度阈值，例如 800px
 function showTopNav() {
   let lastScrollTop = 0;
   let currentScroll = window.scrollY || document.documentElement.scrollTop;
+
   if (window.innerWidth <= widthThreshold && currentScroll > lastScrollTop && window.scrollY > 100) {
     topNav.classList.remove('hidden');
     topNav.classList.add('flex');
@@ -29,6 +30,27 @@ function showTopNav() {
 
   lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
 }
+
+
+window.addEventListener('resize', showTopNav);
+
+function controlScrollToTopButton() {
+  const scrollToTopBtn = document.getElementById("scrollToTop");
+  if (!scrollToTopBtn) return;
+
+  if (window.innerWidth <= 512) {
+    scrollToTopBtn.style.display = "none";
+  } else {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      scrollToTopBtn.style.display = "block";
+    } else {
+      scrollToTopBtn.style.display = "none";
+    }
+  }
+}
+
+window.addEventListener('scroll', controlScrollToTopButton);
+window.addEventListener('resize', controlScrollToTopButton);
 
 document.addEventListener("DOMContentLoaded", function () {
   // tempBanner
@@ -44,7 +66,9 @@ document.addEventListener("DOMContentLoaded", function () {
   // Scroll to Top
   const scrollToTopBtn = document.getElementById("scrollToTop");
   window.onscroll = function () {
-    if (scrollToTopBtn) {
+    const screenWidth = window.innerWidth;
+    console.log("screenWidth: " + screenWidth);
+    if (scrollToTopBtn && screenWidth > 512) {
       if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         scrollToTopBtn.style.display = "block";
       } else {
@@ -179,6 +203,9 @@ window.onload = function () {
       showBanner();
     });
   });
+
+  showTopNav()
+  controlScrollToTopButton();
 };
 
 
@@ -186,7 +213,7 @@ window.addEventListener('scroll', () => {
   showTopNav()
 });
 
-window.addEventListener('resize', showTopNav);
+
 
 let menuButton = document.getElementById('globalnav-menutrigger-button');
 let menu = document.getElementById('extension-menu');

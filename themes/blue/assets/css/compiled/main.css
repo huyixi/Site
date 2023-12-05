@@ -3409,6 +3409,10 @@ body button {
 }
 
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
   .md\:w-1\/3 {
     width: 33.333333%;
   }
