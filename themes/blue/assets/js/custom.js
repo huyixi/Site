@@ -1,22 +1,24 @@
+const widthThreshold = 640; // 设置宽度阈值，例如 800px
+
 // 全局作用域中的 handleImageError 函数
-function showBanner() {
-  console.log("showBanner");
-  var banner = document.getElementById("tempBanner");
-  if (banner) {
-    banner.style.display = "block";
+
+function handleImageError(image) {
+  console.log("Failed to load image:", image.src);
+  showTempBanner();
+}
+
+function showTempBanner() {
+  var tempBanner = document.getElementById("tempBanner");
+  if (tempBanner) {
+    tempBanner.style.display = "block";
     localStorage.setItem("bannerDisplayed", "true");
     setTimeout(function () {
-      banner.style.transform = "scaleY(0)";
-      setTimeout(function () {
-        banner.style.display = "none";
-      }, 500);
+      tempBanner.classList.add('hide');
     }, 3000);
   }
 }
 
-const widthThreshold = 640; // 设置宽度阈值，例如 800px
 
-// screen width is less than 640px and scroll down to show topNav
 
 let lastScrollTop = 0;
 function showTopNav() {
@@ -73,17 +75,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Scroll to Top
   const scrollToTopBtn = document.getElementById("scrollToTop");
-  window.onscroll = function () {
-    const screenWidth = window.innerWidth;
-    if (scrollToTopBtn && screenWidth > widthThreshold) {
-      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        scrollToTopBtn.style.display = "block";
-      } else {
-        scrollToTopBtn.style.display = "none";
-      }
-    }
-  };
-
   if (scrollToTopBtn) {
     scrollToTopBtn.onclick = function () {
       document.body.scrollTop = 0; // For Safari
@@ -210,9 +201,6 @@ window.onload = function () {
       showBanner();
     });
   });
-
-  showTopNav()
-  controlScrollToTopButton();
 };
 
 
