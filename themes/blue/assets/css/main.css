@@ -19,13 +19,6 @@
   }
 }
 
-@layer utilities {
-  .break-words {
-    @apply overflow-hidden break-words;
-  }
-}
-
-
 body a,
 body button {
   @apply transition-colors;
