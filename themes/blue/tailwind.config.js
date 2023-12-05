@@ -31,6 +31,10 @@ module.exports = {
             'p': {
               overflowWrap: 'break-word',
               wordBreak: 'break-word'
+            },
+            'code': {
+              overflowWrap: 'break-word',
+              wordBreak: 'break-word'
             }
           },
         },

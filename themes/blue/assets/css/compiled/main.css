@@ -742,6 +742,8 @@ video {
   color: var(--tw-prose-code);
   font-weight: 600;
   font-size: 0.875em;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .prose :where(code):not(:where([class~="not-prose"] *))::before {
