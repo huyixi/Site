@@ -99,7 +99,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 4px;
+  height: 3px;
+  border-bottom-right-radius: 3px;
   background-color: #007AFF;
   width: 0%;
   z-index: 9999;
