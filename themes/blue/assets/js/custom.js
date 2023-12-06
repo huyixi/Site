@@ -18,21 +18,29 @@ function showTempBanner() {
   }
 }
 
-
-
-let lastScrollTop = 0;
-function showTopNav() {
-  let currentScroll = window.scrollY || document.documentElement.scrollTop;
-
-  if (window.innerWidth <= widthThreshold && currentScroll > lastScrollTop && window.scrollY > 100) {
+function toggleTopNav(show) {
+  if (show) {
     topNav.classList.remove('hidden');
     topNav.classList.add('flex');
   } else {
     topNav.classList.add('hidden');
   }
+}
+
+let lastScrollTop = 0;
+function showTopNav() {
+  let currentScroll = window.scrollY || document.documentElement.scrollTop;
+  let shouldShow = window.innerWidth <= widthThreshold && window.scrollY > 100;
+
+  if (window.location.pathname.endsWith('/zh/') || window.location.pathname.endsWith('/en/')) {
+    toggleTopNav(shouldShow);
+  } else {
+    toggleTopNav(shouldShow && currentScroll < lastScrollTop);
+  }
 
   lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
 }
+
 
 function showScrollToTopButton() {
   const scrollToTopBtn = document.getElementById("scrollToTop");
