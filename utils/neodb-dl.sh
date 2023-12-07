@@ -28,12 +28,6 @@ for category in "${categories[@]}"; do
   download_category $category
 done
 
-categories=("book" "movie" "music" "podcast")
-
-for category in "${categories[@]}"; do
-  download_category $category
-done
-
 # Combine all JSON files into one
 jq -s 'reduce .[] as $item ({}; .data += $item.data | .pages += $item.pages | .count += $item.count)' *.json > neodb.json
 
