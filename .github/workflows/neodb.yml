@@ -47,17 +47,21 @@ jobs:
           curl -X 'GET' \
           "https://neodb.social/api/me/shelf/complete?category=$category&page=1" \
           -H 'accept: application/json' \
-          -H 'Authorization: Bearer ${{ secrets.NEODB_ACCESS_TOKEN }}' > "${category}1.json"
+          -H 'Authorization: Bearer ' > "${category}1.json"
+
+          # 计算并打印每个类别的计数
           count=$(jq '.count' "${category}1.json")
           echo "${category} count: $count"
           echo "${category^^}_COUNT=$count" >> $GITHUB_ENV
         }
 
-        IFS=',' read -r -a categories <<< "${{ env.CATEGORIES }}"
+        # 遍历每个类别
+        categories=("book" "movie" "music" "podcast")
         for category in "${categories[@]}"; do
           download_and_count $category
         done
 
+        # 计算所有类别的总计数
         REMOTE_COUNT=$((${BOOK_COUNT:-0} + ${MOVIE_COUNT:-0} + ${MUSIC_COUNT:-0} + ${PODCAST_COUNT:-0}))
         echo "REMOTE_COUNT=$REMOTE_COUNT" >> $GITHUB_ENV
 
