@@ -74,6 +74,8 @@ jobs:
           echo "Variables are not equal. Running the next steps."
         fi
 
+
+
     - name: Get All NeoDB Data
       if: ${{ env.REMOTE_COUNT != env.CURRENT_COUNT }}
       run: |
