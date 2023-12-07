@@ -74,31 +74,29 @@ jobs:
           echo "Variables are not equal. Running the next steps."
         fi
 
-    - name: Get All NeoDB Count
+    - name: Get All NeoDB Data
       if: ${{ env.REMOTE_COUNT != env.CURRENT_COUNT }}
       run: |
-        #从 json 中提取 pages 字段的值
-        pages=$(jq '.pages' movie1.json)
-        tv_pages=$(jq '.pages' tv1.json)
-        mkdir neodb
+        mkdir -p neodb
         cd neodb
 
-        for ((i=1; i<=$pages; i++)); do
-          url="https://neodb.social/api/me/shelf/complete?category=movie&page=$i"
-          filename="movie$i.json"
-          curl -X 'GET' "$url" -H 'accept: application/json' \
-          -H 'Authorization: Bearer ${{ secrets.NEODB_ACCESS_TOKEN }}' > "$filename"
+        IFS=',' read -r -a categories <<< "${{ env.CATEGORIES }}"
+        for category in "${categories[@]}"; do
+          # 从 JSON 中提取 pages 字段的值
+          pages=$(jq '.pages' "../${category}1.json")
+
+          for ((i=1; i<=$pages; i++)); do
+            url="https://neodb.social/api/me/shelf/complete?category=$category&page=$i"
+            filename="${category}$i.json"
+            curl -X 'GET' "$url" -H 'accept: application/json' \
+            -H 'Authorization: Bearer ${{ secrets.NEODB_ACCESS_TOKEN }}' > "$filename"
+          done
         done
 
-        for ((i=1; i<=$tv_pages; i++)); do
-          tv_url="https://neodb.social/api/me/shelf/complete?category=tv&page=$i"
-          tv_filename="tv$i.json"
-          curl -X 'GET' "$tv_url" -H 'accept: application/json' \
-          -H 'Authorization: Bearer ${{ secrets.NEODB_ACCESS_TOKEN }}' > "$tv_filename"
-        done
-
+      # 把所有数据合并成一个文件
         jq -c -s '{data: map(.data[]) | unique | sort_by(.created_time) | reverse, pages: map(.pages)[0], count: map(.count)[0]}' *.json > neodb.json
-        cp -f neodb.json ${{ env.WORK_DIR }}/data/neodb/
+        cp -f neodb.json "${{ env.WORK_DIR }}/data/neodb/"
+
 
     - name: Download NeoDB Cover
       run: |
