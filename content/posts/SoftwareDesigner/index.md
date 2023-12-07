@@ -2,7 +2,7 @@
 title: "软件设计师 - 软考中级"
 date: 2023-08-21T11:38:57+08:00
 lastmod: 2023-11-10
-draft: false
+draft: true
 tags: []
 category: [Blog]
 summary: 我的软件设计师备考之路
