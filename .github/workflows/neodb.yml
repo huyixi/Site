@@ -74,7 +74,6 @@ jobs:
           echo "Variables are not equal. Running the next steps."
         fi
 
-
     - name: Get All NeoDB Data
       run: |
         mkdir -p neodb
@@ -90,10 +89,9 @@ jobs:
             -H 'Authorization: Bearer ${{ secrets.NEODB_ACCESS_TOKEN }}' > "$filename"
           done
         done
-      # Combine all data into one file
+        # Combine all data into one file
         jq -c -s '{data: map(.data[]) | unique | sort_by(.created_time) | reverse, pages: map(.pages)[0], count: map(.count)[0]}' *.json > neodb.json
         cp -f neodb.json "${{ env.WORK_DIR }}/data/neodb/"
-
 
     - name: Download NeoDB Cover
       run: |
