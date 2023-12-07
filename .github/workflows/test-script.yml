@@ -1,4 +1,4 @@
-name: Test Script
+name: Sync NeoDB Data
 
 on:
   push:
@@ -7,23 +7,146 @@ on:
   pull_request:
     branches:
       - main
+  schedule:
+  - cron: "0 22 * * *"
+  workflow_dispatch:
 
 jobs:
-  test:
+  neodb:
+    name: Sync NeoDB Data
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
+    - name: Checkout
+      uses: actions/checkout@v3
 
-    - name: Set up JDK 11
-      uses: actions/setup-java@v2
-      with:
-        java-version: '11'
-        distribution: 'adopt'
-
-    - name: Run the Script
+    # 检查是否安装 JQ
+    - name: Check JQ
       run: |
-        chmod +x ./utils/neodb-dl.sh
-        ./utils/neodb-dl.sh
+        if ! command -v jq &> /dev/null; then
+          echo "jq is not installed. Installing..."
+          sudo apt-get update
+          sudo apt-get install -y jq
+        else
+          echo "jq is already installed."
+        fi
+        # 把当前目录保存到环境变量中
+        echo "WORK_DIR=$(pwd)" >> $GITHUB_ENV
+
+    # 获取本地现有文件的标记数
+    - name: Get Current Count
+      run: |
+        CURRENT_COUNT() {
+          jq '.count' data/neodb/neodb.json
+        }
+        echo "CURRENT_COUNT=$(CURRENT_COUNT)" >> $GITHUB_ENV
+
+    - name: Get NeoDB JSON and Count
+      run: |
+        # 定义一个函数用于下载数据和计算每个类别的计数
+        download_and_count() {
+          category=$1
+          curl -X 'GET' \
+          "https://neodb.social/api/me/shelf/complete?category=$category&page=1" \
+          -H 'accept: application/json' \
+          -H 'Authorization: Bearer ${{ secrets.NEODB_ACCESS_TOKEN }}' > "${category}1.json"
+
+        # 计算并打印每个类别的计数
+        count=$(jq '.count' "${category}1.json")
+        echo "${category} count: $count"
+        echo "${category^^}_COUNT=$count" >> $GITHUB_ENV}
+
+        # 遍历每个类别
+        categories=("book" "movie" "music" "podcast")
+        for category in "${categories[@]}"; do
+          download_and_count $category
+        done
+
+        # 计算所有类别的总计数
+        REMOTE_COUNT=$((${BOOK_COUNT:-0} + ${MOVIE_COUNT:-0} + ${MUSIC_COUNT:-0} + ${PODCAST_COUNT:-0}))
+        echo "REMOTE_COUNT=$REMOTE_COUNT" >> $GITHUB_ENV
+
+    # 对比本地的标记数和远程标记数，相等就跳过，不相等就下载新数据
+    - name: Count Compare
+      run: |
+        if [ "${{ env.REMOTE_COUNT }}" = "${{ env.CURRENT_COUNT }}" ]; then
+          echo "Variables are equal. Skipping the next steps."
+          exit 0
+        else
+          echo "Variables are not equal. Running the next steps."
+        fi
+    
+        # 下载所有数据
+    - name: Get All NeoDB Count
+      if: ${{ env.REMOTE_COUNT != env.CURRENT_COUNT }}
+      run: |
+        #从 json 中提取 pages 字段的值
+        pages=$(jq '.pages' movie1.json)
+        tv_pages=$(jq '.pages' tv1.json)
+
+        # 个人使用，新建 WorkDIR ，排除 vercel.json 和 package.json 等
+        mkdir neodb
+        cd neodb
+
+        # 下载 Movie 分类
+        for ((i=1; i<=$pages; i++)); do
+          url="https://neodb.social/api/me/shelf/complete?category=movie&page=$i"
+          filename="movie$i.json"
+
+        # 下载文件并保存为对应的文件名
+        curl -X 'GET' "$url" \
+          -H 'accept: application/json' \
+          -H 'Authorization: Bearer ${{ secrets.NEODB_ACCESS_TOKEN }}' > "$filename"
+        done
+
+        # 下载 TV 分类
+        for ((i=1; i<=$tv_pages; i++)); do
+          tv_url="https://neodb.social/api/me/shelf/complete?category=tv&page=$i"
+          tv_filename="tv$i.json"
+
+          curl -X 'GET' "$tv_url" \
+            -H 'accept: application/json' \
+            -H 'Authorization: Bearer ${{ secrets.NEODB_ACCESS_TOKEN }}' > "$tv_filename"
+          done
+
+        # 把所有数据合并成一个文件
+        jq -c -s '{data: map(.data[]) | unique | sort_by(.created_time) | reverse, pages: map(.pages)[0], count: map(.count)[0]}' *.json > movie.json
+
+        # 更新 NeoDB 数据
+        cp -f movie.json ${{ env.WORK_DIR }}/data/neodb/
+
+    - name: Download NeoDB Cover
+      run: |
+        # 检查 movie 目录是否存在，如果不存在则创建
+        if [ ! -d "movie" ]; then
+          mkdir movie
+        fi
+
+        # 读取本地的 movie.json 文件内容
+        json=$(cat data/neodb/movie.json)
+
+        # 提取图片 URL
+        image_urls=$(echo "$json" | jq -r '.data[].item.cover_image_url')
+
+        # 遍历图片 URL 并下载图片
+        for url in $image_urls; do
+          filename=$(basename "$url")
+          filepath="data/neodb/cover/$filename"
+          # 检查文件是否已存在
+          if [ -f "$filepath" ]; then
+            echo "Skipping $filename - File already exists"
+          else
+            # 使用 curl 命令下载图片
+            curl -o "$filepath" "$url"
+            echo "Downloaded $filename"
+            echo "REMOTE_COUNT=''" >> $GITHUB_ENV
+          fi
+        done
+
+    # 把修改后的数据提交到 GitHub 仓库
+    - name: Git Add and Commit
+      if: ${{ env.REMOTE_COUNT != env.CURRENT_COUNT }}
+      uses: EndBug/add-and-commit@v9
+      with:
+        message: 'chore(data): update neodb data'
+        add: './data/neodb'
 

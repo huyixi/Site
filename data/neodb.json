@@ -1,0 +1,112 @@
+{
+  "data": [
+    {
+      "shelf_type": "complete",
+      "visibility": 0,
+      "item": {
+        "uuid": "4uzW6uLz2D29JcJXMiCq9F",
+        "url": "/book/4uzW6uLz2D29JcJXMiCq9F",
+        "api_url": "/api/book/4uzW6uLz2D29JcJXMiCq9F",
+        "category": "book",
+        "parent_uuid": null,
+        "display_title": "平面设计中的网格系统",
+        "external_resources": [
+          {
+            "url": "https://book.douban.com/subject/26806997/"
+          }
+        ],
+        "title": "平面设计中的网格系统",
+        "brief": "本书主要介绍了网格的功能和使用方法，旨在为平面和空间的设计师们提供一个实际的工具，让他们可以从概念、组织结构和设计上更有效、自信地处理和解决视觉问题。\n与此同时，此书也为设计教育者提供了帮助，让他们能在教学中更好地解决实际问题。一方面，教师通过教学能为学生 提供一个很好的机会去了解和熟悉网格设计的要点和方法；另一方面，学生也可以通过自我训练的方式去学习如何使用它。\n为了读者能够更容易了解和掌握网格设计的原理，我将在书里尽可能详细地解释网格系统，并逐步分析网格设计中的关键步骤。\n事实上，绝大多数的设计师都不知道、也不理解为什么要建立这样的一个秩序系统。所以，如果想要合理、功能地运用网格系统，那就必须仔细地研究网格的所有原理。只要不嫌麻烦，任何研究网格的人都会发现，在网格系统的帮助下，他都能更快地解决设计中的问题，并让设计更具功能性、逻辑性和视觉美感。",
+        "cover_image_url": "https://neodb.social/media/book/2021/09/16845fa599-a1a9-4217-80e5-c200a72c9948.jpg",
+        "rating": 8.4,
+        "rating_count": 21
+      },
+      "created_time": "2023-12-03T13:55:04.382Z",
+      "comment_text": null,
+      "rating_grade": 5,
+      "tags": []
+    },
+    {
+      "shelf_type": "complete",
+      "visibility": 0,
+      "item": {
+        "uuid": "74GZF2M6eBmT0rcaPArYUb",
+        "url": "/movie/74GZF2M6eBmT0rcaPArYUb",
+        "api_url": "/api/movie/74GZF2M6eBmT0rcaPArYUb",
+        "category": "movie",
+        "parent_uuid": null,
+        "display_title": "河边的错误",
+        "external_resources": [
+          {
+            "url": "https://www.imdb.com/title/tt27590147/"
+          },
+          {
+            "url": "https://movie.douban.com/subject/35256092/"
+          },
+          {
+            "url": "https://www.themoviedb.org/movie/1115379"
+          }
+        ],
+        "title": "河边的错误",
+        "brief": "影片改编自余华同名先锋代表作。一桩吊诡凶案牵扯出多名嫌疑人，刑警队长马哲（朱一龙 饰）被无法言喻的真相不断拨弄，逐渐陷入荒诞、不安和分不清是真是幻的时刻与记忆中......",
+        "cover_image_url": "https://neodb.social/media/item/tmdb_movie/2023/04/29/9c6e0a3a-2047-404d-b807-2b3e6131224c.jpg",
+        "rating": 6.9,
+        "rating_count": 91
+      },
+      "created_time": "2023-12-07T09:30:40.387Z",
+      "comment_text": "看电影的时候看不懂.\r\n之后出来看解说发现被导演戏耍了\r\n这个解说很不错: https://www.bilibili.com/video/BV1xN4y1C723/?spm_id_from=333.337.search-card.all.click",
+      "rating_grade": null,
+      "tags": []
+    },
+    {
+      "shelf_type": "complete",
+      "visibility": 2,
+      "item": {
+        "uuid": "7EMGi9PmZ6uSrBTMu55OvX",
+        "url": "/album/7EMGi9PmZ6uSrBTMu55OvX",
+        "api_url": "/api/album/7EMGi9PmZ6uSrBTMu55OvX",
+        "category": "music",
+        "parent_uuid": null,
+        "display_title": "願榮光歸香港 Glory To Hong Kong",
+        "external_resources": [
+          {
+            "url": "https://dgxmusichk.bandcamp.com/album/glory-to-hong-kong"
+          }
+        ],
+        "title": "願榮光歸香港 Glory To Hong Kong",
+        "brief": "Glory To Hong Kong",
+        "cover_image_url": "https://neodb.social/media/album/2022/08/173ddfa449-e534-43ea-aa8c-881c1ca01364.jpg",
+        "rating": null,
+        "rating_count": 4
+      },
+      "created_time": "2023-12-04T14:52:20.758Z",
+      "comment_text": null,
+      "rating_grade": 9,
+      "tags": []
+    },
+    {
+      "shelf_type": "complete",
+      "visibility": 0,
+      "item": {
+        "uuid": "0o6pZC4313gF9BLeWL7v7p",
+        "url": "/podcast/0o6pZC4313gF9BLeWL7v7p",
+        "api_url": "/api/podcast/0o6pZC4313gF9BLeWL7v7p",
+        "category": "podcast",
+        "parent_uuid": null,
+        "display_title": "枫言枫语",
+        "external_resources": [],
+        "title": "枫言枫语",
+        "brief": "听见科技与人文的声音。由开发者 @枫影JustinYan 和 设计师 @自力hzlzh 主持的播客节目。",
+        "cover_image_url": "https://neodb.social/media/item/podcast/2023/06/06/cda8f4db-b953-43c2-9033-1c4151298458.jpeg",
+        "rating": null,
+        "rating_count": 2
+      },
+      "created_time": "2023-12-07T09:43:03.450Z",
+      "comment_text": null,
+      "rating_grade": 8,
+      "tags": []
+    }
+  ],
+  "pages": 4,
+  "count": 4
+}

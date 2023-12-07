@@ -8,7 +8,7 @@ download_category() {
 
   curl -X 'GET' "${base_url}1" \
       -H "$accept_header" \
-      -H "$auth_header" > "${category}1.json"
+      -H "$auth_header" > "${category}1.json" || echo "Failed to download ${base_url}1"
 
   pages=$(jq '.pages' "${category}1.json")
 
@@ -18,7 +18,7 @@ download_category() {
 
     curl -X 'GET' "$url" \
       -H "$accept_header" \
-      -H "$auth_header" > "$filename"
+      -H "$auth_header" > "$filename" || echo "Failed to download $url"
   done
 }
 
