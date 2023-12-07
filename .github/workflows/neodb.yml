@@ -75,9 +75,7 @@ jobs:
         fi
 
 
-
     - name: Get All NeoDB Data
-      if: ${{ env.REMOTE_COUNT != env.CURRENT_COUNT }}
       run: |
         mkdir -p neodb
         cd neodb
