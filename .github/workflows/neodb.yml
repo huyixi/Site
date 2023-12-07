@@ -75,16 +75,14 @@ jobs:
         fi
 
     - name: Get All NeoDB Data
-      if: ${{ github.env.REMOTE_COUNT != github.env.CURRENT_COUNT }}
+      if: ${{ env.REMOTE_COUNT != env.CURRENT_COUNT }}
       run: |
         mkdir -p neodb
         cd neodb
-
         IFS=',' read -r -a categories <<< "${{ env.CATEGORIES }}"
         for category in "${categories[@]}"; do
-          # 从 JSON 中提取 pages 字段的值
+          # Extract the value of the pages field from JSON
           pages=$(jq '.pages' "../${category}1.json")
-
           for ((i=1; i<=$pages; i++)); do
             url="https://neodb.social/api/me/shelf/complete?category=$category&page=$i"
             filename="${category}$i.json"
@@ -92,8 +90,7 @@ jobs:
             -H 'Authorization: Bearer ${{ secrets.NEODB_ACCESS_TOKEN }}' > "$filename"
           done
         done
-
-      # 把所有数据合并成一个文件
+      # Combine all data into one file
         jq -c -s '{data: map(.data[]) | unique | sort_by(.created_time) | reverse, pages: map(.pages)[0], count: map(.count)[0]}' *.json > neodb.json
         cp -f neodb.json "${{ env.WORK_DIR }}/data/neodb/"
 
