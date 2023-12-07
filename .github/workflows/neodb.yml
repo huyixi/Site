@@ -75,7 +75,7 @@ jobs:
         fi
 
     - name: Get All NeoDB Data
-      if: ${{ env.REMOTE_COUNT != env.CURRENT_COUNT }}
+      if: ${{ github.env.REMOTE_COUNT != github.env.CURRENT_COUNT }}
       run: |
         mkdir -p neodb
         cd neodb
