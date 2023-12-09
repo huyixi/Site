@@ -55,7 +55,8 @@ jobs:
           # 计算并打印每个类别的计数
           count=$(jq '.count' "${category}1.json")
           echo "${category} count: $count"
-          echo "${category^^}_COUNT=$count" >> $GITHUB_ENV
+
+          REMOTE_COUNT=$((REMOTE_COUNT + count))
         }
 
         # 遍历每个类别
@@ -63,20 +64,10 @@ jobs:
         IFS=',' read -r -a categories <<< "${{ env.CATEGORIES }}"
         for category in "${categories[@]}"; do
           download_and_count "$category"
-
-          count_var="${category^^}_COUNT"
-          echo "count_var for $category is: $count_var"
-
-          count=${!count_var:-0}
-          echo ""Count for $category is: $count""
-
-          REMOTE_COUNT=$((REMOTE_COUNT + count))
-          echo "Running total of REMOTE_COUNT is: $REMOTE_COUNT"
         done
 
         echo "REMOTE_COUNT=$REMOTE_COUNT"
         echo "REMOTE_COUNT=$REMOTE_COUNT" >> $GITHUB_ENV
-
 
     - name: Count Compare
       run: |
