@@ -60,7 +60,7 @@ jobs:
 
         # 遍历每个类别
         REMOTE_COUNT=0
-        IFS=',' read -r -a categories <<< "{{ env.CATEGORIES }}"
+        IFS=',' read -r -a categories <<< "${{ env.CATEGORIES }}"
         for category in "${categories[@]}"; do
           download_and_count "$category"
 
