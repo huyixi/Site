@@ -62,6 +62,8 @@ jobs:
         REMOTE_COUNT=0
         IFS=',' read -r -a categories <<< "{{ env.CATEGORIES }}"
         for category in "${categories[@]}"; do
+          download_and_count "$category"
+
           count_var="${category^^}_COUNT"
           count=${!count_var:-0}
 
