@@ -1035,6 +1035,10 @@ video {
   visibility: hidden;
 }
 
+.static {
+  position: static;
+}
+
 .fixed {
   position: fixed;
 }
@@ -1079,8 +1083,8 @@ video {
   left: 50%;
 }
 
-.right-5 {
-  right: 1.25rem;
+.right-1 {
+  right: 0.25rem;
 }
 
 .right-8 {
@@ -1101,22 +1105,6 @@ video {
 
 .top-full {
   top: 100%;
-}
-
-.right-4 {
-  right: 1rem;
-}
-
-.right-3 {
-  right: 0.75rem;
-}
-
-.right-2 {
-  right: 0.5rem;
-}
-
-.right-1 {
-  right: 0.25rem;
 }
 
 .z-10 {
