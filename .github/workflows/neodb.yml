@@ -122,6 +122,14 @@ jobs:
           fi
         done
 
+    - name: Upload Cover Images as Artifact
+      if: always() 
+      uses: actions/upload-artifact@v2
+      with:
+        name: cover-images 
+        path: data/neodb/cover/
+
+
     - name: Git Add and Commit
       if: ${{ env.REMOTE_COUNT != env.CURRENT_COUNT }}
       uses: EndBug/add-and-commit@v9
