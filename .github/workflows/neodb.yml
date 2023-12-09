@@ -38,16 +38,19 @@ jobs:
         CURRENT_COUNT() {
           jq '.count' data/neodb/neodb.json
         }
-        echo "CURRENT_COUNT=$(CURRENT_COUNT)" >> $GITHUB_ENV
+            COUNT=$(CURRENT_COUNT)
+        echo "CURRENT_COUNT=$COUNT"
+        echo "CURRENT_COUNT=$COUNT" >> $GITHUB_ENV
 
     - name: Get NeoDB JSON and Count
       run: |
         download_and_count() {
           category=$1
+          echo "Downloading data for category: $category"
           curl -X 'GET' \
           "https://neodb.social/api/me/shelf/complete?category=$category&page=1" \
           -H 'accept: application/json' \
-          -H 'Authorization: Bearer ' > "${category}1.json"
+          -H 'Authorization: Bearer ${{ secrets.NEODB_ACCESS_TOKEN }}' > "${category}1.json"
 
           # 计算并打印每个类别的计数
           count=$(jq '.count' "${category}1.json")
