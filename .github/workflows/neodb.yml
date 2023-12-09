@@ -100,11 +100,15 @@ jobs:
     - name: Download NeoDB Cover
       run: |
         json=$(cat data/neodb/neodb.json)
-        image_urls=$(echo "$json" | jq -r '.data[] | "\(.item.category) \(.item.cover_image_url)"')
+        image_urls=$(echo "$json" | jq -r '.data[] | "\(.item.category)|\(.item.cover_image_url)"')
         for entry in $image_urls; do
-          category=$(echo $entry | cut -d' ' -f1)
-          url=$(echo $entry | cut -d' ' -f2)
-      
+          category=$(echo $entry | cut -d'|' -f1)
+
+          if [ -z "$url" ] || [[ "$url" == "null" ]]; then
+            echo "Invalid URL for category $category, skipping..."
+            continue
+          fi
+
           if [ ! -d "data/neodb/cover/$category" ]; then
             mkdir -p "data/neodb/cover/$category"
           fi
