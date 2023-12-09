@@ -103,6 +103,7 @@ jobs:
         image_urls=$(echo "$json" | jq -r '.data[] | "\(.item.category)|\(.item.cover_image_url)"')
         for entry in $image_urls; do
           category=$(echo $entry | cut -d'|' -f1)
+          url=$(echo $entry | cut -d'|' -f2)
 
           if [ -z "$url" ] || [[ "$url" == "null" ]]; then
             echo "Invalid URL for category $category, skipping..."
