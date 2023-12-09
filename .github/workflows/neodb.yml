@@ -59,14 +59,18 @@ jobs:
         }
 
         # 遍历每个类别
-        categories=("book" "movie" "music" "podcast")
+        REMOTE_COUNT=0
+        IFS=',' read -r -a categories <<< "{{ env.CATEGORIES }}"
         for category in "${categories[@]}"; do
-          download_and_count $category
+          count_var="${category^^}_COUNT"
+          count=${!count_var:-0}
+
+          REMOTE_COUNT=$((REMOTE_COUNT + count))
         done
 
-        # 计算所有类别的总计数
-        REMOTE_COUNT=$((${BOOK_COUNT:-0} + ${MOVIE_COUNT:-0} + ${MUSIC_COUNT:-0} + ${PODCAST_COUNT:-0}))
+        echo "REMOTE_COUNT=$REMOTE_COUNT"
         echo "REMOTE_COUNT=$REMOTE_COUNT" >> $GITHUB_ENV
+
 
     - name: Count Compare
       run: |
