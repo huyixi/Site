@@ -40,7 +40,7 @@ $XDG_CONFIG_HOME/iterm2/AppSupport/DynamicProfiles
 
 ## ISSUE
 
-### 中文输入法卡死
+### 中文输入法卡死(fixed: macos 14.2)
 
 #### 解决方案:
 
