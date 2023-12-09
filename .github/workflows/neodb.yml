@@ -137,7 +137,7 @@ jobs:
         add: './data/neodb'
 
     - name: Build Hugo and Deploy
-          if: ${{ env.REMOTE_COUNT != env.CURRENT_COUNT }}
-          uses: peter-evans/repository-dispatch@v2
-          with:
-              event-type: "Build Hugo and Deploy"
+      if: ${{ env.REMOTE_COUNT != env.CURRENT_COUNT }}
+      uses: peter-evans/repository-dispatch@v2
+      with:
+          event-type: "Build Hugo and Deploy"
