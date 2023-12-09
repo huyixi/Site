@@ -18,6 +18,8 @@ summary: 关于 Rime 输入法的配置
 
 1. 关闭 Mac 系统的 `SIP(System Integrity Protection)` 
 
+   关于 `SIP` [官方介绍链接](https://developer.apple.com/documentation/security/disabling_and_enabling_system_integrity_protection)
+
    1. 关机
 
    2. intel 芯片的 Mac 按住 `Command + R` 进入恢复模式
