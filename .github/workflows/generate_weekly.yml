@@ -1,9 +1,6 @@
 name: Generate Weekly Post
 
 on:
-  push:
-    branches:
-      - main
   schedule:
     - cron: '0 0 * * 6'
 
@@ -34,7 +31,7 @@ jobs:
           # 创建 index.md 并写入内容
           {
             echo "---"
-            echo "title: 'Weekly-${WEEKLY_NUMBER}: '"
+            echo "title: 'Weekly ${WEEKLY_NUMBER}: '"
             echo "start_date: ${TODAY}"
             END_DATE=$(date -d "${TODAY} + 6 days" +'%Y-%m-%d')
             echo "end_date: ${END_DATE}"
