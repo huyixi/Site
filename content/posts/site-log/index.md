@@ -36,3 +36,63 @@ Tue Dec 5 21:05, 2023
 After:
 
 ![image-20231205211024164](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231205211024164.png)
+
+
+#### 使用 GitHub Actions 自动生成周刊
+
+Sun Dec 10 15:16, 2023
+
+```bash
+name: Generate Weekly Post
+
+on:
+  schedule:
+    - cron: '0 0 * * 6'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Generate Weekly Post
+      run: |
+          START_DATE="2023-12-10"
+          TODAY=$(date +'%Y-%m-%d')
+          # 计算周刊的期数
+          WEEKLY_NUMBER=$((($(date -d $TODAY +%s) - $(date -d $START_DATE +%s)) / 604800 + 1 +32))
+
+          # 创建新的文件夹
+          FOLDER_NAME="Weekly-${WEEKLY_NUMBER}"
+          mkdir -p "./content/posts/${FOLDER_NAME}"
+
+          # 创建 index.md 并写入内容
+          {
+            echo "---"
+            echo "title: Weekly ${WEEKLY_NUMBER}: "
+            echo "start_date: ${TODAY}"
+            END_DATE=$(date -d "${TODAY} + 6 days" +'%Y-%m-%d')
+            echo "end_date: ${END_DATE}"
+            echo "category: [Weekly]"
+            echo "tags: []"
+            echo "draft: true"
+            echo "---"
+            echo "这是自动生成的第 ${WEEKLY_NUMBER} 期周刊内容。"
+          } > "./content/posts/${FOLDER_NAME}/index.md"
+
+
+    - name: Commit and Push
+      run: |
+        git config --global user.name '${{ secrets.GIT_USER_NAME }}'
+        git config --global user.email '${{ secrets.GIT_USER_EMAIL }}'
+        git add ./content/posts/${FOLDER_NAME}
+        git commit -m "Add Weekly post"
+        git push
+```
