@@ -48,7 +48,7 @@ jobs:
             echo "## 说说"
             echo "## 其他"
           } > "./content/posts/${FOLDER_NAME}/index.md"
-          ls -l "./content/posts/${FOLDER_NAME}/index.md"
+          ls -l "file: ./content/posts/${FOLDER_NAME}/index.md"
 
     - name: Commit and Push
       run: |
