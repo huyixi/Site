@@ -1,14 +1,6 @@
 name: Sync NeoDB Data
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-  schedule:
-    - cron: "0 22 * * *"
   workflow_dispatch:
 
 env:
