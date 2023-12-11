@@ -49,6 +49,8 @@ jobs:
             echo "## 其他"
           } > "./content/posts/${FOLDER_NAME}/index.md"
     
+    - name: Check Generated File
+      run: ls -l "./content/posts/${FOLDER_NAME}/index.md"
 
     - name: Commit and Push
       run: |
