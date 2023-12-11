@@ -40,7 +40,13 @@ jobs:
             echo "tags: []"
             echo "draft: true"
             echo "---"
-            echo "这是自动生成的第 ${WEEKLY_NUMBER} 期周刊内容。"
+            echo "## 日记"
+            echo "## 文章"
+            echo "## 播客"
+            echo "## 视频"
+            echo "## 资源"
+            echo "## 说说"
+            echo "## 其他"
           } > "./content/posts/${FOLDER_NAME}/index.md"
     
 
