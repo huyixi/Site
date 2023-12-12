@@ -32,7 +32,9 @@ jobs:
           # 创建 index.md 并写入内容
           {
             echo "---"
-            echo "title: Weekly ${WEEKLY_NUMBER}: "
+            echo 'title: "Weekly ${WEEKLY_NUMBER}: "'
+            CURRENT_TIME=$(date +'%Y-%m-%d %H:%M:%S')
+            echo "date: ${CURRENT_TIME}"
             echo "start_date: ${TODAY}"
             END_DATE=$(date -d "${TODAY} + 6 days" +'%Y-%m-%d')
             echo "end_date: ${END_DATE}"
