@@ -51,21 +51,10 @@
     {{ partial "top-button.html" . }}
     {{ partial "article-indicator.html" . }}
   </div>
+  {{/*  <section>
+    {{ partial "comments.html" . }}
+  </section>  */}}
   <section class="max-w-prose pt-8 print:hidden">
-    {{ partial "author.html" . }}
-    {{ partial "sharing-links.html" . }}
     {{ partial "more.html" . }}
-    {{ if .Params.showComments | default (.Site.Params.article.showComments | default false) }}
-      {{ if templates.Exists "partials/comments.html" }}
-        <div class="pt-3">
-          <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
-          <div class="pt-3">
-            {{ partial "comments.html" . }}
-          </div>
-        </div>
-      {{ else }}
-        {{ warnf "Comments are enabled for %s but no comments partial exists." .File.Path }}
-      {{ end }}
-    {{ end }}
   </section>
 {{ end }}
