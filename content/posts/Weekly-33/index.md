@@ -4,6 +4,7 @@ date: 2023-12-10
 start_date: 2023-12-10
 end_date: 2023-12-16
 category: [Weekly]
+draft: false
 tags: []
 draft: true
 ---
