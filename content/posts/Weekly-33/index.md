@@ -1,12 +1,12 @@
 ---
 title: 'Weekly-33: 活在现在。不是活在未来，也不是活在过去'
-date: 2023-12-10
+subtitle: " "
+date: 2023-12-10T08:00:00+08:00
 start_date: 2023-12-10
 end_date: 2023-12-16
 category: [Weekly]
 draft: false
 tags: []
-draft: true
 ---
 
 ## 日记
