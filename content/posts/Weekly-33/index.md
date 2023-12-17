@@ -104,8 +104,6 @@ https://medium.com/ui-ux%E7%B7%B4%E5%8A%9F%E5%9D%8A/%E5%A6%82%E4%BD%95%E7%94%A8c
 
 在使用的时候遇到了一个问题。
 
-
-
 ## 人物
 
 #### Jiang 的数字花园
@@ -230,6 +228,22 @@ https://crypto4.wtf/p/8fd
   参考：
 - https://zhuanlan.zhihu.com/p/504922912
 
+#### App 还是 APP
+
+在正式的文章中出现「app」时应如何大小写？应该写 App 还是 app 还是 APP ？其复数形式应该是怎样的？ - 隔壁老楼的回答 - 知乎
+https://www.zhihu.com/question/20264852/answer/154189841
+
+> 以下为使用 App 的情况：
+
+用于标题时必须使用 App
+用于强调或者总结性句子时
+用于标题或者正文内容指定某一特定 App 时
+App Store 等特定词汇必须使用 App
+以下为使用 app 的情况：
+
+用于正文内容泛指某些或某类 app 时
+![](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/oZFELs.jpg)
+
 ## 音乐
 
 #### my little airport
@@ -246,6 +260,16 @@ https://crypto4.wtf/p/8fd
 圣诞节要来了，当然要听一些有圣诞气氛的歌曲~
 
 ## 视频
+
+#### 关于一场酣畅淋漓的求婚
+
+https://www.bilibili.com/video/BV1UH4y1k7H5/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=e7b677bc31fcf107b6c6689167aae9d9
+
+
+#### study vlog #40 | 感谢GPT教我写前端🍻｜我是如何保持专注的｜那些我做完的事情，都有什么共性｜对
+
+https://www.bilibili.com/video/BV1ww411t77B/?vd_source=e7b677bc31fcf107b6c6689167aae9d9
+获取我们并不是渴望退休，而是渴望做自己想做的工作。
 
 #### Life is easy. Why do we make it so hard? | Jon Jandai | TEDxDoiSuthep
 
@@ -283,36 +307,6 @@ https://www.stripe.press/poor-charlies-almanack/
 云游君
 有点励志。因为前端需要的配置低而进入前端。
 
-## 视频
-
-https://www.bilibili.com/video/BV1UH4y1k7H5/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=e7b677bc31fcf107b6c6689167aae9d9
-
-#### study vlog #40 | 感谢GPT教我写前端🍻｜我是如何保持专注的｜那些我做完的事情，都有什么共性｜对
-
-https://www.bilibili.com/video/BV1ww411t77B/?vd_source=e7b677bc31fcf107b6c6689167aae9d9
-获取我们并不是渴望退休，而是渴望做自己想做的工作。
-
-## 其他
-
-#### 谷歌浏览器 恐龙游戏
-
-在地址栏输入 `chrome://dino/`。一个小彩蛋。
-
-#### App 还是 APP
-
-在正式的文章中出现「app」时应如何大小写？应该写 App 还是 app 还是 APP ？其复数形式应该是怎样的？ - 隔壁老楼的回答 - 知乎
-https://www.zhihu.com/question/20264852/answer/154189841
-
-> 以下为使用 App 的情况：
-
-用于标题时必须使用 App
-用于强调或者总结性句子时
-用于标题或者正文内容指定某一特定 App 时
-App Store 等特定词汇必须使用 App
-以下为使用 app 的情况：
-
-用于正文内容泛指某些或某类 app 时
-![](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/oZFELs.jpg)
 
 ## 资源
 
@@ -350,3 +344,11 @@ https://x.com/Tisoga/status/1734737408703517041?s=20
 ![](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/IBF0pv.jpg)、
 
 小吴乐意。最近发了好几篇关于比特币的博客。
+
+
+
+## 其他
+
+#### 谷歌浏览器 恐龙游戏
+
+在地址栏输入 `chrome://dino/`。一个小彩蛋。

@@ -30,11 +30,15 @@ module.exports = {
             },
             'p': {
               overflowWrap: 'break-word',
-              wordBreak: 'break-word'
+              wordBreak: 'break-word',
+              margin: '0.5em 0',
             },
             'code': {
               overflowWrap: 'break-word',
               wordBreak: 'break-word'
+            },
+            'figure': {
+              margin: '0.5em 0',
             }
           },
         },
