@@ -1,6 +1,7 @@
 hello:
   title: "Hello, I am"
   author: "huyixi"
+  intro: "Article"
 
 website:
   banner: "The images of this site are hosted on Github; Please ensure your internet connection is stable."

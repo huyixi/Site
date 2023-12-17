@@ -1,6 +1,7 @@
 hello:
   title: "你好，我是"
   author: "胡一希"
+  intro: "最新文章"
 
 website:
   banner: "本站图片托管于 Github，请确保网络连接正常。"
