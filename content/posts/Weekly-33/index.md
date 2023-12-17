@@ -95,8 +95,6 @@ https://stackoverflow.com/questions/58816676/failed-to-connect-to-github-com-por
 
 #### CSS 绘制三角形
 
-
-
 参考：如何用CSS繪製三角形
 
 https://medium.com/ui-ux%E7%B7%B4%E5%8A%9F%E5%9D%8A/%E5%A6%82%E4%BD%95%E7%94%A8css%E7%B9%AA%E8%A3%BD%E4%B8%89%E8%A7%92%E5%BD%A2-71478539fb1b
@@ -162,6 +160,38 @@ https://www.pseudoyu.com/zh/2023/09/13/weekly_review_20230913/
 - 写作入门
   https://hanyang.wtf/p/c7a
 
+#### 写作入门
+
+https://hanyang.wtf/p/c7a
+
+- 中文
+
+  - 请使用中文直角引号：「」为一级引号，『』为二级引号。（即「」是最外层的引号。）
+
+  - 破折号是——（两个 em dash），不是 --（两个 hyphen），也不是—（一个 em dash）
+
+    Mac 电脑：`option + -` 
+
+  - 省略号是……（两个英文省略号），不是。。。，也不是......（六个点）
+
+    `option + ;` （ L 右边的）
+  
+- 英文
+
+  - 省略号是 …。注意这是一个单独的符号，不是三个点。（若你试图删除这个符号，会发现按一下 delete 即可删除，而不是三下。）
+- 破折号是 —（em dash），表示「从哪到哪」是 –（en dash，例如 1980–1992）。前者在 Mac 上可用 shift option - 打出，后者可用 option - 打出。在某些文字处理软件（例如 Word）里，连续打两个 hyphen 会被自动转为 em dash。
+  - 括号和它外面的字母之间留一个空格，和它里面的字母之间不留空格。例：Richard D. James (aka Aphex Twin) is a pioneer of the so-called Intelligent Dance Music.
+
+- 数字
+
+  阿拉伯数字前后请加入空格。比如「现在是 2016 年」，而不是「现在是2016年」。
+
+- 试图用「万字长文」和「深度好文」来吸引读者，与开盖有奖一样是宣传手段。这是一种对文字的不自信，作者不相信自己可以依靠文字本身来吸引读者。
+
+#### 学习科研缺乏有效反馈怎么办？
+
+方法： 看电影的时候，当人物说出一句话，暂停播放，猜回复，然后查看是否一致。
+
 #### 双十一到双十二，大家是不是都冷静了？
 
 https://wufazhuce.com/question/4005
@@ -216,10 +246,23 @@ https://crypto4.wtf/p/8fd
 
 ## 视频
 
-Life is easy. Why do we make it so hard? | Jon Jandai | TEDxDoiSuthep
+#### Life is easy. Why do we make it so hard? | Jon Jandai | TEDxDoiSuthep
+
 https://www.youtube.com/watch?v=21j_OCNLuYg
 
 没有攀比，没有欲望。我们的生活方式本应这样。
+
+#### 老高
+
+- 近期吃过最棒的面馆之一，水平足以碾压一众大馆子
+
+  https://www.bilibili.com/video/BV1zg4y1A769/?vd_source=e7b677bc31fcf107b6c6689167aae9d9
+
+  上海沪西老弄堂
+
+- 在北京开了23年的安妮意大利餐厅，今天老高带你去看看
+
+  https://www.bilibili.com/video/BV1zY41117Wf/?vd_source=e7b677bc31fcf107b6c6689167aae9d9
 
 ## 资源
 
