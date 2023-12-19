@@ -1,5 +1,5 @@
 <li
-  class="group my-8 list-none overflow-hidden rounded-2xl border border-gray-300 transition-shadow-transform duration-300 ease-out hover:shadow-[0px_0px_0px_1px,0px_1px_1px_-0.5px,0px_3px_3px_-1.5px,0px_6px_6px_-3px,0px_12px_12px_-6px,0px_24px_24px_-12px]  hover:shadow-black/[0.06] dark:border-gray-700">
+  class="group my-8 list-none overflow-hidden rounded-2xl bg-white   transition-shadow-transform duration-300 ease-out hover:shadow-[0px_0px_0px_1px,0px_1px_1px_-0.5px,0px_3px_3px_-1.5px,0px_6px_6px_-3px,0px_12px_12px_-6px,0px_24px_24px_-12px]  hover:shadow-black/[0.06]  dark:bg-black">
   <!-- 获取图片资源 -->
   {{- $images := $.Resources.ByType "image" }}
   {{- $thumbnail := $images.GetMatch (.Params.thumbnail | default "*thumb*") }}
@@ -21,7 +21,7 @@
           <source srcset="{{ .RelPermalink }}" type="image/jpeg" />
           <img src="{{ .RelPermalink }}" alt="{{ $.Params.featureAlt | default $.Params.thumbnailAlt | default "" }}" {{
             if $.Site.Params.enableImageLazyLoading | default true }}loading="lazy" {{ end }}
-            class="h-full w-full transform  object-cover transition-transform duration-500 group-hover:scale-105 dark:border-gray-600"
+            class="h-full w-full transform  object-cover transition-transform duration-500 group-hover:scale-105 "
             onerror="handleImageError(this)" />
         </picture>
       </div>
@@ -31,23 +31,23 @@
       <!-- 文字部分 -->
       <div class="px-8 py-6">
         <!-- 标签部分 -->
-        <div class="text-sm font-semibold text-gray-400">
+        <div class="text-sm font-semibold text-gray-400 dark:text-[#91918C]">
           {{ range $.Params.category }}
           {{ . }}
           {{ end }}
         </div>
 
         <!-- 标题部分 -->
-        <h2 class="mb-1 mt-1 text-xl font-semibold text-black group-hover:text-blue-500 dark:text-white">
+        <h2 class="mb-1 mt-1 text-xl font-semibold text-black dark:text-white">
           {{ $.Title | emojify }}
         </h2>
 
         {{/* Check if subtitle exists */}}
         {{ if .Params.subtitle }}
-        <div class="text-base text-gray-400">{{ .Params.subtitle | emojify }}</div>
+        <div class="text-base text-stone-900 dark:text-[#91918C]">{{ .Params.subtitle | emojify }}</div>
         {{ else if .Params.showSummary | default (.Site.Params.list.showSummary | default true) }}
         <!-- 摘要部分 -->
-        <div class="text-base text-gray-400">{{ .Summary | emojify }}</div>
+        <div class="text-base text-gray-400 dark:text-[#91918C]">{{ .Summary | emojify }}</div>
         {{ end }}
       </div>
     </div>

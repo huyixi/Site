@@ -1776,6 +1776,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#f5f5f7\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 247 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-30 {
   --tw-bg-opacity: 0.3;
 }
@@ -1815,10 +1820,6 @@ video {
   padding: 1.25rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
@@ -1852,6 +1853,11 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-1 {
@@ -1892,16 +1898,6 @@ video {
 .py-\[1px\] {
   padding-top: 1px;
   padding-bottom: 1px;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .pb-2 {
@@ -2095,6 +2091,11 @@ video {
 .text-neutral-900 {
   --tw-text-opacity: 1;
   color: rgb(23 23 23 / var(--tw-text-opacity));
+}
+
+.text-stone-900 {
+  --tw-text-opacity: 1;
+  color: rgb(28 25 23 / var(--tw-text-opacity));
 }
 
 .text-text-medium {
@@ -3059,6 +3060,16 @@ body button {
   border-color: rgb(23 23 23 / var(--tw-border-opacity));
 }
 
+:is(.dark .dark\:border-b-slate-200) {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(226 232 240 / var(--tw-border-opacity));
+}
+
+:is(.dark .dark\:border-b-white) {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
 :is(.dark .dark\:bg-black) {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -3095,6 +3106,16 @@ body button {
 :is(.dark .dark\:bg-zinc-800) {
   --tw-bg-opacity: 1;
   background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-\[\#141414\]) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 20 20 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-\[\#1c1b1b\]) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 27 27 / var(--tw-bg-opacity));
 }
 
 :is(.dark .dark\:text-gray-300) {
@@ -3135,6 +3156,16 @@ body button {
 :is(.dark .dark\:text-white) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-\[\#919191\]) {
+  --tw-text-opacity: 1;
+  color: rgb(145 145 145 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-\[\#91918C\]) {
+  --tw-text-opacity: 1;
+  color: rgb(145 145 140 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:hover\:text-neutral-800:hover) {
