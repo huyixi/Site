@@ -96,3 +96,25 @@ jobs:
         git commit -m "Add Weekly post"
         git push
 ```
+
+#### 更好的 shadow 样式
+
+![image-20231220003044147](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231220003044147.png)
+
+参考以上的样式风格，之前的 hover 样式太过浮夸了。 
+
+#### Apple 风更浓了
+
+Wed Dec 20 00:29, 2023
+
+去掉了博客链接的边框，更简洁更耐看了，也更像 Apple 了。
+
+之前的：
+
+![image-20231220003305388](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231220003305388.png)
+
+现在的：
+
+![image-20231220003416968](/Users/huyixi/Library/Application%20Support/typora-user-images/image-20231220003416968.png)
+
+![image-20231220003251282](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231220003251282.png)
