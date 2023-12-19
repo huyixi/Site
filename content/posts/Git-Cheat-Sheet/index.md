@@ -105,3 +105,31 @@ git lg
 git config --global push.default current
 ```
 
+#### 仓库太大，网速太慢导致克隆出错
+
+https://stackoverflow.com/questions/38618885/error-rpc-failed-curl-transfer-closed-with-outstanding-read-data-remaining
+
+```bash
+remote: Counting objects: 66352, done.
+remote: Compressing objects: 100% (10417/10417), done.
+error: RPC failed; curl 18 transfer closed with outstanding read data remaining
+fatal: The remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+```
+
+solve:
+
+- 先进行浅层克隆，再进行深层克隆
+
+  ```bash
+  $ git clone http://github.com/large-repository --depth 1
+  $ cd large-repository
+  $ git fetch --unshallow
+  ```
+
+- 增大 git 下载缓冲区
+
+  ```bash
+  git config --global http.postBuffer 524288000
+  ```
