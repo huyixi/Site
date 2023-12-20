@@ -3267,9 +3267,14 @@ body button {
   border-bottom-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-:is(:where(.dark) .dark\:bg-\[\#171717\]) {
+:is(:where(.dark) .dark\:bg-\[\#222\]) {
   --tw-bg-opacity: 1;
-  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+  background-color: rgb(34 34 34 / var(--tw-bg-opacity));
+}
+
+:is(:where(.dark) .dark\:bg-\[\#333\]) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 51 51 / var(--tw-bg-opacity));
 }
 
 :is(:where(.dark) .dark\:bg-black) {
@@ -3303,16 +3308,6 @@ body button {
 :is(:where(.dark) .dark\:bg-zinc-800) {
   --tw-bg-opacity: 1;
   background-color: rgb(39 39 42 / var(--tw-bg-opacity));
-}
-
-:is(:where(.dark) .dark\:bg-\[\#333\]) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 51 51 / var(--tw-bg-opacity));
-}
-
-:is(:where(.dark) .dark\:bg-\[\#222\]) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 34 34 / var(--tw-bg-opacity));
 }
 
 :is(:where(.dark) .dark\:text-\[\#91918C\]) {
