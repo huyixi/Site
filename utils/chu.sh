@@ -1,7 +1,8 @@
 kill -9 $(lsof -t -i:1313)
 
 # Custom your path
-cd ~/Dev/huyixi.com
+cd ~/i/huyixi.com
+
 # Define the directory to navigate to
 DIR_TO_NAVIGATE="$(pwd)/themes/blue/"
 
