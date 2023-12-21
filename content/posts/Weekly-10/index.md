@@ -14,6 +14,17 @@ summary: |
 
 ### 1.如何写一个好的 git commit ?
 
+## Type of commit
+
+>feat:     The new feature being added to a particular application
+>fix:      A bug fix (this correlates with PATCH in SemVer)
+>style:    Feature and updates related to styling
+>refactor: Refactoring a specific section of the codebase
+>test:     Everything related to testing
+>docs:     Everything related to documentation
+>chore:    Regular code maintenance
+
+
 #### 相关命令
 
  - 设置提交消息模板
@@ -31,8 +42,6 @@ summary: |
    ```bash
    git config --global commit.template ~/.gitmessage
    ```
-
-   
 
 - 只打印主题行
 
