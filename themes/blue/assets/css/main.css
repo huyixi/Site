@@ -4,14 +4,15 @@
 
 @layer components {
   .prose blockquote:not(.not-prose) {
-    @apply border-l-blue-500;
-    @apply bg-neutral-100;
+    @apply border-l-2;
+    @apply border-l-gray-400;
     @apply dark:bg-neutral-800;
-    @apply px-3 py-1 font-normal not-italic;
+    @apply p-0
   }
 
   .prose blockquote>p {
     @apply mx-2 my-4;
+    @apply px-3 py-1 text-base font-light text-gray-500 not-italic;
   }
 
   .prose a:not(.not-prose) {
