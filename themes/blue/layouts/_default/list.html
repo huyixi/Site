@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{ $toc := and (.Params.showTableOfContents | default (.Site.Params.list.showTableOfContents | default false)) (in .TableOfContents "<ul") }}
-  <header>
-    <h1 class="dark:text-neutral mt-0 text-4xl font-extrabold text-neutral-900">{{ .Title }}</h1>
+  <header prose max-w-full dark:prose-invert>
+    <h1 class="mt-0 text-4xl font-extrabold">{{ .Title }}</h1>
   </header>
   <section
     class="{{ if $toc -}}
