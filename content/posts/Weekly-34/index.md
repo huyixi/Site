@@ -1,8 +1,8 @@
 ---
 title: "Weekly ${WEEKLY_NUMBER}: "
-date: 2023-12-18 00:43:47
-start_date: 2023-12-18
-end_date: 2023-12-24
+date: 2023-12-23 01:09:42
+start_date: 2023-12-23
+end_date: 2023-12-29
 category: [Weekly]
 tags: []
 draft: true
