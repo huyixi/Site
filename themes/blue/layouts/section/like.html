@@ -27,23 +27,5 @@
             {{ end }}
         </ul>
     </div>
-    <div class="my-8">
-        <h2 class="my-4">{{ i18n "like.hardware" }}</h2>
-        <ul class="flex snap-x space-x-4 overflow-y-hidden overflow-x-scroll">
-            {{ $hardwareLinks := where .Site.RegularPages "Params.category" "intersect" (slice "Hardware") }}
-            {{ range first 20 $hardwareLinks }}
-            {{ partial "hardware-link.html" . }}
-            {{ end }}
-        </ul>
-    </div>
-    <div class="my-8">
-        <h2 class="my-4">{{ i18n "like.software" }}</h2>
-        <ul class="flex snap-x space-x-4 overflow-y-hidden overflow-x-scroll">
-            {{ $softwareLinks := where .Site.RegularPages "Params.category" "intersect" (slice "Software") }}
-            {{ range first 20 $softwareLinks }}
-            {{ partial "software-link.html" . }}
-            {{ end }}
-        </ul>
-    </div>
 </div>
 {{end}}
