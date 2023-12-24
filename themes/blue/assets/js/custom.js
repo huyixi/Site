@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
       (window.location.pathname === "/zh/" || window.location.pathname === "/en/") &&
       !localStorage.getItem("bannerDisplayed")
     ) {
-      showBanner();
+      showTempBanner();
     }
   }, 500);
 
@@ -204,7 +204,7 @@ window.onload = function () {
   images.forEach(function (img) {
     img.addEventListener("error", function () {
       console.log("Failed to load image:", img.src);
-      showBanner();
+      showTempBanner();
     });
   });
 };
