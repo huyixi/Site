@@ -1,6 +1,4 @@
-const widthThreshold = 640; // 设置宽度阈值，例如 800px
-
-// 全局作用域中的 handleImageError 函数
+const widthThreshold = 640;
 
 function handleImageError(image) {
   console.log("Failed to load image:", image.src);
@@ -233,4 +231,34 @@ menuButton.addEventListener('click', function () {
   }
 
   isMenuOpen = !isMenuOpen;
+});
+
+// 创建一个全局变量来存储分类列表
+var globalCategories = [];
+
+// 在页面加载时，从HTML中获取分类列表并存储在全局变量中
+window.onload = function() {
+  var categoryElements = document.querySelectorAll('#post-filter li');
+  categoryElements.forEach(function(element) {
+    globalCategories.push(element.textContent.trim());
+  });
+};
+
+document.addEventListener('DOMContentLoaded', function() {
+  var articles = document.querySelectorAll('.article-item');
+  var categoryElements = document.querySelectorAll('#post-filter li');
+
+  categoryElements.forEach(function (categoryElement) {
+    categoryElement.addEventListener('click', function() {
+      var selectedCategory = this.textContent.trim();
+      articles.forEach(function(article) {
+        var articleCategories = article.getAttribute('data-categories').split(',');
+        if (selectedCategory === 'All' || articleCategories.includes(selectedCategory)) {
+          article.style.display = 'block';
+        } else {
+          article.style.display = 'none';
+        }
+      });
+    });
+  });
 });

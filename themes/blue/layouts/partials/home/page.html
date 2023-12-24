@@ -4,25 +4,27 @@
   </h1>
   <section>{{ .Content | emojify }}</section>
 </header>
-<section>
-  <ul id="article-filter" class="">
-    <li id="all-article-tag">All</li>
-    {{ $.Scratch.Add "tags" slice }}
+<section id="post-section">
+  <ul id="post-filter" class="flex gap-x-4 mt-4">
+    <li id="all-post-category"  class="bg-blue-500 rounded-xl px-2 text-white hover:cursor-pointer">All</li>
+    {{ $.Scratch.Add "categories" slice }}
     {{ range where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-      {{ $tags := .Params.category }}
-      {{ range $index, $tag := $tags }}
-        {{ if not (in ($.Scratch.Get "tags") $tag) }}
-          <li>{{ $tag }}</li>
-          {{ $.Scratch.Add "tags" $tag }}
+      {{ $categories := .Params.category }}
+      {{ range $index, $category := $categories }}
+        {{ if not (in ($.Scratch.Get "categories") $category) }}
+          <li class="bg-blue-500 text-white rounded-xl px-2  hover:cursor-pointer">{{ $category }}</li>
+          {{ $.Scratch.Add "categories" $category }}
         {{ end }}
       {{ end }}
     {{ end }}
   </ul>
-  <ul>
+  <ul id="post-list">
     {{ range first .Site.Params.homepage.recentLimit (.Paginate (where
     .Site.RegularPages "Type" "in" .Site.Params.mainSections)
     .Site.Params.homepage.recentLimit).Pages }}
-    {{ partial "post-link.html" . }}
+    <li class="article-item group my-8 list-none overflow-hidden rounded-2xl bg-white  transition-shadow-transform duration-300 ease-out hover:shadow-[0px_0px_0px_1px,0px_1px_1px_-0.5px,0px_3px_3px_-1.5px,0px_6px_6px_-3px,0px_12px_12px_-6px,0px_24px_24px_-12px]  hover:shadow-black/[0.06]  dark:bg-[#333]" data-categories="{{ delimit .Params.category "," }}">
+      {{ partial "post-link.html" . }}
+    </li>
     {{ end }}
   </ul>
 </section>
