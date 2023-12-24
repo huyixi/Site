@@ -1304,6 +1304,10 @@ video {
   margin-top: 0.1rem;
 }
 
+.ml-16 {
+  margin-left: 4rem;
+}
+
 .block {
   display: block;
 }
@@ -1641,6 +1645,10 @@ video {
 
 .whitespace-nowrap {
   white-space: nowrap;
+}
+
+.text-nowrap {
+  text-wrap: nowrap;
 }
 
 .\!rounded-md {
@@ -2948,6 +2956,10 @@ body button {
 
 .focus\:outline-transparent:focus {
   outline-color: transparent;
+}
+
+.group:hover .group-hover\:block {
+  display: block;
 }
 
 .group:hover .group-hover\:w-full {
