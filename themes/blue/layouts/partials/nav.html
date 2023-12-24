@@ -8,7 +8,7 @@
       {{ range $index, $menuItem := .Site.Menus.main }}
         <li class="relative my-2 flex items-center hover:cursor group">
           {{ $isActive := false }}
-          {{ $isHomeActive := or (in (slice "/zh/" "/en/") $currentURL) (strings.HasPrefix $currentURL "/zh/posts/") (strings.HasPrefix $currentURL "/en/posts/") }}
+          {{ $isHomeActive := or (in (slice "/zh/" "/en/") $currentURL) (strings.HasPrefix $currentURL "/zh/post/") (strings.HasPrefix $currentURL "/en/post/") }}
           {{ $isProjectActive := or (strings.HasPrefix $currentURL "/zh/projects/") (strings.HasPrefix $currentURL "/en/projects/") }}
           {{ $isLikeActive := or (strings.HasPrefix $currentURL "/zh/like/") (strings.HasPrefix $currentURL "/en/like/") }}
 
