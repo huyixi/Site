@@ -5,6 +5,6 @@ date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: false
 tags: []
-category: [Blog]
+category: [Article]
 summary: 
 ---

@@ -2,7 +2,7 @@
 title: 如何写一封简历
 date: 2023-06-01T14:44:00+08:00
 lastmod: 2023-06-01T14:44:00+08:00
-category: [Blog]
+category: [Article]
 tags: [resume]
 draft: false
 ---

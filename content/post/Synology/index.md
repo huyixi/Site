@@ -4,7 +4,7 @@ subtitle: "群晖设置指南"
 date: 2023-12-23T17:15:59+08:00
 lastmod: 2023-12-23T17:15:59+08:00
 draft: false
-category: [Blog]
+category: [Article]
 summary: 
 ---
 我当前使用的设备信息：

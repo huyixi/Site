@@ -5,7 +5,7 @@ date: 2023-11-23T14:08:09+08:00
 lastmod: 2023-12-07
 draft: true
 tags: []
-category: [Blog]
+category: [Article]
 summary: read shortcodes test
 ---
 

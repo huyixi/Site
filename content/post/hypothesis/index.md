@@ -5,7 +5,7 @@ date: 2023-12-02T17:30:01+08:00
 lastmod: 2023-12-02T17:30:01+08:00
 draft: true
 tags: []
-category: [Blog]
+category: [Article]
 summary: 
 ---
 

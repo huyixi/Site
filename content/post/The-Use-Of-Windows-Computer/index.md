@@ -2,7 +2,7 @@
 title: The-Use-Of-Windows-Computer
 date: 2023-04-24T02:49:00+08:00
 lastmod: 2023-10-26
-category: [Blog]
+category: [Article]
 tags: [tutor]
 draft: false
 ---

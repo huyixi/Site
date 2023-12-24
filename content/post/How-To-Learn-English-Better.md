@@ -2,7 +2,7 @@
 title: How to learn English better
 date: 2023-01-02T00:00:00+08:00
 lastmod: 2023-12-07
-category: [Blog]
+category: [Article]
 tags: []
 draft: true
 ---

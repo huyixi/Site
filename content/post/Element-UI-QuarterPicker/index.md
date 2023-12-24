@@ -2,7 +2,7 @@
 title: 季度选择器组件（ElementUI）
 date: 2023-08-01T21:21:00+08:00
 lastmod: 2023-08-01T21:21:00+08:00
-category: [Blog]
+category: [Article]
 tags: [element]
 draft: false
 summary: |

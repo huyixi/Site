@@ -2,7 +2,7 @@
 title: English
 date: 2023-07-31T22:19:00+08:00
 lastmod: 2023-07-31T22:19:00+08:00
-category: [Blog]
+category: [Article]
 tags: [English, IELTS]
 draft: false
 summary: |

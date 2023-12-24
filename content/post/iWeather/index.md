@@ -2,7 +2,7 @@
 title: iWeather
 date: 2023-08-01T00:30:00+08:00
 lastmod: 2023-12-07
-category: [Blog]
+category: [Article]
 tags: [App, React, Flask, ECharts]
 draft: true
 summary: |

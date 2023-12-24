@@ -4,7 +4,7 @@ date: 2023-08-26T03:08:51+08:00
 lastmod: 2023-11-09
 draft: false
 tags: []
-category: [Blog]
+category: [Article]
 summary: 
 ---
 

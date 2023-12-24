@@ -5,7 +5,7 @@ date: 2023-11-22T12:02:26+08:00
 lastmod: 2023-12-09
 draft: false
 tags: []
-category: [Blog]
+category: [Article]
 summary: 关于 Rime 输入法的配置
 ---
 

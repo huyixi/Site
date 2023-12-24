@@ -5,7 +5,7 @@ date: 2023-11-27T19:53:40+08:00
 lastmod: 2023-12-04
 draft: true
 tags: []
-category: [Blog]
+category: [Article]
 summary: 
 ---
 在这里记录我想要做以及已经做完的一些事

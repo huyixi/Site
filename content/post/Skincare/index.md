@@ -2,7 +2,7 @@
 title: Skincare
 date: 2023-04-01T02:49:00+08:00
 lastmod: 2023-04-01T02:49:00+08:00
-category: [Health]
+category: [Article]
 tags: [inbox]
 draft: false
 ---
