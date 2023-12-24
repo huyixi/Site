@@ -34,8 +34,6 @@
               {{ partial "icon.html" (dict "iconName" . "isActive" $isActive) }}
             {{- end -}}
           </a>
-
-        <span class="tooltip-text absolute ml-16 text-nowrap hidden group-hover:block">{{$menuItem.Params.tooltip}}</span>
         </li>
       {{ end }}
 
@@ -50,7 +48,6 @@
             </span>
           {{- end -}}
         </button>
-<span class="tooltip-text absolute ml-16 text-nowrap hidden group-hover:block">Search</span>
       </li>
     </ul>
   </div>
