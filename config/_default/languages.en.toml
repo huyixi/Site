@@ -9,7 +9,7 @@ title = "huyixi"
   isoCode = "en"
   displayName = "EN"
   dateFormat = "2 January 2006"
-  mainSections = ["posts"]
+  mainSections = ["post"]
   description = ""
 
 [author]

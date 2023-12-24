@@ -6,7 +6,11 @@
 </header>
 <section>
   <ul>
-    {{ partial "recent-articles.html" . }}
+    {{ range first .Site.Params.homepage.recentLimit (.Paginate (where
+    .Site.RegularPages "Type" "in" .Site.Params.mainSections)
+    .Site.Params.homepage.recentLimit).Pages }}
+    {{ partial "post-link.html" . }}
+    {{ end }}
   </ul>
 </section>
 {{ partial "pagination.html" . }}

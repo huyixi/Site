@@ -14,11 +14,11 @@ read title
 
 case $content_type in
     weekly)
-    	content_path="posts/$title/index.md"
+    	content_path="post/$title/index.md"
 	    archetype_name="weekly"
 	;;
     w)
-        content_path="posts/$title/index.md"
+        content_path="post/$title/index.md"
         archetype_name="weekly"
     ;;
     music)
@@ -38,19 +38,19 @@ case $content_type in
         archetype_name="book"
         ;;
     project)
-        content_path="projects/$title/index.md"
+        content_path="project/$title/index.md"
         archetype_name="project"
         ;;
     proj)
-        content_path="projects/$title/index.md"
+        content_path="project/$title/index.md"
         archetype_name="project"
         ;;
     post)
-        content_path="posts/$title/index.md"
+        content_path="post/$title/index.md"
         archetype_name="post"
         ;;
     p)
-        content_path="posts/$title/index.md"
+        content_path="post/$title/index.md"
         archetype_name="post"
         ;;
     *)
