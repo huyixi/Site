@@ -244,21 +244,21 @@ window.onload = function() {
   });
 };
 
-document.addEventListener('DOMContentLoaded', function() {
-  var articles = document.querySelectorAll('.article-item');
-  var categoryElements = document.querySelectorAll('#post-filter li');
+// document.addEventListener('DOMContentLoaded', function() {
+//   var articles = document.querySelectorAll('.article-item');
+//   var categoryElements = document.querySelectorAll('#post-filter li');
 
-  categoryElements.forEach(function (categoryElement) {
-    categoryElement.addEventListener('click', function() {
-      var selectedCategory = this.textContent.trim();
-      articles.forEach(function(article) {
-        var articleCategories = article.getAttribute('data-categories').split(',');
-        if (selectedCategory === 'All' || articleCategories.includes(selectedCategory)) {
-          article.style.display = 'block';
-        } else {
-          article.style.display = 'none';
-        }
-      });
-    });
-  });
-});
+//   categoryElements.forEach(function (categoryElement) {
+//     categoryElement.addEventListener('click', function() {
+//       var selectedCategory = this.textContent.trim();
+//       articles.forEach(function(article) {
+//         var articleCategories = article.getAttribute('data-categories').split(',');
+//         if (selectedCategory === 'All' || articleCategories.includes(selectedCategory)) {
+//           article.style.display = 'block';
+//         } else {
+//           article.style.display = 'none';
+//         }
+//       });
+//     });
+//   });
+// });
