@@ -44,7 +44,7 @@ export default defineConfig({
 4. 添加运行脚本到 package.json。
 
 ```json
-  "scripts": {
+"scripts": {
     "uno-dev": "unocss \"layouts/**/**/*.html\" --watch -o ./assets/css/uno.css",
     "uno-build": "unocss \"layouts/**/**/*.html\" -o ./assets/css/uno.css"
   },
