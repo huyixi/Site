@@ -22,10 +22,10 @@ summary:
 注意：
 代码将会获取你的 `assets/css` 文件夹中的所有 CSS 文件。如果你更喜欢将 CSS 文件放置在其他文件夹或者放置在嵌套的文件夹中，则需要修改第一行代码。另外，生成的 main.css 文件是存储在 hugo 内存中的，所以无法查看到。
 
-2. 安装 UnoCSS 依赖
+2. 安装 UnoCSS 依赖，这里安装你需要的即可
 
 ```bash
-npm install --save-dev @unocss/cli @unocss/preset-typography @unocss/preset-uno @unocss/preset-web-fonts @unocss/preset-wind
+npm install --save-dev @unocss/cli @unocss/preset-typography @unocss/preset-uno @unocss/preset-wind
 ```
 
 3. 创建 `uno.config.ts` 并导入预设
@@ -51,13 +51,12 @@ export default defineConfig({
 ```
 
 之后运行 `npm run uno-dev` 应该就可以看到 UnoCSS 正确导入了。   
-⚠️ 注意：实用类必须写在 `class` 里。目前还不清楚为什么无法直接在元素中写实用类。
 
 另外：
 如果想一行命令同时运行 `hugo server` 和 `unocss` 的话可以使用 `concurrently`，并在脚本中添加
 
 ```json
-    "start": "concurrently \"pnpm:dev\" \"pnpm:uno-dev\""
+"start": "concurrently \"pnpm:dev\" \"pnpm:uno-dev\""
 ```
 之后，运行 `npm run start` 便可使用一条命令在一个窗口中运行这两个命令了。
 
