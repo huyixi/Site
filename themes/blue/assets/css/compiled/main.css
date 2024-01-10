@@ -1264,6 +1264,10 @@ video {
   margin-right: 0.5rem;
 }
 
+.mr-8 {
+  margin-right: 2rem;
+}
+
 .ms-1 {
   margin-inline-start: 0.25rem;
 }
@@ -1597,6 +1601,14 @@ video {
 
 .justify-evenly {
   justify-content: space-evenly;
+}
+
+.gap-12 {
+  gap: 3rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .gap-x-4 {

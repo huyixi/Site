@@ -137,4 +137,16 @@
 .article-card .star.filled::before {
   content: "★";
   color: #81868f;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.animate-marquee {
+  animation: marquee 30s linear infinite;
 }/*# sourceMappingURL=custom.css.map */

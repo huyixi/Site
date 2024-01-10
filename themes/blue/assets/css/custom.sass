@@ -140,3 +140,12 @@ $book-border: 1px solid $book-color-border
     &.filled::before
       content: "★" // 实心星星
       color:#81868f
+
+@keyframes marquee 
+  from
+    transform: translateX(100%)
+  to 
+    transform: translateX(-100%)
+
+.animate-marquee
+  animation: marquee 30s linear infinite
